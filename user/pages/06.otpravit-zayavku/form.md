@@ -33,23 +33,19 @@ form:
           type: select
           options:
             '': 'Выберите услугу'
-            'exhibition': 'Выставочные стенды'
-            'outdoor': 'Наружная реклама'
-            'interior': 'Дизайн интерьеров'
-            'consultation': 'Консультация'
-            'other': 'Другое'
+            'development': 'Разработка и строительство выставочных стендов'
+            'design': 'Дизайн выставочных стендов'
+            'full_service': 'Полный выставочный сервис'
           validate:
             required: true
+          store: true
+          input@: true
         - name: budget
           label: Бюджет проекта
-          type: select
-          options:
-            '': 'Выберите бюджет'
-            'small': 'До 100 000 руб.'
-            'medium': 'От 100 000 до 500 000 руб.'
-            'large': 'От 500 000 до 1 000 000 руб.'
-            'enterprise': 'Свыше 1 000 000 руб.'
-            'discuss': 'Обсудим при встрече'
+          placeholder: Укажите бюджет в рублях
+          type: text
+          validate:
+            required: true
         - name: message
           label: Описание проекта
           placeholder: Расскажите о вашем проекте, требованиях и пожеланиях
@@ -59,7 +55,13 @@ form:
         - name: file
           label: Прикрепить файл
           type: file
-          accept: .pdf,.doc,.docx,.jpg,.jpeg,.png
+          accept:
+            - .pdf
+            - .doc
+            - .docx
+            - .jpg
+            - .jpeg
+            - .png
         - name: agreement
           label: Согласие на обработку персональных данных
           type: checkbox
