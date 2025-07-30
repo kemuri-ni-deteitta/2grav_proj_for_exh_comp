@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1753880848,
-    'checksum' => 'a8fbe5286bc4cb41ef4b82e01c587ce2',
+    'timestamp' => 1753882519,
+    'checksum' => 'f7d3785f1ccf6818e5f2abed956c8017',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/config/plugins/form.yaml',
-                'modified' => 1753880479
+                'modified' => 1753881417
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1753880436
+                'modified' => 1753882518
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -3913,10 +3913,11 @@ node_modules'
             ],
             'languages' => [
                 'supported' => [
-                    
+                    0 => 'ru',
+                    1 => 'en'
                 ],
-                'default_lang' => NULL,
-                'include_default_lang' => true,
+                'default_lang' => 'ru',
+                'include_default_lang' => false,
                 'include_default_lang_file_extension' => true,
                 'translations' => true,
                 'translations_fallback' => true,

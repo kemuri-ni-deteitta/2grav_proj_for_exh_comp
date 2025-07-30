@@ -97,11 +97,11 @@ form:
         -
             type: submit
             value: 'Отправить заявку'
-            classes: 'btn btn-primary'
+            classes: 'btn btn-primary custom-form-btn'
         -
             type: reset
             value: Очистить
-            classes: 'btn btn-secondary'
+            classes: 'btn btn-secondary custom-form-btn'
     process:
         -
             email:

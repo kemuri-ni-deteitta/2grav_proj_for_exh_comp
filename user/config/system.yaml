@@ -1,5 +1,12 @@
 absolute_urls: false
 
+languages:
+  supported:
+    - ru
+    - en
+  default_lang: ru
+  include_default_lang: false
+
 home:
   alias: '/home'
 

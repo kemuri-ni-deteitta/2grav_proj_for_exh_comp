@@ -44,6 +44,6 @@ template: default
 ---
 
 <div class="text-center" style="margin: 2rem 0;">
-<a href="/kontakty" class="btn btn-primary" style="margin-right: 1rem;">Связаться с нами</a>
-<a href="/portfolio" class="btn btn-secondary">Посмотреть портфолио</a>
+<a href="/kontakty" class="btn btn-primary custom-form-btn" style="margin-right: 1rem;">Связаться с нами</a>
+<a href="/portfolio" class="btn btn-secondary custom-form-btn">Посмотреть портфолио</a>
 </div> 
