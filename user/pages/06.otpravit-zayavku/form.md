@@ -29,8 +29,10 @@ form:
           validate:
             required: true
         - name: service
-          label: Услуга
           type: select
+          size: long
+          label: 'Услуга'
+          help: 'Выберите тип услуги, который вас интересует. Это поможет нам подготовить персонализированное предложение'
           options:
             '': 'Выберите услугу'
             'development': 'Разработка и строительство выставочных стендов'
@@ -38,8 +40,6 @@ form:
             'full_service': 'Полный выставочный сервис'
           validate:
             required: true
-          store: true
-          input@: true
         - name: budget
           label: Бюджет проекта
           placeholder: Укажите бюджет в рублях

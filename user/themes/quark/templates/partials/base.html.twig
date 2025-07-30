@@ -192,14 +192,14 @@ function closeAllDropdowns() {
     dropdownTimeouts.clear();
     console.log('Cleared all timeouts, size:', dropdownTimeouts.size);
     
-    // Force close all visible dropdowns
-    const allDropdowns = document.querySelectorAll('.dropdown-menu, .child-dropdown-menu');
+    // Force close all visible navigation dropdowns ONLY (exclude form select elements)
+    const allDropdowns = document.querySelectorAll('#custom-header .dropdown-menu, #custom-header .child-dropdown-menu');
     allDropdowns.forEach(function(dropdown) {
         dropdown.style.setProperty('display', 'none', 'important');
         dropdown.style.setProperty('opacity', '0', 'important');
         dropdown.style.setProperty('pointer-events', 'none', 'important');
     });
-    console.log('Force closed all dropdowns, count:', allDropdowns.length);
+    console.log('Force closed navigation dropdowns, count:', allDropdowns.length);
 }
 
 // Legacy toggle functions for backward compatibility
@@ -548,6 +548,13 @@ document.addEventListener('DOMContentLoaded', function() {
     // Close dropdowns when clicking outside
     document.addEventListener('click', function(event) {
         const nav = document.querySelector('#custom-header nav');
+        const isFormSelect = event.target.closest('select');
+        
+        // Don't close dropdowns if clicking on form select elements
+        if (isFormSelect) {
+            return;
+        }
+        
         if (nav && !nav.contains(event.target)) {
             closeAllDropdowns();
         }
@@ -571,8 +578,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Close dropdowns when scrolling
+    // Close dropdowns when scrolling (but not when interacting with form select)
     document.addEventListener('scroll', function() {
+        // Don't close dropdowns if user is interacting with a form select
+        const activeElement = document.activeElement;
+        if (activeElement && activeElement.tagName === 'SELECT') {
+            return;
+        }
         closeAllDropdowns();
     });
     
@@ -630,6 +642,84 @@ window.forceCloseDropdowns = function() {
     console.log('Manual force close called');
     closeAllDropdowns();
 };
+
+// CUSTOM DISPLAY SOLUTION - Create a visible text display
+document.addEventListener('DOMContentLoaded', function() {
+    const serviceSelect = document.querySelector('select[name*="service"]');
+    if (serviceSelect) {
+        console.log('Service select found, creating custom display solution');
+        
+        // Create a wrapper div
+        const wrapper = document.createElement('div');
+        wrapper.style.position = 'relative';
+        wrapper.style.width = '100%';
+        
+        // Create a display div that shows the selected text
+        const displayDiv = document.createElement('div');
+        displayDiv.style.cssText = `
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 0.9rem 1rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            background-color: #ffffff;
+            color: #2c2c2c;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            pointer-events: none;
+            z-index: 1;
+            display: flex;
+            align-items: center;
+            box-sizing: border-box;
+            transition: all 0.2s ease;
+        `;
+        
+        // Insert the wrapper before the select
+        serviceSelect.parentNode.insertBefore(wrapper, serviceSelect);
+        wrapper.appendChild(serviceSelect);
+        wrapper.appendChild(displayDiv);
+        
+        // Function to update display
+        function updateDisplay() {
+            if (serviceSelect.value && serviceSelect.value !== '') {
+                const selectedText = serviceSelect.options[serviceSelect.selectedIndex].text;
+                displayDiv.textContent = selectedText;
+                displayDiv.style.display = 'flex';
+                displayDiv.style.color = '#2c2c2c';
+                displayDiv.style.fontWeight = '400';
+                console.log('Updated display with:', selectedText);
+            } else {
+                displayDiv.textContent = 'Выберите услугу';
+                displayDiv.style.color = '#999999';
+                displayDiv.style.fontWeight = '400';
+            }
+        }
+        
+        // Listen for changes
+        serviceSelect.addEventListener('change', function() {
+            console.log('Service selection changed to:', this.value);
+            console.log('Selected option text:', this.options[this.selectedIndex].text);
+            updateDisplay();
+        });
+        
+        // Initial update
+        updateDisplay();
+        
+        // Hide display when select is focused (dropdown is open)
+        serviceSelect.addEventListener('focus', function() {
+            displayDiv.style.display = 'none';
+        });
+        
+        // Show display when select loses focus
+        serviceSelect.addEventListener('blur', function() {
+            setTimeout(updateDisplay, 100);
+        });
+    }
+});
 </script>
 </head>
 <body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}" style="margin: 0 !important; padding: 0 !important; padding-top: 80px !important;">

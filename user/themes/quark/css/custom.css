@@ -581,11 +581,22 @@ em, i {
 .form-textarea,
 .form-select {
   border: 2px solid #e0e0e0;
-  border-radius: 6px;
-  padding: 0.8rem;
-  font-size: 0.95rem;
+  border-radius: 8px;
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
   transition: all 0.2s ease;
   width: 100%;
+  color: #2c2c2c !important;
+  background-color: #ffffff !important;
+  font-weight: 400;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: #999999;
+  font-weight: 400;
 }
 
 .form-input:focus,
@@ -594,6 +605,92 @@ em, i {
   border-color: var(--primary-color);
   box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.1);
   outline: none;
+  transform: translateY(-1px);
+}
+
+/* Form labels styling */
+.form-label {
+  color: #2c2c2c;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+/* Required field indicator */
+.form-label .required {
+  color: #ff6600;
+  font-weight: 700;
+  margin-left: 0.2rem;
+}
+
+/* COMPLETE RESET - Remove all potential conflicting styles */
+select.form-select,
+.form-select,
+select[name*="service"],
+select[name*="service"].form-select,
+select[name*="service"]:focus,
+select[name*="service"]:not(:focus),
+select[name*="service"]:active,
+select[name*="service"]:hover {
+  /* Reset all properties */
+  all: unset !important;
+  
+  /* Set basic form styling */
+  display: block !important;
+  width: 100% !important;
+  padding: 0.9rem 1rem !important;
+  border: 2px solid #e0e0e0 !important;
+  border-radius: 8px !important;
+  font-size: 1rem !important;
+  font-family: inherit !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+  
+  /* Force text visibility */
+  color: #2c2c2c !important;
+  background-color: #ffffff !important;
+  font-weight: 400 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  
+  /* Webkit specific */
+  -webkit-appearance: none !important;
+  -webkit-text-fill-color: #2c2c2c !important;
+  text-fill-color: #2c2c2c !important;
+  
+  /* Add dropdown arrow */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%204%205'%3E%3Cpath%20fill='%23667189'%20d='M2%200L0%202h4zm0%205L0%203h4z'/%3E%3C/svg%3E") !important;
+  background-repeat: no-repeat !important;
+  background-position: right 1rem center !important;
+  background-size: 0.5rem 0.6rem !important;
+  padding-right: 2.5rem !important;
+}
+
+/* Ensure options are visible */
+.form-select option,
+select[name*="service"] option {
+  color: #2c2c2c !important;
+  background-color: #ffffff !important;
+  padding: 0.5rem !important;
+}
+
+.form-select option:checked,
+select[name*="service"] option:checked {
+  color: #2c2c2c !important;
+  background-color: #f8f9fa !important;
+  font-weight: bold !important;
+}
+
+/* Focus state */
+select.form-select:focus,
+.form-select:focus,
+select[name*="service"]:focus {
+  border-color: #ff6600 !important;
+  box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.1) !important;
+  outline: none !important;
+  color: #2c2c2c !important;
+  background-color: #ffffff !important;
 }
 
 /* CARDS AND SECTIONS */
