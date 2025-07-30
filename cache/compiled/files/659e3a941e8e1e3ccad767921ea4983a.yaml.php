@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/plugins/form.yaml',
-    'modified' => 1752692569,
-    'size' => 1314,
+    'modified' => 1753880479,
+    'size' => 1879,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -12,7 +12,7 @@ return [
         'client_side_validation' => true,
         'inline_errors' => false,
         'files' => [
-            'multiple' => false,
+            'multiple' => true,
             'limit' => 10,
             'destination' => 'self@',
             'avoid_overwriting' => false,
@@ -22,9 +22,15 @@ return [
                 1 => 'application/pdf',
                 2 => 'application/msword',
                 3 => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-                4 => 'text/plain'
+                4 => 'application/vnd.ms-excel',
+                5 => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                6 => 'application/vnd.ms-powerpoint',
+                7 => 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+                8 => 'application/zip',
+                9 => 'application/x-rar-compressed',
+                10 => 'text/plain'
             ],
-            'filesize' => 5,
+            'filesize' => 10,
             'field' => [
                 'destination' => 'self@',
                 'avoid_overwriting' => false,
@@ -34,9 +40,15 @@ return [
                     1 => 'application/pdf',
                     2 => 'application/msword',
                     3 => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-                    4 => 'text/plain'
+                    4 => 'application/vnd.ms-excel',
+                    5 => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                    6 => 'application/vnd.ms-powerpoint',
+                    7 => 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+                    8 => 'application/zip',
+                    9 => 'application/x-rar-compressed',
+                    10 => 'text/plain'
                 ],
-                'filesize' => 5
+                'filesize' => 10
             ]
         ],
         'recaptcha' => [

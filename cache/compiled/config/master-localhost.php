@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1753879291,
-    'checksum' => '21df7329f4899a717be34e405c6ef70f',
+    'timestamp' => 1753880848,
+    'checksum' => 'a8fbe5286bc4cb41ef4b82e01c587ce2',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/config/plugins/form.yaml',
-                'modified' => 1752692569
+                'modified' => 1753880479
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1753879286
+                'modified' => 1753880436
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -134,18 +134,24 @@ return [
                 'inline_errors' => false,
                 'modular_form_fix' => true,
                 'files' => [
-                    'multiple' => false,
+                    'multiple' => true,
                     'limit' => 10,
                     'destination' => 'self@',
                     'avoid_overwriting' => false,
                     'random_name' => true,
-                    'filesize' => 5,
+                    'filesize' => 10,
                     'accept' => [
                         0 => 'image/*',
                         1 => 'application/pdf',
                         2 => 'application/msword',
                         3 => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-                        4 => 'text/plain'
+                        4 => 'application/vnd.ms-excel',
+                        5 => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                        6 => 'application/vnd.ms-powerpoint',
+                        7 => 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+                        8 => 'application/zip',
+                        9 => 'application/x-rar-compressed',
+                        10 => 'text/plain'
                     ],
                     'field' => [
                         'destination' => 'self@',
@@ -156,9 +162,15 @@ return [
                             1 => 'application/pdf',
                             2 => 'application/msword',
                             3 => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-                            4 => 'text/plain'
+                            4 => 'application/vnd.ms-excel',
+                            5 => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+                            6 => 'application/vnd.ms-powerpoint',
+                            7 => 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+                            8 => 'application/zip',
+                            9 => 'application/x-rar-compressed',
+                            10 => 'text/plain'
                         ],
-                        'filesize' => 5
+                        'filesize' => 10
                     ]
                 ],
                 'recaptcha' => [

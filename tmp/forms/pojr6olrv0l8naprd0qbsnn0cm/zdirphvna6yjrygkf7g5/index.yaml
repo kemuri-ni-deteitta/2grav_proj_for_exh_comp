@@ -5,7 +5,7 @@ url: 'http://localhost:8000/otpravit-zayavku'
 user: null
 timestamps:
   created: 1753879560
-  updated: 1753879560
+  updated: 1753880233
 data: null
 files:
   file:
@@ -16,5 +16,15 @@ files:
       tmp_name: phpNDYHRH
       size: 176274
       path: user/pages/06.otpravit-zayavku/cYVUkN9u0S7LCaO.png
+    image.png: null
+    vz6YUwR7VTJfOPx.png:
+      name: vz6YUwR7VTJfOPx.png
+      full_path: image.png
+      type: image/png
+      tmp_name: phpqJUYAz
+      size: 176274
+      path: user/pages/06.otpravit-zayavku/vz6YUwR7VTJfOPx.png
   file/original:
     cYVUkN9u0S7LCaO.png: null
+    image.png: null
+    vz6YUwR7VTJfOPx.png: null

@@ -5,7 +5,7 @@ refresh_prevention: false
 client_side_validation: true
 inline_errors: false
 files:
-  multiple: false
+  multiple: true
   limit: 10
   destination: 'self@'
   avoid_overwriting: false
@@ -15,8 +15,14 @@ files:
     - application/pdf
     - application/msword
     - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    - application/vnd.ms-excel
+    - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    - application/vnd.ms-powerpoint
+    - application/vnd.openxmlformats-officedocument.presentationml.presentation
+    - application/zip
+    - application/x-rar-compressed
     - text/plain
-  filesize: 5
+  filesize: 10
   field:
     destination: 'self@'
     avoid_overwriting: false
@@ -26,8 +32,14 @@ files:
       - application/pdf
       - application/msword
       - application/vnd.openxmlformats-officedocument.wordprocessingml.document
+      - application/vnd.ms-excel
+      - application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+      - application/vnd.ms-powerpoint
+      - application/vnd.openxmlformats-officedocument.presentationml.presentation
+      - application/zip
+      - application/x-rar-compressed
       - text/plain
-    filesize: 5
+    filesize: 10
 recaptcha:
   version: 2-checkbox
   theme: light
