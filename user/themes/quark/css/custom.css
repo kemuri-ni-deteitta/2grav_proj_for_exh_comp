@@ -577,6 +577,17 @@ a:hover {
   color: #e55a00;
 }
 
+/* MAIN PAGE BULLETED LIST LINKS ONLY */
+body:has(#body-wrapper) #body-wrapper ul li a,
+body:has(.content) .content ul li a {
+  color: var(--primary-color) !important;
+}
+
+body:has(#body-wrapper) #body-wrapper ul li a:hover,
+body:has(.content) .content ul li a:hover {
+  color: #e55a00 !important;
+}
+
 /* HEADINGS */
 h1, h2, h3, h4, h5, h6 {
   color: var(--dark-color);
