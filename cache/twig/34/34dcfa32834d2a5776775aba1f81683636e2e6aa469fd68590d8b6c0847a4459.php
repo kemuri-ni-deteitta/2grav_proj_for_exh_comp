@@ -1065,7 +1065,7 @@ document.addEventListener('DOMContentLoaded', function() {
         $this->displayBlock('hero', $context, $blocks);
         // line 832
         echo "
-        <section id=\"start\">
+        <section id=\"start\" style=\"margin-top: -40px !important;\">
         ";
         // line 834
         $this->displayBlock('body', $context, $blocks);
@@ -1253,11 +1253,11 @@ document.addEventListener('DOMContentLoaded', function() {
     public function block_body($context, array $blocks = [])
     {
         // line 835
-        echo "            <section id=\"body-wrapper\" class=\"section\">
+        echo "            <section id=\"body-wrapper\" class=\"section\" style=\"padding-top: 20px !important;\">
                 <section class=\"container ";
         // line 836
         echo twig_escape_filter($this->env, ($context["grid_size"] ?? null), "html", null, true);
-        echo "\">
+        echo "\" style=\"margin-top: 0 !important; padding-top: 0 !important;\">
                     ";
         // line 837
         $this->displayBlock('messages', $context, $blocks);
@@ -2188,10 +2188,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     {% block hero %}{% endblock %}
 
-        <section id=\"start\">
+        <section id=\"start\" style=\"margin-top: -40px !important;\">
         {% block body %}
-            <section id=\"body-wrapper\" class=\"section\">
-                <section class=\"container {{ grid_size }}\">
+            <section id=\"body-wrapper\" class=\"section\" style=\"padding-top: 20px !important;\">
+                <section class=\"container {{ grid_size }}\" style=\"margin-top: 0 !important; padding-top: 0 !important;\">
                     {% block messages %}
                         {% include 'partials/messages.html.twig' ignore missing %}
                     {% endblock %}

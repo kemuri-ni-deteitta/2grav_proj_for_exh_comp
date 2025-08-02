@@ -830,10 +830,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     {% block hero %}{% endblock %}
 
-        <section id="start">
+        <section id="start" style="margin-top: -40px !important;">
         {% block body %}
-            <section id="body-wrapper" class="section">
-                <section class="container {{ grid_size }}">
+            <section id="body-wrapper" class="section" style="padding-top: 20px !important;">
+                <section class="container {{ grid_size }}" style="margin-top: 0 !important; padding-top: 0 !important;">
                     {% block messages %}
                         {% include 'partials/messages.html.twig' ignore missing %}
                     {% endblock %}
