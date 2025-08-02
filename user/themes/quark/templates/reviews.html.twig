@@ -21,7 +21,7 @@
                     {{ page.content|raw }}
                 </div>
 
-                <!-- Reviews Section -->
+                <!-- Reviews Section (with certificates functionality) -->
                 {% if header.reviews %}
                 <section class="reviews-section">
                     <div class="reviews-grid">
@@ -30,53 +30,39 @@
                             <div class="review-card">
                                 {% set review_image = null %}
                 
-                                {# Check for uploaded image #}
-                                {% if review.image_upload %}
-                                    {% for filepath, filedata in review.image_upload %}
-                                        {% if not review_image and filedata.name %}
-                                            {% set review_image = page.media[filedata.name] %}
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endif %}
-                                
-                                {% if review_image %}
-                                <div class="review-image">
-                                    <img src="{{ review_image.url }}" 
-                                         alt="{{ review.client_name ?: 'Проект клиента' }}"
-                                         onclick="openReviewModal('{{ review_image.url }}', '{{ review.client_name|e('html_attr') }}')"
-                                         loading="lazy">
-                                </div>
-                                {% endif %}
+                {# Check for uploaded image first #}
+                {% if review.image_upload %}
+                    {% for filepath, filedata in review.image_upload %}
+                        {% if not review_image and filedata.name %}
+                            {% set review_image = page.media[filedata.name] %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                
+                {% if review_image %}
+                <div class="review-image">
+                    <img src="{{ review_image.url }}" 
+                         alt="{{ review.company_name ?: 'Отзыв' }}"
+                         onclick="openReviewModal('{{ review_image.url }}', '{{ review.company_name|e('html_attr') }}')"
+                         loading="lazy">
+                </div>
+                {% elseif review.image_upload %}
+                <div class="review-image">
+                    <div class="no-image">
+                        {% for filepath, filedata in review.image_upload %}
+                            <p>Изображение не найдено: {{ filedata.name ?: filepath }}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
                                 
                                 <div class="review-content">
-                                    <div class="review-header">
-                                        {% if review.client_name %}
-                                        <h3 class="client-name">{{ review.client_name }}</h3>
-                                        {% endif %}
-                                        
-                                        {% if review.rating %}
-                                        <div class="rating">
-                                            {% for i in 1..5 %}
-                                                {% if i <= review.rating %}
-                                                    <span class="star filled">★</span>
-                                                {% else %}
-                                                    <span class="star">☆</span>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </div>
-                                        {% endif %}
-                                    </div>
-                                    
-                                    {% if review.review_text %}
-                                    <blockquote class="review-text">
-                                        "{{ review.review_text }}"
-                                    </blockquote>
+                                    {% if review.company_name %}
+                                    <h3 class="review-title">{{ review.company_name }}</h3>
                                     {% endif %}
                                     
-                                    {% if review.project_details %}
-                                    <div class="project-details">
-                                        <strong>Проект:</strong> {{ review.project_details }}
-                                    </div>
+                                    {% if review.review_text %}
+                                    <p class="review-description">{{ review.review_text }}</p>
                                     {% endif %}
                                 </div>
                             </div>
@@ -112,7 +98,7 @@
 
     .reviews-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
         margin: 2rem 0;
     }
@@ -131,7 +117,6 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-        border-left: 4px solid #77559D;
     }
 
     .review-card:hover {
@@ -143,7 +128,8 @@
         position: relative;
         overflow: hidden;
         background: #f8f9fa;
-        max-height: 200px;
+        flex: 1;
+        min-height: 250px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -151,10 +137,11 @@
 
     .review-image img {
         width: 100%;
-        height: 200px;
-        object-fit: cover;
+        height: 100%;
+        object-fit: contain;
         transition: transform 0.3s ease;
         cursor: pointer;
+        padding: 1rem;
     }
 
     .review-image:hover img {
@@ -163,65 +150,46 @@
 
     .review-content {
         padding: 1.5rem;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
+        background: #ffffff;
     }
 
-    .review-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 1rem;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-    }
-
-    .client-name {
+    .review-title {
         font-size: 1.2rem;
         font-weight: 600;
         color: #2c2c2c;
-        margin: 0;
+        margin: 0 0 0.5rem 0;
         line-height: 1.4;
     }
 
-    .rating {
-        display: flex;
-        gap: 2px;
-    }
-
-    .star {
-        font-size: 1.2rem;
-        color: #ddd;
-    }
-
-    .star.filled {
-        color: #ffd700;
-    }
-
-    .review-text {
-        font-size: 1rem;
-        line-height: 1.6;
-        color: #444;
-        font-style: italic;
-        margin: 0 0 1rem 0;
-        padding: 0;
-        border: none;
-        flex: 1;
-    }
-
-    .project-details {
-        font-size: 0.9rem;
+    .review-description {
         color: #666;
-        border-top: 1px solid #eee;
-        padding-top: 1rem;
-        margin-top: auto;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 0;
     }
 
     .no-reviews {
         text-align: center;
         padding: 3rem 1rem;
         color: #666;
+    }
+
+    .no-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+        background: #f8f9fa;
+        border: 2px dashed #dee2e6;
+        border-radius: 8px;
+        color: #6c757d;
+        font-style: italic;
+    }
+
+    .no-image p {
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
     }
 
     /* Review Modal Styles */
@@ -313,15 +281,15 @@
 
     <script>
     // Review Modal Functions
-    function openReviewModal(imageSrc, clientName) {
+    function openReviewModal(imageSrc, companyName) {
         const modal = document.getElementById('reviewModal');
         const modalImg = document.getElementById('modalImage');
         const caption = document.getElementById('modalCaption');
         
         modal.style.display = 'block';
         modalImg.src = imageSrc;
-        modalImg.alt = clientName;
-        caption.textContent = clientName;
+        modalImg.alt = companyName;
+        caption.textContent = companyName;
         
         // Prevent body scroll when modal is open
         document.body.style.overflow = 'hidden';

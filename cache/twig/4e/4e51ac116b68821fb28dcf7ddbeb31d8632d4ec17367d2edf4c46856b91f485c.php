@@ -86,7 +86,7 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
             echo "
                 </div>
 
-                <!-- Reviews Section -->
+                <!-- Reviews Section (with certificates functionality) -->
                 ";
             // line 25
             if ($this->getAttribute(($context["header"] ?? null), "reviews", [])) {
@@ -106,134 +106,105 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
                     $context["review_image"] = null;
                     // line 32
                     echo "                
-                                ";
+                ";
                     // line 34
-                    echo "                                ";
+                    echo "                ";
                     if ($this->getAttribute($context["review"], "image_upload", [])) {
                         // line 35
-                        echo "                                    ";
+                        echo "                    ";
                         $context['_parent'] = $context;
                         $context['_seq'] = twig_ensure_traversable($this->getAttribute($context["review"], "image_upload", []));
                         foreach ($context['_seq'] as $context["filepath"] => $context["filedata"]) {
                             // line 36
-                            echo "                                        ";
+                            echo "                        ";
                             if (( !($context["review_image"] ?? null) && $this->getAttribute($context["filedata"], "name", []))) {
                                 // line 37
-                                echo "                                            ";
+                                echo "                            ";
                                 $context["review_image"] = $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", []), $this->getAttribute($context["filedata"], "name", []), [], "array");
                                 // line 38
-                                echo "                                        ";
+                                echo "                        ";
                             }
                             // line 39
-                            echo "                                    ";
+                            echo "                    ";
                         }
                         $_parent = $context['_parent'];
                         unset($context['_seq'], $context['_iterated'], $context['filepath'], $context['filedata'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
                         // line 40
-                        echo "                                ";
+                        echo "                ";
                     }
                     // line 41
-                    echo "                                
-                                ";
+                    echo "                
+                ";
                     // line 42
                     if (($context["review_image"] ?? null)) {
                         // line 43
-                        echo "                                <div class=\"review-image\">
-                                    <img src=\"";
+                        echo "                <div class=\"review-image\">
+                    <img src=\"";
                         // line 44
                         echo twig_escape_filter($this->env, $this->getAttribute(($context["review_image"] ?? null), "url", []), "html", null, true);
                         echo "\" 
-                                         alt=\"";
+                         alt=\"";
                         // line 45
-                        (($this->getAttribute($context["review"], "client_name", [])) ? (print (twig_escape_filter($this->env, $this->getAttribute($context["review"], "client_name", []), "html", null, true))) : (print ("Проект клиента")));
+                        (($this->getAttribute($context["review"], "company_name", [])) ? (print (twig_escape_filter($this->env, $this->getAttribute($context["review"], "company_name", []), "html", null, true))) : (print ("Отзыв")));
                         echo "\"
-                                         onclick=\"openReviewModal('";
+                         onclick=\"openReviewModal('";
                         // line 46
                         echo twig_escape_filter($this->env, $this->getAttribute(($context["review_image"] ?? null), "url", []), "html", null, true);
                         echo "', '";
-                        echo twig_escape_filter($this->env, $this->getAttribute($context["review"], "client_name", []), "html_attr");
+                        echo twig_escape_filter($this->env, $this->getAttribute($context["review"], "company_name", []), "html_attr");
                         echo "')\"
-                                         loading=\"lazy\">
-                                </div>
-                                ";
-                    }
-                    // line 50
-                    echo "                                
-                                <div class=\"review-content\">
-                                    <div class=\"review-header\">
-                                        ";
-                    // line 53
-                    if ($this->getAttribute($context["review"], "client_name", [])) {
-                        // line 54
-                        echo "                                        <h3 class=\"client-name\">";
-                        echo twig_escape_filter($this->env, $this->getAttribute($context["review"], "client_name", []), "html", null, true);
-                        echo "</h3>
-                                        ";
-                    }
-                    // line 56
-                    echo "                                        
-                                        ";
-                    // line 57
-                    if ($this->getAttribute($context["review"], "rating", [])) {
-                        // line 58
-                        echo "                                        <div class=\"rating\">
-                                            ";
-                        // line 59
+                         loading=\"lazy\">
+                </div>
+                ";
+                    } elseif ($this->getAttribute(                    // line 49
+$context["review"], "image_upload", [])) {
+                        // line 50
+                        echo "                <div class=\"review-image\">
+                    <div class=\"no-image\">
+                        ";
+                        // line 52
                         $context['_parent'] = $context;
-                        $context['_seq'] = twig_ensure_traversable(range(1, 5));
-                        foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-                            // line 60
-                            echo "                                                ";
-                            if (($context["i"] <= $this->getAttribute($context["review"], "rating", []))) {
-                                // line 61
-                                echo "                                                    <span class=\"star filled\">★</span>
-                                                ";
-                            } else {
-                                // line 63
-                                echo "                                                    <span class=\"star\">☆</span>
-                                                ";
-                            }
-                            // line 65
-                            echo "                                            ";
+                        $context['_seq'] = twig_ensure_traversable($this->getAttribute($context["review"], "image_upload", []));
+                        foreach ($context['_seq'] as $context["filepath"] => $context["filedata"]) {
+                            // line 53
+                            echo "                            <p>Изображение не найдено: ";
+                            echo twig_escape_filter($this->env, (($this->getAttribute($context["filedata"], "name", [])) ? ($this->getAttribute($context["filedata"], "name", [])) : ($context["filepath"])), "html", null, true);
+                            echo "</p>
+                        ";
                         }
                         $_parent = $context['_parent'];
-                        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
+                        unset($context['_seq'], $context['_iterated'], $context['filepath'], $context['filedata'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
-                        // line 66
-                        echo "                                        </div>
-                                        ";
+                        // line 55
+                        echo "                    </div>
+                </div>
+                ";
                     }
-                    // line 68
-                    echo "                                    </div>
-                                    
+                    // line 58
+                    echo "                                
+                                <div class=\"review-content\">
                                     ";
-                    // line 70
-                    if ($this->getAttribute($context["review"], "review_text", [])) {
-                        // line 71
-                        echo "                                    <blockquote class=\"review-text\">
-                                        \"";
-                        // line 72
-                        echo twig_escape_filter($this->env, $this->getAttribute($context["review"], "review_text", []), "html", null, true);
-                        echo "\"
-                                    </blockquote>
+                    // line 60
+                    if ($this->getAttribute($context["review"], "company_name", [])) {
+                        // line 61
+                        echo "                                    <h3 class=\"review-title\">";
+                        echo twig_escape_filter($this->env, $this->getAttribute($context["review"], "company_name", []), "html", null, true);
+                        echo "</h3>
                                     ";
                     }
-                    // line 75
+                    // line 63
                     echo "                                    
                                     ";
-                    // line 76
-                    if ($this->getAttribute($context["review"], "project_details", [])) {
-                        // line 77
-                        echo "                                    <div class=\"project-details\">
-                                        <strong>Проект:</strong> ";
-                        // line 78
-                        echo twig_escape_filter($this->env, $this->getAttribute($context["review"], "project_details", []), "html", null, true);
-                        echo "
-                                    </div>
+                    // line 64
+                    if ($this->getAttribute($context["review"], "review_text", [])) {
+                        // line 65
+                        echo "                                    <p class=\"review-description\">";
+                        echo twig_escape_filter($this->env, $this->getAttribute($context["review"], "review_text", []), "html", null, true);
+                        echo "</p>
                                     ";
                     }
-                    // line 81
+                    // line 67
                     echo "                                </div>
                             </div>
                         </div>
@@ -242,19 +213,19 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['review'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 85
+                // line 71
                 echo "                    </div>
                     
                     ";
-                // line 87
+                // line 73
                 if ((twig_length_filter($this->env, $this->getAttribute(($context["header"] ?? null), "reviews", [])) == 0)) {
-                    // line 88
+                    // line 74
                     echo "                    <div class=\"no-reviews\">
                         <p>Отзывы будут добавлены в ближайшее время.</p>
                     </div>
                     ";
                 }
-                // line 92
+                // line 78
                 echo "                </section>
                 
                 <!-- Review Modal -->
@@ -267,12 +238,12 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
                 </div>
                 ";
             }
-            // line 103
+            // line 89
             echo "            </div>
         </div>
     ";
         }
-        // line 106
+        // line 92
         echo "
     <style>
     /* Reviews Grid Styles */
@@ -282,7 +253,7 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
 
     .reviews-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
         margin: 2rem 0;
     }
@@ -301,7 +272,6 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
         height: 100%;
         display: flex;
         flex-direction: column;
-        border-left: 4px solid #77559D;
     }
 
     .review-card:hover {
@@ -313,7 +283,8 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
         position: relative;
         overflow: hidden;
         background: #f8f9fa;
-        max-height: 200px;
+        flex: 1;
+        min-height: 250px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -321,10 +292,11 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
 
     .review-image img {
         width: 100%;
-        height: 200px;
-        object-fit: cover;
+        height: 100%;
+        object-fit: contain;
         transition: transform 0.3s ease;
         cursor: pointer;
+        padding: 1rem;
     }
 
     .review-image:hover img {
@@ -333,65 +305,46 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
 
     .review-content {
         padding: 1.5rem;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
+        background: #ffffff;
     }
 
-    .review-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 1rem;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-    }
-
-    .client-name {
+    .review-title {
         font-size: 1.2rem;
         font-weight: 600;
         color: #2c2c2c;
-        margin: 0;
+        margin: 0 0 0.5rem 0;
         line-height: 1.4;
     }
 
-    .rating {
-        display: flex;
-        gap: 2px;
-    }
-
-    .star {
-        font-size: 1.2rem;
-        color: #ddd;
-    }
-
-    .star.filled {
-        color: #ffd700;
-    }
-
-    .review-text {
-        font-size: 1rem;
-        line-height: 1.6;
-        color: #444;
-        font-style: italic;
-        margin: 0 0 1rem 0;
-        padding: 0;
-        border: none;
-        flex: 1;
-    }
-
-    .project-details {
-        font-size: 0.9rem;
+    .review-description {
         color: #666;
-        border-top: 1px solid #eee;
-        padding-top: 1rem;
-        margin-top: auto;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 0;
     }
 
     .no-reviews {
         text-align: center;
         padding: 3rem 1rem;
         color: #666;
+    }
+
+    .no-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+        background: #f8f9fa;
+        border: 2px dashed #dee2e6;
+        border-radius: 8px;
+        color: #6c757d;
+        font-style: italic;
+    }
+
+    .no-image p {
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
     }
 
     /* Review Modal Styles */
@@ -483,15 +436,15 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
 
     <script>
     // Review Modal Functions
-    function openReviewModal(imageSrc, clientName) {
+    function openReviewModal(imageSrc, companyName) {
         const modal = document.getElementById('reviewModal');
         const modalImg = document.getElementById('modalImage');
         const caption = document.getElementById('modalCaption');
         
         modal.style.display = 'block';
         modalImg.src = imageSrc;
-        modalImg.alt = clientName;
-        caption.textContent = clientName;
+        modalImg.alt = companyName;
+        caption.textContent = companyName;
         
         // Prevent body scroll when modal is open
         document.body.style.overflow = 'hidden';
@@ -527,7 +480,7 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
 
     public function getDebugInfo()
     {
-        return array (  276 => 106,  271 => 103,  258 => 92,  252 => 88,  250 => 87,  246 => 85,  237 => 81,  231 => 78,  228 => 77,  226 => 76,  223 => 75,  217 => 72,  214 => 71,  212 => 70,  208 => 68,  204 => 66,  198 => 65,  194 => 63,  190 => 61,  187 => 60,  183 => 59,  180 => 58,  178 => 57,  175 => 56,  169 => 54,  167 => 53,  162 => 50,  153 => 46,  149 => 45,  145 => 44,  142 => 43,  140 => 42,  137 => 41,  134 => 40,  128 => 39,  125 => 38,  122 => 37,  119 => 36,  114 => 35,  111 => 34,  108 => 32,  106 => 31,  102 => 29,  98 => 28,  94 => 26,  92 => 25,  85 => 21,  79 => 18,  76 => 17,  73 => 16,  70 => 15,  63 => 11,  58 => 9,  52 => 8,  49 => 7,  46 => 6,  43 => 5,  38 => 1,  36 => 3,  30 => 1,);
+        return array (  247 => 92,  242 => 89,  229 => 78,  223 => 74,  221 => 73,  217 => 71,  208 => 67,  202 => 65,  200 => 64,  197 => 63,  191 => 61,  189 => 60,  185 => 58,  180 => 55,  171 => 53,  167 => 52,  163 => 50,  161 => 49,  153 => 46,  149 => 45,  145 => 44,  142 => 43,  140 => 42,  137 => 41,  134 => 40,  128 => 39,  125 => 38,  122 => 37,  119 => 36,  114 => 35,  111 => 34,  108 => 32,  106 => 31,  102 => 29,  98 => 28,  94 => 26,  92 => 25,  85 => 21,  79 => 18,  76 => 17,  73 => 16,  70 => 15,  63 => 11,  58 => 9,  52 => 8,  49 => 7,  46 => 6,  43 => 5,  38 => 1,  36 => 3,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -563,7 +516,7 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
                     {{ page.content|raw }}
                 </div>
 
-                <!-- Reviews Section -->
+                <!-- Reviews Section (with certificates functionality) -->
                 {% if header.reviews %}
                 <section class=\"reviews-section\">
                     <div class=\"reviews-grid\">
@@ -572,53 +525,39 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
                             <div class=\"review-card\">
                                 {% set review_image = null %}
                 
-                                {# Check for uploaded image #}
-                                {% if review.image_upload %}
-                                    {% for filepath, filedata in review.image_upload %}
-                                        {% if not review_image and filedata.name %}
-                                            {% set review_image = page.media[filedata.name] %}
-                                        {% endif %}
-                                    {% endfor %}
-                                {% endif %}
-                                
-                                {% if review_image %}
-                                <div class=\"review-image\">
-                                    <img src=\"{{ review_image.url }}\" 
-                                         alt=\"{{ review.client_name ?: 'Проект клиента' }}\"
-                                         onclick=\"openReviewModal('{{ review_image.url }}', '{{ review.client_name|e('html_attr') }}')\"
-                                         loading=\"lazy\">
-                                </div>
-                                {% endif %}
+                {# Check for uploaded image first #}
+                {% if review.image_upload %}
+                    {% for filepath, filedata in review.image_upload %}
+                        {% if not review_image and filedata.name %}
+                            {% set review_image = page.media[filedata.name] %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+                
+                {% if review_image %}
+                <div class=\"review-image\">
+                    <img src=\"{{ review_image.url }}\" 
+                         alt=\"{{ review.company_name ?: 'Отзыв' }}\"
+                         onclick=\"openReviewModal('{{ review_image.url }}', '{{ review.company_name|e('html_attr') }}')\"
+                         loading=\"lazy\">
+                </div>
+                {% elseif review.image_upload %}
+                <div class=\"review-image\">
+                    <div class=\"no-image\">
+                        {% for filepath, filedata in review.image_upload %}
+                            <p>Изображение не найдено: {{ filedata.name ?: filepath }}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
                                 
                                 <div class=\"review-content\">
-                                    <div class=\"review-header\">
-                                        {% if review.client_name %}
-                                        <h3 class=\"client-name\">{{ review.client_name }}</h3>
-                                        {% endif %}
-                                        
-                                        {% if review.rating %}
-                                        <div class=\"rating\">
-                                            {% for i in 1..5 %}
-                                                {% if i <= review.rating %}
-                                                    <span class=\"star filled\">★</span>
-                                                {% else %}
-                                                    <span class=\"star\">☆</span>
-                                                {% endif %}
-                                            {% endfor %}
-                                        </div>
-                                        {% endif %}
-                                    </div>
-                                    
-                                    {% if review.review_text %}
-                                    <blockquote class=\"review-text\">
-                                        \"{{ review.review_text }}\"
-                                    </blockquote>
+                                    {% if review.company_name %}
+                                    <h3 class=\"review-title\">{{ review.company_name }}</h3>
                                     {% endif %}
                                     
-                                    {% if review.project_details %}
-                                    <div class=\"project-details\">
-                                        <strong>Проект:</strong> {{ review.project_details }}
-                                    </div>
+                                    {% if review.review_text %}
+                                    <p class=\"review-description\">{{ review.review_text }}</p>
                                     {% endif %}
                                 </div>
                             </div>
@@ -654,7 +593,7 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
 
     .reviews-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 2rem;
         margin: 2rem 0;
     }
@@ -673,7 +612,6 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
         height: 100%;
         display: flex;
         flex-direction: column;
-        border-left: 4px solid #77559D;
     }
 
     .review-card:hover {
@@ -685,7 +623,8 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
         position: relative;
         overflow: hidden;
         background: #f8f9fa;
-        max-height: 200px;
+        flex: 1;
+        min-height: 250px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -693,10 +632,11 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
 
     .review-image img {
         width: 100%;
-        height: 200px;
-        object-fit: cover;
+        height: 100%;
+        object-fit: contain;
         transition: transform 0.3s ease;
         cursor: pointer;
+        padding: 1rem;
     }
 
     .review-image:hover img {
@@ -705,65 +645,46 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
 
     .review-content {
         padding: 1.5rem;
-        flex: 1;
-        display: flex;
-        flex-direction: column;
+        background: #ffffff;
     }
 
-    .review-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        margin-bottom: 1rem;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-    }
-
-    .client-name {
+    .review-title {
         font-size: 1.2rem;
         font-weight: 600;
         color: #2c2c2c;
-        margin: 0;
+        margin: 0 0 0.5rem 0;
         line-height: 1.4;
     }
 
-    .rating {
-        display: flex;
-        gap: 2px;
-    }
-
-    .star {
-        font-size: 1.2rem;
-        color: #ddd;
-    }
-
-    .star.filled {
-        color: #ffd700;
-    }
-
-    .review-text {
-        font-size: 1rem;
-        line-height: 1.6;
-        color: #444;
-        font-style: italic;
-        margin: 0 0 1rem 0;
-        padding: 0;
-        border: none;
-        flex: 1;
-    }
-
-    .project-details {
-        font-size: 0.9rem;
+    .review-description {
         color: #666;
-        border-top: 1px solid #eee;
-        padding-top: 1rem;
-        margin-top: auto;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 0;
     }
 
     .no-reviews {
         text-align: center;
         padding: 3rem 1rem;
         color: #666;
+    }
+
+    .no-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 200px;
+        background: #f8f9fa;
+        border: 2px dashed #dee2e6;
+        border-radius: 8px;
+        color: #6c757d;
+        font-style: italic;
+    }
+
+    .no-image p {
+        margin: 0;
+        padding: 1rem;
+        text-align: center;
     }
 
     /* Review Modal Styles */
@@ -855,15 +776,15 @@ class __TwigTemplate_604bc177dac6e999481d7c359787db5899689402e7caf04f6d73e6e35b6
 
     <script>
     // Review Modal Functions
-    function openReviewModal(imageSrc, clientName) {
+    function openReviewModal(imageSrc, companyName) {
         const modal = document.getElementById('reviewModal');
         const modalImg = document.getElementById('modalImage');
         const caption = document.getElementById('modalCaption');
         
         modal.style.display = 'block';
         modalImg.src = imageSrc;
-        modalImg.alt = clientName;
-        caption.textContent = clientName;
+        modalImg.alt = companyName;
+        caption.textContent = companyName;
         
         // Prevent body scroll when modal is open
         document.body.style.overflow = 'hidden';
