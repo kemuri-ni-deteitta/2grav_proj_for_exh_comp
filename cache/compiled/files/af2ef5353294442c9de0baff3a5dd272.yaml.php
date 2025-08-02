@@ -2,33 +2,43 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/data/notifications/1a86d5599417702fc02b39fd82bffbab.yaml',
-    'modified' => 1753883265,
-    'size' => 9266,
+    'modified' => 1754135261,
+    'size' => 9565,
     'data' => [
-        'last_checked' => 1753883265,
+        'last_checked' => 1754135261,
         'data' => [
             'feed' => [
                 0 => [
-                    'id' => 34,
-                    'date' => '2025-07-29 11:40',
-                    'message' => '🗳️ Transform your Grav CMS site into an interactive experience with Polls!',
-                    'link' => 'https://getgrav.org/premium/polls',
+                    'id' => 35,
+                    'date' => '2025-07-30 11:40',
+                    'message' => '🕙️ Power up Grav with Revisions Pro, Track, Compare, Revert content and config!',
+                    'link' => 'https://getgrav.org/premium/revisions-pro',
                     'type' => 'info',
                     'location' => [
                         0 => 'feed'
                     ]
                 ],
                 1 => [
-                    'id' => 33,
-                    'date' => '2025-07-28 11:40',
-                    'message' => '💬 Build a community with Comments Pro, now available! ',
-                    'link' => 'https://getgrav.org/premium/comments-pro',
+                    'id' => 34,
+                    'date' => '2025-07-29 11:40',
+                    'message' => '🗳️ Transform your Grav site into an interactive experience with Polls.',
+                    'link' => 'https://getgrav.org/premium/polls',
                     'type' => 'info',
                     'location' => [
                         0 => 'feed'
                     ]
                 ],
                 2 => [
+                    'id' => 33,
+                    'date' => '2025-07-28 11:40',
+                    'message' => '💬 Build a community with Comments Pro for Grav, now available.',
+                    'link' => 'https://getgrav.org/premium/comments-pro',
+                    'type' => 'info',
+                    'location' => [
+                        0 => 'feed'
+                    ]
+                ],
+                3 => [
                     'id' => 31,
                     'date' => '2024-02-13 11:40',
                     'message' => '🗜️Optimize your Grav site with Image Optimize',
@@ -38,7 +48,7 @@ return [
                         0 => 'feed'
                     ]
                 ],
-                3 => [
+                4 => [
                     'id' => 26,
                     'date' => '2024-02-10 00:01',
                     'message' => '🚀 Grav Premium Plugins and Themes available. Turbo-charge your Grav site today.',
@@ -48,7 +58,7 @@ return [
                         0 => 'feed'
                     ]
                 ],
-                4 => [
+                5 => [
                     'id' => 12,
                     'date' => '2024-01-17 15:15',
                     'message' => '☕️ Support Grav for the price of a <span class=\'fa fa-coffee\'></span> a month!',
@@ -58,7 +68,7 @@ return [
                         0 => 'feed'
                     ]
                 ],
-                5 => [
+                6 => [
                     'id' => 23,
                     'date' => '2024-01-05 15:50',
                     'message' => '🙊 Grav community chat has moved from Slack to <span class=\'fa fa-comments\'></span> Discord',
@@ -68,7 +78,7 @@ return [
                         0 => 'feed'
                     ]
                 ],
-                6 => [
+                7 => [
                     'id' => 24,
                     'date' => '2024-01-05 11:27',
                     'message' => '🙏 Thanks to our amazing community, Grav was voted <b>Best Flat File CMS</b> in the 2019 CMS Critics\' Awards!',
@@ -78,7 +88,7 @@ return [
                         0 => 'feed'
                     ]
                 ],
-                7 => [
+                8 => [
                     'id' => 2,
                     'date' => '2024-01-05 02:23',
                     'message' => '🎖 Don\'t forget to star Grav on GitHub!',
@@ -117,6 +127,7 @@ return [
         <span>Turbo-charge your Grav site - from the creators of Grav</span>
         <span>Typhoon - The most powerful Grav theme ever built, now with Tailwind 4</span>
         <span>Comments Pro - Advanced comments system for Grav, with spam protection</span>
+        <span>Revisions Pro - Track, Compare, and Restore content and configuration changes</span>
         <span>Polls - Transform your Grav site into an interactive experience</span>
         <span>Image Optimize - Optimize all the images on your Grav site</span>
         <span>Downloads Pro - Powerful download manager directly integrated with Grav</span>
@@ -125,7 +136,7 @@ return [
         <span>Site Toolbox - SVG Icons, Warm Cache, Mega-Frontmatter, Zapier RSS</span>
         <span>Email Office365 - Send email with Office365 with OAuth2 and refresh tokens</span>
         <span>Cloudflare Manager - Configure and manage your domain right within the admin</span>
-        <span>Lightbox Gallery - A light, versatile and mobile friendly Lightbox Gallery</span>
+        
     </div>
     <a class="gp-learn-more button" href="https://getgrav.org/premium" target="_blank">Learn more</a>
 </div>
@@ -167,6 +178,7 @@ return [
         <span>Turbo-charge your Grav site - from the creators of Grav</span>
         <span>Typhoon - The most powerful Grav theme ever built, now with Tailwind 4</span>
         <span>Comments Pro - Advanced comments system for Grav, with spam protection</span>
+        <span>Revisions Pro - Track, Compare, and Restore content and configuration changes</span>
         <span>Polls - Transform your Grav site into an interactive experience</span>
         <span>Image Optimize - Optimize all the images on your Grav site</span>
         <span>Downloads Pro - Powerful download manager directly integrated with Grav</span>
@@ -175,7 +187,7 @@ return [
         <span>Site Toolbox - SVG Icons, Warm Cache, Mega-Frontmatter, Zapier RSS</span>
         <span>Email Office365 - Send email with Office365 with OAuth2 and refresh tokens</span>
         <span>Cloudflare Manager - Configure and manage your domain right within the admin</span>
-        <span>Lightbox Gallery - A light, versatile and mobile friendly Lightbox Gallery</span>
+        
     </div>
     <a class="gp-learn-more button" href="https://getgrav.org/premium" target="_blank">Learn more</a>
 </div>
@@ -217,6 +229,7 @@ return [
         <span>Turbo-charge your Grav site - from the creators of Grav</span>
         <span>Typhoon - The most powerful Grav theme ever built, now with Tailwind 4</span>
         <span>Comments Pro - Advanced comments system for Grav, with spam protection</span>
+        <span>Revisions Pro - Track, Compare, and Restore content and configuration changes</span>
         <span>Polls - Transform your Grav site into an interactive experience</span>
         <span>Image Optimize - Optimize all the images on your Grav site</span>
         <span>Downloads Pro - Powerful download manager directly integrated with Grav</span>
@@ -225,7 +238,7 @@ return [
         <span>Site Toolbox - SVG Icons, Warm Cache, Mega-Frontmatter, Zapier RSS</span>
         <span>Email Office365 - Send email with Office365 with OAuth2 and refresh tokens</span>
         <span>Cloudflare Manager - Configure and manage your domain right within the admin</span>
-        <span>Lightbox Gallery - A light, versatile and mobile friendly Lightbox Gallery</span>
+        
     </div>
     <a class="gp-learn-more button" href="https://getgrav.org/premium" target="_blank">Learn more</a>
 </div>

@@ -23,11 +23,9 @@ social_networks:
     -
         platform: telegram
         username: '@userTg'
-        description: Telegram
     -
         platform: vk
         username: 'https://vk.com/'
-        description: ВК
 blueprint: contacts
 header:
     phones:

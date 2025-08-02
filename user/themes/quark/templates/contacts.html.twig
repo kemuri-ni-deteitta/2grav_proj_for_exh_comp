@@ -64,7 +64,7 @@
 
 /* Description text for phones, emails, and social networks (the text after "-") */
 .phone-description, .email-description, .social-description {
-    font-weight: bold;                 /* 📏 WEIGHT: Makes descriptions bold (change to 'normal' for regular weight) */
+    font-weight: normal;                    /* 📏 WEIGHT: Makes descriptions bold (change to 'normal' for regular weight) */
     color: #000;                       /* 🎨 COLOR: Black color for descriptions (change #000 to any color) */
     font-style: normal;                /* 📏 STYLE: Normal font style (not italic) */
     font-size: 1rem;                   /* 📏 SIZE: Size of description text */
@@ -72,34 +72,41 @@
 
 /* Phone numbers styling (the actual numbers, not descriptions) */
 .phone-list li strong {
-    font-size: 1rem;                   /* 📏 SIZE: Size of phone numbers (same as descriptions) */
+    font-size: 1rem;  
+    font-weight: normal;                    /* 📏 SIZE: Size of phone numbers (same as descriptions) */
 }
 
 /* Email links styling */
 .contact-item a {
     color: #000;                       /* 🎨 COLOR: Black color for email links (change #000 to any color) */
     text-decoration: none;             /* 📐 LAYOUT: Removes default underline from links */
-    font-size: 1rem;                   /* 📏 SIZE: Size of email addresses (same as descriptions) */
+    font-size: 1rem; 
+                 /* 📏 SIZE: Size of email addresses (same as descriptions) */
 }
 
 /* Email addresses styling (the actual email addresses, not descriptions) */
 .email-list li a strong {
     font-size: 1rem;                   /* 📏 SIZE: Size of email addresses (same as descriptions) */
+    color: #034880;  
+    font-weight: normal;   
 }
 
 /* Social network platform names styling (the actual platform names, not descriptions) */
 .social-list li a strong {
-    font-size: 1rem;                   /* 📏 SIZE: Size of social network platform names (same as descriptions) */
+    font-size: 1rem;
+    color: #034880;     
+    font-weight: normal;                /* 📏 SIZE: Size of social network platform names (same as descriptions) */
 }
 
 /* Email links on hover (when mouse is over them) */
 .contact-item a:hover {
-    text-decoration: underline;        /* 📐 LAYOUT: Shows underline when hovering over email links */
+    text-decoration: underline;
 }
 
 /* Address text styling (the actual address, not the heading) */
 .contact-item p strong {
-    font-size: 1rem;                   /* 📏 SIZE: Size of address text (same as descriptions) */
+    font-size: 1rem;
+    font-weight: normal;                      /* 📏 SIZE: Size of address text (same as descriptions) */
 }
 
 /* ===== QUICK REFERENCE FOR CHANGES ===== */
