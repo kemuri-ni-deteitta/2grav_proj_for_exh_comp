@@ -425,7 +425,6 @@
 
 .portfolio-info {
     padding: 1rem 1.5rem;
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
     background: #ffffff;
@@ -441,23 +440,30 @@
 
 .portfolio-metadata {
     margin-bottom: 0.5rem;
+    flex-shrink: 0;
 }
 
 .metadata-item {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 4px;
     font-size: 0.85rem;
+    min-height: 24px;
 }
 
 .metadata-item .label {
     color: #666;
     font-weight: 500;
+    display: flex;
+    align-items: center;
 }
 
 .metadata-item .value {
     color: #333;
     font-weight: 600;
+    display: flex;
+    align-items: center;
 }
 
 .stand-type-typovye {
@@ -477,6 +483,8 @@
     color: #666;
     line-height: 1.5;
     margin: 0;
+    height: auto;
+    min-height: auto;
 }
 
 .portfolio-empty {
