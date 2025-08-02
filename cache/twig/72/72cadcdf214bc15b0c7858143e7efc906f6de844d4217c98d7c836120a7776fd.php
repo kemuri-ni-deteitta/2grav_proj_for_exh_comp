@@ -61,7 +61,7 @@ class __TwigTemplate_7a0ba8d9df11bcaa155dc05f3b8b9b7049afb2cec7c50049eb3f8773889
 
 /* Container for each contact item (phones, emails, address) */
 .contact-item {
-    margin-bottom: 1.5rem;             /* ⚙️ SPACING: Space between contact sections */
+    margin-bottom: 0.5rem;               /* ⚙️ SPACING: Space between contact sections */
 }
 
 /* Address text styling */
@@ -472,7 +472,7 @@ $context["social"], "platform", []) == "linkedin")) {
 
 /* Container for each contact item (phones, emails, address) */
 .contact-item {
-    margin-bottom: 1.5rem;             /* ⚙️ SPACING: Space between contact sections */
+    margin-bottom: 0.5rem;               /* ⚙️ SPACING: Space between contact sections */
 }
 
 /* Address text styling */
