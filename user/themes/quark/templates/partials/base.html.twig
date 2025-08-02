@@ -61,6 +61,30 @@
         #body-wrapper .section {
             margin-top: 0 !important;
         }
+        
+        /* Center the content properly */
+        .container {
+            text-align: center !important;
+        }
+        
+        /* Ensure content blocks are centered */
+        .container > * {
+            text-align: left !important;
+            max-width: 1200px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+        
+        /* Keep specific pages at narrower width */
+        body.page-kontakty .container,
+        body.page-otpravit-zayavku .container,
+        .page-kontakty .container,
+        .page-otpravit-zayavku .container,
+        .page-06-otpravit-zayavku .container,
+        .page-08-kontakty .container {
+            max-width: 75% !important;
+            width: 75% !important;
+        }
     </style>
     {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
     {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress) %}{% endif %}
@@ -876,7 +900,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <section id="start" style="margin-top: -20px !important;">
         {% block body %}
             <section id="body-wrapper" class="section" style="padding-top: 40px !important;">
-                <section class="container {{ grid_size }}" style="margin-top: 0 !important; padding-top: 0 !important;">
+                <section class="container {{ grid_size }}" style="margin-top: 0 !important; padding-top: 0 !important; max-width: 95% !important; width: 95% !important; margin-left: auto !important; margin-right: auto !important; text-align: center !important;">
                     {% block messages %}
                         {% include 'partials/messages.html.twig' ignore missing %}
                     {% endblock %}
