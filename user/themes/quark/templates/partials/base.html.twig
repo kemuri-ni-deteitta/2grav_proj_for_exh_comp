@@ -778,7 +778,7 @@ document.addEventListener('DOMContentLoaded', function() {
      </div>
     
     <!-- Navigation Menu with Dropdown Support -->
-    <div style="display: flex !important; align-items: center !important; height: 80px !important; justify-content: space-between !important; width: 100% !important;">
+    <div style="display: flex !important; align-items: center !important; height: 80px !important; justify-content: flex-start !important; width: 100% !important;">
         <nav style="display: flex !important; align-items: center !important; height: 80px !important;">
             <ul style="display: flex !important; align-items: center !important; margin: 0 !important; padding: 0 !important; list-style: none !important; height: 80px !important; flex-wrap: nowrap !important; white-space: nowrap !important;">
                 {% for p in pages.children.visible %}
@@ -848,7 +848,7 @@ document.addEventListener('DOMContentLoaded', function() {
         </nav>
         
         <!-- Right-aligned "Оставить заявку" button -->
-        <div style="display: flex !important; align-items: center !important; height: 80px !important; margin-right: 15px !important;">
+        <div style="display: flex !important; align-items: center !important; height: 80px !important; margin-left: 1.5rem !important; margin-right: 15px !important;">
             {% for p in pages.children.visible %}
                 {% if p.slug == 'otpravit-zayavku' %}
                     {% set active_page = (p.active or p.activeChild) ? 'active' : '' %}
