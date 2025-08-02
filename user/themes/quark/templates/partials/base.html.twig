@@ -19,6 +19,49 @@
 {% endblock head %}
 
 {% block stylesheets %}
+    <style>
+        /* Ensure consistent top spacing across all pages */
+        .section.main-content {
+            padding-top: 0 !important;
+        }
+        
+        /* Override any template-specific top margins/padding */
+        .content-wrapper, .main-content, .page-content {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Ensure hero sections don't add extra spacing */
+        .modular-hero + .section,
+        .modular-hero + .modular-* {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Fix specific template spacing issues */
+        .content-wrapper {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        .content-wrapper .container {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Portfolio specific fixes */
+        .portfolio-section, .section.portfolio-item {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Ensure all page content starts at consistent height */
+        #body-wrapper .content-wrapper,
+        #body-wrapper .page-content,
+        #body-wrapper .section {
+            margin-top: 0 !important;
+        }
+    </style>
     {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
     {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress) %}{% endif %}
     {% if theme_var('spectre.icons') %}{% do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}{% endif %}
@@ -830,9 +873,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     {% block hero %}{% endblock %}
 
-        <section id="start" style="margin-top: -40px !important;">
+        <section id="start" style="margin-top: -20px !important;">
         {% block body %}
-            <section id="body-wrapper" class="section" style="padding-top: 20px !important;">
+            <section id="body-wrapper" class="section" style="padding-top: 40px !important;">
                 <section class="container {{ grid_size }}" style="margin-top: 0 !important; padding-top: 0 !important;">
                     {% block messages %}
                         {% include 'partials/messages.html.twig' ignore missing %}

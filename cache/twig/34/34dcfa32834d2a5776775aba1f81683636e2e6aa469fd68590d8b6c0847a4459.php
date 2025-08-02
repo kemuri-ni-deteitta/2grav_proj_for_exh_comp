@@ -73,17 +73,17 @@ class __TwigTemplate_58a766b00a7d3fc8f1fdba937db60305f7924ed980cc4bb70df332a3676
 ";
         // line 21
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 30
+        // line 73
         echo "
 ";
-        // line 31
+        // line 74
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 49
+        // line 92
         echo "
 ";
-        // line 50
+        // line 93
         $this->displayBlock('assets', $context, $blocks);
-        // line 54
+        // line 97
         echo "
 <script>
 // ===== NAVBAR TIMING CONFIGURATION =====
@@ -756,7 +756,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 </head>
 <body id=\"top\" class=\"";
-        // line 725
+        // line 768
         $this->displayBlock('body_classes', $context, $blocks);
         echo "\" style=\"margin: 0 !important; padding: 0 !important; padding-top: 80px !important;\">
     
@@ -766,11 +766,11 @@ document.addEventListener('DOMContentLoaded', function() {
      <!-- Logo Section - ABSOLUTE LEFT POSITIONING -->
      <div style=\"position: absolute !important; left: 15px !important; top: 0 !important; display: flex !important; align-items: center !important; height: 80px !important; z-index: 100000 !important;\">
          <a href=\"";
-        // line 732
+        // line 775
         echo twig_escape_filter($this->env, ($context["home_url"] ?? null), "html", null, true);
         echo "\" style=\"display: flex !important; align-items: center !important; text-decoration: none !important;\">
              <img src=\"";
-        // line 733
+        // line 776
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://images/logo/logo.gif"), "html", null, true);
         echo "\" alt=\"";
         echo twig_escape_filter($this->env, $this->getAttribute(($context["site"] ?? null), "title", []), "html", null, true);
@@ -783,67 +783,67 @@ document.addEventListener('DOMContentLoaded', function() {
         <nav style=\"display: flex !important; align-items: center !important; height: 80px !important;\">
             <ul style=\"display: flex !important; align-items: center !important; margin: 0 !important; padding: 0 !important; list-style: none !important; height: 80px !important; flex-wrap: nowrap !important; white-space: nowrap !important;\">
                 ";
-        // line 741
+        // line 784
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "children", []), "visible", []));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 742
+            // line 785
             echo "                    ";
             if (($this->getAttribute($context["p"], "slug", []) != "otpravit-zayavku")) {
-                // line 743
+                // line 786
                 echo "                        ";
                 $context["active_page"] = ((($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", []))) ? ("active") : (""));
-                // line 744
+                // line 787
                 echo "                        ";
                 $context["has_children"] = ($this->getAttribute($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []), "count", []) > 0);
-                // line 745
+                // line 788
                 echo "                        ";
                 $context["show_children"] = (($context["has_children"] ?? null) && ($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", [])));
-                // line 746
+                // line 789
                 echo "                        ";
-                // line 747
+                // line 790
                 echo "                        ";
                 if (($this->getAttribute($context["p"], "slug", []) == "portfolio")) {
-                    // line 748
+                    // line 791
                     echo "                            ";
                     $context["visible_children"] = [];
-                    // line 749
+                    // line 792
                     echo "                            ";
                     $context['_parent'] = $context;
                     $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []));
                     foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-                        // line 750
+                        // line 793
                         echo "                                ";
                         if (($this->getAttribute($context["child"], "template", []) != "portfolio-item")) {
-                            // line 751
+                            // line 794
                             echo "                                    ";
                             $context["visible_children"] = twig_array_merge(($context["visible_children"] ?? null), [0 => $context["child"]]);
-                            // line 752
+                            // line 795
                             echo "                                ";
                         }
-                        // line 753
+                        // line 796
                         echo "                            ";
                     }
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-                    // line 754
+                    // line 797
                     echo "                            ";
                     $context["has_children"] = (twig_length_filter($this->env, ($context["visible_children"] ?? null)) > 0);
-                    // line 755
+                    // line 798
                     echo "                            ";
                     $context["show_children"] = (($context["has_children"] ?? null) && ($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", [])));
-                    // line 756
+                    // line 799
                     echo "                        ";
                 }
-                // line 757
+                // line 800
                 echo "                        <li style=\"margin: 0 1.5rem !important; position: relative !important; display: flex !important; align-items: center !important; height: 80px !important; white-space: nowrap !important; flex-shrink: 0 !important; padding: 0.5rem 0 !important; cursor: pointer !important;\" 
                             data-has-children=\"";
-                // line 758
+                // line 801
                 echo ((($context["has_children"] ?? null)) ? ("true") : ("false"));
                 echo "\">
                             <a href=\"";
-                // line 759
+                // line 802
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "url", []), "html", null, true);
                 echo "\" style=\"display: flex !important; align-items: center !important; justify-content: center !important; padding: 0.5rem 1rem !important; text-decoration: none !important; color: #2c2c2c !important; font-weight: 500 !important; font-size: 1.1rem !important; transition: all 0.3s ease !important; border-radius: 4px !important; height: 40px !important; white-space: nowrap !important; min-width: fit-content !important; border: 1px solid transparent !important; ";
                 if (($context["active_page"] ?? null)) {
@@ -852,19 +852,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 echo "\" 
                                onmouseover=\"this.style.color='#ffffff'; this.style.background='#ff6600'; this.style.border='1px solid #ff6600'; this.style.boxShadow='0 6px 20px rgba(255, 102, 0, 0.4)'; this.style.transform='translateY(-2px)'\" 
                                onmouseout=\"this.style.color='#2c2c2c'; this.style.background='transparent'; this.style.border='1px solid transparent'; this.style.boxShadow='none'; this.style.transform='translateY(0)'; ";
-                // line 761
+                // line 804
                 if (($context["active_page"] ?? null)) {
                     echo "this.style.color='#ffffff'; this.style.background='#ff6600'; this.style.border='1px solid #ff6600'; this.style.boxShadow='0 2px 8px rgba(255, 102, 0, 0.3)';";
                 }
                 echo "\"
                                ";
-                // line 762
+                // line 805
                 if (($context["has_children"] ?? null)) {
                     echo "onclick=\"handleDropdownClick(event, this.parentElement)\"";
                 }
                 echo ">
                                 ";
-                // line 763
+                // line 806
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "menu", []), "html", null, true);
                 if (($context["has_children"] ?? null)) {
                     echo " <span class=\"dropdown-arrow\" style=\"margin-left: 5px; font-size: 0.7rem; transition: transform 0.2s ease; ";
@@ -873,12 +873,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     echo "; pointer-events: none !important; user-select: none !important;\">▼</span>";
                 }
-                // line 764
+                // line 807
                 echo "                            </a>
                             ";
-                // line 765
+                // line 808
                 if (($context["has_children"] ?? null)) {
-                    // line 766
+                    // line 809
                     echo "                            <ul class=\"dropdown-menu\" style=\"position: absolute !important; top: 100% !important; left: 0 !important; background: #ffffff !important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important; border-radius: 6px !important; min-width: 200px !important; padding: 0.5rem 0 !important; ";
                     if (($context["show_children"] ?? null)) {
                         echo "display: block !important;";
@@ -887,31 +887,31 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     echo " z-index: 100001 !important; border: 1px solid rgba(0, 0, 0, 0.1) !important; margin-top: -8px !important; flex-direction: column !important; opacity: 0; transform: translateY(-10px); transition: opacity 0.2s ease, transform 0.2s ease; border-top-left-radius: 0 !important; border-top-right-radius: 0 !important;\">
                                 ";
-                    // line 767
+                    // line 810
                     $context['_parent'] = $context;
                     $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []));
                     foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-                        // line 768
+                        // line 811
                         echo "                                    ";
-                        // line 769
+                        // line 812
                         echo "                                    ";
                         if ( !(($this->getAttribute($context["p"], "slug", []) == "portfolio") && ($this->getAttribute($context["child"], "template", []) == "portfolio-item"))) {
-                            // line 770
+                            // line 813
                             echo "                                    ";
                             $context["child_active"] = ((($this->getAttribute($context["child"], "active", []) || $this->getAttribute($context["child"], "activeChild", []))) ? ("active") : (""));
-                            // line 771
+                            // line 814
                             echo "                                    ";
                             $context["child_has_children"] = ($this->getAttribute($this->getAttribute($this->getAttribute($context["child"], "children", []), "visible", []), "count", []) > 0);
-                            // line 772
+                            // line 815
                             echo "                                    <li style=\"margin: 0 !important; display: block !important; height: auto !important; position: relative !important;\" 
                                         onmouseenter=\"showChildDropdown(this)\" 
                                         onmouseleave=\"hideChildDropdown(this)\"
                                         data-has-children=\"";
-                            // line 775
+                            // line 818
                             echo ((($context["child_has_children"] ?? null)) ? ("true") : ("false"));
                             echo "\">
                                         <a href=\"";
-                            // line 776
+                            // line 819
                             echo twig_escape_filter($this->env, $this->getAttribute($context["child"], "url", []), "html", null, true);
                             echo "\" style=\"padding: 0.6rem 1rem !important; color: #2c2c2c !important; font-weight: 400 !important; font-size: 1rem !important; display: block !important; text-decoration: none !important; transition: all 0.2s ease !important; border-radius: 0 !important; height: auto !important; white-space: nowrap !important; ";
                             if (($context["child_active"] ?? null)) {
@@ -920,19 +920,19 @@ document.addEventListener('DOMContentLoaded', function() {
                             echo "\"
                                            onmouseover=\"this.style.background='#f8f9fa'; this.style.color='#ff6600'\" 
                                            onmouseout=\"this.style.background='transparent'; this.style.color='#2c2c2c'; ";
-                            // line 778
+                            // line 821
                             if (($context["child_active"] ?? null)) {
                                 echo "this.style.color='#ff6600';";
                             }
                             echo "\"
                                            ";
-                            // line 779
+                            // line 822
                             if (($context["child_has_children"] ?? null)) {
                                 echo "onclick=\"handleChildDropdownClick(event, this.parentElement)\"";
                             }
                             echo ">
                                             ";
-                            // line 780
+                            // line 823
                             echo twig_escape_filter($this->env, $this->getAttribute($context["child"], "menu", []), "html", null, true);
                             if (($context["child_has_children"] ?? null)) {
                                 echo " <span class=\"dropdown-arrow\" style=\"margin-left: 5px; font-size: 0.6rem; transition: transform 0.2s ease; ";
@@ -941,25 +941,25 @@ document.addEventListener('DOMContentLoaded', function() {
                                 }
                                 echo "; pointer-events: none !important; user-select: none !important;\">▶</span>";
                             }
-                            // line 781
+                            // line 824
                             echo "                                        </a>
                                         ";
-                            // line 782
+                            // line 825
                             if (($context["child_has_children"] ?? null)) {
-                                // line 783
+                                // line 826
                                 echo "                                        <ul class=\"child-dropdown-menu\" style=\"position: absolute !important; left: 100% !important; top: 0 !important; background: #ffffff !important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important; border-radius: 6px !important; min-width: 200px !important; padding: 0.5rem 0 !important; display: none !important; z-index: 100002 !important; border: 1px solid rgba(0, 0, 0, 0.1) !important; margin-left: 4px !important; flex-direction: column !important; opacity: 0; transform: translateX(-10px); transition: opacity 0.2s ease, transform 0.2s ease;\">
                                             ";
-                                // line 784
+                                // line 827
                                 $context['_parent'] = $context;
                                 $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["child"], "children", []), "visible", []));
                                 foreach ($context['_seq'] as $context["_key"] => $context["grandchild"]) {
-                                    // line 785
+                                    // line 828
                                     echo "                                                ";
                                     $context["grandchild_active"] = ((($this->getAttribute($context["grandchild"], "active", []) || $this->getAttribute($context["grandchild"], "activeChild", []))) ? ("active") : (""));
-                                    // line 786
+                                    // line 829
                                     echo "                                                <li style=\"margin: 0 !important; display: block !important; height: auto !important;\">
                                                                                             <a href=\"";
-                                    // line 787
+                                    // line 830
                                     echo twig_escape_filter($this->env, $this->getAttribute($context["grandchild"], "url", []), "html", null, true);
                                     echo "\" style=\"padding: 0.6rem 1rem !important; color: #2c2c2c !important; font-weight: 400 !important; font-size: 0.9rem !important; display: block !important; text-decoration: none !important; transition: all 0.2s ease !important; border-radius: 0 !important; height: auto !important; white-space: nowrap !important; ";
                                     if (($context["grandchild_active"] ?? null)) {
@@ -968,13 +968,13 @@ document.addEventListener('DOMContentLoaded', function() {
                                     echo "\"
                                                onmouseover=\"this.style.background='#f8f9fa'; this.style.color='#ff6600'\" 
                                                onmouseout=\"this.style.background='transparent'; this.style.color='#2c2c2c'; ";
-                                    // line 789
+                                    // line 832
                                     if (($context["grandchild_active"] ?? null)) {
                                         echo "this.style.color='#ff6600';";
                                     }
                                     echo "\">
                                                         ";
-                                    // line 790
+                                    // line 833
                                     echo twig_escape_filter($this->env, $this->getAttribute($context["grandchild"], "menu", []), "html", null, true);
                                     echo "
                                                     </a>
@@ -984,71 +984,71 @@ document.addEventListener('DOMContentLoaded', function() {
                                 $_parent = $context['_parent'];
                                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['grandchild'], $context['_parent'], $context['loop']);
                                 $context = array_intersect_key($context, $_parent) + $_parent;
-                                // line 794
+                                // line 837
                                 echo "                                        </ul>
                                         ";
                             }
-                            // line 796
+                            // line 839
                             echo "                                    </li>
                                     ";
                         }
-                        // line 798
+                        // line 841
                         echo "                                ";
                     }
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-                    // line 799
+                    // line 842
                     echo "                            </ul>
                             ";
                 }
-                // line 801
+                // line 844
                 echo "                        </li>
                     ";
             }
-            // line 803
+            // line 846
             echo "                ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 804
+        // line 847
         echo "            </ul>
         </nav>
         
         <!-- Right-aligned \"Оставить заявку\" button -->
         <div style=\"display: flex !important; align-items: center !important; height: 80px !important; margin-right: 15px !important;\">
             ";
-        // line 809
+        // line 852
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "children", []), "visible", []));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 810
+            // line 853
             echo "                ";
             if (($this->getAttribute($context["p"], "slug", []) == "otpravit-zayavku")) {
-                // line 811
+                // line 854
                 echo "                    ";
                 $context["active_page"] = ((($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", []))) ? ("active") : (""));
-                // line 812
+                // line 855
                 echo "                    <a href=\"";
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "url", []), "html", null, true);
                 echo "\" style=\"display: flex !important; align-items: center !important; justify-content: center !important; padding: 0.8rem 1.5rem !important; text-decoration: none !important; color: #ffffff !important; font-weight: 600 !important; font-size: 1.1rem !important; transition: all 0.3s ease !important; border-radius: 6px !important; height: 45px !important; white-space: nowrap !important; min-width: fit-content !important; background: #034880 !important; border: 2px solid #034880 !important; box-shadow: 0 4px 12px rgba(3, 72, 128, 0.3) !important;\" 
                        onmouseover=\"this.style.background='#023a6b'; this.style.border='2px solid #023a6b'; this.style.boxShadow='0 6px 20px rgba(3, 72, 128, 0.4)'; this.style.transform='translateY(-2px)'\" 
                        onmouseout=\"this.style.background='#034880'; this.style.border='2px solid #034880'; this.style.boxShadow='0 4px 12px rgba(3, 72, 128, 0.3)'; this.style.transform='translateY(0)'\">
                         ";
-                // line 815
+                // line 858
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "menu", []), "html", null, true);
                 echo "
                     </a>
                 ";
             }
-            // line 818
+            // line 861
             echo "            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 819
+        // line 862
         echo "        </div>
     </div>
     </div>
@@ -1056,38 +1056,38 @@ document.addEventListener('DOMContentLoaded', function() {
     
     <div id=\"page-wrapper\" style=\"margin: 0 !important; padding: 0 !important;\">
     ";
-        // line 825
+        // line 868
         $this->displayBlock('header', $context, $blocks);
-        // line 830
+        // line 873
         echo "
     ";
-        // line 831
+        // line 874
         $this->displayBlock('hero', $context, $blocks);
-        // line 832
+        // line 875
         echo "
-        <section id=\"start\" style=\"margin-top: -40px !important;\">
+        <section id=\"start\" style=\"margin-top: -20px !important;\">
         ";
-        // line 834
+        // line 877
         $this->displayBlock('body', $context, $blocks);
-        // line 844
+        // line 887
         echo "        </section>
 
     </div>
 
     ";
-        // line 848
+        // line 891
         $this->displayBlock('footer', $context, $blocks);
-        // line 851
+        // line 894
         echo "
     ";
-        // line 852
+        // line 895
         $this->displayBlock('mobile', $context, $blocks);
-        // line 864
+        // line 907
         echo "
 ";
-        // line 865
+        // line 908
         $this->displayBlock('bottom', $context, $blocks);
-        // line 868
+        // line 911
         echo "
 </body>
 </html>";
@@ -1136,73 +1136,117 @@ document.addEventListener('DOMContentLoaded', function() {
     public function block_stylesheets($context, array $blocks = [])
     {
         // line 22
-        echo "    ";
+        echo "    <style>
+        /* Ensure consistent top spacing across all pages */
+        .section.main-content {
+            padding-top: 0 !important;
+        }
+        
+        /* Override any template-specific top margins/padding */
+        .content-wrapper, .main-content, .page-content {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Ensure hero sections don't add extra spacing */
+        .modular-hero + .section,
+        .modular-hero + .modular-* {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Fix specific template spacing issues */
+        .content-wrapper {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        .content-wrapper .container {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Portfolio specific fixes */
+        .portfolio-section, .section.portfolio-item {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Ensure all page content starts at consistent height */
+        #body-wrapper .content-wrapper,
+        #body-wrapper .page-content,
+        #body-wrapper .section {
+            margin-top: 0 !important;
+        }
+    </style>
+    ";
+        // line 65
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre" . ($context["compress"] ?? null))], "method");
-        // line 23
+        // line 66
         echo "    ";
         if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.exp")) {
             $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-exp" . ($context["compress"] ?? null))], "method");
         }
-        // line 24
+        // line 67
         echo "    ";
         if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.icons")) {
             $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-icons" . ($context["compress"] ?? null))], "method");
         }
-        // line 25
+        // line 68
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/theme" . ($context["compress"] ?? null))], "method");
-        // line 26
+        // line 69
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/custom.css"], "method");
-        // line 27
+        // line 70
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/oxygen-nav.css"], "method");
-        // line 28
+        // line 71
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/line-awesome.min.css"], "method");
     }
 
-    // line 31
+    // line 74
     public function block_javascripts($context, array $blocks = [])
     {
-        // line 32
+        // line 75
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "jquery", 1 => 101], "method");
-        // line 33
+        // line 76
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.treemenu.js", 1 => ["group" => "bottom"]], "method");
-        // line 34
+        // line 77
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/site.js", 1 => ["group" => "bottom"]], "method");
-        // line 35
+        // line 78
         echo "    ";
-        // line 36
+        // line 79
         echo "    
     ";
-        // line 38
+        // line 81
         echo "    ";
         $context["theme_config"] = $this->getAttribute($this->getAttribute(($context["config"] ?? null), "themes", []), $this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "system", []), "pages", []), "theme", []));
-        // line 39
+        // line 82
         echo "    ";
         if ($this->getAttribute($this->getAttribute(($context["theme_config"] ?? null), "dropotron", []), "enabled", [])) {
-            // line 40
+            // line 83
             echo "        ";
             $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "https://cdn.jsdelivr.net/npm/dropotron@1.4.3/jquery.dropotron.min.js", 1 => ["group" => "bottom"]], "method");
-            // line 41
+            // line 84
             echo "    ";
         }
-        // line 42
+        // line 85
         echo "    
     ";
-        // line 43
+        // line 86
         if ($this->getAttribute($this->getAttribute(($context["theme_config"] ?? null), "skel", []), "enabled", [])) {
-            // line 44
+            // line 87
             echo "        ";
             $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "https://cdn.jsdelivr.net/npm/skel@3.0.1/src/skel.min.js", 1 => ["group" => "bottom"]], "method");
-            // line 45
+            // line 88
             echo "    ";
         }
-        // line 46
+        // line 89
         echo "    
 
 ";
@@ -1213,55 +1257,55 @@ document.addEventListener('DOMContentLoaded', function() {
         $this->deferred->defer($this, 'assets');
     }
 
-    // line 50
+    // line 93
     public function block_assets_deferred($context, array $blocks = [])
     {
-        // line 51
+        // line 94
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", [], "method");
         echo "
     ";
-        // line 52
+        // line 95
         echo $this->getAttribute(($context["assets"] ?? null), "js", [], "method");
         echo "
 ";
         $this->deferred->resolve($this, $context, $blocks);
     }
 
-    // line 725
+    // line 768
     public function block_body_classes($context, array $blocks = [])
     {
         echo twig_escape_filter($this->env, ($context["body_classes"] ?? null), "html", null, true);
     }
 
-    // line 825
+    // line 868
     public function block_header($context, array $blocks = [])
     {
-        // line 826
+        // line 869
         echo "        <!-- HIDE ORIGINAL HEADER -->
         <section id=\"header\" class=\"section\" style=\"display: none !important;\">
         </section>
     ";
     }
 
-    // line 831
+    // line 874
     public function block_hero($context, array $blocks = [])
     {
     }
 
-    // line 834
+    // line 877
     public function block_body($context, array $blocks = [])
     {
-        // line 835
-        echo "            <section id=\"body-wrapper\" class=\"section\" style=\"padding-top: 20px !important;\">
+        // line 878
+        echo "            <section id=\"body-wrapper\" class=\"section\" style=\"padding-top: 40px !important;\">
                 <section class=\"container ";
-        // line 836
+        // line 879
         echo twig_escape_filter($this->env, ($context["grid_size"] ?? null), "html", null, true);
         echo "\" style=\"margin-top: 0 !important; padding-top: 0 !important;\">
                     ";
-        // line 837
+        // line 880
         $this->displayBlock('messages', $context, $blocks);
-        // line 840
+        // line 883
         echo "                    ";
         $this->displayBlock("content_surround", $context, $blocks);
         echo "
@@ -1270,61 +1314,61 @@ document.addEventListener('DOMContentLoaded', function() {
         ";
     }
 
-    // line 837
+    // line 880
     public function block_messages($context, array $blocks = [])
     {
-        // line 838
+        // line 881
         echo "                        ";
         $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 = null;
         try {
-            $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 =             $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 838);
+            $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 =             $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 881);
         } catch (LoaderError $e) {
             // ignore missing template
         }
         if ($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4) {
             $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4->display($context);
         }
-        // line 839
+        // line 882
         echo "                    ";
     }
 
-    // line 848
+    // line 891
     public function block_footer($context, array $blocks = [])
     {
-        // line 849
+        // line 892
         echo "        ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 849)->display($context);
-        // line 850
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 892)->display($context);
+        // line 893
         echo "    ";
     }
 
-    // line 852
+    // line 895
     public function block_mobile($context, array $blocks = [])
     {
-        // line 853
+        // line 896
         echo "    <div class=\"mobile-container\">
         <div class=\"overlay\" id=\"overlay\">
             <div class=\"mobile-logo\">
                 ";
-        // line 856
-        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 856)->display(twig_array_merge($context, ["mobile" => true]));
-        // line 857
+        // line 899
+        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 899)->display(twig_array_merge($context, ["mobile" => true]));
+        // line 900
         echo "            </div>
             <nav class=\"overlay-menu\">
                 ";
-        // line 859
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 859)->display(twig_array_merge($context, ["tree" => true]));
-        // line 860
+        // line 902
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 902)->display(twig_array_merge($context, ["tree" => true]));
+        // line 903
         echo "            </nav>
         </div>
     </div>
     ";
     }
 
-    // line 865
+    // line 908
     public function block_bottom($context, array $blocks = [])
     {
-        // line 866
+        // line 909
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", [0 => "bottom"], "method");
         echo "
@@ -1343,7 +1387,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     public function getDebugInfo()
     {
-        return array (  1328 => 866,  1325 => 865,  1318 => 860,  1316 => 859,  1312 => 857,  1310 => 856,  1305 => 853,  1302 => 852,  1298 => 850,  1295 => 849,  1292 => 848,  1288 => 839,  1277 => 838,  1274 => 837,  1265 => 840,  1263 => 837,  1259 => 836,  1256 => 835,  1253 => 834,  1248 => 831,  1241 => 826,  1238 => 825,  1232 => 725,  1225 => 52,  1220 => 51,  1217 => 50,  1206 => 46,  1203 => 45,  1200 => 44,  1198 => 43,  1195 => 42,  1192 => 41,  1189 => 40,  1186 => 39,  1183 => 38,  1180 => 36,  1178 => 35,  1175 => 34,  1172 => 33,  1169 => 32,  1166 => 31,  1161 => 28,  1158 => 27,  1155 => 26,  1152 => 25,  1147 => 24,  1142 => 23,  1139 => 22,  1136 => 21,  1129 => 18,  1125 => 17,  1122 => 16,  1120 => 15,  1109 => 11,  1106 => 10,  1103 => 9,  1091 => 868,  1089 => 865,  1086 => 864,  1084 => 852,  1081 => 851,  1079 => 848,  1073 => 844,  1071 => 834,  1067 => 832,  1065 => 831,  1062 => 830,  1060 => 825,  1052 => 819,  1046 => 818,  1040 => 815,  1033 => 812,  1030 => 811,  1027 => 810,  1023 => 809,  1016 => 804,  1010 => 803,  1006 => 801,  1002 => 799,  996 => 798,  992 => 796,  988 => 794,  978 => 790,  972 => 789,  963 => 787,  960 => 786,  957 => 785,  953 => 784,  950 => 783,  948 => 782,  945 => 781,  936 => 780,  930 => 779,  924 => 778,  915 => 776,  911 => 775,  906 => 772,  903 => 771,  900 => 770,  897 => 769,  895 => 768,  891 => 767,  882 => 766,  880 => 765,  877 => 764,  868 => 763,  862 => 762,  856 => 761,  847 => 759,  843 => 758,  840 => 757,  837 => 756,  834 => 755,  831 => 754,  825 => 753,  822 => 752,  819 => 751,  816 => 750,  811 => 749,  808 => 748,  805 => 747,  803 => 746,  800 => 745,  797 => 744,  794 => 743,  791 => 742,  787 => 741,  774 => 733,  770 => 732,  760 => 725,  87 => 54,  85 => 50,  82 => 49,  80 => 31,  77 => 30,  75 => 21,  72 => 20,  70 => 9,  65 => 7,  61 => 5,  59 => 3,  57 => 2,  55 => 1,  25 => 4,);
+        return array (  1372 => 909,  1369 => 908,  1362 => 903,  1360 => 902,  1356 => 900,  1354 => 899,  1349 => 896,  1346 => 895,  1342 => 893,  1339 => 892,  1336 => 891,  1332 => 882,  1321 => 881,  1318 => 880,  1309 => 883,  1307 => 880,  1303 => 879,  1300 => 878,  1297 => 877,  1292 => 874,  1285 => 869,  1282 => 868,  1276 => 768,  1269 => 95,  1264 => 94,  1261 => 93,  1250 => 89,  1247 => 88,  1244 => 87,  1242 => 86,  1239 => 85,  1236 => 84,  1233 => 83,  1230 => 82,  1227 => 81,  1224 => 79,  1222 => 78,  1219 => 77,  1216 => 76,  1213 => 75,  1210 => 74,  1205 => 71,  1202 => 70,  1199 => 69,  1196 => 68,  1191 => 67,  1186 => 66,  1184 => 65,  1139 => 22,  1136 => 21,  1129 => 18,  1125 => 17,  1122 => 16,  1120 => 15,  1109 => 11,  1106 => 10,  1103 => 9,  1091 => 911,  1089 => 908,  1086 => 907,  1084 => 895,  1081 => 894,  1079 => 891,  1073 => 887,  1071 => 877,  1067 => 875,  1065 => 874,  1062 => 873,  1060 => 868,  1052 => 862,  1046 => 861,  1040 => 858,  1033 => 855,  1030 => 854,  1027 => 853,  1023 => 852,  1016 => 847,  1010 => 846,  1006 => 844,  1002 => 842,  996 => 841,  992 => 839,  988 => 837,  978 => 833,  972 => 832,  963 => 830,  960 => 829,  957 => 828,  953 => 827,  950 => 826,  948 => 825,  945 => 824,  936 => 823,  930 => 822,  924 => 821,  915 => 819,  911 => 818,  906 => 815,  903 => 814,  900 => 813,  897 => 812,  895 => 811,  891 => 810,  882 => 809,  880 => 808,  877 => 807,  868 => 806,  862 => 805,  856 => 804,  847 => 802,  843 => 801,  840 => 800,  837 => 799,  834 => 798,  831 => 797,  825 => 796,  822 => 795,  819 => 794,  816 => 793,  811 => 792,  808 => 791,  805 => 790,  803 => 789,  800 => 788,  797 => 787,  794 => 786,  791 => 785,  787 => 784,  774 => 776,  770 => 775,  760 => 768,  87 => 97,  85 => 93,  82 => 92,  80 => 74,  77 => 73,  75 => 21,  72 => 20,  70 => 9,  65 => 7,  61 => 5,  59 => 3,  57 => 2,  55 => 1,  25 => 4,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -1377,6 +1421,49 @@ document.addEventListener('DOMContentLoaded', function() {
 {% endblock head %}
 
 {% block stylesheets %}
+    <style>
+        /* Ensure consistent top spacing across all pages */
+        .section.main-content {
+            padding-top: 0 !important;
+        }
+        
+        /* Override any template-specific top margins/padding */
+        .content-wrapper, .main-content, .page-content {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Ensure hero sections don't add extra spacing */
+        .modular-hero + .section,
+        .modular-hero + .modular-* {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Fix specific template spacing issues */
+        .content-wrapper {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        .content-wrapper .container {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Portfolio specific fixes */
+        .portfolio-section, .section.portfolio-item {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+        
+        /* Ensure all page content starts at consistent height */
+        #body-wrapper .content-wrapper,
+        #body-wrapper .page-content,
+        #body-wrapper .section {
+            margin-top: 0 !important;
+        }
+    </style>
     {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
     {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress) %}{% endif %}
     {% if theme_var('spectre.icons') %}{% do assets.addCss('theme://css-compiled/spectre-icons'~compress) %}{% endif %}
@@ -2188,9 +2275,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     {% block hero %}{% endblock %}
 
-        <section id=\"start\" style=\"margin-top: -40px !important;\">
+        <section id=\"start\" style=\"margin-top: -20px !important;\">
         {% block body %}
-            <section id=\"body-wrapper\" class=\"section\" style=\"padding-top: 20px !important;\">
+            <section id=\"body-wrapper\" class=\"section\" style=\"padding-top: 40px !important;\">
                 <section class=\"container {{ grid_size }}\" style=\"margin-top: 0 !important; padding-top: 0 !important;\">
                     {% block messages %}
                         {% include 'partials/messages.html.twig' ignore missing %}

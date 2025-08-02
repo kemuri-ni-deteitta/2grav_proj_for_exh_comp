@@ -121,16 +121,10 @@
     {% endfor %}
 {% endblock %}
 
-{% block body %}
+{% block content %}
     {# Display main page content first #}
     {% if page.content %}
-        <section class="section main-content" style="padding-top: 100px; padding-bottom: 60px;">
-            <div class="container">
-                <div class="content" style="max-width: 800px; margin: 0 auto;">
-                    {{ page.content|raw }}
-                </div>
-            </div>
-        </section>
+        {{ page.content|raw }}
     {% endif %}
     
     {# Then display modular content #}
