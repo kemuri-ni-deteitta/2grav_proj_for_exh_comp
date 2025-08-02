@@ -1,14 +1,14 @@
 {% extends 'partials/base.html.twig' %}
 
-{% block content %}
 {% set grid_size = theme_var('grid-size') %}
 
-<section class="section portfolio">
-    <section class="container {{ grid_size }}">
-        <div class="columns">
-            <div class="column col-12">
-                <div class="content">
-                    {{ content|raw }}
+{% block content %}
+    {% if not grav.admin %}
+        <div class="content-wrapper">
+            <div class="container {{ grid_size }}">
+                <!-- Page Content -->
+                <div class="page-content">
+                    {{ page.content|raw }}
                 </div>
                 
                 {# Collect all portfolio items from multiple sources #}
@@ -176,16 +176,10 @@
                                         
                                         <div class="portfolio-card">
                                             <div class="portfolio-image">
-                                                {# Main image with multiple images support #}
-                                                <a href="{{ main_image.url }}" 
-                                                   class="glightbox" 
-                                                   data-gallery="gallery-{{ gallery_id }}-{{ loop.index }}"
-                                                   data-title="{{ title }}"
-                                                   data-description="{{ desc }}">
-                                                    <img src="{{ main_image.cropZoom(thumb_width, thumb_height).url }}" 
-                                                         alt="{{ title }}" 
-                                                         title="{{ title }}">
-                                                </a>
+                                                <img src="{{ main_image.url }}" 
+                                                     alt="{{ title }}"
+                                                     onclick="openPortfolioGallery({{ loop.index }}, '{{ title|e('html_attr') }}')"
+                                                     loading="lazy">
                                                 
                                                 {# Image counter if multiple images #}
                                                 {% if project_images|length > 1 %}
@@ -194,18 +188,15 @@
                                                     </div>
                                                 {% endif %}
                                                 
-                                                {# Hidden images for lightbox #}
-                                                {% if project_images|length > 1 %}
+                                                {# Hidden images data for gallery #}
+                                                <div class="hidden-gallery-data" id="gallery-{{ loop.index }}" style="display: none;">
                                                     {% for img_data in project_images %}
-                                                        {% if img_data.image != main_image %}
-                                                            <a href="{{ img_data.image.url }}" 
-                                                               class="glightbox hidden-lightbox-item" 
-                                                               data-gallery="gallery-{{ gallery_id }}-{{ loop.parent.loop.index }}"
-                                                               data-title="{{ img_data.caption ?: title }}"
-                                                               data-description="{{ img_data.caption }}"></a>
-                                                        {% endif %}
+                                                        <div class="gallery-item" 
+                                                             data-src="{{ img_data.image.url }}" 
+                                                             data-caption="{{ img_data.caption ?: title }}"></div>
                                                     {% endfor %}
-                                                {% endif %}
+                                                </div>
+                                                
                                             </div>
                                             
                                             <div class="portfolio-info">
@@ -270,10 +261,26 @@
                     <p>Пока нет добавленных проектов в портфолио.</p>
                 </div>
                 {% endif %}
+                
+                <!-- Portfolio Modal -->
+                <div id="portfolioModal" class="portfolio-modal" onclick="closePortfolioModal()">
+                    <div class="modal-content" onclick="event.stopPropagation()">
+                        <span class="modal-close" onclick="closePortfolioModal()">&times;</span>
+                        
+                        <!-- Navigation arrows -->
+                        <button class="modal-nav modal-prev" onclick="prevImage()" style="display: none;">&lt;</button>
+                        <button class="modal-nav modal-next" onclick="nextImage()" style="display: none;">&gt;</button>
+                        
+                        <img id="modalImage" src="" alt="">
+                        <div id="modalCaption" class="modal-caption"></div>
+                        
+                        <!-- Image counter -->
+                        <div id="modalCounter" class="modal-counter" style="display: none;"></div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-</section>
+    {% endif %}
 {% endblock %}
 
 {% block stylesheets %}
@@ -330,14 +337,14 @@
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
 }
 
 .portfolio-item {
-    opacity: 1;
-    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .portfolio-item.filtered-out {
@@ -356,31 +363,37 @@
 
 .portfolio-card {
     background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     overflow: hidden;
     transition: all 0.3s ease;
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .portfolio-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
 }
 
 .portfolio-image {
     position: relative;
     overflow: hidden;
-    aspect-ratio: 4/3;
+    background: #f8f9fa;
+    flex: 1;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: transform 0.3s ease;
+    cursor: pointer;
+    padding: 1rem;
 }
 
 .portfolio-image:hover img {
@@ -411,28 +424,30 @@
 }
 
 .portfolio-info {
-    padding: 20px;
+    padding: 1rem 1.5rem;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    background: #ffffff;
 }
 
 .portfolio-title {
-    margin: 0 0 15px 0;
-    font-size: 18px;
-    color: #333;
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+    color: #2c2c2c;
     font-weight: 600;
+    line-height: 1.4;
 }
 
 .portfolio-metadata {
-    margin-bottom: 15px;
+    margin-bottom: 0.5rem;
 }
 
 .metadata-item {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8px;
-    font-size: 14px;
+    margin-bottom: 4px;
+    font-size: 0.85rem;
 }
 
 .metadata-item .label {
@@ -458,10 +473,10 @@
 }
 
 .portfolio-description {
-    font-size: 14px;
+    font-size: 0.9rem;
     color: #666;
-    line-height: 1.4;
-    margin-top: auto;
+    line-height: 1.5;
+    margin: 0;
 }
 
 .portfolio-empty {
@@ -470,10 +485,121 @@
     color: #666;
 }
 
+/* Portfolio Modal Styles */
+.portfolio-modal {
+    display: none;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 800px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.modal-content img {
+    width: auto;
+    height: auto;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.modal-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.modal-close:hover {
+    color: #ff6600;
+}
+
+.modal-caption {
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Modal Navigation */
+.modal-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    z-index: 10001;
+}
+
+.modal-nav:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.modal-prev {
+    left: 20px;
+}
+
+.modal-next {
+    right: 20px;
+}
+
+.modal-counter {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.hidden-gallery-data {
+    display: none !important;
+}
+
 @media (max-width: 768px) {
     .portfolio-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 1.5rem;
+    }
+    
+    .portfolio-image {
+        min-height: 200px;
+    }
+    
+    .portfolio-info {
+        padding: 0.75rem 1rem;
     }
     
     .filter-buttons {
@@ -492,40 +618,110 @@
 
 {% block javascripts %}
 {{ parent() }}
-{% do assets.addJs('https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js') %}
-{% do assets.addCss('https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css') %}
 
 {% set portfolio_script %}
+// Portfolio Gallery Variables
+let currentGallery = [];
+let currentImageIndex = 0;
+
+// Portfolio Modal Functions
+function openPortfolioGallery(galleryId, title) {
+    const galleryData = document.getElementById('gallery-' + galleryId);
+    const galleryItems = galleryData.querySelectorAll('.gallery-item');
+    
+    // Populate gallery array
+    currentGallery = [];
+    galleryItems.forEach(item => {
+        currentGallery.push({
+            src: item.dataset.src,
+            caption: item.dataset.caption
+        });
+    });
+    
+    currentImageIndex = 0;
+    showModalImage();
+    
+    const modal = document.getElementById('portfolioModal');
+    modal.style.display = 'block';
+    
+    // Show/hide navigation
+    const prevBtn = document.querySelector('.modal-prev');
+    const nextBtn = document.querySelector('.modal-next');
+    const counter = document.getElementById('modalCounter');
+    
+    if (currentGallery.length > 1) {
+        prevBtn.style.display = 'block';
+        nextBtn.style.display = 'block';
+        counter.style.display = 'block';
+    } else {
+        prevBtn.style.display = 'none';
+        nextBtn.style.display = 'none';
+        counter.style.display = 'none';
+    }
+    
+    // Prevent body scroll when modal is open
+    document.body.style.overflow = 'hidden';
+}
+
+function showModalImage() {
+    const modalImg = document.getElementById('modalImage');
+    const caption = document.getElementById('modalCaption');
+    const counter = document.getElementById('modalCounter');
+    
+    if (currentGallery.length > 0) {
+        const currentItem = currentGallery[currentImageIndex];
+        modalImg.src = currentItem.src;
+        modalImg.alt = currentItem.caption;
+        caption.textContent = currentItem.caption;
+        
+        if (currentGallery.length > 1) {
+            counter.textContent = `${currentImageIndex + 1} / ${currentGallery.length}`;
+        }
+    }
+}
+
+function nextImage() {
+    if (currentImageIndex < currentGallery.length - 1) {
+        currentImageIndex++;
+        showModalImage();
+    }
+}
+
+function prevImage() {
+    if (currentImageIndex > 0) {
+        currentImageIndex--;
+        showModalImage();
+    }
+}
+
+function closePortfolioModal() {
+    const modal = document.getElementById('portfolioModal');
+    modal.style.display = 'none';
+    
+    // Reset gallery
+    currentGallery = [];
+    currentImageIndex = 0;
+    
+    // Restore body scroll
+    document.body.style.overflow = 'auto';
+}
+
+// Close modal with Escape key and add arrow navigation
+document.addEventListener('keydown', function(event) {
+    const modal = document.getElementById('portfolioModal');
+    if (modal.style.display === 'block') {
+        if (event.key === 'Escape') {
+            closePortfolioModal();
+        } else if (event.key === 'ArrowLeft') {
+            prevImage();
+        } else if (event.key === 'ArrowRight') {
+            nextImage();
+        }
+    }
+});
+
+// Portfolio filtering
 document.addEventListener('DOMContentLoaded', function() {
-    // Initialize lightbox
-    const lightbox = GLightbox({
-        touchNavigation: true,
-        loop: false,
-        autoplayVideos: true
-    });
-    
-    // Hide navigation arrows for single image galleries
-    lightbox.on('open', function() {
-        setTimeout(() => {
-            const slider = document.querySelector('.gslider');
-            if (slider && slider.children.length <= 1) {
-                const prevBtn = document.querySelector('.gprev');
-                const nextBtn = document.querySelector('.gnext');
-                if (prevBtn) prevBtn.style.display = 'none';
-                if (nextBtn) nextBtn.style.display = 'none';
-            }
-        }, 50);
-    });
-    
-    // Show navigation arrows when closing (for next time)
-    lightbox.on('close', function() {
-        const prevBtn = document.querySelector('.gprev');
-        const nextBtn = document.querySelector('.gnext');
-        if (prevBtn) prevBtn.style.display = '';
-        if (nextBtn) nextBtn.style.display = '';
-    });
-    
-    // Portfolio filtering
     const filterBtns = document.querySelectorAll('.filter-btn');
     const portfolioItems = document.querySelectorAll('.portfolio-item');
     
@@ -547,13 +743,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     item.classList.add('filtered-out');
                 }
             });
-            
-            // Filter items without automatic scrolling
-            // Users can scroll manually to see the filtered results
         });
     });
-    
-
 });
 {% endset %}
 
