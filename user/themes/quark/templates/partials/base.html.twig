@@ -85,6 +85,433 @@
             max-width: 75% !important;
             width: 75% !important;
         }
+        
+        /* Force wider width for specific pages that use custom templates */
+        .page-portfolio .container,
+        .page-07-portfolio .container,
+        .page-typovye .container,
+        .page-nestandart .container,
+        .page-ekskluziv .container,
+        .page-otzyvy .container,
+        .page-klienty-i-partnery .container,
+        .page-sertifikaty .container,
+        .page-partners .container,
+        .page-reviews .container,
+        .page-certificates .container,
+        .page-stand-page .container {
+            max-width: 95% !important;
+            width: 95% !important;
+        }
+        
+        /* Target the content-wrapper divs that these templates use */
+        .content-wrapper .container {
+            max-width: 95% !important;
+            width: 95% !important;
+        }
+        
+        /* Target page-content divs specifically */
+        .page-content {
+            max-width: 1200px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+        
+        /* Force wider width on all content-wrapper containers */
+        .content-wrapper {
+            max-width: 95% !important;
+            width: 95% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+        
+        /* Override any template-specific width constraints */
+        .content-wrapper .container,
+        .content-wrapper .page-content,
+        .content-wrapper > div {
+            max-width: none !important;
+            width: 100% !important;
+        }
+        
+        /* Ensure content blocks in these pages are also wider */
+        .page-portfolio .container > *,
+        .page-07-portfolio .container > *,
+        .page-typovye .container > *,
+        .page-nestandart .container > *,
+        .page-ekskluziv .container > *,
+        .page-otzyvy .container > *,
+        .page-klienty-i-partnery .container > *,
+        .page-sertifikaty .container > *,
+        .page-partners .container > *,
+        .page-reviews .container > *,
+        .page-certificates .container > *,
+        .page-stand-page .container > *,
+        .content-wrapper .container > * {
+            max-width: 1200px !important;
+        }
+        
+        /* Fix modal/gallery layout issues */
+        .portfolio-modal,
+        .review-modal,
+        .certificate-modal {
+            position: fixed !important;
+            z-index: 10000 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            background-color: rgba(0, 0, 0, 0.9) !important;
+            display: block !important;
+        }
+        
+        /* Force full-screen modal when displayed */
+        .portfolio-modal[style*="display: block"],
+        .review-modal[style*="display: block"],
+        .certificate-modal[style*="display: block"] {
+            position: fixed !important;
+            z-index: 10000 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            background-color: rgba(0, 0, 0, 0.9) !important;
+        }
+        
+        /* Override ALL template-specific modal styles with maximum specificity */
+        .portfolio-modal,
+        .review-modal,
+        .certificate-modal,
+        #portfolioModal,
+        .portfolio-modal.portfolio-modal,
+        .review-modal.review-modal,
+        .certificate-modal.certificate-modal {
+            position: fixed !important;
+            z-index: 900000 !important;
+            left: 0 !important;
+            top: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            min-width: 100vw !important;
+            min-height: 100vh !important;
+            background-color: rgba(0, 0, 0, 0.9) !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            border: none !important;
+            border-radius: 0 !important;
+            transform: none !important;
+            box-sizing: border-box !important;
+        }
+        
+        /* Force modal to escape ALL container constraints */
+        body .portfolio-modal,
+        html .portfolio-modal,
+        * .portfolio-modal,
+        body #portfolioModal,
+        html #portfolioModal,
+        * #portfolioModal {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+        }
+        
+        /* Ensure custom modal is hidden by default */
+        .portfolio-modal:not([style*="display: block"]),
+        .review-modal:not([style*="display: block"]),
+        .certificate-modal:not([style*="display: block"]) {
+            display: none !important;
+        }
+        
+        /* Override modal content positioning */
+        .modal-content,
+        .portfolio-modal .modal-content,
+        .review-modal .modal-content,
+        .certificate-modal .modal-content,
+        #portfolioModal .modal-content {
+            position: fixed !important;
+            margin: 0 !important;
+            padding: 20px !important;
+            width: 90% !important;
+            max-width: 800px !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            text-align: center !important;
+            z-index: 900001 !important;
+        }
+        
+        .modal-content img {
+            width: auto !important;
+            height: auto !important;
+            max-width: 100% !important;
+            max-height: 80vh !important;
+            object-fit: contain !important;
+            border-radius: 8px !important;
+        }
+        
+        /* Override container styles for modal elements with higher specificity */
+        .portfolio-modal.container,
+        .review-modal.container,
+        .certificate-modal.container,
+        .modal-content.container,
+        .portfolio-modal .container,
+        .review-modal .container,
+        .certificate-modal .container,
+        .modal-content .container {
+            text-align: center !important;
+            max-width: none !important;
+            width: auto !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        /* Override content-wrapper styles for modal elements */
+        .portfolio-modal.content-wrapper,
+        .review-modal.content-wrapper,
+        .certificate-modal.content-wrapper,
+        .modal-content.content-wrapper,
+        .portfolio-modal .content-wrapper,
+        .review-modal .content-wrapper,
+        .certificate-modal .content-wrapper,
+        .modal-content .content-wrapper {
+            max-width: none !important;
+            width: auto !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        /* === GALLERY SYSTEM ISOLATION === */
+        /* Isolate GLightbox elements from container styles - CAREFULLY */
+        .gslide-media,
+        .gslide-image img,
+        .gslide-video,
+        .gslide-inline,
+        .gslide-external {
+            max-width: none !important;
+            width: auto !important;
+            margin: 0 !important;
+            text-align: center !important;
+        }
+        
+        /* Ensure GLightbox overlay and controls work properly */
+        .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            min-width: 100vw !important;
+            min-height: 100vh !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            z-index: 999999 !important;
+            background: rgba(0, 0, 0, 0.9) !important;
+            transform: none !important;
+            box-sizing: border-box !important;
+            overflow: hidden !important;
+        }
+        
+        /* Force overlay to break out of all containers */
+        html, body {
+            position: relative !important;
+        }
+        
+        .goverlay {
+            position: fixed !important;
+            inset: 0 !important;
+        }
+        
+        /* Force overlay to escape any container constraints */
+        .goverlay,
+        .goverlay * {
+            max-width: none !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        
+        /* Additional overlay positioning fixes */
+        body .goverlay,
+        html .goverlay,
+        * .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+        }
+        
+        .goverlay.gopen {
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .goverlay:not(.gopen) {
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+        
+        /* Ensure GLightbox controls are clickable */
+        .gclose,
+        .gnext,
+        .gprev,
+        .gslide-title,
+        .gslide-desc {
+            z-index: 1000001 !important;
+            pointer-events: auto !important;
+            cursor: pointer !important;
+        }
+        
+        .gcontainer {
+            z-index: 1000000 !important;
+            pointer-events: auto !important;
+        }
+        
+        /* Fix GLightbox image display */
+        .gslide-image {
+            z-index: 1000000 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+        
+        .gslide-image img {
+            max-width: 90vw !important;
+            max-height: 90vh !important;
+            width: auto !important;
+            height: auto !important;
+            object-fit: contain !important;
+        }
+        
+        /* Ensure overlay is properly managed */
+        body.glightbox-open {
+            overflow: hidden !important;
+        }
+        
+        body:not(.glightbox-open) .goverlay {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+        
+        /* Force body and html to allow full positioning */
+        body.glightbox-open,
+        html.glightbox-open body,
+        body.glightbox-open * {
+            position: relative !important;
+        }
+        
+        /* Override all possible container constraints when GLightbox is open */
+        body.glightbox-open .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+            z-index: 999999 !important;
+            inset: 0 !important;
+        }
+        
+        /* Isolate lightbox gallery elements */
+        .lightbox-gallery,
+        .lightbox-gallery *,
+        .lightbox-gallery .lightbox-gallery__columns,
+        .lightbox-gallery .lightbox-gallery__column,
+        .gallery-item,
+        .gallery-item *,
+        .gallery-section,
+        .gallery-section * {
+            max-width: none !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        
+        /* Prevent any parent containers from constraining GLightbox */
+        .container .goverlay,
+        .content-wrapper .goverlay,
+        .page-content .goverlay,
+        #body-wrapper .goverlay,
+        main .goverlay,
+        section .goverlay,
+        div .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+        }
+        
+        /* Ensure gallery images display properly */
+        .lightbox-gallery img,
+        .gallery-item img,
+        .portfolio-image img {
+            width: 100% !important;
+            height: auto !important;
+            display: block !important;
+            object-fit: cover !important;
+        }
+        
+        /* Fix portfolio grid layout */
+        .portfolio-grid,
+        .portfolio-item {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            max-width: none !important;
+        }
+        
+        /* Ensure hidden gallery data doesn't interfere */
+        .hidden-gallery-data,
+        .hidden-lightbox-item {
+            display: none !important;
+        }
+        
+        /* Force body and html to allow full modal positioning */
+        body:has(.portfolio-modal[style*="display: block"]),
+        html:has(.portfolio-modal[style*="display: block"]) {
+            overflow: hidden !important;
+        }
+        
+        /* Additional modal escape rules */
+        .portfolio-modal[style*="display: block"],
+        #portfolioModal[style*="display: block"] {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+            z-index: 900000 !important;
+        }
     </style>
     {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
     {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress) %}{% endif %}
@@ -100,6 +527,10 @@
     {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
     {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
     {# Removed init.js since we're using inline JavaScript for dropdowns #}
+    
+    {# Load GLightbox for image galleries #}
+    {% do assets.addJs('https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js', {group: 'bottom'}) %}
+    {% do assets.addCss('https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css') %}
     
     {# Load external libraries based on theme config #}
     {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
@@ -544,6 +975,77 @@ function hideChildDropdown(element) {
 
 // Enhanced hover behavior for better UX
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize GLightbox for all gallery images
+    if (typeof GLightbox !== 'undefined') {
+        const lightbox = GLightbox({
+            touchNavigation: true,
+            loop: true,
+            autoplayVideos: true,
+            closeOnOutsideClick: true,
+            openEffect: 'fade',
+            closeEffect: 'fade',
+            css: {
+                'overlay': 'goverlay',
+                'container': 'gcontainer',
+                'slide': 'gslide',
+                'image': 'gslide-image',
+                'video': 'gslide-video',
+                'inline': 'gslide-inline',
+                'title': 'gslide-title',
+                'description': 'gslide-desc',
+                'close': 'gclose',
+                'next': 'gnext',
+                'prev': 'gprev'
+            },
+            onOpen: function() {
+                document.body.classList.add('glightbox-open');
+                // Force overlay to cover full screen with maximum aggressiveness
+                setTimeout(() => {
+                    const overlay = document.querySelector('.goverlay');
+                    if (overlay) {
+                        // Move overlay to body if it's not already there
+                        if (overlay.parentNode !== document.body) {
+                            document.body.appendChild(overlay);
+                        }
+                        
+                        // Force all positioning styles
+                        overlay.style.cssText = `
+                            position: fixed !important;
+                            top: 0 !important;
+                            left: 0 !important;
+                            right: 0 !important;
+                            bottom: 0 !important;
+                            width: 100vw !important;
+                            height: 100vh !important;
+                            max-width: none !important;
+                            min-width: 100vw !important;
+                            min-height: 100vh !important;
+                            margin: 0 !important;
+                            padding: 0 !important;
+                            border: none !important;
+                            transform: none !important;
+                            z-index: 999999 !important;
+                            background: rgba(0, 0, 0, 0.9) !important;
+                            box-sizing: border-box !important;
+                            overflow: hidden !important;
+                            inset: 0 !important;
+                        `;
+                    }
+                }, 10);
+            },
+            onClose: function() {
+                document.body.classList.remove('glightbox-open');
+                // Ensure overlay is completely removed
+                const overlay = document.querySelector('.goverlay');
+                if (overlay) {
+                    overlay.style.visibility = 'hidden';
+                    overlay.style.opacity = '0';
+                    overlay.style.display = 'none';
+                }
+            }
+        });
+    }
+    
     // Ensure all dropdowns are closed on page load
     closeAllDropdowns();
     

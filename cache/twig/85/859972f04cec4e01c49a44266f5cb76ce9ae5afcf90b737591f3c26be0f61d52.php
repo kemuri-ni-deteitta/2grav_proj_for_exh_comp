@@ -694,25 +694,32 @@ $context["img_item"], "is_main", [])) ? ($this->getAttribute($context["img_item"
 /* Portfolio Modal Styles */
 .portfolio-modal {
     display: none;
-    position: fixed;
-    z-index: 10000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed !important;
+    z-index: 10000 !important;
+    left: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
     animation: fadeIn 0.3s ease;
 }
 
 .modal-content {
-    position: relative;
-    margin: auto;
-    padding: 0;
-    width: 90%;
-    max-width: 800px;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
+    position: absolute !important;
+    margin: auto !important;
+    padding: 0 !important;
+    width: 90% !important;
+    max-width: 800px !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    z-index: 10001 !important;
 }
 
 .modal-content img {
@@ -815,19 +822,19 @@ $context["img_item"], "is_main", [])) ? ($this->getAttribute($context["img_item"
     }
 }
 ") ? '' : new Markup($tmp, $this->env->getCharset());
-        // line 510
+        // line 517
         $this->getAttribute(($context["assets"] ?? null), "addInlineCss", [0 => ($context["portfolio_styles"] ?? null)], "method");
     }
 
-    // line 513
+    // line 520
     public function block_javascripts($context, array $blocks = [])
     {
-        // line 514
+        // line 521
         $this->displayParentBlock("javascripts", $context, $blocks);
         echo "
 
 ";
-        // line 516
+        // line 523
         $context["portfolio_script"] = ('' === $tmp = "// Portfolio Gallery Variables
 let currentGallery = [];
 let currentImageIndex = 0;
@@ -928,10 +935,10 @@ document.addEventListener('keydown', function(event) {
     }
 });
 ") ? '' : new Markup($tmp, $this->env->getCharset());
-        // line 617
+        // line 624
         echo "
 ";
-        // line 618
+        // line 625
         $this->getAttribute(($context["assets"] ?? null), "addInlineJs", [0 => ($context["portfolio_script"] ?? null)], "method");
     }
 
@@ -947,7 +954,7 @@ document.addEventListener('keydown', function(event) {
 
     public function getDebugInfo()
     {
-        return array (  935 => 618,  932 => 617,  831 => 516,  826 => 514,  823 => 513,  819 => 510,  513 => 204,  509 => 203,  506 => 202,  482 => 180,  476 => 176,  461 => 174,  456 => 171,  450 => 169,  448 => 168,  444 => 166,  438 => 163,  434 => 161,  432 => 160,  429 => 159,  423 => 156,  419 => 154,  417 => 153,  414 => 152,  408 => 149,  404 => 147,  402 => 146,  399 => 145,  393 => 142,  389 => 140,  387 => 139,  381 => 136,  374 => 131,  366 => 129,  362 => 128,  359 => 127,  355 => 126,  350 => 125,  347 => 123,  341 => 120,  338 => 119,  335 => 118,  327 => 114,  323 => 113,  319 => 112,  314 => 109,  311 => 108,  308 => 107,  306 => 106,  303 => 105,  300 => 104,  297 => 103,  294 => 102,  291 => 100,  288 => 99,  285 => 98,  282 => 97,  279 => 96,  277 => 93,  276 => 92,  274 => 91,  272 => 90,  269 => 89,  266 => 88,  263 => 87,  260 => 86,  257 => 84,  254 => 83,  251 => 82,  248 => 81,  245 => 79,  242 => 78,  236 => 77,  233 => 76,  230 => 75,  227 => 74,  222 => 73,  219 => 72,  216 => 70,  213 => 69,  210 => 68,  207 => 66,  204 => 65,  198 => 64,  195 => 63,  192 => 62,  189 => 61,  186 => 60,  183 => 58,  180 => 57,  178 => 55,  177 => 54,  176 => 53,  174 => 52,  172 => 51,  169 => 50,  166 => 49,  160 => 48,  157 => 47,  154 => 46,  151 => 45,  146 => 44,  143 => 43,  140 => 41,  137 => 40,  132 => 39,  129 => 38,  126 => 36,  123 => 35,  120 => 34,  117 => 33,  114 => 32,  111 => 30,  108 => 29,  105 => 28,  102 => 27,  100 => 26,  97 => 25,  79 => 24,  77 => 23,  67 => 15,  65 => 14,  59 => 11,  53 => 8,  50 => 7,  47 => 6,  44 => 5,  39 => 1,  37 => 3,  31 => 1,);
+        return array (  942 => 625,  939 => 624,  838 => 523,  833 => 521,  830 => 520,  826 => 517,  513 => 204,  509 => 203,  506 => 202,  482 => 180,  476 => 176,  461 => 174,  456 => 171,  450 => 169,  448 => 168,  444 => 166,  438 => 163,  434 => 161,  432 => 160,  429 => 159,  423 => 156,  419 => 154,  417 => 153,  414 => 152,  408 => 149,  404 => 147,  402 => 146,  399 => 145,  393 => 142,  389 => 140,  387 => 139,  381 => 136,  374 => 131,  366 => 129,  362 => 128,  359 => 127,  355 => 126,  350 => 125,  347 => 123,  341 => 120,  338 => 119,  335 => 118,  327 => 114,  323 => 113,  319 => 112,  314 => 109,  311 => 108,  308 => 107,  306 => 106,  303 => 105,  300 => 104,  297 => 103,  294 => 102,  291 => 100,  288 => 99,  285 => 98,  282 => 97,  279 => 96,  277 => 93,  276 => 92,  274 => 91,  272 => 90,  269 => 89,  266 => 88,  263 => 87,  260 => 86,  257 => 84,  254 => 83,  251 => 82,  248 => 81,  245 => 79,  242 => 78,  236 => 77,  233 => 76,  230 => 75,  227 => 74,  222 => 73,  219 => 72,  216 => 70,  213 => 69,  210 => 68,  207 => 66,  204 => 65,  198 => 64,  195 => 63,  192 => 62,  189 => 61,  186 => 60,  183 => 58,  180 => 57,  178 => 55,  177 => 54,  176 => 53,  174 => 52,  172 => 51,  169 => 50,  166 => 49,  160 => 48,  157 => 47,  154 => 46,  151 => 45,  146 => 44,  143 => 43,  140 => 41,  137 => 40,  132 => 39,  129 => 38,  126 => 36,  123 => 35,  120 => 34,  117 => 33,  114 => 32,  111 => 30,  108 => 29,  105 => 28,  102 => 27,  100 => 26,  97 => 25,  79 => 24,  77 => 23,  67 => 15,  65 => 14,  59 => 11,  53 => 8,  50 => 7,  47 => 6,  44 => 5,  39 => 1,  37 => 3,  31 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -1348,25 +1355,32 @@ document.addEventListener('keydown', function(event) {
 /* Portfolio Modal Styles */
 .portfolio-modal {
     display: none;
-    position: fixed;
-    z-index: 10000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed !important;
+    z-index: 10000 !important;
+    left: 0 !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
     animation: fadeIn 0.3s ease;
 }
 
 .modal-content {
-    position: relative;
-    margin: auto;
-    padding: 0;
-    width: 90%;
-    max-width: 800px;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
+    position: absolute !important;
+    margin: auto !important;
+    padding: 0 !important;
+    width: 90% !important;
+    max-width: 800px !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    text-align: center !important;
+    z-index: 10001 !important;
 }
 
 .modal-content img {

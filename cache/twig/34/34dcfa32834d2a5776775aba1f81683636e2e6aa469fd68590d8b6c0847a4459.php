@@ -73,17 +73,17 @@ class __TwigTemplate_58a766b00a7d3fc8f1fdba937db60305f7924ed980cc4bb70df332a3676
 ";
         // line 21
         $this->displayBlock('stylesheets', $context, $blocks);
-        // line 97
+        // line 524
         echo "
 ";
-        // line 98
+        // line 525
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 116
+        // line 547
         echo "
 ";
-        // line 117
+        // line 548
         $this->displayBlock('assets', $context, $blocks);
-        // line 121
+        // line 552
         echo "
 <script>
 // ===== NAVBAR TIMING CONFIGURATION =====
@@ -510,6 +510,77 @@ function hideChildDropdown(element) {
 
 // Enhanced hover behavior for better UX
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize GLightbox for all gallery images
+    if (typeof GLightbox !== 'undefined') {
+        const lightbox = GLightbox({
+            touchNavigation: true,
+            loop: true,
+            autoplayVideos: true,
+            closeOnOutsideClick: true,
+            openEffect: 'fade',
+            closeEffect: 'fade',
+            css: {
+                'overlay': 'goverlay',
+                'container': 'gcontainer',
+                'slide': 'gslide',
+                'image': 'gslide-image',
+                'video': 'gslide-video',
+                'inline': 'gslide-inline',
+                'title': 'gslide-title',
+                'description': 'gslide-desc',
+                'close': 'gclose',
+                'next': 'gnext',
+                'prev': 'gprev'
+            },
+            onOpen: function() {
+                document.body.classList.add('glightbox-open');
+                // Force overlay to cover full screen with maximum aggressiveness
+                setTimeout(() => {
+                    const overlay = document.querySelector('.goverlay');
+                    if (overlay) {
+                        // Move overlay to body if it's not already there
+                        if (overlay.parentNode !== document.body) {
+                            document.body.appendChild(overlay);
+                        }
+                        
+                        // Force all positioning styles
+                        overlay.style.cssText = `
+                            position: fixed !important;
+                            top: 0 !important;
+                            left: 0 !important;
+                            right: 0 !important;
+                            bottom: 0 !important;
+                            width: 100vw !important;
+                            height: 100vh !important;
+                            max-width: none !important;
+                            min-width: 100vw !important;
+                            min-height: 100vh !important;
+                            margin: 0 !important;
+                            padding: 0 !important;
+                            border: none !important;
+                            transform: none !important;
+                            z-index: 999999 !important;
+                            background: rgba(0, 0, 0, 0.9) !important;
+                            box-sizing: border-box !important;
+                            overflow: hidden !important;
+                            inset: 0 !important;
+                        `;
+                    }
+                }, 10);
+            },
+            onClose: function() {
+                document.body.classList.remove('glightbox-open');
+                // Ensure overlay is completely removed
+                const overlay = document.querySelector('.goverlay');
+                if (overlay) {
+                    overlay.style.visibility = 'hidden';
+                    overlay.style.opacity = '0';
+                    overlay.style.display = 'none';
+                }
+            }
+        });
+    }
+    
     // Ensure all dropdowns are closed on page load
     closeAllDropdowns();
     
@@ -756,7 +827,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 </head>
 <body id=\"top\" class=\"";
-        // line 792
+        // line 1294
         $this->displayBlock('body_classes', $context, $blocks);
         echo "\" style=\"margin: 0 !important; padding: 0 !important; padding-top: 80px !important;\">
     
@@ -766,11 +837,11 @@ document.addEventListener('DOMContentLoaded', function() {
      <!-- Logo Section - ABSOLUTE LEFT POSITIONING -->
      <div style=\"position: absolute !important; left: 15px !important; top: 0 !important; display: flex !important; align-items: center !important; height: 80px !important; z-index: 100000 !important;\">
          <a href=\"";
-        // line 799
+        // line 1301
         echo twig_escape_filter($this->env, ($context["home_url"] ?? null), "html", null, true);
         echo "\" style=\"display: flex !important; align-items: center !important; text-decoration: none !important;\">
              <img src=\"";
-        // line 800
+        // line 1302
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://images/logo/logo.gif"), "html", null, true);
         echo "\" alt=\"";
         echo twig_escape_filter($this->env, $this->getAttribute(($context["site"] ?? null), "title", []), "html", null, true);
@@ -783,67 +854,67 @@ document.addEventListener('DOMContentLoaded', function() {
         <nav style=\"display: flex !important; align-items: center !important; height: 80px !important;\">
             <ul style=\"display: flex !important; align-items: center !important; margin: 0 !important; padding: 0 !important; list-style: none !important; height: 80px !important; flex-wrap: nowrap !important; white-space: nowrap !important;\">
                 ";
-        // line 808
+        // line 1310
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "children", []), "visible", []));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 809
+            // line 1311
             echo "                    ";
             if (($this->getAttribute($context["p"], "slug", []) != "otpravit-zayavku")) {
-                // line 810
+                // line 1312
                 echo "                        ";
                 $context["active_page"] = ((($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", []))) ? ("active") : (""));
-                // line 811
+                // line 1313
                 echo "                        ";
                 $context["has_children"] = ($this->getAttribute($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []), "count", []) > 0);
-                // line 812
+                // line 1314
                 echo "                        ";
                 $context["show_children"] = (($context["has_children"] ?? null) && ($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", [])));
-                // line 813
+                // line 1315
                 echo "                        ";
-                // line 814
+                // line 1316
                 echo "                        ";
                 if (($this->getAttribute($context["p"], "slug", []) == "portfolio")) {
-                    // line 815
+                    // line 1317
                     echo "                            ";
                     $context["visible_children"] = [];
-                    // line 816
+                    // line 1318
                     echo "                            ";
                     $context['_parent'] = $context;
                     $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []));
                     foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-                        // line 817
+                        // line 1319
                         echo "                                ";
                         if (($this->getAttribute($context["child"], "template", []) != "portfolio-item")) {
-                            // line 818
+                            // line 1320
                             echo "                                    ";
                             $context["visible_children"] = twig_array_merge(($context["visible_children"] ?? null), [0 => $context["child"]]);
-                            // line 819
+                            // line 1321
                             echo "                                ";
                         }
-                        // line 820
+                        // line 1322
                         echo "                            ";
                     }
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-                    // line 821
+                    // line 1323
                     echo "                            ";
                     $context["has_children"] = (twig_length_filter($this->env, ($context["visible_children"] ?? null)) > 0);
-                    // line 822
+                    // line 1324
                     echo "                            ";
                     $context["show_children"] = (($context["has_children"] ?? null) && ($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", [])));
-                    // line 823
+                    // line 1325
                     echo "                        ";
                 }
-                // line 824
+                // line 1326
                 echo "                        <li style=\"margin: 0 1.5rem !important; position: relative !important; display: flex !important; align-items: center !important; height: 80px !important; white-space: nowrap !important; flex-shrink: 0 !important; padding: 0.5rem 0 !important; cursor: pointer !important;\" 
                             data-has-children=\"";
-                // line 825
+                // line 1327
                 echo ((($context["has_children"] ?? null)) ? ("true") : ("false"));
                 echo "\">
                             <a href=\"";
-                // line 826
+                // line 1328
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "url", []), "html", null, true);
                 echo "\" style=\"display: flex !important; align-items: center !important; justify-content: center !important; padding: 0.5rem 1rem !important; text-decoration: none !important; color: #2c2c2c !important; font-weight: 500 !important; font-size: 1.1rem !important; transition: all 0.3s ease !important; border-radius: 4px !important; height: 40px !important; white-space: nowrap !important; min-width: fit-content !important; border: 1px solid transparent !important; ";
                 if (($context["active_page"] ?? null)) {
@@ -852,19 +923,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 echo "\" 
                                onmouseover=\"this.style.color='#ffffff'; this.style.background='#ff6600'; this.style.border='1px solid #ff6600'; this.style.boxShadow='0 6px 20px rgba(255, 102, 0, 0.4)'; this.style.transform='translateY(-2px)'\" 
                                onmouseout=\"this.style.color='#2c2c2c'; this.style.background='transparent'; this.style.border='1px solid transparent'; this.style.boxShadow='none'; this.style.transform='translateY(0)'; ";
-                // line 828
+                // line 1330
                 if (($context["active_page"] ?? null)) {
                     echo "this.style.color='#ffffff'; this.style.background='#ff6600'; this.style.border='1px solid #ff6600'; this.style.boxShadow='0 2px 8px rgba(255, 102, 0, 0.3)';";
                 }
                 echo "\"
                                ";
-                // line 829
+                // line 1331
                 if (($context["has_children"] ?? null)) {
                     echo "onclick=\"handleDropdownClick(event, this.parentElement)\"";
                 }
                 echo ">
                                 ";
-                // line 830
+                // line 1332
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "menu", []), "html", null, true);
                 if (($context["has_children"] ?? null)) {
                     echo " <span class=\"dropdown-arrow\" style=\"margin-left: 5px; font-size: 0.7rem; transition: transform 0.2s ease; ";
@@ -873,12 +944,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     echo "; pointer-events: none !important; user-select: none !important;\">▼</span>";
                 }
-                // line 831
+                // line 1333
                 echo "                            </a>
                             ";
-                // line 832
+                // line 1334
                 if (($context["has_children"] ?? null)) {
-                    // line 833
+                    // line 1335
                     echo "                            <ul class=\"dropdown-menu\" style=\"position: absolute !important; top: 100% !important; left: 0 !important; background: #ffffff !important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important; border-radius: 6px !important; min-width: 200px !important; padding: 0.5rem 0 !important; ";
                     if (($context["show_children"] ?? null)) {
                         echo "display: block !important;";
@@ -887,31 +958,31 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     echo " z-index: 100001 !important; border: 1px solid rgba(0, 0, 0, 0.1) !important; margin-top: -8px !important; flex-direction: column !important; opacity: 0; transform: translateY(-10px); transition: opacity 0.2s ease, transform 0.2s ease; border-top-left-radius: 0 !important; border-top-right-radius: 0 !important;\">
                                 ";
-                    // line 834
+                    // line 1336
                     $context['_parent'] = $context;
                     $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []));
                     foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-                        // line 835
+                        // line 1337
                         echo "                                    ";
-                        // line 836
+                        // line 1338
                         echo "                                    ";
                         if ( !(($this->getAttribute($context["p"], "slug", []) == "portfolio") && ($this->getAttribute($context["child"], "template", []) == "portfolio-item"))) {
-                            // line 837
+                            // line 1339
                             echo "                                    ";
                             $context["child_active"] = ((($this->getAttribute($context["child"], "active", []) || $this->getAttribute($context["child"], "activeChild", []))) ? ("active") : (""));
-                            // line 838
+                            // line 1340
                             echo "                                    ";
                             $context["child_has_children"] = ($this->getAttribute($this->getAttribute($this->getAttribute($context["child"], "children", []), "visible", []), "count", []) > 0);
-                            // line 839
+                            // line 1341
                             echo "                                    <li style=\"margin: 0 !important; display: block !important; height: auto !important; position: relative !important;\" 
                                         onmouseenter=\"showChildDropdown(this)\" 
                                         onmouseleave=\"hideChildDropdown(this)\"
                                         data-has-children=\"";
-                            // line 842
+                            // line 1344
                             echo ((($context["child_has_children"] ?? null)) ? ("true") : ("false"));
                             echo "\">
                                         <a href=\"";
-                            // line 843
+                            // line 1345
                             echo twig_escape_filter($this->env, $this->getAttribute($context["child"], "url", []), "html", null, true);
                             echo "\" style=\"padding: 0.6rem 1rem !important; color: #2c2c2c !important; font-weight: 400 !important; font-size: 1rem !important; display: block !important; text-decoration: none !important; transition: all 0.2s ease !important; border-radius: 0 !important; height: auto !important; white-space: nowrap !important; ";
                             if (($context["child_active"] ?? null)) {
@@ -920,19 +991,19 @@ document.addEventListener('DOMContentLoaded', function() {
                             echo "\"
                                            onmouseover=\"this.style.background='#f8f9fa'; this.style.color='#ff6600'\" 
                                            onmouseout=\"this.style.background='transparent'; this.style.color='#2c2c2c'; ";
-                            // line 845
+                            // line 1347
                             if (($context["child_active"] ?? null)) {
                                 echo "this.style.color='#ff6600';";
                             }
                             echo "\"
                                            ";
-                            // line 846
+                            // line 1348
                             if (($context["child_has_children"] ?? null)) {
                                 echo "onclick=\"handleChildDropdownClick(event, this.parentElement)\"";
                             }
                             echo ">
                                             ";
-                            // line 847
+                            // line 1349
                             echo twig_escape_filter($this->env, $this->getAttribute($context["child"], "menu", []), "html", null, true);
                             if (($context["child_has_children"] ?? null)) {
                                 echo " <span class=\"dropdown-arrow\" style=\"margin-left: 5px; font-size: 0.6rem; transition: transform 0.2s ease; ";
@@ -941,25 +1012,25 @@ document.addEventListener('DOMContentLoaded', function() {
                                 }
                                 echo "; pointer-events: none !important; user-select: none !important;\">▶</span>";
                             }
-                            // line 848
+                            // line 1350
                             echo "                                        </a>
                                         ";
-                            // line 849
+                            // line 1351
                             if (($context["child_has_children"] ?? null)) {
-                                // line 850
+                                // line 1352
                                 echo "                                        <ul class=\"child-dropdown-menu\" style=\"position: absolute !important; left: 100% !important; top: 0 !important; background: #ffffff !important; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important; border-radius: 6px !important; min-width: 200px !important; padding: 0.5rem 0 !important; display: none !important; z-index: 100002 !important; border: 1px solid rgba(0, 0, 0, 0.1) !important; margin-left: 4px !important; flex-direction: column !important; opacity: 0; transform: translateX(-10px); transition: opacity 0.2s ease, transform 0.2s ease;\">
                                             ";
-                                // line 851
+                                // line 1353
                                 $context['_parent'] = $context;
                                 $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["child"], "children", []), "visible", []));
                                 foreach ($context['_seq'] as $context["_key"] => $context["grandchild"]) {
-                                    // line 852
+                                    // line 1354
                                     echo "                                                ";
                                     $context["grandchild_active"] = ((($this->getAttribute($context["grandchild"], "active", []) || $this->getAttribute($context["grandchild"], "activeChild", []))) ? ("active") : (""));
-                                    // line 853
+                                    // line 1355
                                     echo "                                                <li style=\"margin: 0 !important; display: block !important; height: auto !important;\">
                                                                                             <a href=\"";
-                                    // line 854
+                                    // line 1356
                                     echo twig_escape_filter($this->env, $this->getAttribute($context["grandchild"], "url", []), "html", null, true);
                                     echo "\" style=\"padding: 0.6rem 1rem !important; color: #2c2c2c !important; font-weight: 400 !important; font-size: 0.9rem !important; display: block !important; text-decoration: none !important; transition: all 0.2s ease !important; border-radius: 0 !important; height: auto !important; white-space: nowrap !important; ";
                                     if (($context["grandchild_active"] ?? null)) {
@@ -968,13 +1039,13 @@ document.addEventListener('DOMContentLoaded', function() {
                                     echo "\"
                                                onmouseover=\"this.style.background='#f8f9fa'; this.style.color='#ff6600'\" 
                                                onmouseout=\"this.style.background='transparent'; this.style.color='#2c2c2c'; ";
-                                    // line 856
+                                    // line 1358
                                     if (($context["grandchild_active"] ?? null)) {
                                         echo "this.style.color='#ff6600';";
                                     }
                                     echo "\">
                                                         ";
-                                    // line 857
+                                    // line 1359
                                     echo twig_escape_filter($this->env, $this->getAttribute($context["grandchild"], "menu", []), "html", null, true);
                                     echo "
                                                     </a>
@@ -984,71 +1055,71 @@ document.addEventListener('DOMContentLoaded', function() {
                                 $_parent = $context['_parent'];
                                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['grandchild'], $context['_parent'], $context['loop']);
                                 $context = array_intersect_key($context, $_parent) + $_parent;
-                                // line 861
+                                // line 1363
                                 echo "                                        </ul>
                                         ";
                             }
-                            // line 863
+                            // line 1365
                             echo "                                    </li>
                                     ";
                         }
-                        // line 865
+                        // line 1367
                         echo "                                ";
                     }
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-                    // line 866
+                    // line 1368
                     echo "                            </ul>
                             ";
                 }
-                // line 868
+                // line 1370
                 echo "                        </li>
                     ";
             }
-            // line 870
+            // line 1372
             echo "                ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 871
+        // line 1373
         echo "            </ul>
         </nav>
         
         <!-- Right-aligned \"Оставить заявку\" button -->
         <div style=\"display: flex !important; align-items: center !important; height: 80px !important; margin-left: 1.5rem !important; margin-right: 15px !important;\">
             ";
-        // line 876
+        // line 1378
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "children", []), "visible", []));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 877
+            // line 1379
             echo "                ";
             if (($this->getAttribute($context["p"], "slug", []) == "otpravit-zayavku")) {
-                // line 878
+                // line 1380
                 echo "                    ";
                 $context["active_page"] = ((($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", []))) ? ("active") : (""));
-                // line 879
+                // line 1381
                 echo "                    <a href=\"";
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "url", []), "html", null, true);
                 echo "\" style=\"display: flex !important; align-items: center !important; justify-content: center !important; padding: 0.5rem 1rem !important; text-decoration: none !important; color: #ffffff !important; font-weight: 600 !important; font-size: 1.1rem !important; transition: all 0.3s ease !important; border-radius: 4px !important; height: 40px !important; white-space: nowrap !important; min-width: fit-content !important; background: #034880 !important; border: 2px solid #034880 !important; box-shadow: 0 4px 12px rgba(3, 72, 128, 0.3) !important;\" 
                        onmouseover=\"this.style.background='#023a6b'; this.style.border='2px solid #023a6b'; this.style.boxShadow='0 6px 20px rgba(3, 72, 128, 0.4)'; this.style.transform='translateY(-2px)'\" 
                        onmouseout=\"this.style.background='#034880'; this.style.border='2px solid #034880'; this.style.boxShadow='0 4px 12px rgba(3, 72, 128, 0.3)'; this.style.transform='translateY(0)'\">
                         ";
-                // line 882
+                // line 1384
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "menu", []), "html", null, true);
                 echo "
                     </a>
                 ";
             }
-            // line 885
+            // line 1387
             echo "            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 886
+        // line 1388
         echo "        </div>
     </div>
     </div>
@@ -1056,38 +1127,38 @@ document.addEventListener('DOMContentLoaded', function() {
     
     <div id=\"page-wrapper\" style=\"margin: 0 !important; padding: 0 !important;\">
     ";
-        // line 892
+        // line 1394
         $this->displayBlock('header', $context, $blocks);
-        // line 897
+        // line 1399
         echo "
     ";
-        // line 898
+        // line 1400
         $this->displayBlock('hero', $context, $blocks);
-        // line 899
+        // line 1401
         echo "
         <section id=\"start\" style=\"margin-top: -20px !important;\">
         ";
-        // line 901
+        // line 1403
         $this->displayBlock('body', $context, $blocks);
-        // line 911
+        // line 1413
         echo "        </section>
 
     </div>
 
     ";
-        // line 915
+        // line 1417
         $this->displayBlock('footer', $context, $blocks);
-        // line 918
+        // line 1420
         echo "
     ";
-        // line 919
+        // line 1421
         $this->displayBlock('mobile', $context, $blocks);
-        // line 931
+        // line 1433
         echo "
 ";
-        // line 932
+        // line 1434
         $this->displayBlock('bottom', $context, $blocks);
-        // line 935
+        // line 1437
         echo "
 </body>
 </html>";
@@ -1202,75 +1273,511 @@ document.addEventListener('DOMContentLoaded', function() {
             max-width: 75% !important;
             width: 75% !important;
         }
+        
+        /* Force wider width for specific pages that use custom templates */
+        .page-portfolio .container,
+        .page-07-portfolio .container,
+        .page-typovye .container,
+        .page-nestandart .container,
+        .page-ekskluziv .container,
+        .page-otzyvy .container,
+        .page-klienty-i-partnery .container,
+        .page-sertifikaty .container,
+        .page-partners .container,
+        .page-reviews .container,
+        .page-certificates .container,
+        .page-stand-page .container {
+            max-width: 95% !important;
+            width: 95% !important;
+        }
+        
+        /* Target the content-wrapper divs that these templates use */
+        .content-wrapper .container {
+            max-width: 95% !important;
+            width: 95% !important;
+        }
+        
+        /* Target page-content divs specifically */
+        .page-content {
+            max-width: 1200px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+        
+        /* Force wider width on all content-wrapper containers */
+        .content-wrapper {
+            max-width: 95% !important;
+            width: 95% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+        
+        /* Override any template-specific width constraints */
+        .content-wrapper .container,
+        .content-wrapper .page-content,
+        .content-wrapper > div {
+            max-width: none !important;
+            width: 100% !important;
+        }
+        
+        /* Ensure content blocks in these pages are also wider */
+        .page-portfolio .container > *,
+        .page-07-portfolio .container > *,
+        .page-typovye .container > *,
+        .page-nestandart .container > *,
+        .page-ekskluziv .container > *,
+        .page-otzyvy .container > *,
+        .page-klienty-i-partnery .container > *,
+        .page-sertifikaty .container > *,
+        .page-partners .container > *,
+        .page-reviews .container > *,
+        .page-certificates .container > *,
+        .page-stand-page .container > *,
+        .content-wrapper .container > * {
+            max-width: 1200px !important;
+        }
+        
+        /* Fix modal/gallery layout issues */
+        .portfolio-modal,
+        .review-modal,
+        .certificate-modal {
+            position: fixed !important;
+            z-index: 10000 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            background-color: rgba(0, 0, 0, 0.9) !important;
+            display: block !important;
+        }
+        
+        /* Force full-screen modal when displayed */
+        .portfolio-modal[style*=\"display: block\"],
+        .review-modal[style*=\"display: block\"],
+        .certificate-modal[style*=\"display: block\"] {
+            position: fixed !important;
+            z-index: 10000 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            background-color: rgba(0, 0, 0, 0.9) !important;
+        }
+        
+        /* Override ALL template-specific modal styles with maximum specificity */
+        .portfolio-modal,
+        .review-modal,
+        .certificate-modal,
+        #portfolioModal,
+        .portfolio-modal.portfolio-modal,
+        .review-modal.review-modal,
+        .certificate-modal.certificate-modal {
+            position: fixed !important;
+            z-index: 900000 !important;
+            left: 0 !important;
+            top: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            min-width: 100vw !important;
+            min-height: 100vh !important;
+            background-color: rgba(0, 0, 0, 0.9) !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            border: none !important;
+            border-radius: 0 !important;
+            transform: none !important;
+            box-sizing: border-box !important;
+        }
+        
+        /* Force modal to escape ALL container constraints */
+        body .portfolio-modal,
+        html .portfolio-modal,
+        * .portfolio-modal,
+        body #portfolioModal,
+        html #portfolioModal,
+        * #portfolioModal {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+        }
+        
+        /* Ensure custom modal is hidden by default */
+        .portfolio-modal:not([style*=\"display: block\"]),
+        .review-modal:not([style*=\"display: block\"]),
+        .certificate-modal:not([style*=\"display: block\"]) {
+            display: none !important;
+        }
+        
+        /* Override modal content positioning */
+        .modal-content,
+        .portfolio-modal .modal-content,
+        .review-modal .modal-content,
+        .certificate-modal .modal-content,
+        #portfolioModal .modal-content {
+            position: fixed !important;
+            margin: 0 !important;
+            padding: 20px !important;
+            width: 90% !important;
+            max-width: 800px !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            text-align: center !important;
+            z-index: 900001 !important;
+        }
+        
+        .modal-content img {
+            width: auto !important;
+            height: auto !important;
+            max-width: 100% !important;
+            max-height: 80vh !important;
+            object-fit: contain !important;
+            border-radius: 8px !important;
+        }
+        
+        /* Override container styles for modal elements with higher specificity */
+        .portfolio-modal.container,
+        .review-modal.container,
+        .certificate-modal.container,
+        .modal-content.container,
+        .portfolio-modal .container,
+        .review-modal .container,
+        .certificate-modal .container,
+        .modal-content .container {
+            text-align: center !important;
+            max-width: none !important;
+            width: auto !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        /* Override content-wrapper styles for modal elements */
+        .portfolio-modal.content-wrapper,
+        .review-modal.content-wrapper,
+        .certificate-modal.content-wrapper,
+        .modal-content.content-wrapper,
+        .portfolio-modal .content-wrapper,
+        .review-modal .content-wrapper,
+        .certificate-modal .content-wrapper,
+        .modal-content .content-wrapper {
+            max-width: none !important;
+            width: auto !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        /* === GALLERY SYSTEM ISOLATION === */
+        /* Isolate GLightbox elements from container styles - CAREFULLY */
+        .gslide-media,
+        .gslide-image img,
+        .gslide-video,
+        .gslide-inline,
+        .gslide-external {
+            max-width: none !important;
+            width: auto !important;
+            margin: 0 !important;
+            text-align: center !important;
+        }
+        
+        /* Ensure GLightbox overlay and controls work properly */
+        .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            min-width: 100vw !important;
+            min-height: 100vh !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            z-index: 999999 !important;
+            background: rgba(0, 0, 0, 0.9) !important;
+            transform: none !important;
+            box-sizing: border-box !important;
+            overflow: hidden !important;
+        }
+        
+        /* Force overlay to break out of all containers */
+        html, body {
+            position: relative !important;
+        }
+        
+        .goverlay {
+            position: fixed !important;
+            inset: 0 !important;
+        }
+        
+        /* Force overlay to escape any container constraints */
+        .goverlay,
+        .goverlay * {
+            max-width: none !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        
+        /* Additional overlay positioning fixes */
+        body .goverlay,
+        html .goverlay,
+        * .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+        }
+        
+        .goverlay.gopen {
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .goverlay:not(.gopen) {
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+        
+        /* Ensure GLightbox controls are clickable */
+        .gclose,
+        .gnext,
+        .gprev,
+        .gslide-title,
+        .gslide-desc {
+            z-index: 1000001 !important;
+            pointer-events: auto !important;
+            cursor: pointer !important;
+        }
+        
+        .gcontainer {
+            z-index: 1000000 !important;
+            pointer-events: auto !important;
+        }
+        
+        /* Fix GLightbox image display */
+        .gslide-image {
+            z-index: 1000000 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+        
+        .gslide-image img {
+            max-width: 90vw !important;
+            max-height: 90vh !important;
+            width: auto !important;
+            height: auto !important;
+            object-fit: contain !important;
+        }
+        
+        /* Ensure overlay is properly managed */
+        body.glightbox-open {
+            overflow: hidden !important;
+        }
+        
+        body:not(.glightbox-open) .goverlay {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+        
+        /* Force body and html to allow full positioning */
+        body.glightbox-open,
+        html.glightbox-open body,
+        body.glightbox-open * {
+            position: relative !important;
+        }
+        
+        /* Override all possible container constraints when GLightbox is open */
+        body.glightbox-open .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+            z-index: 999999 !important;
+            inset: 0 !important;
+        }
+        
+        /* Isolate lightbox gallery elements */
+        .lightbox-gallery,
+        .lightbox-gallery *,
+        .lightbox-gallery .lightbox-gallery__columns,
+        .lightbox-gallery .lightbox-gallery__column,
+        .gallery-item,
+        .gallery-item *,
+        .gallery-section,
+        .gallery-section * {
+            max-width: none !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        
+        /* Prevent any parent containers from constraining GLightbox */
+        .container .goverlay,
+        .content-wrapper .goverlay,
+        .page-content .goverlay,
+        #body-wrapper .goverlay,
+        main .goverlay,
+        section .goverlay,
+        div .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+        }
+        
+        /* Ensure gallery images display properly */
+        .lightbox-gallery img,
+        .gallery-item img,
+        .portfolio-image img {
+            width: 100% !important;
+            height: auto !important;
+            display: block !important;
+            object-fit: cover !important;
+        }
+        
+        /* Fix portfolio grid layout */
+        .portfolio-grid,
+        .portfolio-item {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            max-width: none !important;
+        }
+        
+        /* Ensure hidden gallery data doesn't interfere */
+        .hidden-gallery-data,
+        .hidden-lightbox-item {
+            display: none !important;
+        }
+        
+        /* Force body and html to allow full modal positioning */
+        body:has(.portfolio-modal[style*=\"display: block\"]),
+        html:has(.portfolio-modal[style*=\"display: block\"]) {
+            overflow: hidden !important;
+        }
+        
+        /* Additional modal escape rules */
+        .portfolio-modal[style*=\"display: block\"],
+        #portfolioModal[style*=\"display: block\"] {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+            z-index: 900000 !important;
+        }
     </style>
     ";
-        // line 89
+        // line 516
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre" . ($context["compress"] ?? null))], "method");
-        // line 90
+        // line 517
         echo "    ";
         if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.exp")) {
             $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-exp" . ($context["compress"] ?? null))], "method");
         }
-        // line 91
+        // line 518
         echo "    ";
         if ($this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->themeVarFunc($context, "spectre.icons")) {
             $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/spectre-icons" . ($context["compress"] ?? null))], "method");
         }
-        // line 92
+        // line 519
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => ("theme://css-compiled/theme" . ($context["compress"] ?? null))], "method");
-        // line 93
+        // line 520
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/custom.css"], "method");
-        // line 94
+        // line 521
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/oxygen-nav.css"], "method");
-        // line 95
+        // line 522
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "theme://css/line-awesome.min.css"], "method");
     }
 
-    // line 98
+    // line 525
     public function block_javascripts($context, array $blocks = [])
     {
-        // line 99
+        // line 526
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "jquery", 1 => 101], "method");
-        // line 100
+        // line 527
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/jquery.treemenu.js", 1 => ["group" => "bottom"]], "method");
-        // line 101
+        // line 528
         echo "    ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/site.js", 1 => ["group" => "bottom"]], "method");
-        // line 102
+        // line 529
         echo "    ";
-        // line 103
+        // line 530
         echo "    
     ";
-        // line 105
+        // line 532
+        echo "    ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js", 1 => ["group" => "bottom"]], "method");
+        // line 533
+        echo "    ";
+        $this->getAttribute(($context["assets"] ?? null), "addCss", [0 => "https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css"], "method");
+        // line 534
+        echo "    
+    ";
+        // line 536
         echo "    ";
         $context["theme_config"] = $this->getAttribute($this->getAttribute(($context["config"] ?? null), "themes", []), $this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "system", []), "pages", []), "theme", []));
-        // line 106
+        // line 537
         echo "    ";
         if ($this->getAttribute($this->getAttribute(($context["theme_config"] ?? null), "dropotron", []), "enabled", [])) {
-            // line 107
+            // line 538
             echo "        ";
             $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "https://cdn.jsdelivr.net/npm/dropotron@1.4.3/jquery.dropotron.min.js", 1 => ["group" => "bottom"]], "method");
-            // line 108
+            // line 539
             echo "    ";
         }
-        // line 109
+        // line 540
         echo "    
     ";
-        // line 110
+        // line 541
         if ($this->getAttribute($this->getAttribute(($context["theme_config"] ?? null), "skel", []), "enabled", [])) {
-            // line 111
+            // line 542
             echo "        ";
             $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "https://cdn.jsdelivr.net/npm/skel@3.0.1/src/skel.min.js", 1 => ["group" => "bottom"]], "method");
-            // line 112
+            // line 543
             echo "    ";
         }
-        // line 113
+        // line 544
         echo "    
 
 ";
@@ -1281,55 +1788,55 @@ document.addEventListener('DOMContentLoaded', function() {
         $this->deferred->defer($this, 'assets');
     }
 
-    // line 117
+    // line 548
     public function block_assets_deferred($context, array $blocks = [])
     {
-        // line 118
+        // line 549
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "css", [], "method");
         echo "
     ";
-        // line 119
+        // line 550
         echo $this->getAttribute(($context["assets"] ?? null), "js", [], "method");
         echo "
 ";
         $this->deferred->resolve($this, $context, $blocks);
     }
 
-    // line 792
+    // line 1294
     public function block_body_classes($context, array $blocks = [])
     {
         echo twig_escape_filter($this->env, ($context["body_classes"] ?? null), "html", null, true);
     }
 
-    // line 892
+    // line 1394
     public function block_header($context, array $blocks = [])
     {
-        // line 893
+        // line 1395
         echo "        <!-- HIDE ORIGINAL HEADER -->
         <section id=\"header\" class=\"section\" style=\"display: none !important;\">
         </section>
     ";
     }
 
-    // line 898
+    // line 1400
     public function block_hero($context, array $blocks = [])
     {
     }
 
-    // line 901
+    // line 1403
     public function block_body($context, array $blocks = [])
     {
-        // line 902
+        // line 1404
         echo "            <section id=\"body-wrapper\" class=\"section\" style=\"padding-top: 40px !important;\">
                 <section class=\"container ";
-        // line 903
+        // line 1405
         echo twig_escape_filter($this->env, ($context["grid_size"] ?? null), "html", null, true);
         echo "\" style=\"margin-top: 0 !important; padding-top: 0 !important; max-width: 95% !important; width: 95% !important; margin-left: auto !important; margin-right: auto !important; text-align: center !important;\">
                     ";
-        // line 904
+        // line 1406
         $this->displayBlock('messages', $context, $blocks);
-        // line 907
+        // line 1409
         echo "                    ";
         $this->displayBlock("content_surround", $context, $blocks);
         echo "
@@ -1338,61 +1845,61 @@ document.addEventListener('DOMContentLoaded', function() {
         ";
     }
 
-    // line 904
+    // line 1406
     public function block_messages($context, array $blocks = [])
     {
-        // line 905
+        // line 1407
         echo "                        ";
         $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 = null;
         try {
-            $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 =             $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 905);
+            $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 =             $this->loadTemplate("partials/messages.html.twig", "partials/base.html.twig", 1407);
         } catch (LoaderError $e) {
             // ignore missing template
         }
         if ($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4) {
             $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4->display($context);
         }
-        // line 906
+        // line 1408
         echo "                    ";
     }
 
-    // line 915
+    // line 1417
     public function block_footer($context, array $blocks = [])
     {
-        // line 916
+        // line 1418
         echo "        ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 916)->display($context);
-        // line 917
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 1418)->display($context);
+        // line 1419
         echo "    ";
     }
 
-    // line 919
+    // line 1421
     public function block_mobile($context, array $blocks = [])
     {
-        // line 920
+        // line 1422
         echo "    <div class=\"mobile-container\">
         <div class=\"overlay\" id=\"overlay\">
             <div class=\"mobile-logo\">
                 ";
-        // line 923
-        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 923)->display(twig_array_merge($context, ["mobile" => true]));
-        // line 924
+        // line 1425
+        $this->loadTemplate("partials/logo.html.twig", "partials/base.html.twig", 1425)->display(twig_array_merge($context, ["mobile" => true]));
+        // line 1426
         echo "            </div>
             <nav class=\"overlay-menu\">
                 ";
-        // line 926
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 926)->display(twig_array_merge($context, ["tree" => true]));
-        // line 927
+        // line 1428
+        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 1428)->display(twig_array_merge($context, ["tree" => true]));
+        // line 1429
         echo "            </nav>
         </div>
     </div>
     ";
     }
 
-    // line 932
+    // line 1434
     public function block_bottom($context, array $blocks = [])
     {
-        // line 933
+        // line 1435
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", [0 => "bottom"], "method");
         echo "
@@ -1411,7 +1918,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     public function getDebugInfo()
     {
-        return array (  1396 => 933,  1393 => 932,  1386 => 927,  1384 => 926,  1380 => 924,  1378 => 923,  1373 => 920,  1370 => 919,  1366 => 917,  1363 => 916,  1360 => 915,  1356 => 906,  1345 => 905,  1342 => 904,  1333 => 907,  1331 => 904,  1327 => 903,  1324 => 902,  1321 => 901,  1316 => 898,  1309 => 893,  1306 => 892,  1300 => 792,  1293 => 119,  1288 => 118,  1285 => 117,  1274 => 113,  1271 => 112,  1268 => 111,  1266 => 110,  1263 => 109,  1260 => 108,  1257 => 107,  1254 => 106,  1251 => 105,  1248 => 103,  1246 => 102,  1243 => 101,  1240 => 100,  1237 => 99,  1234 => 98,  1229 => 95,  1226 => 94,  1223 => 93,  1220 => 92,  1215 => 91,  1210 => 90,  1208 => 89,  1139 => 22,  1136 => 21,  1129 => 18,  1125 => 17,  1122 => 16,  1120 => 15,  1109 => 11,  1106 => 10,  1103 => 9,  1091 => 935,  1089 => 932,  1086 => 931,  1084 => 919,  1081 => 918,  1079 => 915,  1073 => 911,  1071 => 901,  1067 => 899,  1065 => 898,  1062 => 897,  1060 => 892,  1052 => 886,  1046 => 885,  1040 => 882,  1033 => 879,  1030 => 878,  1027 => 877,  1023 => 876,  1016 => 871,  1010 => 870,  1006 => 868,  1002 => 866,  996 => 865,  992 => 863,  988 => 861,  978 => 857,  972 => 856,  963 => 854,  960 => 853,  957 => 852,  953 => 851,  950 => 850,  948 => 849,  945 => 848,  936 => 847,  930 => 846,  924 => 845,  915 => 843,  911 => 842,  906 => 839,  903 => 838,  900 => 837,  897 => 836,  895 => 835,  891 => 834,  882 => 833,  880 => 832,  877 => 831,  868 => 830,  862 => 829,  856 => 828,  847 => 826,  843 => 825,  840 => 824,  837 => 823,  834 => 822,  831 => 821,  825 => 820,  822 => 819,  819 => 818,  816 => 817,  811 => 816,  808 => 815,  805 => 814,  803 => 813,  800 => 812,  797 => 811,  794 => 810,  791 => 809,  787 => 808,  774 => 800,  770 => 799,  760 => 792,  87 => 121,  85 => 117,  82 => 116,  80 => 98,  77 => 97,  75 => 21,  72 => 20,  70 => 9,  65 => 7,  61 => 5,  59 => 3,  57 => 2,  55 => 1,  25 => 4,);
+        return array (  1903 => 1435,  1900 => 1434,  1893 => 1429,  1891 => 1428,  1887 => 1426,  1885 => 1425,  1880 => 1422,  1877 => 1421,  1873 => 1419,  1870 => 1418,  1867 => 1417,  1863 => 1408,  1852 => 1407,  1849 => 1406,  1840 => 1409,  1838 => 1406,  1834 => 1405,  1831 => 1404,  1828 => 1403,  1823 => 1400,  1816 => 1395,  1813 => 1394,  1807 => 1294,  1800 => 550,  1795 => 549,  1792 => 548,  1781 => 544,  1778 => 543,  1775 => 542,  1773 => 541,  1770 => 540,  1767 => 539,  1764 => 538,  1761 => 537,  1758 => 536,  1755 => 534,  1752 => 533,  1749 => 532,  1746 => 530,  1744 => 529,  1741 => 528,  1738 => 527,  1735 => 526,  1732 => 525,  1727 => 522,  1724 => 521,  1721 => 520,  1718 => 519,  1713 => 518,  1708 => 517,  1706 => 516,  1210 => 22,  1207 => 21,  1200 => 18,  1196 => 17,  1193 => 16,  1191 => 15,  1180 => 11,  1177 => 10,  1174 => 9,  1162 => 1437,  1160 => 1434,  1157 => 1433,  1155 => 1421,  1152 => 1420,  1150 => 1417,  1144 => 1413,  1142 => 1403,  1138 => 1401,  1136 => 1400,  1133 => 1399,  1131 => 1394,  1123 => 1388,  1117 => 1387,  1111 => 1384,  1104 => 1381,  1101 => 1380,  1098 => 1379,  1094 => 1378,  1087 => 1373,  1081 => 1372,  1077 => 1370,  1073 => 1368,  1067 => 1367,  1063 => 1365,  1059 => 1363,  1049 => 1359,  1043 => 1358,  1034 => 1356,  1031 => 1355,  1028 => 1354,  1024 => 1353,  1021 => 1352,  1019 => 1351,  1016 => 1350,  1007 => 1349,  1001 => 1348,  995 => 1347,  986 => 1345,  982 => 1344,  977 => 1341,  974 => 1340,  971 => 1339,  968 => 1338,  966 => 1337,  962 => 1336,  953 => 1335,  951 => 1334,  948 => 1333,  939 => 1332,  933 => 1331,  927 => 1330,  918 => 1328,  914 => 1327,  911 => 1326,  908 => 1325,  905 => 1324,  902 => 1323,  896 => 1322,  893 => 1321,  890 => 1320,  887 => 1319,  882 => 1318,  879 => 1317,  876 => 1316,  874 => 1315,  871 => 1314,  868 => 1313,  865 => 1312,  862 => 1311,  858 => 1310,  845 => 1302,  841 => 1301,  831 => 1294,  87 => 552,  85 => 548,  82 => 547,  80 => 525,  77 => 524,  75 => 21,  72 => 20,  70 => 9,  65 => 7,  61 => 5,  59 => 3,  57 => 2,  55 => 1,  25 => 4,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -1511,6 +2018,433 @@ document.addEventListener('DOMContentLoaded', function() {
             max-width: 75% !important;
             width: 75% !important;
         }
+        
+        /* Force wider width for specific pages that use custom templates */
+        .page-portfolio .container,
+        .page-07-portfolio .container,
+        .page-typovye .container,
+        .page-nestandart .container,
+        .page-ekskluziv .container,
+        .page-otzyvy .container,
+        .page-klienty-i-partnery .container,
+        .page-sertifikaty .container,
+        .page-partners .container,
+        .page-reviews .container,
+        .page-certificates .container,
+        .page-stand-page .container {
+            max-width: 95% !important;
+            width: 95% !important;
+        }
+        
+        /* Target the content-wrapper divs that these templates use */
+        .content-wrapper .container {
+            max-width: 95% !important;
+            width: 95% !important;
+        }
+        
+        /* Target page-content divs specifically */
+        .page-content {
+            max-width: 1200px !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+        
+        /* Force wider width on all content-wrapper containers */
+        .content-wrapper {
+            max-width: 95% !important;
+            width: 95% !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+        
+        /* Override any template-specific width constraints */
+        .content-wrapper .container,
+        .content-wrapper .page-content,
+        .content-wrapper > div {
+            max-width: none !important;
+            width: 100% !important;
+        }
+        
+        /* Ensure content blocks in these pages are also wider */
+        .page-portfolio .container > *,
+        .page-07-portfolio .container > *,
+        .page-typovye .container > *,
+        .page-nestandart .container > *,
+        .page-ekskluziv .container > *,
+        .page-otzyvy .container > *,
+        .page-klienty-i-partnery .container > *,
+        .page-sertifikaty .container > *,
+        .page-partners .container > *,
+        .page-reviews .container > *,
+        .page-certificates .container > *,
+        .page-stand-page .container > *,
+        .content-wrapper .container > * {
+            max-width: 1200px !important;
+        }
+        
+        /* Fix modal/gallery layout issues */
+        .portfolio-modal,
+        .review-modal,
+        .certificate-modal {
+            position: fixed !important;
+            z-index: 10000 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            background-color: rgba(0, 0, 0, 0.9) !important;
+            display: block !important;
+        }
+        
+        /* Force full-screen modal when displayed */
+        .portfolio-modal[style*=\"display: block\"],
+        .review-modal[style*=\"display: block\"],
+        .certificate-modal[style*=\"display: block\"] {
+            position: fixed !important;
+            z-index: 10000 !important;
+            left: 0 !important;
+            top: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            background-color: rgba(0, 0, 0, 0.9) !important;
+        }
+        
+        /* Override ALL template-specific modal styles with maximum specificity */
+        .portfolio-modal,
+        .review-modal,
+        .certificate-modal,
+        #portfolioModal,
+        .portfolio-modal.portfolio-modal,
+        .review-modal.review-modal,
+        .certificate-modal.certificate-modal {
+            position: fixed !important;
+            z-index: 900000 !important;
+            left: 0 !important;
+            top: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            min-width: 100vw !important;
+            min-height: 100vh !important;
+            background-color: rgba(0, 0, 0, 0.9) !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            border: none !important;
+            border-radius: 0 !important;
+            transform: none !important;
+            box-sizing: border-box !important;
+        }
+        
+        /* Force modal to escape ALL container constraints */
+        body .portfolio-modal,
+        html .portfolio-modal,
+        * .portfolio-modal,
+        body #portfolioModal,
+        html #portfolioModal,
+        * #portfolioModal {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+        }
+        
+        /* Ensure custom modal is hidden by default */
+        .portfolio-modal:not([style*=\"display: block\"]),
+        .review-modal:not([style*=\"display: block\"]),
+        .certificate-modal:not([style*=\"display: block\"]) {
+            display: none !important;
+        }
+        
+        /* Override modal content positioning */
+        .modal-content,
+        .portfolio-modal .modal-content,
+        .review-modal .modal-content,
+        .certificate-modal .modal-content,
+        #portfolioModal .modal-content {
+            position: fixed !important;
+            margin: 0 !important;
+            padding: 20px !important;
+            width: 90% !important;
+            max-width: 800px !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            text-align: center !important;
+            z-index: 900001 !important;
+        }
+        
+        .modal-content img {
+            width: auto !important;
+            height: auto !important;
+            max-width: 100% !important;
+            max-height: 80vh !important;
+            object-fit: contain !important;
+            border-radius: 8px !important;
+        }
+        
+        /* Override container styles for modal elements with higher specificity */
+        .portfolio-modal.container,
+        .review-modal.container,
+        .certificate-modal.container,
+        .modal-content.container,
+        .portfolio-modal .container,
+        .review-modal .container,
+        .certificate-modal .container,
+        .modal-content .container {
+            text-align: center !important;
+            max-width: none !important;
+            width: auto !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        /* Override content-wrapper styles for modal elements */
+        .portfolio-modal.content-wrapper,
+        .review-modal.content-wrapper,
+        .certificate-modal.content-wrapper,
+        .modal-content.content-wrapper,
+        .portfolio-modal .content-wrapper,
+        .review-modal .content-wrapper,
+        .certificate-modal .content-wrapper,
+        .modal-content .content-wrapper {
+            max-width: none !important;
+            width: auto !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+        
+        /* === GALLERY SYSTEM ISOLATION === */
+        /* Isolate GLightbox elements from container styles - CAREFULLY */
+        .gslide-media,
+        .gslide-image img,
+        .gslide-video,
+        .gslide-inline,
+        .gslide-external {
+            max-width: none !important;
+            width: auto !important;
+            margin: 0 !important;
+            text-align: center !important;
+        }
+        
+        /* Ensure GLightbox overlay and controls work properly */
+        .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            min-width: 100vw !important;
+            min-height: 100vh !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            z-index: 999999 !important;
+            background: rgba(0, 0, 0, 0.9) !important;
+            transform: none !important;
+            box-sizing: border-box !important;
+            overflow: hidden !important;
+        }
+        
+        /* Force overlay to break out of all containers */
+        html, body {
+            position: relative !important;
+        }
+        
+        .goverlay {
+            position: fixed !important;
+            inset: 0 !important;
+        }
+        
+        /* Force overlay to escape any container constraints */
+        .goverlay,
+        .goverlay * {
+            max-width: none !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        
+        /* Additional overlay positioning fixes */
+        body .goverlay,
+        html .goverlay,
+        * .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+        }
+        
+        .goverlay.gopen {
+            visibility: visible !important;
+            opacity: 1 !important;
+        }
+        
+        .goverlay:not(.gopen) {
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+        
+        /* Ensure GLightbox controls are clickable */
+        .gclose,
+        .gnext,
+        .gprev,
+        .gslide-title,
+        .gslide-desc {
+            z-index: 1000001 !important;
+            pointer-events: auto !important;
+            cursor: pointer !important;
+        }
+        
+        .gcontainer {
+            z-index: 1000000 !important;
+            pointer-events: auto !important;
+        }
+        
+        /* Fix GLightbox image display */
+        .gslide-image {
+            z-index: 1000000 !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+        
+        .gslide-image img {
+            max-width: 90vw !important;
+            max-height: 90vh !important;
+            width: auto !important;
+            height: auto !important;
+            object-fit: contain !important;
+        }
+        
+        /* Ensure overlay is properly managed */
+        body.glightbox-open {
+            overflow: hidden !important;
+        }
+        
+        body:not(.glightbox-open) .goverlay {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+        }
+        
+        /* Force body and html to allow full positioning */
+        body.glightbox-open,
+        html.glightbox-open body,
+        body.glightbox-open * {
+            position: relative !important;
+        }
+        
+        /* Override all possible container constraints when GLightbox is open */
+        body.glightbox-open .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+            z-index: 999999 !important;
+            inset: 0 !important;
+        }
+        
+        /* Isolate lightbox gallery elements */
+        .lightbox-gallery,
+        .lightbox-gallery *,
+        .lightbox-gallery .lightbox-gallery__columns,
+        .lightbox-gallery .lightbox-gallery__column,
+        .gallery-item,
+        .gallery-item *,
+        .gallery-section,
+        .gallery-section * {
+            max-width: none !important;
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+        }
+        
+        /* Prevent any parent containers from constraining GLightbox */
+        .container .goverlay,
+        .content-wrapper .goverlay,
+        .page-content .goverlay,
+        #body-wrapper .goverlay,
+        main .goverlay,
+        section .goverlay,
+        div .goverlay {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+        }
+        
+        /* Ensure gallery images display properly */
+        .lightbox-gallery img,
+        .gallery-item img,
+        .portfolio-image img {
+            width: 100% !important;
+            height: auto !important;
+            display: block !important;
+            object-fit: cover !important;
+        }
+        
+        /* Fix portfolio grid layout */
+        .portfolio-grid,
+        .portfolio-item {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            max-width: none !important;
+        }
+        
+        /* Ensure hidden gallery data doesn't interfere */
+        .hidden-gallery-data,
+        .hidden-lightbox-item {
+            display: none !important;
+        }
+        
+        /* Force body and html to allow full modal positioning */
+        body:has(.portfolio-modal[style*=\"display: block\"]),
+        html:has(.portfolio-modal[style*=\"display: block\"]) {
+            overflow: hidden !important;
+        }
+        
+        /* Additional modal escape rules */
+        .portfolio-modal[style*=\"display: block\"],
+        #portfolioModal[style*=\"display: block\"] {
+            position: fixed !important;
+            top: 0 !important;
+            left: 0 !important;
+            right: 0 !important;
+            bottom: 0 !important;
+            width: 100vw !important;
+            height: 100vh !important;
+            max-width: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            transform: none !important;
+            z-index: 900000 !important;
+        }
     </style>
     {% do assets.addCss('theme://css-compiled/spectre'~compress) %}
     {% if theme_var('spectre.exp') %}{% do assets.addCss('theme://css-compiled/spectre-exp'~compress) %}{% endif %}
@@ -1526,6 +2460,10 @@ document.addEventListener('DOMContentLoaded', function() {
     {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
     {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
     {# Removed init.js since we're using inline JavaScript for dropdowns #}
+    
+    {# Load GLightbox for image galleries #}
+    {% do assets.addJs('https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js', {group: 'bottom'}) %}
+    {% do assets.addCss('https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css') %}
     
     {# Load external libraries based on theme config #}
     {% set theme_config = attribute(config.themes, config.system.pages.theme) %}
@@ -1970,6 +2908,77 @@ function hideChildDropdown(element) {
 
 // Enhanced hover behavior for better UX
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize GLightbox for all gallery images
+    if (typeof GLightbox !== 'undefined') {
+        const lightbox = GLightbox({
+            touchNavigation: true,
+            loop: true,
+            autoplayVideos: true,
+            closeOnOutsideClick: true,
+            openEffect: 'fade',
+            closeEffect: 'fade',
+            css: {
+                'overlay': 'goverlay',
+                'container': 'gcontainer',
+                'slide': 'gslide',
+                'image': 'gslide-image',
+                'video': 'gslide-video',
+                'inline': 'gslide-inline',
+                'title': 'gslide-title',
+                'description': 'gslide-desc',
+                'close': 'gclose',
+                'next': 'gnext',
+                'prev': 'gprev'
+            },
+            onOpen: function() {
+                document.body.classList.add('glightbox-open');
+                // Force overlay to cover full screen with maximum aggressiveness
+                setTimeout(() => {
+                    const overlay = document.querySelector('.goverlay');
+                    if (overlay) {
+                        // Move overlay to body if it's not already there
+                        if (overlay.parentNode !== document.body) {
+                            document.body.appendChild(overlay);
+                        }
+                        
+                        // Force all positioning styles
+                        overlay.style.cssText = `
+                            position: fixed !important;
+                            top: 0 !important;
+                            left: 0 !important;
+                            right: 0 !important;
+                            bottom: 0 !important;
+                            width: 100vw !important;
+                            height: 100vh !important;
+                            max-width: none !important;
+                            min-width: 100vw !important;
+                            min-height: 100vh !important;
+                            margin: 0 !important;
+                            padding: 0 !important;
+                            border: none !important;
+                            transform: none !important;
+                            z-index: 999999 !important;
+                            background: rgba(0, 0, 0, 0.9) !important;
+                            box-sizing: border-box !important;
+                            overflow: hidden !important;
+                            inset: 0 !important;
+                        `;
+                    }
+                }, 10);
+            },
+            onClose: function() {
+                document.body.classList.remove('glightbox-open');
+                // Ensure overlay is completely removed
+                const overlay = document.querySelector('.goverlay');
+                if (overlay) {
+                    overlay.style.visibility = 'hidden';
+                    overlay.style.opacity = '0';
+                    overlay.style.display = 'none';
+                }
+            }
+        });
+    }
+    
     // Ensure all dropdowns are closed on page load
     closeAllDropdowns();
     

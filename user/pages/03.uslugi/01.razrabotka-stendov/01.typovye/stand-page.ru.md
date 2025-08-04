@@ -101,6 +101,10 @@ gallery:
         exhibition_name: '312312'
         company_name: '312312'
         project_year: '312312'
+    -
+        images:
+            -
+                is_main: false
 ---
 
 # Типовые стенды
