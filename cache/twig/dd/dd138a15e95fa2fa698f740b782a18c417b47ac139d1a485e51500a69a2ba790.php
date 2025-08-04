@@ -1122,15 +1122,15 @@ function showModalImage() {
 }
 
 function nextImage() {
-    if (currentImageIndex < currentGallery.length - 1) {
-        currentImageIndex++;
+    if (currentGallery.length > 1) {
+        currentImageIndex = (currentImageIndex + 1) % currentGallery.length;
         showModalImage();
     }
 }
 
 function prevImage() {
-    if (currentImageIndex > 0) {
-        currentImageIndex--;
+    if (currentGallery.length > 1) {
+        currentImageIndex = (currentImageIndex - 1 + currentGallery.length) % currentGallery.length;
         showModalImage();
     }
 }
@@ -1918,15 +1918,15 @@ function showModalImage() {
 }
 
 function nextImage() {
-    if (currentImageIndex < currentGallery.length - 1) {
-        currentImageIndex++;
+    if (currentGallery.length > 1) {
+        currentImageIndex = (currentImageIndex + 1) % currentGallery.length;
         showModalImage();
     }
 }
 
 function prevImage() {
-    if (currentImageIndex > 0) {
-        currentImageIndex--;
+    if (currentGallery.length > 1) {
+        currentImageIndex = (currentImageIndex - 1 + currentGallery.length) % currentGallery.length;
         showModalImage();
     }
 }
