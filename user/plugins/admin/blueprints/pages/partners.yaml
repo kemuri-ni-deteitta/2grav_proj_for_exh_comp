@@ -65,11 +65,7 @@ form:
                   label: Веб-сайт (необязательно)
                   placeholder: https://example.com
                   help: Ссылка на сайт партнёра
-                .description:
-                  type: textarea
-                  label: Описание партнёрства
-                  placeholder: Краткое описание сотрудничества
-                  rows: 3
+
                 .featured:
                   type: toggle
                   label: Ключевой партнёр

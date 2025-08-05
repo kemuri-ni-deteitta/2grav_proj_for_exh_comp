@@ -62,20 +62,7 @@ form:
                     - .webp
                     - .svg
                   help: Загрузите логотип компании. Максимальный размер 2MB.
-                .partnership_type:
-                  type: select
-                  label: Тип сотрудничества
-                  options:
-                    client: 'Клиент'
-                    partner: 'Партнер'
-                    supplier: 'Поставщик'
-                    strategic: 'Стратегический партнер'
-                  default: client
-                .description:
-                  type: textarea
-                  label: Описание сотрудничества (необязательно)
-                  placeholder: Краткое описание партнерства или выполненных проектов
-                  rows: 3
+
                 .website:
                   type: url
                   label: Веб-сайт (необязательно)

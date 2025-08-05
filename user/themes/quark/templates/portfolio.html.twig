@@ -86,8 +86,6 @@
                             {% for item in all_portfolio_items %}
                                 {% set gallery_item = item.gallery_item %}
                                 {% set page_obj = item.page %}
-                                
-                                <div class="portfolio-item" data-type="{{ item.stand_type ?: 'unknown' }}">
                                     {% set project_images = [] %}
                                     {% set main_image = null %}
                                     {% set title = gallery_item.title ?: 'Проект' %}
@@ -174,7 +172,8 @@
                                         {% set thumb_width = 400 %}
                                         {% set thumb_height = 300 %}
                                         
-                                        <div class="portfolio-card">
+                                        <div class="portfolio-item" data-type="{{ item.stand_type ?: 'unknown' }}">
+                                            <div class="portfolio-card">
                                             <div class="portfolio-image">
                                                 <img src="{{ main_image.url }}" 
                                                      alt="{{ title }}"
@@ -250,8 +249,8 @@
                                                 {% endif %}
                                             </div>
                                         </div>
+                                        </div>
                                     {% endif %}
-                                </div>
                             {% endfor %}
                         </div>
                     </div>
@@ -749,15 +748,24 @@ document.addEventListener('DOMContentLoaded', function() {
             this.classList.add('active');
             
             // Filter items
-            portfolioItems.forEach(item => {
+            portfolioItems.forEach((item, index) => {
                 const itemType = item.dataset.type;
                 
                 if (filterValue === 'all' || itemType === filterValue) {
                     item.classList.remove('filtered-out');
+                    item.style.order = ''; // Reset order
                 } else {
                     item.classList.add('filtered-out');
                 }
             });
+            
+            // Force grid recalculation
+            const grid = document.querySelector('.portfolio-grid');
+            if (grid) {
+                grid.style.display = 'none';
+                grid.offsetHeight; // Trigger reflow
+                grid.style.display = 'grid';
+            }
         });
     });
 });

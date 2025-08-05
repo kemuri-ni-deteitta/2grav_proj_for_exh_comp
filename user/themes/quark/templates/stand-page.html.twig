@@ -34,6 +34,16 @@
                                     {% set company_name = gallery_item.company_name ?: '' %}
                                     {% set project_year = gallery_item.project_year ?: '' %}
                                     
+                                    {# Determine stand type based on page slug #}
+                                    {% set stand_type = null %}
+                                    {% if page.slug == 'typovye' %}
+                                        {% set stand_type = 'typovye' %}
+                                    {% elseif page.slug == 'nestandart' %}
+                                        {% set stand_type = 'nestandart' %}
+                                    {% elseif page.slug == 'ekskluziv' %}
+                                        {% set stand_type = 'ekskluziv' %}
+                                    {% endif %}
+                                    
                                     {# Handle multiple images structure #}
                                     {% if gallery_item.images %}
                                         {% for img_item in gallery_item.images %}
@@ -136,6 +146,19 @@
                                                 <h4 class="portfolio-title">{{ title }}</h4>
                                                 
                                                 <div class="portfolio-metadata">
+                                                    {% if stand_type %}
+                                                        <div class="metadata-item">
+                                                            <span class="label">Тип стенда:</span>
+                                                            <span class="value stand-type-{{ stand_type }}">
+                                                                {% if stand_type == 'typovye' %}Типовой
+                                                                {% elseif stand_type == 'nestandart' %}Нестандартный
+                                                                {% elseif stand_type == 'ekskluziv' %}Эксклюзивный
+                                                                {% else %}{{ stand_type }}
+                                                                {% endif %}
+                                                            </span>
+                                                        </div>
+                                                    {% endif %}
+                                                    
                                                     {% if construction_area %}
                                                         <div class="metadata-item">
                                                             <span class="label">Площадь:</span>
@@ -204,6 +227,8 @@
 {% set portfolio_styles %}
 .portfolio-section {
     margin: 30px 0;
+    max-width: none !important;
+    width: 100% !important;
 }
 
 .gallery-header {
@@ -241,9 +266,9 @@
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin: 2rem 0;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
 }
 
 .portfolio-item {
@@ -493,6 +518,7 @@
     .portfolio-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
+        margin: 1.5rem 0;
     }
     
     .portfolio-image {
@@ -511,6 +537,20 @@
     
     .gallery-header h2 {
         font-size: 24px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .portfolio-grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 2rem;
     }
 }
 {% endset %}
