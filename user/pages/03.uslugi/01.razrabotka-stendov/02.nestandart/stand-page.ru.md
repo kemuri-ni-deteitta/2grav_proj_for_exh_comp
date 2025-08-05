@@ -5,44 +5,43 @@ visible: true
 template: stand-page
 gallery:
     -
-        title: 'Нестандартный стенд'
-        desc: 'Индивидуальный дизайн с дополнительными элементами'
         images:
             -
-                caption: 'Логотип компании'
                 is_main: false
                 image_upload:
-                    user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/solver_logo.jpg:
-                        name: solver_logo.jpg
-                        full_path: solver_logo.jpg
+                    user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/2.jpg:
+                        name: 2.jpg
+                        full_path: 2.jpg
                         type: image/jpeg
-                        size: 15591
-                        path: user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/solver_logo.jpg
-        construction_area: '48 м²'
-        exhibition_name: 'Металлообработка 2024'
-        company_name: 'ООО "Солвер"'
-        project_year: '2024'
-    -
-        title: 'Проект с сертификатом'
-        desc: 'Награжденный проект с благодарностью'
-        images:
+                        size: 287975
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/2.jpg
             -
                 is_main: false
                 image_upload:
-                    user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/20250804205622-nagr2.jpg:
-                        name: 20250804205622-nagr2.jpg
+                    user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/8.jpg:
+                        name: 8.jpg
+                        full_path: 8.jpg
+                        type: image/jpeg
+                        size: 218837
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/8.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/3.jpg:
+                        name: 3.jpg
+                        full_path: 3.jpg
+                        type: image/jpeg
+                        size: 238527
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/3.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/nagr2.jpg:
+                        name: nagr2.jpg
                         full_path: nagr2.jpg
                         type: image/jpeg
                         size: 366793
-                        path: user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/20250804205622-nagr2.jpg
-        construction_area: '72 м²'
-        exhibition_name: 'WorldFood Moscow 2024'
-        company_name: 'Партнер проекта'
-        project_year: '2024'
-    -
-        images:
-            -
-                is_main: false
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/02.nestandart/nagr2.jpg
 ---
 
 # Нестандартные стенды

@@ -35,6 +35,44 @@ gallery:
                         type: image/jpeg
                         size: 366793
                         path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/nagr2.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805183158-3.jpg:
+                        name: 20250805183158-3.jpg
+                        full_path: 3.jpg
+                        type: image/jpeg
+                        size: 238527
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805183158-3.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/2.jpg:
+                        name: 2.jpg
+                        full_path: 2.jpg
+                        type: image/jpeg
+                        size: 287975
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/2.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185007-nagr2.jpg:
+                        name: 20250805185007-nagr2.jpg
+                        full_path: nagr2.jpg
+                        type: image/jpeg
+                        size: 366793
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185007-nagr2.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185010-3.jpg:
+                        name: 20250805185010-3.jpg
+                        full_path: 3.jpg
+                        type: image/jpeg
+                        size: 238527
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185010-3.jpg
+            -
+                is_main: false
     -
         images:
             -
@@ -46,6 +84,42 @@ gallery:
                         type: image/jpeg
                         size: 218837
                         path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/8.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805181319-3.jpg:
+                        name: 20250805181319-3.jpg
+                        full_path: 3.jpg
+                        type: image/jpeg
+                        size: 238527
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805181319-3.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185131-8.jpg:
+                        name: 20250805185131-8.jpg
+                        full_path: 8.jpg
+                        type: image/jpeg
+                        size: 218837
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185131-8.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185148-8.jpg:
+                        name: 20250805185148-8.jpg
+                        full_path: 8.jpg
+                        type: image/jpeg
+                        size: 218837
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185148-8.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185153-5.jpg:
+                        name: 20250805185153-5.jpg
+                        full_path: 5.jpg
+                        type: image/jpeg
+                        size: 244921
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805185153-5.jpg
     -
         images:
             -
@@ -68,6 +142,46 @@ gallery:
                         type: image/jpeg
                         size: 238527
                         path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250804213517-3.jpg
+    -
+        images:
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805212405-2.jpg:
+                        name: 20250805212405-2.jpg
+                        full_path: 2.jpg
+                        type: image/jpeg
+                        size: 287975
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805212405-2.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805212410-8.jpg:
+                        name: 20250805212410-8.jpg
+                        full_path: 8.jpg
+                        type: image/jpeg
+                        size: 218837
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805212410-8.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805212417-2.jpg:
+                        name: 20250805212417-2.jpg
+                        full_path: 2.jpg
+                        type: image/jpeg
+                        size: 287975
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805212417-2.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805212420-8.jpg:
+                        name: 20250805212420-8.jpg
+                        full_path: 8.jpg
+                        type: image/jpeg
+                        size: 218837
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805212420-8.jpg
+            -
+                is_main: false
 ---
 
 # Типовые стенды

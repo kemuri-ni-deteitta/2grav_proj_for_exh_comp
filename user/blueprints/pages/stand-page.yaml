@@ -47,15 +47,25 @@ form:
               btnLabel: Добавить изображение
               
               fields:
-                .image:
-                  type: filepicker
-                  label: Изображение
-                  preview_images: true
+                .image_upload:
+                  type: file
+                  label: Загрузить изображение
+                  multiple: false
+                  limit: 1
+                  filesize: 8
                   accept:
                     - image/jpeg
                     - image/png
                     - image/gif
                     - image/webp
+                    - '.jpg'
+                    - '.jpeg'
+                    - '.png'
+                    - '.gif'
+                    - '.webp'
+                  help: "Загрузите изображение стенда. Максимальный размер 8MB."
+                  avoid_overwriting: false
+                  random_name: true
                     
                 .title:
                   type: text

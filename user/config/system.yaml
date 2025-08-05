@@ -54,3 +54,28 @@ gpm:
 
 strict_mode:
   blueprint_compat: true
+
+# Media upload settings to prevent filename issues
+media:
+  enable_media_timestamp: false
+  auto_metadata_exif: false
+  
+# Image settings
+images:
+  default_image_quality: 85
+  cache_all: false
+  auto_fix_orientation: true
+  seofriendly: false
+
+# Form settings for file uploads
+forms:
+  files:
+    multiple: true
+    limit: 10
+    filesize: 8
+    accept:
+      - 'image/*'
+    avoid_overwriting: false
+    random_name: true
+
+

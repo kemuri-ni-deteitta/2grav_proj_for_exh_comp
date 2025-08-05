@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/system.yaml',
-    'modified' => 1754404907,
-    'size' => 707,
+    'modified' => 1754418166,
+    'size' => 1133,
     'data' => [
         'absolute_urls' => false,
         'languages' => [
@@ -65,6 +65,28 @@ return [
         ],
         'strict_mode' => [
             'blueprint_compat' => true
+        ],
+        'media' => [
+            'enable_media_timestamp' => false,
+            'auto_metadata_exif' => false
+        ],
+        'images' => [
+            'default_image_quality' => 85,
+            'cache_all' => false,
+            'auto_fix_orientation' => true,
+            'seofriendly' => false
+        ],
+        'forms' => [
+            'files' => [
+                'multiple' => true,
+                'limit' => 10,
+                'filesize' => 8,
+                'accept' => [
+                    0 => 'image/*'
+                ],
+                'avoid_overwriting' => false,
+                'random_name' => true
+            ]
         ]
     ]
 ];

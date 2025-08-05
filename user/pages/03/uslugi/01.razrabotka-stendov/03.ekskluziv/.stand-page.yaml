@@ -78,14 +78,18 @@ form:
                       limit: 1
                       filesize: 8
                       accept:
-                        - .jpg
-                        - .jpeg
-                        - .png
-                        - .gif
-                        - .webp
+                        - image/jpeg
+                        - image/png
+                        - image/gif
+                        - image/webp
+                        - '.jpg'
+                        - '.jpeg'
+                        - '.png'
+                        - '.gif'
+                        - '.webp'
                       help: "Загрузите фотографию стенда. Рекомендуемое разрешение: от 1200x800px. Максимальный размер 8MB."
-                      avoid_overwriting: true
-                      random_name: false
+                      avoid_overwriting: false
+                      random_name: true
                       
                     .caption:
                       type: text

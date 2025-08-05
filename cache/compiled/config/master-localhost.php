@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1754404923,
-    'checksum' => '659a590f2fb7d32388cd724b3beb40f3',
+    'timestamp' => 1754418370,
+    'checksum' => '2cadae1a182189da2ac453091caa0196',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1752685988
+            ],
+            'plugins/admin' => [
+                'file' => 'user/config/plugins/admin.yaml',
+                'modified' => 1754418361
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
@@ -23,7 +27,7 @@ return [
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1752678882
+                'modified' => 1754418166
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
@@ -31,7 +35,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1754404907
+                'modified' => 1754418166
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -330,7 +334,8 @@ return [
                             'critical-bg' => '#F45857',
                             'critical-text' => '#ffffff'
                         ]
-                    ]
+                    ],
+                    'custom_footer' => ''
                 ]
             ],
             'email' => [
@@ -4180,6 +4185,18 @@ node_modules'
                 'yaml_compat' => false,
                 'twig_compat' => false,
                 'blueprint_compat' => true
+            ],
+            'forms' => [
+                'files' => [
+                    'multiple' => true,
+                    'limit' => 10,
+                    'filesize' => 8,
+                    'accept' => [
+                        0 => 'image/*'
+                    ],
+                    'avoid_overwriting' => false,
+                    'random_name' => true
+                ]
             ]
         ],
         'versions' => [
