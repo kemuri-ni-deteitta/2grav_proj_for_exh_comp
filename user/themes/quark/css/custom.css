@@ -929,3 +929,44 @@ select[name*="service"]:focus {
     font-size: 1rem;
   }
 }
+
+/* ===== Grav Form: position Dropzone remove button to the right of the file ===== */
+/* Ensure preview acts as positioning context */
+.dropzone.files-upload .dz-preview {
+  position: relative;
+}
+
+/* Move the remove link (cross) to the top-right of the file tile */
+.dropzone.files-upload .dz-preview .dz-remove {
+  position: absolute !important;
+  top: 6px !important;
+  right: 6px !important;
+  display: block !important; /* ensure it's visible even when not hovering */
+  width: 22px !important;
+  height: 22px !important;
+  line-height: 22px !important;
+  text-align: center !important;
+  background: rgba(0, 0, 0, 0.55) !important;
+  color: #fff !important;
+  border-radius: 50% !important;
+  text-decoration: none !important;
+  border: 0 !important;
+  font-weight: 700 !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  font-size: 0 !important; /* hide long label text */
+  z-index: 50 !important; /* above image/details overlays */
+}
+
+/* Optional hover emphasis */
+.dropzone.files-upload .dz-preview .dz-remove:hover {
+  background: rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Show a cross symbol instead of the text label */
+.dropzone.files-upload .dz-preview .dz-remove:before {
+  content: '×';
+  font-size: 16px !important;
+  line-height: 22px !important;
+  display: inline-block !important;
+}
