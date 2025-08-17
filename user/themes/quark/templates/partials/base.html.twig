@@ -20,6 +20,16 @@
 
 {% block stylesheets %}
     <style>
+        /* Prevent double-tap zoom while keeping pinch-zoom */
+        html, body,
+        a, button, [role="button"],
+        img, .lightbox-gallery img, .gallery-item img, .portfolio-image img,
+        .gslide-image img,
+        .gcontainer, .gslide, .goverlay,
+        .gnext, .gprev, .gclose {
+            touch-action: manipulation;
+            -ms-touch-action: manipulation;
+        }
         /* Ensure consistent top spacing across all pages */
         .section.main-content {
             padding-top: 0 !important;
@@ -550,6 +560,34 @@
     <link rel="stylesheet" href="{{ url('theme://css/mobile-navigation.css') }}" media="all" />
     {{ assets.js()|raw }}
 {% endblock %}
+
+<script>
+// Prevent double-tap zoom specifically on GLightbox controls (next/prev/close)
+document.addEventListener('DOMContentLoaded', function() {
+    var lastTouchTime = 0;
+    function preventDoubleTapZoom(e) {
+        var now = Date.now();
+        if (now - lastTouchTime < 350) {
+            e.preventDefault();
+        }
+        lastTouchTime = now;
+    }
+
+    ['.gnext', '.gprev', '.gclose'].forEach(function(sel) {
+        document.body.addEventListener('touchend', function(e) {
+            if (e.target.closest(sel)) {
+                preventDoubleTapZoom(e);
+            }
+        }, { passive: false });
+        document.body.addEventListener('dblclick', function(e) {
+            if (e.target.closest(sel)) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        }, true);
+    });
+});
+</script>
 
 <script>
 // ===== NAVBAR TIMING CONFIGURATION =====
