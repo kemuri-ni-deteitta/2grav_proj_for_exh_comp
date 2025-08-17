@@ -1292,7 +1292,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 </head>
-<body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}" style="margin: 0 !important; padding: 0 !important; padding-top: 80px !important;">
+<body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}" style="margin: 0 !important; padding: 0 !important;">
     
     {# Desktop Navigation - Hidden on mobile devices #}
     {% if not isMobile() %}
@@ -1403,9 +1403,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     {% block hero %}{% endblock %}
 
-        <section id="start" style="margin-top: -20px !important;">
+        <section id="start" style="margin-top: 0 !important;">
         {% block body %}
-            <section id="body-wrapper" class="section" style="padding-top: 40px !important;">
+            <section id="body-wrapper" class="section" style="padding-top: 80px !important;">
                 <section class="container {{ grid_size }}" style="margin-top: 0 !important; padding-top: 0 !important; max-width: 95% !important; width: 95% !important; margin-left: auto !important; margin-right: auto !important; text-align: center !important;">
                     {% block messages %}
                         {% include 'partials/messages.html.twig' ignore missing %}
