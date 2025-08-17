@@ -31,6 +31,14 @@
     display: flex;
     align-items: center;
     width: 100%;
+    position: relative;
+}
+
+.mobile-nav-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
 }
 
 .mobile-nav-toggle {
@@ -77,6 +85,22 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.mobile-logo {
+    height: 36px;
+    width: auto;
+    display: block;
+}
+
+/* Keep hamburger left, center logo in header */
+.mobile-nav-toggle {
+    position: absolute;
+    left: 10px;
 }
 
 .mobile-nav-content {

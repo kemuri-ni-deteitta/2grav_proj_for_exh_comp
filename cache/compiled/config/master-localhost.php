@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1755448235,
-    'checksum' => 'eeaf008a045368ba78270ecd88953672',
+    'timestamp' => 1755448576,
+    'checksum' => '1b738120f5bb80a3c2564896fed20dc6',
     'files' => [
         'user/config' => [
             'media' => [
@@ -39,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1755448231
+                'modified' => 1755448573
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',

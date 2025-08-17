@@ -55,25 +55,30 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
             <a href=\"";
         // line 20
         (((($context["base_url"] ?? null) == "")) ? (print ("/")) : (print (twig_escape_filter($this->env, ($context["base_url"] ?? null), "html", null, true))));
-        echo "\">";
+        echo "\" aria-label=\"Home\">
+                <img src=\"";
+        // line 21
+        echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://images/logo/logo.gif"), "html", null, true);
+        echo "\" alt=\"";
         echo twig_escape_filter($this->env, $this->getAttribute(($context["site"] ?? null), "title", []), "html", null, true);
-        echo "</a>
+        echo "\" class=\"mobile-logo\" />
+            </a>
         </div>
     </div>
     
     <div class=\"mobile-nav-content\" id=\"mobile-nav-content\">
         ";
-        // line 25
+        // line 27
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "children", []), "visible", []));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 26
+            // line 28
             echo "            ";
             if (($this->getAttribute($context["p"], "slug", []) == "otpravit-zayavku")) {
-                // line 27
+                // line 29
                 echo "            <div class=\"mobile-cta\">
                 <a href=\"";
-                // line 28
+                // line 30
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "url", []), "html", null, true);
                 echo "\">";
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "menu", []), "html", null, true);
@@ -81,83 +86,83 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
             </div>
             ";
             }
-            // line 31
+            // line 33
             echo "        ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 32
+        // line 34
         echo "        <ul class=\"mobile-nav-menu\">
             ";
-        // line 33
+        // line 35
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "children", []), "visible", []));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 34
-            echo "                ";
-            $context["active_page"] = ((($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", []))) ? ("active") : (""));
-            // line 35
-            echo "                ";
-            $context["has_children"] = ($this->getAttribute($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []), "count", []) > 0);
             // line 36
             echo "                ";
-            $context["show_children"] = (($context["has_children"] ?? null) && ($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", [])));
+            $context["active_page"] = ((($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", []))) ? ("active") : (""));
             // line 37
+            echo "                ";
+            $context["has_children"] = ($this->getAttribute($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []), "count", []) > 0);
+            // line 38
+            echo "                ";
+            $context["show_children"] = (($context["has_children"] ?? null) && ($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", [])));
+            // line 39
             echo "                
                 ";
-            // line 39
+            // line 41
             echo "                ";
             if (($this->getAttribute($context["p"], "slug", []) == "portfolio")) {
-                // line 40
+                // line 42
                 echo "                    ";
                 $context["visible_children"] = [];
-                // line 41
+                // line 43
                 echo "                    ";
                 $context['_parent'] = $context;
                 $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []));
                 foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-                    // line 42
+                    // line 44
                     echo "                        ";
                     if (($this->getAttribute($context["child"], "template", []) != "portfolio-item")) {
-                        // line 43
+                        // line 45
                         echo "                            ";
                         $context["visible_children"] = twig_array_merge(($context["visible_children"] ?? null), [0 => $context["child"]]);
-                        // line 44
+                        // line 46
                         echo "                        ";
                     }
-                    // line 45
+                    // line 47
                     echo "                    ";
                 }
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 46
+                // line 48
                 echo "                    ";
                 $context["has_children"] = (twig_length_filter($this->env, ($context["visible_children"] ?? null)) > 0);
-                // line 47
+                // line 49
                 echo "                    ";
                 $context["show_children"] = (($context["has_children"] ?? null) && ($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", [])));
-                // line 48
+                // line 50
                 echo "                ";
             }
-            // line 49
+            // line 51
             echo "                
                 ";
-            // line 50
+            // line 52
             if (($this->getAttribute($context["p"], "slug", []) != "otpravit-zayavku")) {
-                // line 51
+                // line 53
                 echo "                <li class=\"mobile-nav-item ";
                 if (($context["has_children"] ?? null)) {
                     echo "has-children";
                 }
                 echo "\" 
                     data-has-children=\"";
-                // line 52
+                // line 54
                 echo ((($context["has_children"] ?? null)) ? ("true") : ("false"));
                 echo "\">
                     <a href=\"";
-                // line 53
+                // line 55
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "url", []), "html", null, true);
                 echo "\" class=\"mobile-nav-link ";
                 if (($context["active_page"] ?? null)) {
@@ -165,50 +170,50 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
                 }
                 echo "\">
                         ";
-                // line 54
+                // line 56
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "menu", []), "html", null, true);
                 echo "
                         ";
-                // line 55
+                // line 57
                 if (($context["has_children"] ?? null)) {
-                    // line 56
+                    // line 58
                     echo "                            <span class=\"mobile-dropdown-arrow\">▼</span>
                         ";
                 }
-                // line 58
+                // line 60
                 echo "                    </a>
                     
                     ";
-                // line 60
+                // line 62
                 if (($context["has_children"] ?? null)) {
-                    // line 61
+                    // line 63
                     echo "                        <ul class=\"mobile-dropdown-menu\">
                             ";
-                    // line 62
+                    // line 64
                     $context['_parent'] = $context;
                     $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []));
                     foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-                        // line 63
+                        // line 65
                         echo "                                ";
-                        // line 64
+                        // line 66
                         echo "                                ";
                         if ( !(($this->getAttribute($context["p"], "slug", []) == "portfolio") && ($this->getAttribute($context["child"], "template", []) == "portfolio-item"))) {
-                            // line 65
+                            // line 67
                             echo "                                    ";
                             $context["child_active"] = ((($this->getAttribute($context["child"], "active", []) || $this->getAttribute($context["child"], "activeChild", []))) ? ("active") : (""));
-                            // line 66
+                            // line 68
                             echo "                                    ";
                             $context["child_has_children"] = ($this->getAttribute($this->getAttribute($this->getAttribute($context["child"], "children", []), "visible", []), "count", []) > 0);
-                            // line 67
+                            // line 69
                             echo "                                    
                                     <li class=\"mobile-dropdown-item ";
-                            // line 68
+                            // line 70
                             if (($context["child_has_children"] ?? null)) {
                                 echo "has-children";
                             }
                             echo "\">
                                         <a href=\"";
-                            // line 69
+                            // line 71
                             echo twig_escape_filter($this->env, $this->getAttribute($context["child"], "url", []), "html", null, true);
                             echo "\" class=\"mobile-dropdown-link ";
                             if (($context["child_active"] ?? null)) {
@@ -216,36 +221,36 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
                             }
                             echo "\">
                                             ";
-                            // line 70
+                            // line 72
                             echo twig_escape_filter($this->env, $this->getAttribute($context["child"], "menu", []), "html", null, true);
                             echo "
                                             ";
-                            // line 71
+                            // line 73
                             if (($context["child_has_children"] ?? null)) {
-                                // line 72
+                                // line 74
                                 echo "                                                <span class=\"mobile-dropdown-arrow\">▶</span>
                                             ";
                             }
-                            // line 74
+                            // line 76
                             echo "                                        </a>
                                         
                                         ";
-                            // line 76
+                            // line 78
                             if (($context["child_has_children"] ?? null)) {
-                                // line 77
+                                // line 79
                                 echo "                                            <ul class=\"mobile-child-dropdown-menu\">
                                                 ";
-                                // line 78
+                                // line 80
                                 $context['_parent'] = $context;
                                 $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["child"], "children", []), "visible", []));
                                 foreach ($context['_seq'] as $context["_key"] => $context["grandchild"]) {
-                                    // line 79
+                                    // line 81
                                     echo "                                                    ";
                                     $context["grandchild_active"] = ((($this->getAttribute($context["grandchild"], "active", []) || $this->getAttribute($context["grandchild"], "activeChild", []))) ? ("active") : (""));
-                                    // line 80
+                                    // line 82
                                     echo "                                                    <li class=\"mobile-child-dropdown-item\">
                                                         <a href=\"";
-                                    // line 81
+                                    // line 83
                                     echo twig_escape_filter($this->env, $this->getAttribute($context["grandchild"], "url", []), "html", null, true);
                                     echo "\" class=\"mobile-child-dropdown-link ";
                                     if (($context["grandchild_active"] ?? null)) {
@@ -253,7 +258,7 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
                                     }
                                     echo "\">
                                                             ";
-                                    // line 82
+                                    // line 84
                                     echo twig_escape_filter($this->env, $this->getAttribute($context["grandchild"], "menu", []), "html", null, true);
                                     echo "
                                                         </a>
@@ -263,35 +268,35 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
                                 $_parent = $context['_parent'];
                                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['grandchild'], $context['_parent'], $context['loop']);
                                 $context = array_intersect_key($context, $_parent) + $_parent;
-                                // line 86
+                                // line 88
                                 echo "                                            </ul>
                                         ";
                             }
-                            // line 88
+                            // line 90
                             echo "                                    </li>
                                 ";
                         }
-                        // line 90
+                        // line 92
                         echo "                            ";
                     }
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-                    // line 91
+                    // line 93
                     echo "                        </ul>
                     ";
                 }
-                // line 93
+                // line 95
                 echo "                </li>
                 ";
             }
-            // line 95
+            // line 97
             echo "            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 96
+        // line 98
         echo "        </ul>
     </div>
 </nav>
@@ -299,7 +304,7 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
 <div class=\"mobile-nav-overlay\" id=\"mobile-nav-overlay\"></div>
 
 ";
-        // line 103
+        // line 105
         echo "<script>
 document.addEventListener('DOMContentLoaded', function() {
     const mobileNavToggle = document.getElementById('mobile-nav-toggle');
@@ -450,7 +455,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     public function getDebugInfo()
     {
-        return array (  303 => 103,  295 => 96,  289 => 95,  285 => 93,  281 => 91,  275 => 90,  271 => 88,  267 => 86,  257 => 82,  249 => 81,  246 => 80,  243 => 79,  239 => 78,  236 => 77,  234 => 76,  230 => 74,  226 => 72,  224 => 71,  220 => 70,  212 => 69,  206 => 68,  203 => 67,  200 => 66,  197 => 65,  194 => 64,  192 => 63,  188 => 62,  185 => 61,  183 => 60,  179 => 58,  175 => 56,  173 => 55,  169 => 54,  161 => 53,  157 => 52,  150 => 51,  148 => 50,  145 => 49,  142 => 48,  139 => 47,  136 => 46,  130 => 45,  127 => 44,  124 => 43,  121 => 42,  116 => 41,  113 => 40,  110 => 39,  107 => 37,  104 => 36,  101 => 35,  98 => 34,  94 => 33,  91 => 32,  85 => 31,  77 => 28,  74 => 27,  71 => 26,  67 => 25,  57 => 20,  47 => 12,  44 => 10,  42 => 9,  40 => 8,  37 => 6,  35 => 5,  32 => 3,  30 => 2,);
+        return array (  308 => 105,  300 => 98,  294 => 97,  290 => 95,  286 => 93,  280 => 92,  276 => 90,  272 => 88,  262 => 84,  254 => 83,  251 => 82,  248 => 81,  244 => 80,  241 => 79,  239 => 78,  235 => 76,  231 => 74,  229 => 73,  225 => 72,  217 => 71,  211 => 70,  208 => 69,  205 => 68,  202 => 67,  199 => 66,  197 => 65,  193 => 64,  190 => 63,  188 => 62,  184 => 60,  180 => 58,  178 => 57,  174 => 56,  166 => 55,  162 => 54,  155 => 53,  153 => 52,  150 => 51,  147 => 50,  144 => 49,  141 => 48,  135 => 47,  132 => 46,  129 => 45,  126 => 44,  121 => 43,  118 => 42,  115 => 41,  112 => 39,  109 => 38,  106 => 37,  103 => 36,  99 => 35,  96 => 34,  90 => 33,  82 => 30,  79 => 29,  76 => 28,  72 => 27,  61 => 21,  57 => 20,  47 => 12,  44 => 10,  42 => 9,  40 => 8,  37 => 6,  35 => 5,  32 => 3,  30 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -482,7 +487,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <span class=\"hamburger-line\"></span>
         </button>
         <div class=\"mobile-nav-brand\">
-            <a href=\"{{ base_url == '' ? '/' : base_url }}\">{{ site.title }}</a>
+            <a href=\"{{ base_url == '' ? '/' : base_url }}\" aria-label=\"Home\">
+                <img src=\"{{ url('theme://images/logo/logo.gif') }}\" alt=\"{{ site.title }}\" class=\"mobile-logo\" />
+            </a>
         </div>
     </div>
     
