@@ -970,3 +970,76 @@ select[name*="service"]:focus {
   line-height: 22px !important;
   display: inline-block !important;
 }
+
+/* ===== MOBILE CTA BUTTON - REMOVE ORANGE RECTANGLE ===== */
+/* Nuclear option to remove any unwanted elements from mobile CTA button */
+.mobile-cta a,
+.mobile-cta a *,
+.mobile-cta a::before,
+.mobile-cta a::after,
+.mobile-cta a *::before,
+.mobile-cta a *::after {
+  all: unset !important;
+  content: none !important;
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  width: 0 !important;
+  height: 0 !important;
+  border: none !important;
+  background: none !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
+  z-index: -9999 !important;
+  pointer-events: none !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  border-color: transparent !important;
+  outline-color: transparent !important;
+  background-color: transparent !important;
+  color: transparent !important;
+}
+
+/* Restore the button itself with clean styling */
+.mobile-cta a {
+  all: revert !important;
+  display: block !important;
+  background: #034880 !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  padding: 12px 16px !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  position: relative !important;
+  width: auto !important;
+  height: auto !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 1 !important;
+  pointer-events: auto !important;
+  user-select: auto !important;
+  font-size: 1rem !important;
+  line-height: 1.2 !important;
+}
+
+/* Ensure no hover effects add unwanted elements */
+.mobile-cta a:hover,
+.mobile-cta a:focus,
+.mobile-cta a:active,
+.mobile-cta a:visited {
+  border-color: transparent !important;
+  outline-color: transparent !important;
+  background-color: #023a6b !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+}

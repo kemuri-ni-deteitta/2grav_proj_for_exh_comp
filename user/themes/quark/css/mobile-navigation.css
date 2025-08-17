@@ -53,31 +53,41 @@
     width: 30px;
     height: 24px;
     transition: all 0.3s ease;
+    position: relative;
+    z-index: 10001;
 }
 
 .mobile-nav-toggle.active {
-    transform: rotate(90deg);
+    transform: none;
 }
 
-.hamburger-line {
+.nav-line {
     width: 100%;
     height: 3px;
     background: #2c2c2c;
     border-radius: 2px;
     transition: all 0.3s ease;
     transform-origin: center;
+    position: relative;
 }
 
-.mobile-nav-toggle.active .hamburger-line:nth-child(1) {
+/* Transform first line to X */
+.mobile-nav-toggle.active .nav-line-1 {
     transform: rotate(45deg) translate(6px, 6px);
+    background: #ff6600;
 }
 
-.mobile-nav-toggle.active .hamburger-line:nth-child(2) {
-    opacity: 0;
-}
-
-.mobile-nav-toggle.active .hamburger-line:nth-child(3) {
+/* Transform second line to X */
+.mobile-nav-toggle.active .nav-line-2 {
     transform: rotate(-45deg) translate(6px, -6px);
+    background: #ff6600;
+}
+
+/* Debug: Make sure the transformation is visible */
+.mobile-nav-toggle.active .nav-line {
+    background: #ff6600 !important;
+    width: 100% !important;
+    height: 3px !important;
 }
 
 .mobile-nav-brand a {
@@ -101,6 +111,7 @@
 .mobile-nav-toggle {
     position: absolute;
     left: 10px;
+    z-index: 10001;
 }
 
 .mobile-nav-content {
@@ -229,6 +240,118 @@
     height: 0 !important;
     border: none !important;
     background: none !important;
+}
+
+/* Additional rules to remove the orange rectangle specifically */
+.mobile-cta a::before,
+.mobile-cta a::after {
+    all: unset !important;
+    content: none !important;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+    background: none !important;
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    color: transparent !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+/* Target any element that might have the orange border */
+.mobile-cta a *,
+.mobile-cta a *::before,
+.mobile-cta a *::after {
+    border-color: transparent !important;
+    background-color: transparent !important;
+    color: transparent !important;
+}
+
+/* Nuclear option - completely disable all pseudo-elements and borders */
+.mobile-cta a,
+.mobile-cta a * {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.mobile-cta a::before,
+.mobile-cta a::after,
+.mobile-cta a *::before,
+.mobile-cta a *::after {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    content: "" !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+    background: none !important;
+    color: transparent !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    z-index: -9999 !important;
+    pointer-events: none !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+}
+
+/* Specific override for any orange colors that might be applied */
+.mobile-cta a,
+.mobile-cta a:hover,
+.mobile-cta a:focus,
+.mobile-cta a:active,
+.mobile-cta a:visited {
+    border-color: transparent !important;
+    outline-color: transparent !important;
+    background-color: #034880 !important;
+    color: #ffffff !important;
+}
+
+/* Override any orange focus/active states */
+.mobile-cta a:focus,
+.mobile-cta a:active {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Final override - ensure no orange colors can appear */
+.mobile-cta a,
+.mobile-cta a *,
+.mobile-cta a::before,
+.mobile-cta a::after,
+.mobile-cta a *::before,
+.mobile-cta a *::after {
+    border-color: transparent !important;
+    outline-color: transparent !important;
+    background-color: transparent !important;
+    color: transparent !important;
+}
+
+.mobile-cta a {
+    background-color: #034880 !important;
+    color: #ffffff !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .mobile-cta a:hover {
