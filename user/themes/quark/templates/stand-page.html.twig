@@ -516,27 +516,46 @@
 
 @media (max-width: 768px) {
     .portfolio-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.75rem;
         margin: 1.5rem 0;
     }
-    
+    .portfolio-card {
+        border-radius: 10px;
+    }
     .portfolio-image {
-        min-height: 200px;
+        min-height: 140px;
+        max-height: 30vh;
     }
-    
+    .portfolio-image img {
+        padding: 0.5rem;
+    }
     .portfolio-info {
-        padding: 0.75rem 1rem;
+        padding: 0.5rem 0.75rem;
     }
-    
+    .portfolio-title {
+        font-size: 1rem;
+    }
+    .metadata-item {
+        font-size: 0.8rem;
+    }
+    .portfolio-description {
+        display: none;
+    }
     .gallery-header {
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
     }
-    
     .gallery-header h2 {
         font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-image {
+        min-height: 120px;
+        max-height: 28vh;
     }
 }
 

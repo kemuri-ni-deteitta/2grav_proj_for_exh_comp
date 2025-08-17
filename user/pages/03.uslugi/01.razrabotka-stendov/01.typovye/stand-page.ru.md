@@ -182,6 +182,39 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250805212420-8.jpg
             -
                 is_main: false
+    -
+        images:
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250817201249-3.jpg:
+                        name: 20250817201249-3.jpg
+                        full_path: 3.jpg
+                        type: image/jpeg
+                        size: 238527
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250817201249-3.jpg
+    -
+        images:
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250817201239-2.jpg:
+                        name: 20250817201239-2.jpg
+                        full_path: 2.jpg
+                        type: image/jpeg
+                        size: 287975
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250817201239-2.jpg
+    -
+        images:
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250817201235-8.jpg:
+                        name: 20250817201235-8.jpg
+                        full_path: 8.jpg
+                        type: image/jpeg
+                        size: 218837
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/01.typovye/20250817201235-8.jpg
 ---
 
 # Типовые стенды
