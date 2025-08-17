@@ -71,21 +71,21 @@
     position: relative;
 }
 
-/* Transform first line to X */
+/* Active state: only change color, no rotation */
 .mobile-nav-toggle.active .nav-line-1 {
-    transform: rotate(45deg) translate(6px, 6px);
+    transform: none;
     background: #ff6600;
 }
 
-/* Transform second line to X */
 .mobile-nav-toggle.active .nav-line-2 {
-    transform: rotate(-45deg) translate(6px, -6px);
+    transform: none;
     background: #ff6600;
 }
 
-/* Debug: Make sure the transformation is visible */
+/* Ensure all lines keep original shape, just change color */
 .mobile-nav-toggle.active .nav-line {
     background: #ff6600 !important;
+    transform: none !important;
     width: 100% !important;
     height: 3px !important;
 }

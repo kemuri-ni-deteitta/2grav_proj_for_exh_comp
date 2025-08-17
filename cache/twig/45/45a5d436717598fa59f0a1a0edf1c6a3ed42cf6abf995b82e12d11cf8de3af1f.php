@@ -45,71 +45,17 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
 ";
         // line 12
         echo "<style>
-/* Nuclear option to remove any orange buttons or unwanted elements */
-.mobile-cta a::before,
-.mobile-cta a::after,
-.mobile-cta a *::before,
-.mobile-cta a *::after,
-.mobile-nav-header button::before,
-.mobile-nav-header button::after,
-.mobile-nav-header *::before,
-.mobile-nav-header *::after {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    content: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    border: none !important;
-    background: none !important;
-    color: transparent !important;
-    position: absolute !important;
-    left: -9999px !important;
-    top: -9999px !important;
-    z-index: -9999 !important;
-    pointer-events: none !important;
-}
-
-/* Remove any orange colors from mobile navigation */
-.mobile-navigation *,
-.mobile-navigation *::before,
-.mobile-navigation *::after {
-    border-color: transparent !important;
-    outline-color: transparent !important;
-}
-
-/* Ensure mobile CTA button is clean */
-.mobile-cta a {
-    background: #034880 !important;
-    color: #ffffff !important;
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-/* X Transformation for navigation toggle */
-.mobile-nav-toggle.active .nav-line-1 {
-    transform: rotate(45deg) translate(6px, 6px) !important;
-    background: #ff6600 !important;
-}
-
-.mobile-nav-toggle.active .nav-line-2 {
-    transform: rotate(-45deg) translate(6px, -6px) !important;
-    background: #ff6600 !important;
-}
-
-/* Ensure lines are visible during transformation */
+/* Keep hamburger lines unchanged; only color turns orange when active */
+.mobile-nav-toggle.active .nav-line-1,
+.mobile-nav-toggle.active .nav-line-2,
 .mobile-nav-toggle.active .nav-line {
+    transform: none !important;
     background: #ff6600 !important;
-    width: 100% !important;
-    height: 3px !important;
-    opacity: 1 !important;
-    visibility: visible !important;
 }
 </style>
 
 ";
-        // line 77
+        // line 23
         echo "<nav class=\"mobile-navigation\" id=\"mobile-nav\">
     <div class=\"mobile-nav-header\">
         <button class=\"mobile-nav-toggle\" id=\"mobile-nav-toggle\" aria-label=\"Toggle Mobile Navigation\">
@@ -118,11 +64,11 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
         </button>
         <div class=\"mobile-nav-brand\">
             <a href=\"";
-        // line 84
+        // line 30
         (((($context["base_url"] ?? null) == "")) ? (print ("/")) : (print (twig_escape_filter($this->env, ($context["base_url"] ?? null), "html", null, true))));
         echo "\" aria-label=\"Home\">
                 <img src=\"";
-        // line 85
+        // line 31
         echo twig_escape_filter($this->env, $this->env->getExtension('Grav\Common\Twig\Extension\GravExtension')->urlFunc("theme://images/logo/logo.gif"), "html", null, true);
         echo "\" alt=\"";
         echo twig_escape_filter($this->env, $this->getAttribute(($context["site"] ?? null), "title", []), "html", null, true);
@@ -133,17 +79,17 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
     
     <div class=\"mobile-nav-content\" id=\"mobile-nav-content\">
         ";
-        // line 91
+        // line 37
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "children", []), "visible", []));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 92
+            // line 38
             echo "            ";
             if (($this->getAttribute($context["p"], "slug", []) == "otpravit-zayavku")) {
-                // line 93
+                // line 39
                 echo "            <div class=\"mobile-cta\">
                 <a href=\"";
-                // line 94
+                // line 40
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "url", []), "html", null, true);
                 echo "\">";
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "menu", []), "html", null, true);
@@ -151,83 +97,83 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
             </div>
             ";
             }
-            // line 97
+            // line 43
             echo "        ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 98
+        // line 44
         echo "        <ul class=\"mobile-nav-menu\">
             ";
-        // line 99
+        // line 45
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["pages"] ?? null), "children", []), "visible", []));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
-            // line 100
+            // line 46
             echo "                ";
             $context["active_page"] = ((($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", []))) ? ("active") : (""));
-            // line 101
+            // line 47
             echo "                ";
             $context["has_children"] = ($this->getAttribute($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []), "count", []) > 0);
-            // line 102
+            // line 48
             echo "                ";
             $context["show_children"] = (($context["has_children"] ?? null) && ($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", [])));
-            // line 103
+            // line 49
             echo "                
                 ";
-            // line 105
+            // line 51
             echo "                ";
             if (($this->getAttribute($context["p"], "slug", []) == "portfolio")) {
-                // line 106
+                // line 52
                 echo "                    ";
                 $context["visible_children"] = [];
-                // line 107
+                // line 53
                 echo "                    ";
                 $context['_parent'] = $context;
                 $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []));
                 foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-                    // line 108
+                    // line 54
                     echo "                        ";
                     if (($this->getAttribute($context["child"], "template", []) != "portfolio-item")) {
-                        // line 109
+                        // line 55
                         echo "                            ";
                         $context["visible_children"] = twig_array_merge(($context["visible_children"] ?? null), [0 => $context["child"]]);
-                        // line 110
+                        // line 56
                         echo "                        ";
                     }
-                    // line 111
+                    // line 57
                     echo "                    ";
                 }
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 112
+                // line 58
                 echo "                    ";
                 $context["has_children"] = (twig_length_filter($this->env, ($context["visible_children"] ?? null)) > 0);
-                // line 113
+                // line 59
                 echo "                    ";
                 $context["show_children"] = (($context["has_children"] ?? null) && ($this->getAttribute($context["p"], "active", []) || $this->getAttribute($context["p"], "activeChild", [])));
-                // line 114
+                // line 60
                 echo "                ";
             }
-            // line 115
+            // line 61
             echo "                
                 ";
-            // line 116
+            // line 62
             if (($this->getAttribute($context["p"], "slug", []) != "otpravit-zayavku")) {
-                // line 117
+                // line 63
                 echo "                <li class=\"mobile-nav-item ";
                 if (($context["has_children"] ?? null)) {
                     echo "has-children";
                 }
                 echo "\" 
                     data-has-children=\"";
-                // line 118
+                // line 64
                 echo ((($context["has_children"] ?? null)) ? ("true") : ("false"));
                 echo "\">
                     <a href=\"";
-                // line 119
+                // line 65
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "url", []), "html", null, true);
                 echo "\" class=\"mobile-nav-link ";
                 if (($context["active_page"] ?? null)) {
@@ -235,50 +181,50 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
                 }
                 echo "\">
                         ";
-                // line 120
+                // line 66
                 echo twig_escape_filter($this->env, $this->getAttribute($context["p"], "menu", []), "html", null, true);
                 echo "
                         ";
-                // line 121
+                // line 67
                 if (($context["has_children"] ?? null)) {
-                    // line 122
+                    // line 68
                     echo "                            <span class=\"mobile-dropdown-arrow\">▼</span>
                         ";
                 }
-                // line 124
+                // line 70
                 echo "                    </a>
                     
                     ";
-                // line 126
+                // line 72
                 if (($context["has_children"] ?? null)) {
-                    // line 127
+                    // line 73
                     echo "                        <ul class=\"mobile-dropdown-menu\">
                             ";
-                    // line 128
+                    // line 74
                     $context['_parent'] = $context;
                     $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["p"], "children", []), "visible", []));
                     foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-                        // line 129
+                        // line 75
                         echo "                                ";
-                        // line 130
+                        // line 76
                         echo "                                ";
                         if ( !(($this->getAttribute($context["p"], "slug", []) == "portfolio") && ($this->getAttribute($context["child"], "template", []) == "portfolio-item"))) {
-                            // line 131
+                            // line 77
                             echo "                                    ";
                             $context["child_active"] = ((($this->getAttribute($context["child"], "active", []) || $this->getAttribute($context["child"], "activeChild", []))) ? ("active") : (""));
-                            // line 132
+                            // line 78
                             echo "                                    ";
                             $context["child_has_children"] = ($this->getAttribute($this->getAttribute($this->getAttribute($context["child"], "children", []), "visible", []), "count", []) > 0);
-                            // line 133
+                            // line 79
                             echo "                                    
                                     <li class=\"mobile-dropdown-item ";
-                            // line 134
+                            // line 80
                             if (($context["child_has_children"] ?? null)) {
                                 echo "has-children";
                             }
                             echo "\">
                                         <a href=\"";
-                            // line 135
+                            // line 81
                             echo twig_escape_filter($this->env, $this->getAttribute($context["child"], "url", []), "html", null, true);
                             echo "\" class=\"mobile-dropdown-link ";
                             if (($context["child_active"] ?? null)) {
@@ -286,36 +232,36 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
                             }
                             echo "\">
                                             ";
-                            // line 136
+                            // line 82
                             echo twig_escape_filter($this->env, $this->getAttribute($context["child"], "menu", []), "html", null, true);
                             echo "
                                             ";
-                            // line 137
+                            // line 83
                             if (($context["child_has_children"] ?? null)) {
-                                // line 138
+                                // line 84
                                 echo "                                                <span class=\"mobile-dropdown-arrow\">▶</span>
                                             ";
                             }
-                            // line 140
+                            // line 86
                             echo "                                        </a>
                                         
                                         ";
-                            // line 142
+                            // line 88
                             if (($context["child_has_children"] ?? null)) {
-                                // line 143
+                                // line 89
                                 echo "                                            <ul class=\"mobile-child-dropdown-menu\">
                                                 ";
-                                // line 144
+                                // line 90
                                 $context['_parent'] = $context;
                                 $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($context["child"], "children", []), "visible", []));
                                 foreach ($context['_seq'] as $context["_key"] => $context["grandchild"]) {
-                                    // line 145
+                                    // line 91
                                     echo "                                                    ";
                                     $context["grandchild_active"] = ((($this->getAttribute($context["grandchild"], "active", []) || $this->getAttribute($context["grandchild"], "activeChild", []))) ? ("active") : (""));
-                                    // line 146
+                                    // line 92
                                     echo "                                                    <li class=\"mobile-child-dropdown-item\">
                                                         <a href=\"";
-                                    // line 147
+                                    // line 93
                                     echo twig_escape_filter($this->env, $this->getAttribute($context["grandchild"], "url", []), "html", null, true);
                                     echo "\" class=\"mobile-child-dropdown-link ";
                                     if (($context["grandchild_active"] ?? null)) {
@@ -323,7 +269,7 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
                                     }
                                     echo "\">
                                                             ";
-                                    // line 148
+                                    // line 94
                                     echo twig_escape_filter($this->env, $this->getAttribute($context["grandchild"], "menu", []), "html", null, true);
                                     echo "
                                                         </a>
@@ -333,35 +279,35 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
                                 $_parent = $context['_parent'];
                                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['grandchild'], $context['_parent'], $context['loop']);
                                 $context = array_intersect_key($context, $_parent) + $_parent;
-                                // line 152
+                                // line 98
                                 echo "                                            </ul>
                                         ";
                             }
-                            // line 154
+                            // line 100
                             echo "                                    </li>
                                 ";
                         }
-                        // line 156
+                        // line 102
                         echo "                            ";
                     }
                     $_parent = $context['_parent'];
                     unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
                     $context = array_intersect_key($context, $_parent) + $_parent;
-                    // line 157
+                    // line 103
                     echo "                        </ul>
                     ";
                 }
-                // line 159
+                // line 105
                 echo "                </li>
                 ";
             }
-            // line 161
+            // line 107
             echo "            ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 162
+        // line 108
         echo "        </ul>
     </div>
 </nav>
@@ -369,7 +315,7 @@ class __TwigTemplate_6199c4fb983522075e3d1befe9462a915fc76a9cd2fae19676144dd8e6c
 <div class=\"mobile-nav-overlay\" id=\"mobile-nav-overlay\"></div>
 
 ";
-        // line 169
+        // line 115
         echo "<script>
 document.addEventListener('DOMContentLoaded', function() {
     const mobileNavToggle = document.getElementById('mobile-nav-toggle');
@@ -520,7 +466,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     public function getDebugInfo()
     {
-        return array (  373 => 169,  365 => 162,  359 => 161,  355 => 159,  351 => 157,  345 => 156,  341 => 154,  337 => 152,  327 => 148,  319 => 147,  316 => 146,  313 => 145,  309 => 144,  306 => 143,  304 => 142,  300 => 140,  296 => 138,  294 => 137,  290 => 136,  282 => 135,  276 => 134,  273 => 133,  270 => 132,  267 => 131,  264 => 130,  262 => 129,  258 => 128,  255 => 127,  253 => 126,  249 => 124,  245 => 122,  243 => 121,  239 => 120,  231 => 119,  227 => 118,  220 => 117,  218 => 116,  215 => 115,  212 => 114,  209 => 113,  206 => 112,  200 => 111,  197 => 110,  194 => 109,  191 => 108,  186 => 107,  183 => 106,  180 => 105,  177 => 103,  174 => 102,  171 => 101,  168 => 100,  164 => 99,  161 => 98,  155 => 97,  147 => 94,  144 => 93,  141 => 92,  137 => 91,  126 => 85,  122 => 84,  113 => 77,  47 => 12,  44 => 10,  42 => 9,  40 => 8,  37 => 6,  35 => 5,  32 => 3,  30 => 2,);
+        return array (  319 => 115,  311 => 108,  305 => 107,  301 => 105,  297 => 103,  291 => 102,  287 => 100,  283 => 98,  273 => 94,  265 => 93,  262 => 92,  259 => 91,  255 => 90,  252 => 89,  250 => 88,  246 => 86,  242 => 84,  240 => 83,  236 => 82,  228 => 81,  222 => 80,  219 => 79,  216 => 78,  213 => 77,  210 => 76,  208 => 75,  204 => 74,  201 => 73,  199 => 72,  195 => 70,  191 => 68,  189 => 67,  185 => 66,  177 => 65,  173 => 64,  166 => 63,  164 => 62,  161 => 61,  158 => 60,  155 => 59,  152 => 58,  146 => 57,  143 => 56,  140 => 55,  137 => 54,  132 => 53,  129 => 52,  126 => 51,  123 => 49,  120 => 48,  117 => 47,  114 => 46,  110 => 45,  107 => 44,  101 => 43,  93 => 40,  90 => 39,  87 => 38,  83 => 37,  72 => 31,  68 => 30,  59 => 23,  47 => 12,  44 => 10,  42 => 9,  40 => 8,  37 => 6,  35 => 5,  32 => 3,  30 => 2,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -545,66 +491,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
 {# Inline CSS to remove orange button immediately #}
 <style>
-/* Nuclear option to remove any orange buttons or unwanted elements */
-.mobile-cta a::before,
-.mobile-cta a::after,
-.mobile-cta a *::before,
-.mobile-cta a *::after,
-.mobile-nav-header button::before,
-.mobile-nav-header button::after,
-.mobile-nav-header *::before,
-.mobile-nav-header *::after {
-    display: none !important;
-    visibility: hidden !important;
-    opacity: 0 !important;
-    content: none !important;
-    width: 0 !important;
-    height: 0 !important;
-    border: none !important;
-    background: none !important;
-    color: transparent !important;
-    position: absolute !important;
-    left: -9999px !important;
-    top: -9999px !important;
-    z-index: -9999 !important;
-    pointer-events: none !important;
-}
-
-/* Remove any orange colors from mobile navigation */
-.mobile-navigation *,
-.mobile-navigation *::before,
-.mobile-navigation *::after {
-    border-color: transparent !important;
-    outline-color: transparent !important;
-}
-
-/* Ensure mobile CTA button is clean */
-.mobile-cta a {
-    background: #034880 !important;
-    color: #ffffff !important;
-    border: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-/* X Transformation for navigation toggle */
-.mobile-nav-toggle.active .nav-line-1 {
-    transform: rotate(45deg) translate(6px, 6px) !important;
-    background: #ff6600 !important;
-}
-
-.mobile-nav-toggle.active .nav-line-2 {
-    transform: rotate(-45deg) translate(6px, -6px) !important;
-    background: #ff6600 !important;
-}
-
-/* Ensure lines are visible during transformation */
+/* Keep hamburger lines unchanged; only color turns orange when active */
+.mobile-nav-toggle.active .nav-line-1,
+.mobile-nav-toggle.active .nav-line-2,
 .mobile-nav-toggle.active .nav-line {
+    transform: none !important;
     background: #ff6600 !important;
-    width: 100% !important;
-    height: 3px !important;
-    opacity: 1 !important;
-    visibility: visible !important;
 }
 </style>
 
