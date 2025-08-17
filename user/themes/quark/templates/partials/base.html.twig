@@ -547,10 +547,7 @@
 
 {% block assets deferred %}
     {{ assets.css()|raw }}
-    {# Mobile-specific CSS - only loaded on mobile devices #}
-    {% if isMobile() %}
-        <link rel="stylesheet" href="{{ url('theme://css/mobile-navigation.css') }}" media="all" />
-    {% endif %}
+    <link rel="stylesheet" href="{{ url('theme://css/mobile-navigation.css') }}" media="all" />
     {{ assets.js()|raw }}
 {% endblock %}
 
@@ -1295,7 +1292,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 </head>
-<body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}" style="margin: 0 !important; padding: 0 !important; {% if isMobile() %}padding-top: 60px !important;{% else %}padding-top: 80px !important;{% endif %}">
+<body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}" style="margin: 0 !important; padding: 0 !important; padding-top: 80px !important;">
     
     {# Desktop Navigation - Hidden on mobile devices #}
     {% if not isMobile() %}
@@ -1426,14 +1423,21 @@ document.addEventListener('DOMContentLoaded', function() {
     {% endblock %}
 
     {% block mobile %}
-    {# Mobile-specific navigation using mobile-detect plugin #}
-    {% if isMobile() %}
         {% include 'partials/navigation-mobile.html.twig' %}
-    {% endif %}
     {% endblock %}
 
 {% block bottom %}
     {{ assets.js('bottom')|raw }}
+    <script>
+    (function() {
+        function adjustPadding() {
+            var isSmall = window.matchMedia && window.matchMedia('(max-width: 768px)').matches;
+            document.body.style.paddingTop = isSmall ? '60px' : '80px';
+        }
+        adjustPadding();
+        window.addEventListener('resize', adjustPadding);
+    })();
+    </script>
 {% endblock %}
 
 </body>

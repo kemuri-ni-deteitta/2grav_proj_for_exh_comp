@@ -277,6 +277,13 @@
     }
 }
 
+/* Hide desktop custom header on small screens as a fallback if detection fails */
+@media (max-width: 768px) {
+    #custom-header {
+        display: none !important;
+    }
+}
+
 /* Touch gesture indicators */
 .mobile-nav-content::before {
     content: '';
