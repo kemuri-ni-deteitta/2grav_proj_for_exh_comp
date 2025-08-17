@@ -478,41 +478,42 @@ $context["img_item"], "is_main", [])) ? ($this->getAttribute($context["img_item"
                         echo ", '";
                         echo twig_escape_filter($this->env, ($context["title"] ?? null), "html_attr");
                         echo "')\"
-                                                     loading=\"lazy\">
+                                                     loading=\"lazy\"
+                                                     sizes=\"(max-width: 480px) 45vw, (max-width: 768px) 45vw, 33vw\">
                                                 
                                                 ";
-                        // line 184
+                        // line 185
                         echo "                                                ";
                         if ((twig_length_filter($this->env, ($context["project_images"] ?? null)) > 1)) {
-                            // line 185
+                            // line 186
                             echo "                                                    <div class=\"image-counter\">
                                                         <i class=\"fa fa-camera\"></i> ";
-                            // line 186
+                            // line 187
                             echo twig_escape_filter($this->env, twig_length_filter($this->env, ($context["project_images"] ?? null)), "html", null, true);
                             echo "
                                                     </div>
                                                 ";
                         }
-                        // line 189
+                        // line 190
                         echo "                                                
                                                 ";
-                        // line 191
+                        // line 192
                         echo "                                                <div class=\"hidden-gallery-data\" id=\"gallery-";
                         echo twig_escape_filter($this->env, $this->getAttribute($context["loop"], "index", []), "html", null, true);
                         echo "\" style=\"display: none;\">
                                                     ";
-                        // line 192
+                        // line 193
                         $context['_parent'] = $context;
                         $context['_seq'] = twig_ensure_traversable(($context["project_images"] ?? null));
                         foreach ($context['_seq'] as $context["_key"] => $context["img_data"]) {
-                            // line 193
+                            // line 194
                             echo "                                                        <div class=\"gallery-item\" 
                                                              data-src=\"";
-                            // line 194
+                            // line 195
                             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($context["img_data"], "image", []), "url", []), "html", null, true);
                             echo "\" 
                                                              data-caption=\"";
-                            // line 195
+                            // line 196
                             echo twig_escape_filter($this->env, (($this->getAttribute($context["img_data"], "caption", [])) ? ($this->getAttribute($context["img_data"], "caption", [])) : (($context["title"] ?? null))), "html", null, true);
                             echo "\"></div>
                                                     ";
@@ -520,131 +521,131 @@ $context["img_item"], "is_main", [])) ? ($this->getAttribute($context["img_item"
                         $_parent = $context['_parent'];
                         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['img_data'], $context['_parent'], $context['loop']);
                         $context = array_intersect_key($context, $_parent) + $_parent;
-                        // line 197
+                        // line 198
                         echo "                                                </div>
                                                 
                                             </div>
                                             
                                             <div class=\"portfolio-info\">
                                                 <h4 class=\"portfolio-title\">";
-                        // line 202
+                        // line 203
                         echo twig_escape_filter($this->env, ($context["title"] ?? null), "html", null, true);
                         echo "</h4>
                                                 
                                                 <div class=\"portfolio-metadata\">
                                                     ";
-                        // line 205
+                        // line 206
                         if ($this->getAttribute($context["item"], "stand_type", [])) {
-                            // line 206
+                            // line 207
                             echo "                                                        <div class=\"metadata-item\">
                                                             <span class=\"label\">Тип стенда:</span>
                                                             <span class=\"value stand-type-";
-                            // line 208
+                            // line 209
                             echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "stand_type", []), "html", null, true);
                             echo "\">
                                                                 ";
-                            // line 209
+                            // line 210
                             if (($this->getAttribute($context["item"], "stand_type", []) == "typovye")) {
                                 echo "Типовой
                                                                 ";
-                            } elseif (($this->getAttribute(                            // line 210
+                            } elseif (($this->getAttribute(                            // line 211
 $context["item"], "stand_type", []) == "nestandart")) {
                                 echo "Нестандартный
                                                                 ";
-                            } elseif (($this->getAttribute(                            // line 211
+                            } elseif (($this->getAttribute(                            // line 212
 $context["item"], "stand_type", []) == "ekskluziv")) {
                                 echo "Эксклюзивный
                                                                 ";
                             } else {
-                                // line 212
+                                // line 213
                                 echo twig_escape_filter($this->env, $this->getAttribute($context["item"], "stand_type", []), "html", null, true);
                                 echo "
                                                                 ";
                             }
-                            // line 214
+                            // line 215
                             echo "                                                            </span>
                                                         </div>
                                                     ";
                         }
-                        // line 217
+                        // line 218
                         echo "                                                    
                                                     ";
-                        // line 218
+                        // line 219
                         if (($context["construction_area"] ?? null)) {
-                            // line 219
+                            // line 220
                             echo "                                                        <div class=\"metadata-item\">
                                                             <span class=\"label\">Площадь:</span>
                                                             <span class=\"value\">";
-                            // line 221
+                            // line 222
                             echo twig_escape_filter($this->env, ($context["construction_area"] ?? null), "html", null, true);
                             echo "</span>
                                                         </div>
                                                     ";
                         }
-                        // line 224
+                        // line 225
                         echo "                                                    
                                                     ";
-                        // line 225
+                        // line 226
                         if (($context["exhibition_name"] ?? null)) {
-                            // line 226
+                            // line 227
                             echo "                                                        <div class=\"metadata-item\">
                                                             <span class=\"label\">Выставка:</span>
                                                             <span class=\"value\">";
-                            // line 228
+                            // line 229
                             echo twig_escape_filter($this->env, ($context["exhibition_name"] ?? null), "html", null, true);
                             echo "</span>
                                                         </div>
                                                     ";
                         }
-                        // line 231
+                        // line 232
                         echo "                                                    
                                                     ";
-                        // line 232
+                        // line 233
                         if (($context["company_name"] ?? null)) {
-                            // line 233
+                            // line 234
                             echo "                                                        <div class=\"metadata-item\">
                                                             <span class=\"label\">Клиент:</span>
                                                             <span class=\"value\">";
-                            // line 235
+                            // line 236
                             echo twig_escape_filter($this->env, ($context["company_name"] ?? null), "html", null, true);
                             echo "</span>
                                                         </div>
                                                     ";
                         }
-                        // line 238
+                        // line 239
                         echo "                                                    
                                                     ";
-                        // line 239
+                        // line 240
                         if (($context["project_year"] ?? null)) {
-                            // line 240
+                            // line 241
                             echo "                                                        <div class=\"metadata-item\">
                                                             <span class=\"label\">Год:</span>
                                                             <span class=\"value\">";
-                            // line 242
+                            // line 243
                             echo twig_escape_filter($this->env, ($context["project_year"] ?? null), "html", null, true);
                             echo "</span>
                                                         </div>
                                                     ";
                         }
-                        // line 245
+                        // line 246
                         echo "                                                </div>
                                                 
                                                 ";
-                        // line 247
+                        // line 248
                         if (($context["desc"] ?? null)) {
-                            // line 248
+                            // line 249
                             echo "                                                    <div class=\"portfolio-description\">";
                             echo twig_escape_filter($this->env, ($context["desc"] ?? null), "html", null, true);
                             echo "</div>
                                                 ";
                         }
-                        // line 250
+                        // line 251
                         echo "                                            </div>
                                         </div>
                                         </div>
                                     ";
                     }
-                    // line 254
+                    // line 255
                     echo "                            ";
                     ++$context['loop']['index0'];
                     ++$context['loop']['index'];
@@ -658,19 +659,19 @@ $context["item"], "stand_type", []) == "ekskluziv")) {
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 255
+                // line 256
                 echo "                        </div>
                     </div>
                 </div>
                 ";
             } else {
-                // line 259
+                // line 260
                 echo "                <div class=\"portfolio-empty\">
                     <p>Пока нет добавленных проектов в портфолио.</p>
                 </div>
                 ";
             }
-            // line 263
+            // line 264
             echo "                
                 <!-- Portfolio Modal -->
                 <div id=\"portfolioModal\" class=\"portfolio-modal\" onclick=\"closePortfolioModal()\">
@@ -694,14 +695,14 @@ $context["item"], "stand_type", []) == "ekskluziv")) {
         }
     }
 
-    // line 285
+    // line 286
     public function block_stylesheets($context, array $blocks = [])
     {
-        // line 286
+        // line 287
         $this->displayParentBlock("stylesheets", $context, $blocks);
         echo "
 ";
-        // line 287
+        // line 288
         $context["portfolio_styles"] = ('' === $tmp = ".portfolio-section {
     margin: 30px 0;
 }
@@ -1021,44 +1022,63 @@ $context["item"], "stand_type", []) == "ekskluziv")) {
 
 @media (max-width: 768px) {
     .portfolio-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.75rem;
     }
-    
+    .portfolio-card {
+        border-radius: 10px;
+    }
     .portfolio-image {
-        min-height: 200px;
+        min-height: 140px;
+        max-height: 30vh;
     }
-    
+    .portfolio-image img {
+        padding: 0.5rem;
+    }
     .portfolio-info {
-        padding: 0.75rem 1rem;
+        padding: 0.5rem 0.75rem;
     }
-    
+    .portfolio-title {
+        font-size: 1rem;
+    }
+    .metadata-item {
+        font-size: 0.8rem;
+    }
+    .portfolio-description {
+        display: none;
+    }
     .filter-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
     .filter-btn {
         width: 200px;
     }
 }
+
+@media (max-width: 480px) {
+    .portfolio-image {
+        min-height: 120px;
+        max-height: 28vh;
+    }
+}
 ") ? '' : new Markup($tmp, $this->env->getCharset());
-        // line 629
+        // line 649
         echo "
 ";
-        // line 630
+        // line 650
         $this->getAttribute(($context["assets"] ?? null), "addInlineCss", [0 => ($context["portfolio_styles"] ?? null)], "method");
     }
 
-    // line 633
+    // line 653
     public function block_javascripts($context, array $blocks = [])
     {
-        // line 634
+        // line 654
         $this->displayParentBlock("javascripts", $context, $blocks);
         echo "
 
 ";
-        // line 636
+        // line 656
         $context["portfolio_script"] = ('' === $tmp = "// Portfolio Gallery Variables
 let currentGallery = [];
 let currentImageIndex = 0;
@@ -1195,10 +1215,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 ") ? '' : new Markup($tmp, $this->env->getCharset());
-        // line 773
+        // line 793
         echo "
 ";
-        // line 774
+        // line 794
         $this->getAttribute(($context["assets"] ?? null), "addInlineJs", [0 => ($context["portfolio_script"] ?? null)], "method");
     }
 
@@ -1214,7 +1234,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     public function getDebugInfo()
     {
-        return array (  1202 => 774,  1199 => 773,  1062 => 636,  1057 => 634,  1054 => 633,  1050 => 630,  1047 => 629,  705 => 287,  701 => 286,  698 => 285,  674 => 263,  668 => 259,  662 => 255,  648 => 254,  642 => 250,  636 => 248,  634 => 247,  630 => 245,  624 => 242,  620 => 240,  618 => 239,  615 => 238,  609 => 235,  605 => 233,  603 => 232,  600 => 231,  594 => 228,  590 => 226,  588 => 225,  585 => 224,  579 => 221,  575 => 219,  573 => 218,  570 => 217,  565 => 214,  560 => 212,  555 => 211,  551 => 210,  547 => 209,  543 => 208,  539 => 206,  537 => 205,  531 => 202,  524 => 197,  516 => 195,  512 => 194,  509 => 193,  505 => 192,  500 => 191,  497 => 189,  491 => 186,  488 => 185,  485 => 184,  477 => 180,  473 => 179,  469 => 178,  463 => 175,  460 => 174,  457 => 173,  454 => 172,  452 => 171,  449 => 170,  446 => 169,  443 => 168,  440 => 167,  437 => 165,  434 => 164,  431 => 163,  428 => 162,  425 => 161,  423 => 158,  422 => 157,  420 => 156,  418 => 155,  415 => 154,  412 => 153,  409 => 152,  406 => 151,  403 => 149,  400 => 148,  397 => 147,  394 => 146,  391 => 144,  388 => 143,  382 => 142,  379 => 141,  376 => 140,  373 => 139,  368 => 138,  365 => 137,  362 => 135,  359 => 134,  356 => 133,  353 => 131,  350 => 130,  344 => 129,  341 => 128,  338 => 127,  335 => 126,  332 => 125,  329 => 123,  326 => 122,  324 => 120,  323 => 119,  322 => 118,  320 => 117,  318 => 116,  315 => 115,  312 => 114,  306 => 113,  303 => 112,  300 => 111,  297 => 110,  292 => 109,  289 => 108,  286 => 106,  283 => 105,  278 => 104,  275 => 103,  270 => 99,  267 => 98,  264 => 97,  261 => 96,  258 => 95,  255 => 93,  252 => 92,  249 => 91,  246 => 90,  243 => 89,  240 => 88,  237 => 87,  219 => 86,  217 => 85,  202 => 72,  199 => 70,  197 => 69,  194 => 68,  191 => 67,  185 => 66,  182 => 65,  176 => 64,  173 => 63,  171 => 61,  170 => 59,  169 => 58,  168 => 57,  167 => 56,  166 => 55,  165 => 54,  164 => 53,  162 => 52,  160 => 51,  156 => 50,  153 => 49,  150 => 48,  147 => 47,  144 => 46,  141 => 45,  138 => 44,  135 => 43,  132 => 42,  129 => 41,  126 => 40,  121 => 39,  118 => 38,  115 => 37,  112 => 35,  106 => 34,  103 => 33,  97 => 32,  94 => 31,  92 => 28,  91 => 27,  90 => 26,  89 => 25,  88 => 24,  87 => 23,  86 => 22,  84 => 21,  79 => 20,  76 => 19,  71 => 18,  68 => 16,  65 => 15,  59 => 11,  53 => 8,  50 => 7,  47 => 6,  44 => 5,  39 => 1,  37 => 3,  31 => 1,);
+        return array (  1222 => 794,  1219 => 793,  1082 => 656,  1077 => 654,  1074 => 653,  1070 => 650,  1067 => 649,  706 => 288,  702 => 287,  699 => 286,  675 => 264,  669 => 260,  663 => 256,  649 => 255,  643 => 251,  637 => 249,  635 => 248,  631 => 246,  625 => 243,  621 => 241,  619 => 240,  616 => 239,  610 => 236,  606 => 234,  604 => 233,  601 => 232,  595 => 229,  591 => 227,  589 => 226,  586 => 225,  580 => 222,  576 => 220,  574 => 219,  571 => 218,  566 => 215,  561 => 213,  556 => 212,  552 => 211,  548 => 210,  544 => 209,  540 => 207,  538 => 206,  532 => 203,  525 => 198,  517 => 196,  513 => 195,  510 => 194,  506 => 193,  501 => 192,  498 => 190,  492 => 187,  489 => 186,  486 => 185,  477 => 180,  473 => 179,  469 => 178,  463 => 175,  460 => 174,  457 => 173,  454 => 172,  452 => 171,  449 => 170,  446 => 169,  443 => 168,  440 => 167,  437 => 165,  434 => 164,  431 => 163,  428 => 162,  425 => 161,  423 => 158,  422 => 157,  420 => 156,  418 => 155,  415 => 154,  412 => 153,  409 => 152,  406 => 151,  403 => 149,  400 => 148,  397 => 147,  394 => 146,  391 => 144,  388 => 143,  382 => 142,  379 => 141,  376 => 140,  373 => 139,  368 => 138,  365 => 137,  362 => 135,  359 => 134,  356 => 133,  353 => 131,  350 => 130,  344 => 129,  341 => 128,  338 => 127,  335 => 126,  332 => 125,  329 => 123,  326 => 122,  324 => 120,  323 => 119,  322 => 118,  320 => 117,  318 => 116,  315 => 115,  312 => 114,  306 => 113,  303 => 112,  300 => 111,  297 => 110,  292 => 109,  289 => 108,  286 => 106,  283 => 105,  278 => 104,  275 => 103,  270 => 99,  267 => 98,  264 => 97,  261 => 96,  258 => 95,  255 => 93,  252 => 92,  249 => 91,  246 => 90,  243 => 89,  240 => 88,  237 => 87,  219 => 86,  217 => 85,  202 => 72,  199 => 70,  197 => 69,  194 => 68,  191 => 67,  185 => 66,  182 => 65,  176 => 64,  173 => 63,  171 => 61,  170 => 59,  169 => 58,  168 => 57,  167 => 56,  166 => 55,  165 => 54,  164 => 53,  162 => 52,  160 => 51,  156 => 50,  153 => 49,  150 => 48,  147 => 47,  144 => 46,  141 => 45,  138 => 44,  135 => 43,  132 => 42,  129 => 41,  126 => 40,  121 => 39,  118 => 38,  115 => 37,  112 => 35,  106 => 34,  103 => 33,  97 => 32,  94 => 31,  92 => 28,  91 => 27,  90 => 26,  89 => 25,  88 => 24,  87 => 23,  86 => 22,  84 => 21,  79 => 20,  76 => 19,  71 => 18,  68 => 16,  65 => 15,  59 => 11,  53 => 8,  50 => 7,  47 => 6,  44 => 5,  39 => 1,  37 => 3,  31 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -1407,7 +1427,8 @@ document.addEventListener('DOMContentLoaded', function() {
                                                 <img src=\"{{ main_image.url }}\" 
                                                      alt=\"{{ title }}\"
                                                      onclick=\"openPortfolioGallery({{ loop.index }}, '{{ title|e('html_attr') }}')\"
-                                                     loading=\"lazy\">
+                                                     loading=\"lazy\"
+                                                     sizes=\"(max-width: 480px) 45vw, (max-width: 768px) 45vw, 33vw\">
                                                 
                                                 {# Image counter if multiple images #}
                                                 {% if project_images|length > 1 %}
@@ -1833,25 +1854,44 @@ document.addEventListener('DOMContentLoaded', function() {
 
 @media (max-width: 768px) {
     .portfolio-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 0.75rem;
     }
-    
+    .portfolio-card {
+        border-radius: 10px;
+    }
     .portfolio-image {
-        min-height: 200px;
+        min-height: 140px;
+        max-height: 30vh;
     }
-    
+    .portfolio-image img {
+        padding: 0.5rem;
+    }
     .portfolio-info {
-        padding: 0.75rem 1rem;
+        padding: 0.5rem 0.75rem;
     }
-    
+    .portfolio-title {
+        font-size: 1rem;
+    }
+    .metadata-item {
+        font-size: 0.8rem;
+    }
+    .portfolio-description {
+        display: none;
+    }
     .filter-buttons {
         flex-direction: column;
         align-items: center;
     }
-    
     .filter-btn {
         width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-image {
+        min-height: 120px;
+        max-height: 28vh;
     }
 }
 {% endset %}
