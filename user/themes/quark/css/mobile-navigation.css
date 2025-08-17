@@ -137,6 +137,98 @@
     padding: 12px 16px;
     border-radius: 6px;
     font-weight: 600;
+    position: relative;
+}
+
+/* Remove any pseudo-elements that might be adding the caret icon */
+.mobile-cta a::before,
+.mobile-cta a::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* Remove Spectre icon classes if they get applied */
+.mobile-cta a.icon-caret::before,
+.mobile-cta a.icon-arrow-down::before,
+.mobile-cta a.icon-arrow-up::before,
+.mobile-cta a.icon-chevron-down::before,
+.mobile-cta a.icon-chevron-up::before {
+    content: none !important;
+    display: none !important;
+    border: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Remove any child elements that might be icons */
+.mobile-cta a .icon,
+.mobile-cta a .icon-caret,
+.mobile-cta a .icon-arrow-down,
+.mobile-cta a .icon-arrow-up,
+.mobile-cta a .icon-chevron-down,
+.mobile-cta a .icon-chevron-up {
+    display: none !important;
+}
+
+/* Ultra-specific rule to override any framework styles */
+.mobile-navigation .mobile-nav-content .mobile-cta a::before,
+.mobile-navigation .mobile-nav-content .mobile-cta a::after,
+.mobile-navigation .mobile-nav-content .mobile-cta a *::before,
+.mobile-navigation .mobile-nav-content .mobile-cta a *::after {
+    content: none !important;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+    background: none !important;
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+}
+
+/* Remove pseudo-elements from any button classes that might be applied */
+.mobile-cta a.btn::before,
+.mobile-cta a.btn::after,
+.mobile-cta a.button::before,
+.mobile-cta a.button::after,
+.mobile-cta a.btn-clear::before,
+.mobile-cta a.btn-clear::after,
+.mobile-cta a.btn-primary::before,
+.mobile-cta a.btn-primary::after,
+.mobile-cta a.btn-success::before,
+.mobile-cta a.btn-success::after,
+.mobile-cta a.btn-error::before,
+.mobile-cta a.btn-error::after,
+.mobile-cta a.btn-warning::before,
+.mobile-cta a.btn-warning::after {
+    content: none !important;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+    background: none !important;
+}
+
+/* Remove any icon classes that might be applied */
+.mobile-cta a.icon::before,
+.mobile-cta a.icon::after,
+.mobile-cta a.icon-caret::before,
+.mobile-cta a.icon-arrow-down::before,
+.mobile-cta a.icon-arrow-up::before,
+.mobile-cta a.icon-chevron-down::before,
+.mobile-cta a.icon-chevron-up::before {
+    content: none !important;
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+    background: none !important;
 }
 
 .mobile-cta a:hover {
