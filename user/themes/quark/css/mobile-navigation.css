@@ -1,0 +1,397 @@
+/* Mobile Navigation Styles */
+/* This file is only loaded on mobile devices using the mobile-detect plugin */
+
+/* Prevent pinch zoom on mobile navigation */
+.mobile-navigation {
+    touch-action: pan-x pan-y;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.mobile-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.mobile-nav-header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.mobile-nav-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 24px;
+    transition: all 0.3s ease;
+}
+
+.mobile-nav-toggle.active {
+    transform: rotate(90deg);
+}
+
+.hamburger-line {
+    width: 100%;
+    height: 3px;
+    background: #2c2c2c;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+.mobile-nav-toggle.active .hamburger-line:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.mobile-nav-toggle.active .hamburger-line:nth-child(2) {
+    opacity: 0;
+}
+
+.mobile-nav-toggle.active .hamburger-line:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+.mobile-nav-brand a {
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.mobile-nav-content {
+    position: fixed;
+    top: 60px;
+    left: -100%;
+    width: 280px;
+    height: calc(100vh - 60px);
+    background: #ffffff;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    z-index: 9999;
+    /* Prevent horizontal scrolling */
+    overflow-x: hidden;
+}
+
+.mobile-nav-content.active {
+    left: 0;
+}
+
+.mobile-nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-nav-item {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.mobile-nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.mobile-nav-link:hover,
+.mobile-nav-link.active {
+    background: #ff6600;
+    color: #ffffff;
+}
+
+.mobile-dropdown-arrow {
+    font-size: 0.8rem;
+    transition: transform 0.2s ease;
+}
+
+.mobile-dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.mobile-dropdown-menu.active {
+    display: block;
+    max-height: 500px;
+}
+
+.mobile-dropdown-item {
+    border-bottom: 1px solid #e9ecef;
+}
+
+.mobile-dropdown-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px 12px 40px;
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.mobile-dropdown-link:hover,
+.mobile-dropdown-link.active {
+    background: #ff6600;
+    color: #ffffff;
+}
+
+.mobile-child-dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #e9ecef;
+    display: none;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.mobile-child-dropdown-menu.active {
+    display: block;
+    max-height: 300px;
+}
+
+.mobile-child-dropdown-item {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.mobile-child-dropdown-link {
+    display: block;
+    padding: 10px 20px 10px 60px;
+    color: #2c2c2c;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
+}
+
+.mobile-child-dropdown-link:hover,
+.mobile-child-dropdown-link.active {
+    background: #ff6600;
+    color: #ffffff;
+}
+
+/* Touch-friendly improvements */
+.mobile-nav-link,
+.mobile-dropdown-link,
+.mobile-child-dropdown-link {
+    min-height: 44px; /* Apple's recommended minimum touch target size */
+    display: flex;
+    align-items: center;
+}
+
+/* Smooth transitions for all interactive elements */
+.mobile-navigation * {
+    transition: all 0.2s ease;
+}
+
+/* Overlay when mobile navigation is open */
+.mobile-nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.mobile-nav-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .mobile-nav-content {
+        width: 100%;
+        left: -100%;
+    }
+    
+    .mobile-nav-content.active {
+        left: 0;
+    }
+}
+
+/* Ensure mobile navigation doesn't interfere with desktop */
+@media (min-width: 769px) {
+    .mobile-navigation {
+        display: none !important;
+    }
+}
+
+/* Touch gesture indicators */
+.mobile-nav-content::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23ccc"><path d="M7 10l5 5 5-5z"/></svg>') no-repeat center;
+    background-size: 20px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+/* Loading states */
+.mobile-nav-content.loading {
+    opacity: 0.7;
+}
+
+/* Accessibility improvements */
+.mobile-nav-toggle:focus,
+.mobile-nav-link:focus,
+.mobile-dropdown-link:focus,
+.mobile-child-dropdown-link:focus {
+    outline: 2px solid #ff6600;
+    outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+    .mobile-navigation {
+        border: 2px solid #000000;
+    }
+    
+    .mobile-nav-link:hover,
+    .mobile-nav-link.active {
+        background: #000000;
+        color: #ffffff;
+    }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+    .mobile-nav-content,
+    .mobile-dropdown-menu,
+    .mobile-child-dropdown-menu,
+    .mobile-nav-toggle,
+    .hamburger-line {
+        transition: none;
+    }
+}
+
+/* Additional mobile-specific features */
+
+/* Prevent text selection during touch gestures */
+.mobile-nav-content {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Smooth scrolling for mobile */
+.mobile-nav-content {
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+/* Better touch feedback */
+.mobile-nav-link:active,
+.mobile-dropdown-link:active,
+.mobile-child-dropdown-link:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+}
+
+/* Swipe gesture visual feedback */
+.mobile-nav-content.swiping {
+    transition: none;
+}
+
+/* Mobile-specific animations */
+@keyframes slideInFromLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideOutToLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.mobile-nav-content.slide-in {
+    animation: slideInFromLeft 0.3s ease-out;
+}
+
+.mobile-nav-content.slide-out {
+    animation: slideOutToLeft 0.3s ease-in;
+}
+
+/* Prevent zoom on double tap */
+.mobile-nav-content {
+    touch-action: pan-x pan-y;
+}
+
+/* Better focus management for screen readers */
+.mobile-nav-content:focus-within {
+    outline: 2px solid #ff6600;
+    outline-offset: 2px;
+}
+
+/* Mobile-specific hover states (for devices that support hover) */
+@media (hover: hover) {
+    .mobile-nav-link:hover,
+    .mobile-dropdown-link:hover,
+    .mobile-child-dropdown-link:hover {
+        background: #ff6600;
+        color: #ffffff;
+        transform: translateX(5px);
+    }
+}
+
+/* Landscape orientation adjustments */
+@media (orientation: landscape) and (max-height: 500px) {
+    .mobile-nav-content {
+        height: calc(100vh - 60px);
+        max-height: calc(100vh - 60px);
+    }
+}

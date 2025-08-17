@@ -1,0 +1,65 @@
+1756047822
+a:2:{s:7:"content";s:2958:"<h1>Mobile Navigation Demo</h1>
+<p>This page demonstrates the mobile-specific navigation features implemented using the <strong>mobile-detect</strong> plugin.</p>
+<h2>Features</h2>
+<h3>🎯 <strong>Device Detection</strong></h3>
+<ul>
+<li><strong>Desktop</strong>: Shows traditional horizontal navigation with dropdowns</li>
+<li><strong>Mobile</strong>: Shows hamburger menu with touch-friendly navigation</li>
+<li><strong>Tablet</strong>: Uses mobile layout for better touch experience</li>
+</ul>
+<h3>📱 <strong>Mobile Navigation Features</strong></h3>
+<ul>
+<li><strong>Hamburger Menu</strong>: Tap to open/close navigation</li>
+<li><strong>Touch Gestures</strong>: Swipe left to open, swipe right to close</li>
+<li><strong>Touch-Friendly</strong>: Large touch targets (44px minimum)</li>
+<li><strong>Smooth Animations</strong>: CSS transitions and animations</li>
+<li><strong>Responsive Design</strong>: Adapts to different screen sizes</li>
+</ul>
+<h3>🖱️ <strong>Desktop Navigation Features</strong></h3>
+<ul>
+<li><strong>Hover Effects</strong>: Smooth hover animations</li>
+<li><strong>Dropdown Menus</strong>: Multi-level navigation support</li>
+<li><strong>Keyboard Navigation</strong>: Full keyboard accessibility</li>
+<li><strong>Mouse Interactions</strong>: Hover-based dropdown system</li>
+</ul>
+<h2>How It Works</h2>
+<p>The mobile-detect plugin provides several Twig functions:</p>
+<pre><code class="language-twig">{# Check if device is mobile #}
+{% if isMobile() %}
+    {# Show mobile navigation #}
+{% endif %}
+
+{# Check if device is tablet #}
+{% if isTablet() %}
+    {# Show mobile navigation #}
+{% endif %}
+
+{# Check if device is desktop #}
+{% if isDesktop() %}
+    {# Show desktop navigation #}
+{% endif %}</code></pre>
+<h2>Touch Gestures</h2>
+<p>On mobile devices, you can:</p>
+<ol>
+<li><strong>Tap the hamburger menu</strong> to open/close navigation</li>
+<li><strong>Swipe left</strong> from the left edge to open navigation</li>
+<li><strong>Swipe right</strong> when navigation is open to close it</li>
+<li><strong>Tap menu items</strong> to navigate or expand dropdowns</li>
+<li><strong>Pinch and zoom</strong> is prevented on navigation elements</li>
+</ol>
+<h2>Responsive Behavior</h2>
+<ul>
+<li><strong>Mobile (&lt; 769px)</strong>: Shows mobile navigation</li>
+<li><strong>Desktop (≥ 769px)</strong>: Shows traditional navigation</li>
+<li><strong>Landscape mobile</strong>: Optimized layout for horizontal orientation</li>
+</ul>
+<h2>Browser Support</h2>
+<ul>
+<li><strong>Modern Browsers</strong>: Full support for all features</li>
+<li><strong>Touch Devices</strong>: Optimized for iOS Safari, Chrome Mobile, etc.</li>
+<li><strong>Accessibility</strong>: Screen reader friendly with proper ARIA labels</li>
+<li><strong>Performance</strong>: Smooth 60fps animations with hardware acceleration</li>
+</ul>
+<hr />
+<p><em>Try resizing your browser window or viewing this page on different devices to see the navigation adapt!</em></p>";s:12:"content_meta";N;}

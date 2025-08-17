@@ -547,6 +547,10 @@
 
 {% block assets deferred %}
     {{ assets.css()|raw }}
+    {# Mobile-specific CSS - only loaded on mobile devices #}
+    {% if isMobile() %}
+        <link rel="stylesheet" href="{{ url('theme://css/mobile-navigation.css') }}" media="all" />
+    {% endif %}
     {{ assets.js()|raw }}
 {% endblock %}
 
@@ -1291,8 +1295,10 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 </head>
-<body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}" style="margin: 0 !important; padding: 0 !important; padding-top: 80px !important;">
+<body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}" style="margin: 0 !important; padding: 0 !important; {% if isMobile() %}padding-top: 60px !important;{% else %}padding-top: 80px !important;{% endif %}">
     
+    {# Desktop Navigation - Hidden on mobile devices #}
+    {% if not isMobile() %}
     <!-- CUSTOM NAVBAR - COMPLETELY BYPASSING THEME SYSTEM -->
     <div id="custom-header" style="position: fixed !important; top: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; height: 80px !important; background: #ffffff !important; border-bottom: 1px solid #e0e0e0 !important; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important; z-index: 99999 !important; margin: 0 !important; padding: 0 !important;">
                   <div style="height: 80px !important; padding: 0 1.5rem 0 0 !important; margin: 0 auto !important; max-width: 1200px !important; display: flex !important; align-items: center !important; justify-content: space-between !important;">
@@ -1327,7 +1333,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             data-has-children="{{ has_children ? 'true' : 'false' }}">
                             <a href="{{ p.url }}" style="display: flex !important; align-items: center !important; justify-content: center !important; padding: 0.5rem 1rem !important; text-decoration: none !important; color: #2c2c2c !important; font-weight: 500 !important; font-size: 1.1rem !important; transition: all 0.3s ease !important; border-radius: 4px !important; height: 40px !important; white-space: nowrap !important; min-width: fit-content !important; border: 1px solid transparent !important; {% if active_page %}color: #ffffff !important; background: #ff6600 !important; border: 1px solid #ff6600 !important; box-shadow: 0 2px 8px rgba(255, 102, 0, 0.3) !important;{% endif %}" 
                                onmouseover="this.style.color='#ffffff'; this.style.background='#ff6600'; this.style.border='1px solid #ff6600'; this.style.boxShadow='0 6px 20px rgba(255, 102, 0, 0.4)'; this.style.transform='translateY(-2px)'" 
-                               onmouseout="this.style.color='#2c2c2c'; this.style.background='transparent'; this.style.border='1px solid transparent'; this.style.boxShadow='none'; this.style.transform='translateY(0)'; {% if active_page %}this.style.color='#ffffff'; this.style.background='#ff6600'; this.style.border='1px solid #ff6600'; this.style.boxShadow='0 2px 8px rgba(255, 102, 0, 0.3)';{% endif %}"
+                               onmouseout="this.style.color='#2c2c2c'; this.style.background='transparent'; this.style.border='1px solid transparent'; this.style.boxShadow='none'; this.style.transform='translateY(0)'; {% if active_page %}this.style.color='#ffffff'; this.style.background='#ff6600'; this.style.boxShadow='0 2px 8px rgba(255, 102, 0, 0.3)';{% endif %}"
                                {% if has_children %}onclick="handleDropdownClick(event, this.parentElement)"{% endif %}>
                                 {{ p.menu }}{% if has_children %} <span class="dropdown-arrow" style="margin-left: 5px; font-size: 0.7rem; transition: transform 0.2s ease; {% if active_page %}opacity: 1 !important;{% endif %}; pointer-events: none !important; user-select: none !important;">▼</span>{% endif %}
                             </a>
@@ -1355,7 +1361,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                                 <li style="margin: 0 !important; display: block !important; height: auto !important;">
                                                                                             <a href="{{ grandchild.url }}" style="padding: 0.6rem 1rem !important; color: #2c2c2c !important; font-weight: 400 !important; font-size: 0.9rem !important; display: block !important; text-decoration: none !important; transition: all 0.2s ease !important; border-radius: 0 !important; height: auto !important; white-space: nowrap !important; {% if grandchild_active %}color: #ff6600 !important;{% endif %}"
                                                onmouseover="this.style.background='#f8f9fa'; this.style.color='#ff6600'" 
-                                               onmouseout="this.style.background='transparent'; this.style.color='#2c2c2c'; {% if grandchild_active %}this.style.color='#ff6600';{% endif %}">
+                                               onmouseout="this.style.background='transparent'; this.style.color='#2c2c2c'; {% if child_active %}this.style.color='#ff6600';{% endif %}">
                                                         {{ grandchild.menu }}
                                                     </a>
                                                 </li>
@@ -1389,6 +1395,7 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
     </div>
     </div>
+    {% endif %}
     
     <div id="page-wrapper" style="margin: 0 !important; padding: 0 !important;">
     {% block header %}
@@ -1419,16 +1426,10 @@ document.addEventListener('DOMContentLoaded', function() {
     {% endblock %}
 
     {% block mobile %}
-    <div class="mobile-container">
-        <div class="overlay" id="overlay">
-            <div class="mobile-logo">
-                {% include 'partials/logo.html.twig' with {mobile: true} %}
-            </div>
-            <nav class="overlay-menu">
-                {% include 'partials/navigation.html.twig' with {tree: true} %}
-            </nav>
-        </div>
-    </div>
+    {# Mobile-specific navigation using mobile-detect plugin #}
+    {% if isMobile() %}
+        {% include 'partials/navigation-mobile.html.twig' %}
+    {% endif %}
     {% endblock %}
 
 {% block bottom %}
