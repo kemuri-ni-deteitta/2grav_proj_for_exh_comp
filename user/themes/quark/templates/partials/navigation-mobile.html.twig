@@ -1,6 +1,9 @@
 {# Mobile Navigation Template - Only used on mobile devices #}
 {% import 'macros/macros.html.twig' as macros %}
 
+{# Ensure theme_config is available locally #}
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+
 {# Check if dropdowns are enabled in theme config #}
 {% set dropdown_enabled = theme_config.dropdowns.enabled ?? true %}
 {% set mobile_enabled = theme_config.mobile.enabled ?? true %}
@@ -19,6 +22,13 @@
     </div>
     
     <div class="mobile-nav-content" id="mobile-nav-content">
+        {% for p in pages.children.visible %}
+            {% if p.slug == 'otpravit-zayavku' %}
+            <div class="mobile-cta">
+                <a href="{{ p.url }}">{{ p.menu }}</a>
+            </div>
+            {% endif %}
+        {% endfor %}
         <ul class="mobile-nav-menu">
             {% for p in pages.children.visible %}
                 {% set active_page = (p.active or p.activeChild) ? 'active' : '' %}
@@ -37,6 +47,7 @@
                     {% set show_children = has_children and (p.active or p.activeChild) %}
                 {% endif %}
                 
+                {% if p.slug != 'otpravit-zayavku' %}
                 <li class="mobile-nav-item {% if has_children %}has-children{% endif %}" 
                     data-has-children="{{ has_children ? 'true' : 'false' }}">
                     <a href="{{ p.url }}" class="mobile-nav-link {% if active_page %}active{% endif %}">
@@ -80,10 +91,13 @@
                         </ul>
                     {% endif %}
                 </li>
+                {% endif %}
             {% endfor %}
         </ul>
     </div>
 </nav>
+
+<div class="mobile-nav-overlay" id="mobile-nav-overlay"></div>
 
 {# Mobile Navigation JavaScript #}
 <script>
@@ -91,12 +105,28 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileNavToggle = document.getElementById('mobile-nav-toggle');
     const mobileNavContent = document.getElementById('mobile-nav-content');
     const mobileNav = document.getElementById('mobile-nav');
+    const overlay = document.getElementById('mobile-nav-overlay');
+
+    function openMobileNav() {
+        mobileNavContent.classList.add('active');
+        mobileNavToggle.classList.add('active');
+        if (overlay) overlay.classList.add('active');
+    }
+
+    function closeMobileNav() {
+        mobileNavContent.classList.remove('active');
+        mobileNavToggle.classList.remove('active');
+        if (overlay) overlay.classList.remove('active');
+    }
     
     // Toggle mobile navigation
     if (mobileNavToggle && mobileNavContent) {
         mobileNavToggle.addEventListener('click', function() {
-            mobileNavContent.classList.toggle('active');
-            mobileNavToggle.classList.toggle('active');
+            if (mobileNavContent.classList.contains('active')) {
+                closeMobileNav();
+            } else {
+                openMobileNav();
+            }
         });
     }
     
@@ -173,13 +203,11 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Swipe left to open navigation
         if (diffX > 50 && Math.abs(diffY) < 50) {
-            mobileNavContent.classList.add('active');
-            mobileNavToggle.classList.add('active');
+            openMobileNav();
         }
         // Swipe right to close navigation
         else if (diffX < -50 && Math.abs(diffY) < 50) {
-            mobileNavContent.classList.remove('active');
-            mobileNavToggle.classList.remove('active');
+            closeMobileNav();
         }
         
         startX = 0;
@@ -196,9 +224,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Close navigation when clicking outside
     document.addEventListener('click', function(e) {
         if (!mobileNav.contains(e.target) && mobileNavContent.classList.contains('active')) {
-            mobileNavContent.classList.remove('active');
-            mobileNavToggle.classList.remove('active');
+            closeMobileNav();
         }
     });
+
+    if (overlay) {
+        overlay.addEventListener('click', function() {
+            closeMobileNav();
+        });
+    }
 });
 </script>

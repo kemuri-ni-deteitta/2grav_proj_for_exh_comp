@@ -98,6 +98,27 @@
     left: 0;
 }
 
+/* CTA block inside mobile menu */
+.mobile-cta {
+    padding: 12px 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.mobile-cta a {
+    display: block;
+    background: #034880;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.mobile-cta a:hover {
+    background: #023a6b;
+}
+
 .mobile-nav-menu {
     list-style: none;
     margin: 0;

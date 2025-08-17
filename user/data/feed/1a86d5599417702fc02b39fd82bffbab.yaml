@@ -1,4 +1,4 @@
-last_checked: 1754418809
+last_checked: 1755446811
 data:
   -
     title: 'TailwindCSS 4.0 upgrade for Typhoon Premium Theme'
@@ -19,12 +19,12 @@ data:
     title: 'Grav 1.8-beta Released'
     url: 'https://getgrav.org/blog/grav-18-beta-released'
     date: 1732197180
-    nicetime: '8 months ago'
+    nicetime: '9 months ago'
   -
     title: 'Instagram Feed Plugin is deprecated'
     url: 'https://getgrav.org/blog/instagram-feed-deprecated'
     date: 1732107600
-    nicetime: '8 months ago'
+    nicetime: '9 months ago'
   -
     title: 'macOS 15.0 Sequoia Apache Setup: Upgrading Homebrew'
     url: 'https://getgrav.org/blog/macos-sequoia-apache-upgrade-homebrew'

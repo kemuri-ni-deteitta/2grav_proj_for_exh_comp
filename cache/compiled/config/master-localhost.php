@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1755443008,
-    'checksum' => 'a1ccc7c3381cd17b777a203063500873',
+    'timestamp' => 1755446719,
+    'checksum' => '1b341ef9c036630351800f5afd3f335c',
     'files' => [
         'user/config' => [
             'media' => [
@@ -25,6 +25,10 @@ return [
                 'file' => 'user/config/plugins/form.yaml',
                 'modified' => 1755361994
             ],
+            'plugins/mobile-detect' => [
+                'file' => 'user/config/plugins/mobile-detect.yaml',
+                'modified' => 1755445462
+            ],
             'security' => [
                 'file' => 'user/config/security.yaml',
                 'modified' => 1754418166
@@ -35,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1755442989
+                'modified' => 1755446713
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -133,7 +137,8 @@ return [
         ],
         'plugins' => [
             'mobile-detect' => [
-                'enabled' => true
+                'enabled' => true,
+                'route' => NULL
             ],
             'form' => [
                 'enabled' => true,
