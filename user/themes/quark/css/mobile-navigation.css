@@ -120,6 +120,8 @@
     left: -100%;
     width: 280px;
     height: calc(100vh - 60px);
+    /* Use dynamic viewport unit to cover iOS Safari safe areas and avoid gaps */
+    height: calc(100dvh - 60px);
     background: #ffffff;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
     transition: left 0.3s ease;
@@ -127,6 +129,8 @@
     z-index: 9999;
     /* Prevent horizontal scrolling */
     overflow-x: hidden;
+    /* Prevent scroll chaining/rubber-banding from affecting page behind */
+    overscroll-behavior: contain;
 }
 
 .mobile-nav-content.active {
@@ -512,6 +516,20 @@
 .mobile-nav-overlay.active {
     opacity: 1;
     visibility: visible;
+}
+
+/* Lock background scroll when mobile navigation is open */
+html.mobile-nav-open,
+body.mobile-nav-open {
+    overflow: hidden !important;
+    overscroll-behavior: none !important;
+}
+
+body.mobile-nav-open {
+    position: fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
 
 /* Responsive adjustments */

@@ -118,17 +118,31 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileNavContent = document.getElementById('mobile-nav-content');
     const mobileNav = document.getElementById('mobile-nav');
     const overlay = document.getElementById('mobile-nav-overlay');
+    let scrollPosition = 0;
 
     function openMobileNav() {
         mobileNavContent.classList.add('active');
         mobileNavToggle.classList.add('active');
         if (overlay) overlay.classList.add('active');
+        // Lock background scroll to prevent iOS rubber-band showing page under menu
+        scrollPosition = window.pageYOffset || document.documentElement.scrollTop || 0;
+        document.documentElement.classList.add('mobile-nav-open');
+        document.body.classList.add('mobile-nav-open');
+        document.body.style.top = '-' + scrollPosition + 'px';
     }
 
     function closeMobileNav() {
         mobileNavContent.classList.remove('active');
         mobileNavToggle.classList.remove('active');
         if (overlay) overlay.classList.remove('active');
+        // Restore background scroll position
+        document.documentElement.classList.remove('mobile-nav-open');
+        document.body.classList.remove('mobile-nav-open');
+        document.body.style.top = '';
+        if (scrollPosition) {
+            window.scrollTo(0, scrollPosition);
+            scrollPosition = 0;
+        }
     }
     
     // Toggle mobile navigation
@@ -183,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let startY = 0;
     let currentX = 0;
     let currentY = 0;
+    let menuStartY = 0;
     
     // Touch start
     function handleTouchStart(e) {
@@ -232,6 +247,25 @@ document.addEventListener('DOMContentLoaded', function() {
     document.addEventListener('touchstart', handleTouchStart, { passive: false });
     document.addEventListener('touchmove', handleTouchMove, { passive: false });
     document.addEventListener('touchend', handleTouchEnd, { passive: false });
+
+    // Prevent rubber-band scrolling from leaking to the page when reaching
+    // the top or bottom of the mobile menu on iOS Safari
+    if (mobileNavContent) {
+        mobileNavContent.addEventListener('touchstart', function(e) {
+            menuStartY = e.touches[0].clientY;
+        }, { passive: true });
+
+        mobileNavContent.addEventListener('touchmove', function(e) {
+            const el = mobileNavContent;
+            const currentYMenu = e.touches[0].clientY;
+            const isScrollingUp = currentYMenu > menuStartY;
+            const atTop = el.scrollTop <= 0;
+            const atBottom = Math.ceil(el.scrollTop + el.clientHeight) >= el.scrollHeight;
+            if ((atTop && isScrollingUp) || (atBottom && !isScrollingUp)) {
+                e.preventDefault();
+            }
+        }, { passive: false });
+    }
     
     // Close navigation when clicking outside
     document.addEventListener('click', function(e) {
@@ -244,6 +278,10 @@ document.addEventListener('DOMContentLoaded', function() {
         overlay.addEventListener('click', function() {
             closeMobileNav();
         });
+        // Prevent touchmove on overlay from scrolling the page behind on iOS
+        overlay.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+        }, { passive: false });
     }
 });
 </script>
