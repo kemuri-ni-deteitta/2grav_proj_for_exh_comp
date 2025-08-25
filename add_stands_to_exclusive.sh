@@ -111,8 +111,7 @@ for stand_folder in "${STAND_FOLDERS[@]}"; do
     
     # Add gallery item for this stand
     NEW_CONTENT+="    -"$'\n'
-    NEW_CONTENT+="        title: 'Эксклюзивный стенд \"$stand_name\"'"$'\n'
-    NEW_CONTENT+="        desc: 'Индивидуальный эксклюзивный стенд для компании $stand_name'"$'\n'
+    NEW_CONTENT+="        title: 'Эксклюзивный стенд для компании \"$stand_name\"'"$'\n'
     NEW_CONTENT+="        images:"$'\n'
     
     # Add images for this stand
@@ -121,7 +120,6 @@ for stand_folder in "${STAND_FOLDERS[@]}"; do
         is_main=$([ $i -eq 0 ] && echo "true" || echo "false")
         
         NEW_CONTENT+="            -"$'\n'
-        NEW_CONTENT+="                caption: 'Фотография стенда $stand_name'"$'\n'
         NEW_CONTENT+="                is_main: $is_main"$'\n'
         NEW_CONTENT+="                image_upload:"$'\n'
         NEW_CONTENT+="                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/$image_name:"$'\n'
@@ -132,11 +130,8 @@ for stand_folder in "${STAND_FOLDERS[@]}"; do
         NEW_CONTENT+="                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/$image_name"$'\n'
     done
     
-    # Add metadata for this stand
-    NEW_CONTENT+="        construction_area: 'Площадь уточняется'"$'\n'
-    NEW_CONTENT+="        exhibition_name: 'Выставка уточняется'"$'\n'
+    # Add minimal metadata for this stand
     NEW_CONTENT+="        company_name: '$stand_name'"$'\n'
-    NEW_CONTENT+="        project_year: 'Год уточняется'"$'\n'
     
     echo -e "${GREEN}  ✓ Added stand: $stand_name with ${#copied_images[@]} images${NC}"
     ((counter++))

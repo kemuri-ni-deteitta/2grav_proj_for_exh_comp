@@ -6,11 +6,9 @@ visible: true
 template: stand-page
 gallery:
     -
-        title: 'Эксклюзивный стенд "Абат"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Абат'
+        title: 'Эксклюзивный стенд для компании "Абат"'
         images:
             -
-                caption: 'Фотография стенда Абат'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/abat1.jpg:
@@ -20,7 +18,6 @@ gallery:
                         size: 270854
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/abat1.jpg
             -
-                caption: 'Фотография стенда Абат'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/abat2.jpg:
@@ -30,7 +27,6 @@ gallery:
                         size: 231872
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/abat2.jpg
             -
-                caption: 'Фотография стенда Абат'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/abat3.jpg:
@@ -40,7 +36,6 @@ gallery:
                         size: 247843
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/abat3.jpg
             -
-                caption: 'Фотография стенда Абат'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/abat.jpg:
@@ -49,16 +44,11 @@ gallery:
                         type: image/jpeg
                         size: 106562
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/abat.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Абат'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Агора"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Агора'
+        title: 'Эксклюзивный стенд для компании "Агора"'
         images:
             -
-                caption: 'Фотография стенда Агора'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora1.jpg:
@@ -68,7 +58,6 @@ gallery:
                         size: 547635
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora1.jpg
             -
-                caption: 'Фотография стенда Агора'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora2.jpg:
@@ -78,7 +67,6 @@ gallery:
                         size: 561931
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora2.jpg
             -
-                caption: 'Фотография стенда Агора'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora3.jpg:
@@ -87,16 +75,11 @@ gallery:
                         type: image/jpeg
                         size: 483630
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Агора'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Агро"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Агро'
+        title: 'Эксклюзивный стенд для компании "Агро"'
         images:
             -
-                caption: 'Фотография стенда Агро'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro10.jpg:
@@ -106,7 +89,6 @@ gallery:
                         size: 193713
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro10.jpg
             -
-                caption: 'Фотография стенда Агро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro1.jpg:
@@ -116,7 +98,6 @@ gallery:
                         size: 559116
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro1.jpg
             -
-                caption: 'Фотография стенда Агро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro20.jpg:
@@ -126,7 +107,6 @@ gallery:
                         size: 83301
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro20.jpg
             -
-                caption: 'Фотография стенда Агро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro2.jpg:
@@ -136,7 +116,6 @@ gallery:
                         size: 536487
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro2.jpg
             -
-                caption: 'Фотография стенда Агро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro30.jpg:
@@ -146,7 +125,6 @@ gallery:
                         size: 157936
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro30.jpg
             -
-                caption: 'Фотография стенда Агро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro3.jpg:
@@ -155,16 +133,11 @@ gallery:
                         type: image/jpeg
                         size: 234467
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Агро'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Адамс"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Адамс'
+        title: 'Эксклюзивный стенд для компании "Адамс"'
         images:
             -
-                caption: 'Фотография стенда Адамс'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams1.jpg:
@@ -174,7 +147,6 @@ gallery:
                         size: 150243
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams1.jpg
             -
-                caption: 'Фотография стенда Адамс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams2.jpg:
@@ -184,7 +156,6 @@ gallery:
                         size: 163555
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams2.jpg
             -
-                caption: 'Фотография стенда Адамс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams3.jpg:
@@ -194,7 +165,6 @@ gallery:
                         size: 110994
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams3.jpg
             -
-                caption: 'Фотография стенда Адамс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams4.jpg:
@@ -204,7 +174,6 @@ gallery:
                         size: 108929
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams4.jpg
             -
-                caption: 'Фотография стенда Адамс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams5.jpg:
@@ -214,7 +183,6 @@ gallery:
                         size: 114889
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams5.jpg
             -
-                caption: 'Фотография стенда Адамс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams.jpg:
@@ -223,16 +191,11 @@ gallery:
                         type: image/jpeg
                         size: 112471
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Адамс'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Алпенгурт"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Алпенгурт'
+        title: 'Эксклюзивный стенд для компании "Алпенгурт"'
         images:
             -
-                caption: 'Фотография стенда Алпенгурт'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/alpengurt1.jpg:
@@ -242,7 +205,6 @@ gallery:
                         size: 175377
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/alpengurt1.jpg
             -
-                caption: 'Фотография стенда Алпенгурт'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/alpengurt2.jpg:
@@ -251,16 +213,11 @@ gallery:
                         type: image/jpeg
                         size: 152243
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/alpengurt2.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Алпенгурт'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Амиго"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Амиго'
+        title: 'Эксклюзивный стенд для компании "Амиго"'
         images:
             -
-                caption: 'Фотография стенда Амиго'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/amigo.jpg:
@@ -269,16 +226,11 @@ gallery:
                         type: image/jpeg
                         size: 488135
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/amigo.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Амиго'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Анк"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Анк'
+        title: 'Эксклюзивный стенд для компании "Анк"'
         images:
             -
-                caption: 'Фотография стенда Анк'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank1.jpg:
@@ -288,7 +240,6 @@ gallery:
                         size: 83484
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank1.jpg
             -
-                caption: 'Фотография стенда Анк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank2.jpg:
@@ -298,7 +249,6 @@ gallery:
                         size: 84867
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank2.jpg
             -
-                caption: 'Фотография стенда Анк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank3.jpg:
@@ -308,7 +258,6 @@ gallery:
                         size: 115858
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank3.jpg
             -
-                caption: 'Фотография стенда Анк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank_b.jpg:
@@ -317,16 +266,11 @@ gallery:
                         type: image/jpeg
                         size: 85417
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Анк'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Арес"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Арес'
+        title: 'Эксклюзивный стенд для компании "Арес"'
         images:
             -
-                caption: 'Фотография стенда Арес'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares1.jpg:
@@ -336,7 +280,6 @@ gallery:
                         size: 382516
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares1.jpg
             -
-                caption: 'Фотография стенда Арес'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares2.jpg:
@@ -346,7 +289,6 @@ gallery:
                         size: 225355
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares2.jpg
             -
-                caption: 'Фотография стенда Арес'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares3.jpg:
@@ -355,16 +297,11 @@ gallery:
                         type: image/jpeg
                         size: 248478
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Арес'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Артикон"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Артикон'
+        title: 'Эксклюзивный стенд для компании "Артикон"'
         images:
             -
-                caption: 'Фотография стенда Артикон'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/articon1.jpg:
@@ -374,7 +311,6 @@ gallery:
                         size: 531834
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/articon1.jpg
             -
-                caption: 'Фотография стенда Артикон'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/articon2.jpg:
@@ -384,7 +320,6 @@ gallery:
                         size: 454235
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/articon2.jpg
             -
-                caption: 'Фотография стенда Артикон'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/articon3.jpg:
@@ -393,16 +328,11 @@ gallery:
                         type: image/jpeg
                         size: 429579
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/articon3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Артикон'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Аурами"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Аурами'
+        title: 'Эксклюзивный стенд для компании "Аурами"'
         images:
             -
-                caption: 'Фотография стенда Аурами'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aurami1_b.jpg:
@@ -412,7 +342,6 @@ gallery:
                         size: 159523
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aurami1_b.jpg
             -
-                caption: 'Фотография стенда Аурами'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aurami2_b.jpg:
@@ -422,7 +351,6 @@ gallery:
                         size: 152976
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aurami2_b.jpg
             -
-                caption: 'Фотография стенда Аурами'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aurami.jpg:
@@ -431,16 +359,11 @@ gallery:
                         type: image/jpeg
                         size: 118534
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aurami.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Аурами'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Аутотхерм"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Аутотхерм'
+        title: 'Эксклюзивный стенд для компании "Аутотхерм"'
         images:
             -
-                caption: 'Фотография стенда Аутотхерм'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm1.jpg:
@@ -450,7 +373,6 @@ gallery:
                         size: 165063
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm1.jpg
             -
-                caption: 'Фотография стенда Аутотхерм'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm2.jpg:
@@ -460,7 +382,6 @@ gallery:
                         size: 127146
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm2.jpg
             -
-                caption: 'Фотография стенда Аутотхерм'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm3.jpg:
@@ -470,7 +391,6 @@ gallery:
                         size: 142504
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm3.jpg
             -
-                caption: 'Фотография стенда Аутотхерм'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm_sr.jpg:
@@ -479,16 +399,11 @@ gallery:
                         type: image/jpeg
                         size: 255863
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm_sr.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Аутотхерм'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Баджкал"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Баджкал'
+        title: 'Эксклюзивный стенд для компании "Баджкал"'
         images:
             -
-                caption: 'Фотография стенда Баджкал'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal1_b.jpg:
@@ -498,7 +413,6 @@ gallery:
                         size: 85792
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal1_b.jpg
             -
-                caption: 'Фотография стенда Баджкал'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal2_b.jpg:
@@ -508,7 +422,6 @@ gallery:
                         size: 102445
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal2_b.jpg
             -
-                caption: 'Фотография стенда Баджкал'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal3_b.jpg:
@@ -518,7 +431,6 @@ gallery:
                         size: 132946
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal3_b.jpg
             -
-                caption: 'Фотография стенда Баджкал'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal4_b.jpg:
@@ -528,7 +440,6 @@ gallery:
                         size: 107646
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal4_b.jpg
             -
-                caption: 'Фотография стенда Баджкал'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal5_b.jpg:
@@ -538,7 +449,6 @@ gallery:
                         size: 145840
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal5_b.jpg
             -
-                caption: 'Фотография стенда Баджкал'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal.jpg:
@@ -547,16 +457,11 @@ gallery:
                         type: image/jpeg
                         size: 71853
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Баджкал'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Бар"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Бар'
+        title: 'Эксклюзивный стенд для компании "Бар"'
         images:
             -
-                caption: 'Фотография стенда Бар'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar1.jpg:
@@ -566,7 +471,6 @@ gallery:
                         size: 92750
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar1.jpg
             -
-                caption: 'Фотография стенда Бар'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar2.jpg:
@@ -576,7 +480,6 @@ gallery:
                         size: 92419
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar2.jpg
             -
-                caption: 'Фотография стенда Бар'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar3.jpg:
@@ -586,7 +489,6 @@ gallery:
                         size: 107979
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar3.jpg
             -
-                caption: 'Фотография стенда Бар'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar_b.jpg:
@@ -595,16 +497,11 @@ gallery:
                         type: image/jpeg
                         size: 83492
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Бар'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Баршов"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Баршов'
+        title: 'Эксклюзивный стенд для компании "Баршов"'
         images:
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow1_b.jpg:
@@ -614,7 +511,6 @@ gallery:
                         size: 164256
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow1_b.jpg
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow2_b.jpg:
@@ -624,7 +520,6 @@ gallery:
                         size: 146532
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow2_b.jpg
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow3_b.jpg:
@@ -634,7 +529,6 @@ gallery:
                         size: 159995
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow3_b.jpg
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow4_b.jpg:
@@ -644,7 +538,6 @@ gallery:
                         size: 148215
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow4_b.jpg
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow5_b.jpg:
@@ -654,7 +547,6 @@ gallery:
                         size: 136585
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow5_b.jpg
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow6_b.jpg:
@@ -664,7 +556,6 @@ gallery:
                         size: 105577
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow6_b.jpg
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow7_b.jpg:
@@ -674,7 +565,6 @@ gallery:
                         size: 126512
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow7_b.jpg
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow8_b.jpg:
@@ -684,7 +574,6 @@ gallery:
                         size: 148630
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow8_b.jpg
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow9_b.jpg:
@@ -694,7 +583,6 @@ gallery:
                         size: 136676
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow9_b.jpg
             -
-                caption: 'Фотография стенда Баршов'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow.jpg:
@@ -703,16 +591,11 @@ gallery:
                         type: image/jpeg
                         size: 117058
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Баршов'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Бл"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Бл'
+        title: 'Эксклюзивный стенд для компании "Бл"'
         images:
             -
-                caption: 'Фотография стенда Бл'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl1.jpg:
@@ -722,7 +605,6 @@ gallery:
                         size: 606232
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl1.jpg
             -
-                caption: 'Фотография стенда Бл'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl2.jpg:
@@ -732,7 +614,6 @@ gallery:
                         size: 609182
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl2.jpg
             -
-                caption: 'Фотография стенда Бл'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl3.jpg:
@@ -742,7 +623,6 @@ gallery:
                         size: 599588
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl3.jpg
             -
-                caption: 'Фотография стенда Бл'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl4.jpg:
@@ -752,7 +632,6 @@ gallery:
                         size: 622143
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl4.jpg
             -
-                caption: 'Фотография стенда Бл'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl5.jpg:
@@ -762,7 +641,6 @@ gallery:
                         size: 501574
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl5.jpg
             -
-                caption: 'Фотография стенда Бл'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl6.jpg:
@@ -771,16 +649,11 @@ gallery:
                         type: image/jpeg
                         size: 453139
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl6.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Бл'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Валлекс"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Валлекс'
+        title: 'Эксклюзивный стенд для компании "Валлекс"'
         images:
             -
-                caption: 'Фотография стенда Валлекс'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex1.jpg:
@@ -790,7 +663,6 @@ gallery:
                         size: 382997
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex1.jpg
             -
-                caption: 'Фотография стенда Валлекс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex2.jpg:
@@ -800,7 +672,6 @@ gallery:
                         size: 436416
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex2.jpg
             -
-                caption: 'Фотография стенда Валлекс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex3.jpg:
@@ -810,7 +681,6 @@ gallery:
                         size: 427137
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex3.jpg
             -
-                caption: 'Фотография стенда Валлекс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex4.jpg:
@@ -820,7 +690,6 @@ gallery:
                         size: 435186
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex4.jpg
             -
-                caption: 'Фотография стенда Валлекс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex5.jpg:
@@ -830,7 +699,6 @@ gallery:
                         size: 420541
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex5.jpg
             -
-                caption: 'Фотография стенда Валлекс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex6.jpg:
@@ -839,16 +707,11 @@ gallery:
                         type: image/jpeg
                         size: 391189
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex6.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Валлекс'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Вебер"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Вебер'
+        title: 'Эксклюзивный стенд для компании "Вебер"'
         images:
             -
-                caption: 'Фотография стенда Вебер'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber1.jpg:
@@ -858,7 +721,6 @@ gallery:
                         size: 147990
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber1.jpg
             -
-                caption: 'Фотография стенда Вебер'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber2.jpg:
@@ -868,7 +730,6 @@ gallery:
                         size: 153485
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber2.jpg
             -
-                caption: 'Фотография стенда Вебер'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber3.jpg:
@@ -878,7 +739,6 @@ gallery:
                         size: 139751
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber3.jpg
             -
-                caption: 'Фотография стенда Вебер'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber4.jpg:
@@ -888,7 +748,6 @@ gallery:
                         size: 160846
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber4.jpg
             -
-                caption: 'Фотография стенда Вебер'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber5.jpg:
@@ -898,7 +757,6 @@ gallery:
                         size: 168614
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber5.jpg
             -
-                caption: 'Фотография стенда Вебер'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber6.jpg:
@@ -908,7 +766,6 @@ gallery:
                         size: 147721
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber6.jpg
             -
-                caption: 'Фотография стенда Вебер'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber.jpg:
@@ -917,16 +774,11 @@ gallery:
                         type: image/jpeg
                         size: 136545
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Вебер'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ветпром"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ветпром'
+        title: 'Эксклюзивный стенд для компании "Ветпром"'
         images:
             -
-                caption: 'Фотография стенда Ветпром'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom1.jpg:
@@ -936,7 +788,6 @@ gallery:
                         size: 151020
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom1.jpg
             -
-                caption: 'Фотография стенда Ветпром'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom2.jpg:
@@ -946,7 +797,6 @@ gallery:
                         size: 140055
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom2.jpg
             -
-                caption: 'Фотография стенда Ветпром'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom3.jpg:
@@ -956,7 +806,6 @@ gallery:
                         size: 126474
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom3.jpg
             -
-                caption: 'Фотография стенда Ветпром'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom4.jpg:
@@ -966,7 +815,6 @@ gallery:
                         size: 90477
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom4.jpg
             -
-                caption: 'Фотография стенда Ветпром'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom.jpg:
@@ -975,16 +823,11 @@ gallery:
                         type: image/jpeg
                         size: 95754
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ветпром'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Виллиам"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Виллиам'
+        title: 'Эксклюзивный стенд для компании "Виллиам"'
         images:
             -
-                caption: 'Фотография стенда Виллиам'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william1.jpg:
@@ -994,7 +837,6 @@ gallery:
                         size: 340826
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william1.jpg
             -
-                caption: 'Фотография стенда Виллиам'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william2.jpg:
@@ -1004,7 +846,6 @@ gallery:
                         size: 138531
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william2.jpg
             -
-                caption: 'Фотография стенда Виллиам'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william3.jpg:
@@ -1014,7 +855,6 @@ gallery:
                         size: 180222
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william3.jpg
             -
-                caption: 'Фотография стенда Виллиам'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william4.jpg:
@@ -1024,7 +864,6 @@ gallery:
                         size: 164118
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william4.jpg
             -
-                caption: 'Фотография стенда Виллиам'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william5.jpg:
@@ -1034,7 +873,6 @@ gallery:
                         size: 206313
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william5.jpg
             -
-                caption: 'Фотография стенда Виллиам'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william6.jpg:
@@ -1043,16 +881,11 @@ gallery:
                         type: image/jpeg
                         size: 174164
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william6.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Виллиам'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Виллиамс"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Виллиамс'
+        title: 'Эксклюзивный стенд для компании "Виллиамс"'
         images:
             -
-                caption: 'Фотография стенда Виллиамс'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/williams.jpg:
@@ -1061,16 +894,11 @@ gallery:
                         type: image/jpeg
                         size: 133553
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/williams.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Виллиамс'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ворлдкласс"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ворлдкласс'
+        title: 'Эксклюзивный стенд для компании "Ворлдкласс"'
         images:
             -
-                caption: 'Фотография стенда Ворлдкласс'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/worldclass1.jpg:
@@ -1080,7 +908,6 @@ gallery:
                         size: 122829
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/worldclass1.jpg
             -
-                caption: 'Фотография стенда Ворлдкласс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/worldclass2.jpg:
@@ -1090,7 +917,6 @@ gallery:
                         size: 134327
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/worldclass2.jpg
             -
-                caption: 'Фотография стенда Ворлдкласс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/worldclass3.jpg:
@@ -1099,16 +925,11 @@ gallery:
                         type: image/jpeg
                         size: 93599
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/worldclass3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ворлдкласс'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Галад"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Галад'
+        title: 'Эксклюзивный стенд для компании "Галад"'
         images:
             -
-                caption: 'Фотография стенда Галад'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/galad.jpg:
@@ -1117,16 +938,11 @@ gallery:
                         type: image/jpeg
                         size: 415263
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/galad.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Галад'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Гаминг"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Гаминг'
+        title: 'Эксклюзивный стенд для компании "Гаминг"'
         images:
             -
-                caption: 'Фотография стенда Гаминг'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming1.jpg:
@@ -1136,7 +952,6 @@ gallery:
                         size: 158794
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming1.jpg
             -
-                caption: 'Фотография стенда Гаминг'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming2.jpg:
@@ -1146,7 +961,6 @@ gallery:
                         size: 176179
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming2.jpg
             -
-                caption: 'Фотография стенда Гаминг'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming3.jpg:
@@ -1156,7 +970,6 @@ gallery:
                         size: 139928
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming3.jpg
             -
-                caption: 'Фотография стенда Гаминг'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming4.jpg:
@@ -1166,7 +979,6 @@ gallery:
                         size: 168041
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming4.jpg
             -
-                caption: 'Фотография стенда Гаминг'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming5.jpg:
@@ -1176,7 +988,6 @@ gallery:
                         size: 167137
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming5.jpg
             -
-                caption: 'Фотография стенда Гаминг'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming6.jpg:
@@ -1185,16 +996,11 @@ gallery:
                         type: image/jpeg
                         size: 155375
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming6.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Гаминг'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ггроуп"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ггроуп'
+        title: 'Эксклюзивный стенд для компании "Ггроуп"'
         images:
             -
-                caption: 'Фотография стенда Ггроуп'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ggroup1.jpg:
@@ -1204,7 +1010,6 @@ gallery:
                         size: 584909
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ggroup1.jpg
             -
-                caption: 'Фотография стенда Ггроуп'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ggroup2.jpg:
@@ -1213,16 +1018,11 @@ gallery:
                         type: image/jpeg
                         size: 440562
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ggroup2.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ггроуп'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Гк"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Гк'
+        title: 'Эксклюзивный стенд для компании "Гк"'
         images:
             -
-                caption: 'Фотография стенда Гк'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/GC-1.jpg:
@@ -1231,16 +1031,11 @@ gallery:
                         type: image/jpeg
                         size: 236032
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/GC-1.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Гк'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Декор"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Декор'
+        title: 'Эксклюзивный стенд для компании "Декор"'
         images:
             -
-                caption: 'Фотография стенда Декор'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor1.jpg:
@@ -1250,7 +1045,6 @@ gallery:
                         size: 189125
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor1.jpg
             -
-                caption: 'Фотография стенда Декор'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor2.jpg:
@@ -1260,7 +1054,6 @@ gallery:
                         size: 173626
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor2.jpg
             -
-                caption: 'Фотография стенда Декор'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor3.jpg:
@@ -1270,7 +1063,6 @@ gallery:
                         size: 189705
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor3.jpg
             -
-                caption: 'Фотография стенда Декор'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor.jpg:
@@ -1279,16 +1071,11 @@ gallery:
                         type: image/jpeg
                         size: 140169
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Декор'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Делрус"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Делрус'
+        title: 'Эксклюзивный стенд для компании "Делрус"'
         images:
             -
-                caption: 'Фотография стенда Делрус'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus1.jpg:
@@ -1298,7 +1085,6 @@ gallery:
                         size: 437148
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus1.jpg
             -
-                caption: 'Фотография стенда Делрус'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus2.jpg:
@@ -1308,7 +1094,6 @@ gallery:
                         size: 432193
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus2.jpg
             -
-                caption: 'Фотография стенда Делрус'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus3.jpg:
@@ -1318,7 +1103,6 @@ gallery:
                         size: 444791
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus3.jpg
             -
-                caption: 'Фотография стенда Делрус'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus4.jpg:
@@ -1328,7 +1112,6 @@ gallery:
                         size: 418206
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus4.jpg
             -
-                caption: 'Фотография стенда Делрус'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus5.jpg:
@@ -1338,7 +1121,6 @@ gallery:
                         size: 351606
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus5.jpg
             -
-                caption: 'Фотография стенда Делрус'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus6.jpg:
@@ -1347,16 +1129,11 @@ gallery:
                         type: image/jpeg
                         size: 405712
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus6.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Делрус'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Дерма"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Дерма'
+        title: 'Эксклюзивный стенд для компании "Дерма"'
         images:
             -
-                caption: 'Фотография стенда Дерма'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma1.jpg:
@@ -1366,7 +1143,6 @@ gallery:
                         size: 555496
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma1.jpg
             -
-                caption: 'Фотография стенда Дерма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma2.jpg:
@@ -1376,7 +1152,6 @@ gallery:
                         size: 539155
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma2.jpg
             -
-                caption: 'Фотография стенда Дерма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma3.jpg:
@@ -1385,16 +1160,11 @@ gallery:
                         type: image/jpeg
                         size: 585447
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Дерма'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Дермалогика"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Дермалогика'
+        title: 'Эксклюзивный стенд для компании "Дермалогика"'
         images:
             -
-                caption: 'Фотография стенда Дермалогика'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dermalogica.jpg:
@@ -1403,16 +1173,11 @@ gallery:
                         type: image/jpeg
                         size: 322948
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dermalogica.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Дермалогика'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Джесс"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Джесс'
+        title: 'Эксклюзивный стенд для компании "Джесс"'
         images:
             -
-                caption: 'Фотография стенда Джесс'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-1.jpg:
@@ -1422,7 +1187,6 @@ gallery:
                         size: 220621
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-1.jpg
             -
-                caption: 'Фотография стенда Джесс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-2.jpg:
@@ -1432,7 +1196,6 @@ gallery:
                         size: 189996
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-2.jpg
             -
-                caption: 'Фотография стенда Джесс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-3.jpg:
@@ -1442,7 +1205,6 @@ gallery:
                         size: 205708
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-3.jpg
             -
-                caption: 'Фотография стенда Джесс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-4.jpg:
@@ -1452,7 +1214,6 @@ gallery:
                         size: 221114
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-4.jpg
             -
-                caption: 'Фотография стенда Джесс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-5.jpg:
@@ -1462,7 +1223,6 @@ gallery:
                         size: 261238
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-5.jpg
             -
-                caption: 'Фотография стенда Джесс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-6.jpg:
@@ -1471,16 +1231,11 @@ gallery:
                         type: image/jpeg
                         size: 193159
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-6.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Джесс'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Джессй"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Джессй'
+        title: 'Эксклюзивный стенд для компании "Джессй"'
         images:
             -
-                caption: 'Фотография стенда Джессй'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/jessy1.jpg:
@@ -1490,7 +1245,6 @@ gallery:
                         size: 654096
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/jessy1.jpg
             -
-                caption: 'Фотография стенда Джессй'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/jessy2.jpg:
@@ -1499,16 +1253,11 @@ gallery:
                         type: image/jpeg
                         size: 619407
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/jessy2.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Джессй'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Димарт"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Димарт'
+        title: 'Эксклюзивный стенд для компании "Димарт"'
         images:
             -
-                caption: 'Фотография стенда Димарт'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dimart1.jpg:
@@ -1518,7 +1267,6 @@ gallery:
                         size: 198878
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dimart1.jpg
             -
-                caption: 'Фотография стенда Димарт'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dimart2.jpg:
@@ -1528,7 +1276,6 @@ gallery:
                         size: 192311
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dimart2.jpg
             -
-                caption: 'Фотография стенда Димарт'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dimart3.jpg:
@@ -1537,16 +1284,11 @@ gallery:
                         type: image/jpeg
                         size: 174407
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dimart3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Димарт'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Дмк"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Дмк'
+        title: 'Эксклюзивный стенд для компании "Дмк"'
         images:
             -
-                caption: 'Фотография стенда Дмк'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk-1.jpg:
@@ -1556,7 +1298,6 @@ gallery:
                         size: 163823
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk-1.jpg
             -
-                caption: 'Фотография стенда Дмк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk-2.jpg:
@@ -1566,7 +1307,6 @@ gallery:
                         size: 151923
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk-2.jpg
             -
-                caption: 'Фотография стенда Дмк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk-3.jpg:
@@ -1576,7 +1316,6 @@ gallery:
                         size: 140991
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk-3.jpg
             -
-                caption: 'Фотография стенда Дмк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk.jpg:
@@ -1585,16 +1324,11 @@ gallery:
                         type: image/jpeg
                         size: 111130
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Дмк'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Дриада"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Дриада'
+        title: 'Эксклюзивный стенд для компании "Дриада"'
         images:
             -
-                caption: 'Фотография стенда Дриада'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/driada1.jpg:
@@ -1604,7 +1338,6 @@ gallery:
                         size: 148248
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/driada1.jpg
             -
-                caption: 'Фотография стенда Дриада'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/driada2.jpg:
@@ -1614,7 +1347,6 @@ gallery:
                         size: 116369
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/driada2.jpg
             -
-                caption: 'Фотография стенда Дриада'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/driada3.jpg:
@@ -1623,16 +1355,11 @@ gallery:
                         type: image/jpeg
                         size: 122132
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/driada3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Дриада'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Еквинет"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Еквинет'
+        title: 'Эксклюзивный стенд для компании "Еквинет"'
         images:
             -
-                caption: 'Фотография стенда Еквинет'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ekvinet1.jpg:
@@ -1642,7 +1369,6 @@ gallery:
                         size: 207231
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ekvinet1.jpg
             -
-                caption: 'Фотография стенда Еквинет'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ekvinet2.jpg:
@@ -1651,16 +1377,11 @@ gallery:
                         type: image/jpeg
                         size: 196238
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ekvinet2.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Еквинет'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ёкохама"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ёкохама'
+        title: 'Эксклюзивный стенд для компании "Ёкохама"'
         images:
             -
-                caption: 'Фотография стенда Ёкохама'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yokohama1.jpg:
@@ -1670,7 +1391,6 @@ gallery:
                         size: 394151
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yokohama1.jpg
             -
-                caption: 'Фотография стенда Ёкохама'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yokohama2.jpg:
@@ -1680,7 +1400,6 @@ gallery:
                         size: 397038
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yokohama2.jpg
             -
-                caption: 'Фотография стенда Ёкохама'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yokohama3.jpg:
@@ -1689,16 +1408,11 @@ gallery:
                         type: image/jpeg
                         size: 414023
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yokohama3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ёкохама'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Емалика"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Емалика'
+        title: 'Эксклюзивный стенд для компании "Емалика"'
         images:
             -
-                caption: 'Фотография стенда Емалика'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/emalika1.jpg:
@@ -1708,7 +1422,6 @@ gallery:
                         size: 105644
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/emalika1.jpg
             -
-                caption: 'Фотография стенда Емалика'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/emalika2.jpg:
@@ -1718,7 +1431,6 @@ gallery:
                         size: 113478
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/emalika2.jpg
             -
-                caption: 'Фотография стенда Емалика'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/emalika3.jpg:
@@ -1727,16 +1439,11 @@ gallery:
                         type: image/jpeg
                         size: 83326
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/emalika3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Емалика'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Зенит"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Зенит'
+        title: 'Эксклюзивный стенд для компании "Зенит"'
         images:
             -
-                caption: 'Фотография стенда Зенит'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/zenit1.jpg:
@@ -1746,7 +1453,6 @@ gallery:
                         size: 234918
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/zenit1.jpg
             -
-                caption: 'Фотография стенда Зенит'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/zenit2.jpg:
@@ -1756,7 +1462,6 @@ gallery:
                         size: 216986
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/zenit2.jpg
             -
-                caption: 'Фотография стенда Зенит'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/zenit3.jpg:
@@ -1765,16 +1470,11 @@ gallery:
                         type: image/jpeg
                         size: 234562
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/zenit3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Зенит'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Инрост"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Инрост'
+        title: 'Эксклюзивный стенд для компании "Инрост"'
         images:
             -
-                caption: 'Фотография стенда Инрост'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost1.jpg:
@@ -1784,7 +1484,6 @@ gallery:
                         size: 66354
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost1.jpg
             -
-                caption: 'Фотография стенда Инрост'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost2.jpg:
@@ -1794,7 +1493,6 @@ gallery:
                         size: 57521
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost2.jpg
             -
-                caption: 'Фотография стенда Инрост'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost3.jpg:
@@ -1804,7 +1502,6 @@ gallery:
                         size: 73579
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost3.jpg
             -
-                caption: 'Фотография стенда Инрост'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost_b.jpg:
@@ -1813,16 +1510,11 @@ gallery:
                         type: image/jpeg
                         size: 86886
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Инрост'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Интилед"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Интилед'
+        title: 'Эксклюзивный стенд для компании "Интилед"'
         images:
             -
-                caption: 'Фотография стенда Интилед'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled1.jpg:
@@ -1832,7 +1524,6 @@ gallery:
                         size: 443254
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled1.jpg
             -
-                caption: 'Фотография стенда Интилед'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled2.jpg:
@@ -1842,7 +1533,6 @@ gallery:
                         size: 444173
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled2.jpg
             -
-                caption: 'Фотография стенда Интилед'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled3.jpg:
@@ -1852,7 +1542,6 @@ gallery:
                         size: 322418
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled3.jpg
             -
-                caption: 'Фотография стенда Интилед'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled4.jpg:
@@ -1861,16 +1550,11 @@ gallery:
                         type: image/jpeg
                         size: 531211
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled4.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Интилед'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Интурист"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Интурист'
+        title: 'Эксклюзивный стенд для компании "Интурист"'
         images:
             -
-                caption: 'Фотография стенда Интурист'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist1.jpg:
@@ -1880,7 +1564,6 @@ gallery:
                         size: 327789
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist1.jpg
             -
-                caption: 'Фотография стенда Интурист'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist2.jpg:
@@ -1890,7 +1573,6 @@ gallery:
                         size: 353215
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist2.jpg
             -
-                caption: 'Фотография стенда Интурист'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist3.jpg:
@@ -1900,7 +1582,6 @@ gallery:
                         size: 334371
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist3.jpg
             -
-                caption: 'Фотография стенда Интурист'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist4.jpg:
@@ -1910,7 +1591,6 @@ gallery:
                         size: 377412
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist4.jpg
             -
-                caption: 'Фотография стенда Интурист'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist5.jpg:
@@ -1920,7 +1600,6 @@ gallery:
                         size: 356956
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist5.jpg
             -
-                caption: 'Фотография стенда Интурист'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist6.jpg:
@@ -1929,16 +1608,11 @@ gallery:
                         type: image/jpeg
                         size: 500639
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist6.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Интурист'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Кб"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Кб'
+        title: 'Эксклюзивный стенд для компании "Кб"'
         images:
             -
-                caption: 'Фотография стенда Кб'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb1.jpg:
@@ -1948,7 +1622,6 @@ gallery:
                         size: 564409
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb1.jpg
             -
-                caption: 'Фотография стенда Кб'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb2.jpg:
@@ -1958,7 +1631,6 @@ gallery:
                         size: 550681
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb2.jpg
             -
-                caption: 'Фотография стенда Кб'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb3.jpg:
@@ -1968,7 +1640,6 @@ gallery:
                         size: 531395
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb3.jpg
             -
-                caption: 'Фотография стенда Кб'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb4.jpg:
@@ -1977,16 +1648,11 @@ gallery:
                         type: image/jpeg
                         size: 565338
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb4.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Кб'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Кордоба"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Кордоба'
+        title: 'Эксклюзивный стенд для компании "Кордоба"'
         images:
             -
-                caption: 'Фотография стенда Кордоба'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kordoba1.jpg:
@@ -1996,7 +1662,6 @@ gallery:
                         size: 357174
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kordoba1.jpg
             -
-                caption: 'Фотография стенда Кордоба'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kordoba2.jpg:
@@ -2006,7 +1671,6 @@ gallery:
                         size: 381124
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kordoba2.jpg
             -
-                caption: 'Фотография стенда Кордоба'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kordoba3.jpg:
@@ -2015,16 +1679,11 @@ gallery:
                         type: image/jpeg
                         size: 353904
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kordoba3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Кордоба'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Крой"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Крой'
+        title: 'Эксклюзивный стенд для компании "Крой"'
         images:
             -
-                caption: 'Фотография стенда Крой'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy1.jpg:
@@ -2034,7 +1693,6 @@ gallery:
                         size: 164520
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy1.jpg
             -
-                caption: 'Фотография стенда Крой'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy2.jpg:
@@ -2044,7 +1702,6 @@ gallery:
                         size: 206474
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy2.jpg
             -
-                caption: 'Фотография стенда Крой'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy3.jpg:
@@ -2054,7 +1711,6 @@ gallery:
                         size: 111726
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy3.jpg
             -
-                caption: 'Фотография стенда Крой'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy_sr.jpg:
@@ -2063,16 +1719,11 @@ gallery:
                         type: image/jpeg
                         size: 218920
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy_sr.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Крой'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Кроне"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Кроне'
+        title: 'Эксклюзивный стенд для компании "Кроне"'
         images:
             -
-                caption: 'Фотография стенда Кроне'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/krone1.jpg:
@@ -2082,7 +1733,6 @@ gallery:
                         size: 102745
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/krone1.jpg
             -
-                caption: 'Фотография стенда Кроне'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/krone2.jpg:
@@ -2091,16 +1741,11 @@ gallery:
                         type: image/jpeg
                         size: 98715
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/krone2.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Кроне'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Кубе"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Кубе'
+        title: 'Эксклюзивный стенд для компании "Кубе"'
         images:
             -
-                caption: 'Фотография стенда Кубе'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cube1.jpg:
@@ -2110,7 +1755,6 @@ gallery:
                         size: 253288
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cube1.jpg
             -
-                caption: 'Фотография стенда Кубе'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cube2.jpg:
@@ -2120,7 +1764,6 @@ gallery:
                         size: 254899
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cube2.jpg
             -
-                caption: 'Фотография стенда Кубе'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cube3.jpg:
@@ -2129,16 +1772,11 @@ gallery:
                         type: image/jpeg
                         size: 242784
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cube3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Кубе'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Лотте"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Лотте'
+        title: 'Эксклюзивный стенд для компании "Лотте"'
         images:
             -
-                caption: 'Фотография стенда Лотте'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/lotte.jpg:
@@ -2147,16 +1785,11 @@ gallery:
                         type: image/jpeg
                         size: 114956
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/lotte.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Лотте'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Лутоса"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Лутоса'
+        title: 'Эксклюзивный стенд для компании "Лутоса"'
         images:
             -
-                caption: 'Фотография стенда Лутоса'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/lutosa1_b.jpg:
@@ -2166,7 +1799,6 @@ gallery:
                         size: 137795
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/lutosa1_b.jpg
             -
-                caption: 'Фотография стенда Лутоса'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/lutosa2_b.jpg:
@@ -2175,16 +1807,11 @@ gallery:
                         type: image/jpeg
                         size: 141141
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/lutosa2_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Лутоса'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Маилру"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Маилру'
+        title: 'Эксклюзивный стенд для компании "Маилру"'
         images:
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru1_b.jpg:
@@ -2194,7 +1821,6 @@ gallery:
                         size: 154868
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru1_b.jpg
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru2_b.jpg:
@@ -2204,7 +1830,6 @@ gallery:
                         size: 128072
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru2_b.jpg
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru3_b.jpg:
@@ -2214,7 +1839,6 @@ gallery:
                         size: 103004
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru3_b.jpg
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru4_b.jpg:
@@ -2224,7 +1848,6 @@ gallery:
                         size: 97287
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru4_b.jpg
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru5_b.jpg:
@@ -2234,7 +1857,6 @@ gallery:
                         size: 139957
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru5_b.jpg
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru6_b.jpg:
@@ -2244,7 +1866,6 @@ gallery:
                         size: 120268
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru6_b.jpg
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru7_b.jpg:
@@ -2254,7 +1875,6 @@ gallery:
                         size: 126632
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru7_b.jpg
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru8_b.jpg:
@@ -2264,7 +1884,6 @@ gallery:
                         size: 128723
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru8_b.jpg
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru9_b.jpg:
@@ -2274,7 +1893,6 @@ gallery:
                         size: 145152
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru9_b.jpg
             -
-                caption: 'Фотография стенда Маилру'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru.jpg:
@@ -2283,16 +1901,11 @@ gallery:
                         type: image/jpeg
                         size: 145270
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Маилру'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Маркон"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Маркон'
+        title: 'Эксклюзивный стенд для компании "Маркон"'
         images:
             -
-                caption: 'Фотография стенда Маркон'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/markon1.jpg:
@@ -2302,7 +1915,6 @@ gallery:
                         size: 154003
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/markon1.jpg
             -
-                caption: 'Фотография стенда Маркон'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/markon2.jpg:
@@ -2312,7 +1924,6 @@ gallery:
                         size: 136473
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/markon2.jpg
             -
-                caption: 'Фотография стенда Маркон'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/markon3.jpg:
@@ -2321,16 +1932,11 @@ gallery:
                         type: image/jpeg
                         size: 157277
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/markon3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Маркон'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Мармелад"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Мармелад'
+        title: 'Эксклюзивный стенд для компании "Мармелад"'
         images:
             -
-                caption: 'Фотография стенда Мармелад'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/marmelad1.jpg:
@@ -2340,7 +1946,6 @@ gallery:
                         size: 505468
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/marmelad1.jpg
             -
-                caption: 'Фотография стенда Мармелад'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/marmelad2.jpg:
@@ -2349,16 +1954,11 @@ gallery:
                         type: image/jpeg
                         size: 537960
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/marmelad2.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Мармелад'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Мебельград"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Мебельград'
+        title: 'Эксклюзивный стенд для компании "Мебельград"'
         images:
             -
-                caption: 'Фотография стенда Мебельград'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad1_b.jpg:
@@ -2368,7 +1968,6 @@ gallery:
                         size: 210065
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad1_b.jpg
             -
-                caption: 'Фотография стенда Мебельград'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad2_b.jpg:
@@ -2378,7 +1977,6 @@ gallery:
                         size: 210070
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad2_b.jpg
             -
-                caption: 'Фотография стенда Мебельград'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad3_b.jpg:
@@ -2388,7 +1986,6 @@ gallery:
                         size: 225972
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad3_b.jpg
             -
-                caption: 'Фотография стенда Мебельград'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad4_b.jpg:
@@ -2398,7 +1995,6 @@ gallery:
                         size: 287787
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad4_b.jpg
             -
-                caption: 'Фотография стенда Мебельград'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad6_b.jpg:
@@ -2408,7 +2004,6 @@ gallery:
                         size: 176094
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad6_b.jpg
             -
-                caption: 'Фотография стенда Мебельград'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad7_b.jpg:
@@ -2417,16 +2012,11 @@ gallery:
                         type: image/jpeg
                         size: 250207
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mebelgrad7_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Мебельград'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Микран"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Микран'
+        title: 'Эксклюзивный стенд для компании "Микран"'
         images:
             -
-                caption: 'Фотография стенда Микран'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mikran1.jpg:
@@ -2436,7 +2026,6 @@ gallery:
                         size: 158012
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mikran1.jpg
             -
-                caption: 'Фотография стенда Микран'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mikran2.jpg:
@@ -2446,7 +2035,6 @@ gallery:
                         size: 164663
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mikran2.jpg
             -
-                caption: 'Фотография стенда Микран'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mikran3.jpg:
@@ -2455,16 +2043,11 @@ gallery:
                         type: image/jpeg
                         size: 171200
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mikran3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Микран'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Молинари"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Молинари'
+        title: 'Эксклюзивный стенд для компании "Молинари"'
         images:
             -
-                caption: 'Фотография стенда Молинари'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/molinari1_b.jpg:
@@ -2473,16 +2056,11 @@ gallery:
                         type: image/jpeg
                         size: 119326
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/molinari1_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Молинари'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Мск"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Мск'
+        title: 'Эксклюзивный стенд для компании "Мск"'
         images:
             -
-                caption: 'Фотография стенда Мск'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc1.jpg:
@@ -2492,7 +2070,6 @@ gallery:
                         size: 153376
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc1.jpg
             -
-                caption: 'Фотография стенда Мск'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc2.jpg:
@@ -2502,7 +2079,6 @@ gallery:
                         size: 135074
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc2.jpg
             -
-                caption: 'Фотография стенда Мск'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc3.jpg:
@@ -2512,7 +2088,6 @@ gallery:
                         size: 129567
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc3.jpg
             -
-                caption: 'Фотография стенда Мск'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc3_sr.jpg:
@@ -2522,7 +2097,6 @@ gallery:
                         size: 248863
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc3_sr.jpg
             -
-                caption: 'Фотография стенда Мск'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc4.jpg:
@@ -2532,7 +2106,6 @@ gallery:
                         size: 134951
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc4.jpg
             -
-                caption: 'Фотография стенда Мск'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc5.jpg:
@@ -2541,16 +2114,11 @@ gallery:
                         type: image/jpeg
                         size: 92936
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc5.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Мск'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Мустанг"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Мустанг'
+        title: 'Эксклюзивный стенд для компании "Мустанг"'
         images:
             -
-                caption: 'Фотография стенда Мустанг'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mustang1.jpg:
@@ -2560,7 +2128,6 @@ gallery:
                         size: 174286
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mustang1.jpg
             -
-                caption: 'Фотография стенда Мустанг'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mustang2.jpg:
@@ -2570,7 +2137,6 @@ gallery:
                         size: 185373
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mustang2.jpg
             -
-                caption: 'Фотография стенда Мустанг'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mustang3.jpg:
@@ -2579,16 +2145,11 @@ gallery:
                         type: image/jpeg
                         size: 144367
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mustang3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Мустанг'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ниагара"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ниагара'
+        title: 'Эксклюзивный стенд для компании "Ниагара"'
         images:
             -
-                caption: 'Фотография стенда Ниагара'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/niagara1.jpg:
@@ -2598,7 +2159,6 @@ gallery:
                         size: 168951
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/niagara1.jpg
             -
-                caption: 'Фотография стенда Ниагара'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/niagara2.jpg:
@@ -2608,7 +2168,6 @@ gallery:
                         size: 158625
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/niagara2.jpg
             -
-                caption: 'Фотография стенда Ниагара'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/niagara3.jpg:
@@ -2617,16 +2176,11 @@ gallery:
                         type: image/jpeg
                         size: 173001
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/niagara3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ниагара'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ник"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ник'
+        title: 'Эксклюзивный стенд для компании "Ник"'
         images:
             -
-                caption: 'Фотография стенда Ник'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nik01.jpg:
@@ -2635,16 +2189,11 @@ gallery:
                         type: image/jpeg
                         size: 571006
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nik01.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ник'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ника"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ника'
+        title: 'Эксклюзивный стенд для компании "Ника"'
         images:
             -
-                caption: 'Фотография стенда Ника'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika1.jpg:
@@ -2654,7 +2203,6 @@ gallery:
                         size: 414715
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika1.jpg
             -
-                caption: 'Фотография стенда Ника'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika2.jpg:
@@ -2664,7 +2212,6 @@ gallery:
                         size: 495602
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika2.jpg
             -
-                caption: 'Фотография стенда Ника'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika3.jpg:
@@ -2674,7 +2221,6 @@ gallery:
                         size: 493725
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika3.jpg
             -
-                caption: 'Фотография стенда Ника'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika4.jpg:
@@ -2684,7 +2230,6 @@ gallery:
                         size: 437796
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika4.jpg
             -
-                caption: 'Фотография стенда Ника'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika5.jpg:
@@ -2694,7 +2239,6 @@ gallery:
                         size: 412734
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika5.jpg
             -
-                caption: 'Фотография стенда Ника'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika6.jpg:
@@ -2703,16 +2247,11 @@ gallery:
                         type: image/jpeg
                         size: 298845
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika6.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ника'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Нлко"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Нлко'
+        title: 'Эксклюзивный стенд для компании "Нлко"'
         images:
             -
-                caption: 'Фотография стенда Нлко'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nlco1.jpg:
@@ -2722,7 +2261,6 @@ gallery:
                         size: 353258
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nlco1.jpg
             -
-                caption: 'Фотография стенда Нлко'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nlco2.jpg:
@@ -2732,7 +2270,6 @@ gallery:
                         size: 421836
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nlco2.jpg
             -
-                caption: 'Фотография стенда Нлко'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nlco3.jpg:
@@ -2741,16 +2278,11 @@ gallery:
                         type: image/jpeg
                         size: 384252
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nlco3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Нлко'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Огонек"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Огонек'
+        title: 'Эксклюзивный стенд для компании "Огонек"'
         images:
             -
-                caption: 'Фотография стенда Огонек'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ogonek.jpg:
@@ -2759,16 +2291,11 @@ gallery:
                         type: image/jpeg
                         size: 539137
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ogonek.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Огонек'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ориген"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ориген'
+        title: 'Эксклюзивный стенд для компании "Ориген"'
         images:
             -
-                caption: 'Фотография стенда Ориген'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen1.jpg:
@@ -2778,7 +2305,6 @@ gallery:
                         size: 571939
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen1.jpg
             -
-                caption: 'Фотография стенда Ориген'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen2.jpg:
@@ -2788,7 +2314,6 @@ gallery:
                         size: 579899
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen2.jpg
             -
-                caption: 'Фотография стенда Ориген'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen3.jpg:
@@ -2798,7 +2323,6 @@ gallery:
                         size: 520284
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen3.jpg
             -
-                caption: 'Фотография стенда Ориген'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen4.jpg:
@@ -2808,7 +2332,6 @@ gallery:
                         size: 556733
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen4.jpg
             -
-                caption: 'Фотография стенда Ориген'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen5.jpg:
@@ -2818,7 +2341,6 @@ gallery:
                         size: 575019
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen5.jpg
             -
-                caption: 'Фотография стенда Ориген'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen6.jpg:
@@ -2828,7 +2350,6 @@ gallery:
                         size: 553417
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen6.jpg
             -
-                caption: 'Фотография стенда Ориген'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen.jpg:
@@ -2837,16 +2358,11 @@ gallery:
                         type: image/jpeg
                         size: 340462
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ориген'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Палл"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Палл'
+        title: 'Эксклюзивный стенд для компании "Палл"'
         images:
             -
-                caption: 'Фотография стенда Палл'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pall1_b.jpg:
@@ -2856,7 +2372,6 @@ gallery:
                         size: 140314
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pall1_b.jpg
             -
-                caption: 'Фотография стенда Палл'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pall2_b.jpg:
@@ -2866,7 +2381,6 @@ gallery:
                         size: 144726
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pall2_b.jpg
             -
-                caption: 'Фотография стенда Палл'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pall3_b.jpg:
@@ -2875,16 +2389,11 @@ gallery:
                         type: image/jpeg
                         size: 147600
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pall3_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Палл'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Петерсиме"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Петерсиме'
+        title: 'Эксклюзивный стенд для компании "Петерсиме"'
         images:
             -
-                caption: 'Фотография стенда Петерсиме'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/petersime1.jpg:
@@ -2894,7 +2403,6 @@ gallery:
                         size: 155123
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/petersime1.jpg
             -
-                caption: 'Фотография стенда Петерсиме'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/petersime2.jpg:
@@ -2903,16 +2411,11 @@ gallery:
                         type: image/jpeg
                         size: 150661
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/petersime2.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Петерсиме'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Пиеро"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Пиеро'
+        title: 'Эксклюзивный стенд для компании "Пиеро"'
         images:
             -
-                caption: 'Фотография стенда Пиеро'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero1.jpg:
@@ -2922,7 +2425,6 @@ gallery:
                         size: 393197
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero1.jpg
             -
-                caption: 'Фотография стенда Пиеро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero2.jpg:
@@ -2932,7 +2434,6 @@ gallery:
                         size: 420382
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero2.jpg
             -
-                caption: 'Фотография стенда Пиеро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero3.jpg:
@@ -2942,7 +2443,6 @@ gallery:
                         size: 420020
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero3.jpg
             -
-                caption: 'Фотография стенда Пиеро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero4.jpg:
@@ -2951,16 +2451,11 @@ gallery:
                         type: image/jpeg
                         size: 385603
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero4.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Пиеро'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Полугар"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Полугар'
+        title: 'Эксклюзивный стенд для компании "Полугар"'
         images:
             -
-                caption: 'Фотография стенда Полугар'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/polugar1_b.jpg:
@@ -2970,7 +2465,6 @@ gallery:
                         size: 144974
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/polugar1_b.jpg
             -
-                caption: 'Фотография стенда Полугар'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/polugar2_b.jpg:
@@ -2980,7 +2474,6 @@ gallery:
                         size: 146309
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/polugar2_b.jpg
             -
-                caption: 'Фотография стенда Полугар'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/polugar3_b.jpg:
@@ -2990,7 +2483,6 @@ gallery:
                         size: 145132
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/polugar3_b.jpg
             -
-                caption: 'Фотография стенда Полугар'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/polugar4_b.jpg:
@@ -2999,16 +2491,11 @@ gallery:
                         type: image/jpeg
                         size: 135957
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/polugar4_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Полугар'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Поннат"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Поннат'
+        title: 'Эксклюзивный стенд для компании "Поннат"'
         images:
             -
-                caption: 'Фотография стенда Поннат'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ponnat1.jpg:
@@ -3018,7 +2505,6 @@ gallery:
                         size: 267882
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ponnat1.jpg
             -
-                caption: 'Фотография стенда Поннат'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ponnat2.jpg:
@@ -3028,7 +2514,6 @@ gallery:
                         size: 233689
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ponnat2.jpg
             -
-                caption: 'Фотография стенда Поннат'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ponnat3.jpg:
@@ -3037,16 +2522,11 @@ gallery:
                         type: image/jpeg
                         size: 257269
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ponnat3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Поннат'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Провил"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Провил'
+        title: 'Эксклюзивный стенд для компании "Провил"'
         images:
             -
-                caption: 'Фотография стенда Провил'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/PROVIL.jpg:
@@ -3055,16 +2535,11 @@ gallery:
                         type: image/jpeg
                         size: 497389
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/PROVIL.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Провил'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Продекор"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Продекор'
+        title: 'Эксклюзивный стенд для компании "Продекор"'
         images:
             -
-                caption: 'Фотография стенда Продекор'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/prodecor.jpg:
@@ -3073,16 +2548,11 @@ gallery:
                         type: image/jpeg
                         size: 468667
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/prodecor.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Продекор'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Профотек"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Профотек'
+        title: 'Эксклюзивный стенд для компании "Профотек"'
         images:
             -
-                caption: 'Фотография стенда Профотек'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/profotek1.jpg:
@@ -3092,7 +2562,6 @@ gallery:
                         size: 647263
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/profotek1.jpg
             -
-                caption: 'Фотография стенда Профотек'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/profotek2.jpg:
@@ -3102,7 +2571,6 @@ gallery:
                         size: 620780
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/profotek2.jpg
             -
-                caption: 'Фотография стенда Профотек'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/profotek3.jpg:
@@ -3111,16 +2579,11 @@ gallery:
                         type: image/jpeg
                         size: 576895
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/profotek3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Профотек'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Псн"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Псн'
+        title: 'Эксклюзивный стенд для компании "Псн"'
         images:
             -
-                caption: 'Фотография стенда Псн'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn1.jpg:
@@ -3130,7 +2593,6 @@ gallery:
                         size: 507395
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn1.jpg
             -
-                caption: 'Фотография стенда Псн'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn2.jpg:
@@ -3140,7 +2602,6 @@ gallery:
                         size: 522982
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn2.jpg
             -
-                caption: 'Фотография стенда Псн'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn3.jpg:
@@ -3150,7 +2611,6 @@ gallery:
                         size: 531888
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn3.jpg
             -
-                caption: 'Фотография стенда Псн'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn4.jpg:
@@ -3160,7 +2620,6 @@ gallery:
                         size: 508730
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn4.jpg
             -
-                caption: 'Фотография стенда Псн'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn5.jpg:
@@ -3169,16 +2628,11 @@ gallery:
                         type: image/jpeg
                         size: 520800
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn5.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Псн'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Пф"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Пф'
+        title: 'Эксклюзивный стенд для компании "Пф"'
         images:
             -
-                caption: 'Фотография стенда Пф'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf1.jpg:
@@ -3188,7 +2642,6 @@ gallery:
                         size: 417089
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf1.jpg
             -
-                caption: 'Фотография стенда Пф'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf2.jpg:
@@ -3198,7 +2651,6 @@ gallery:
                         size: 429721
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf2.jpg
             -
-                caption: 'Фотография стенда Пф'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf3.jpg:
@@ -3208,7 +2660,6 @@ gallery:
                         size: 474909
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf3.jpg
             -
-                caption: 'Фотография стенда Пф'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf4.jpg:
@@ -3218,7 +2669,6 @@ gallery:
                         size: 508617
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf4.jpg
             -
-                caption: 'Фотография стенда Пф'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf5.jpg:
@@ -3228,7 +2678,6 @@ gallery:
                         size: 502521
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf5.jpg
             -
-                caption: 'Фотография стенда Пф'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf5_sr.jpg:
@@ -3238,7 +2687,6 @@ gallery:
                         size: 251261
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf5_sr.jpg
             -
-                caption: 'Фотография стенда Пф'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf6.jpg:
@@ -3248,7 +2696,6 @@ gallery:
                         size: 463718
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf6.jpg
             -
-                caption: 'Фотография стенда Пф'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf7.jpg:
@@ -3258,7 +2705,6 @@ gallery:
                         size: 392559
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf7.jpg
             -
-                caption: 'Фотография стенда Пф'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf8.jpg:
@@ -3268,7 +2714,6 @@ gallery:
                         size: 415646
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf8.jpg
             -
-                caption: 'Фотография стенда Пф'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf9.jpg:
@@ -3277,16 +2722,11 @@ gallery:
                         type: image/jpeg
                         size: 501689
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf9.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Пф'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Рабос"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Рабос'
+        title: 'Эксклюзивный стенд для компании "Рабос"'
         images:
             -
-                caption: 'Фотография стенда Рабос'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rabos1.jpg:
@@ -3296,7 +2736,6 @@ gallery:
                         size: 270436
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rabos1.jpg
             -
-                caption: 'Фотография стенда Рабос'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rabos2.jpg:
@@ -3306,7 +2745,6 @@ gallery:
                         size: 236141
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rabos2.jpg
             -
-                caption: 'Фотография стенда Рабос'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rabos3.jpg:
@@ -3315,16 +2753,11 @@ gallery:
                         type: image/jpeg
                         size: 255353
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rabos3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Рабос'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Рекорд"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Рекорд'
+        title: 'Эксклюзивный стенд для компании "Рекорд"'
         images:
             -
-                caption: 'Фотография стенда Рекорд'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/record1.jpg:
@@ -3334,7 +2767,6 @@ gallery:
                         size: 485151
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/record1.jpg
             -
-                caption: 'Фотография стенда Рекорд'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/record2.jpg:
@@ -3344,7 +2776,6 @@ gallery:
                         size: 511524
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/record2.jpg
             -
-                caption: 'Фотография стенда Рекорд'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/record3.jpg:
@@ -3353,16 +2784,11 @@ gallery:
                         type: image/jpeg
                         size: 511970
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/record3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Рекорд'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Риоли"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Риоли'
+        title: 'Эксклюзивный стенд для компании "Риоли"'
         images:
             -
-                caption: 'Фотография стенда Риоли'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rioli0.jpg:
@@ -3372,7 +2798,6 @@ gallery:
                         size: 329963
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rioli0.jpg
             -
-                caption: 'Фотография стенда Риоли'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rioli1.jpg:
@@ -3381,16 +2806,11 @@ gallery:
                         type: image/jpeg
                         size: 383153
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rioli1.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Риоли'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Рмс"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Рмс'
+        title: 'Эксклюзивный стенд для компании "Рмс"'
         images:
             -
-                caption: 'Фотография стенда Рмс'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms1.jpg:
@@ -3400,7 +2820,6 @@ gallery:
                         size: 261715
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms1.jpg
             -
-                caption: 'Фотография стенда Рмс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms2.jpg:
@@ -3410,7 +2829,6 @@ gallery:
                         size: 272807
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms2.jpg
             -
-                caption: 'Фотография стенда Рмс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms3.jpg:
@@ -3420,7 +2838,6 @@ gallery:
                         size: 216282
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms3.jpg
             -
-                caption: 'Фотография стенда Рмс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms4.jpg:
@@ -3429,16 +2846,11 @@ gallery:
                         type: image/jpeg
                         size: 243391
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms4.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Рмс'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Рсб"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Рсб'
+        title: 'Эксклюзивный стенд для компании "Рсб"'
         images:
             -
-                caption: 'Фотография стенда Рсб'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rsb1.jpg:
@@ -3448,7 +2860,6 @@ gallery:
                         size: 99902
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rsb1.jpg
             -
-                caption: 'Фотография стенда Рсб'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rsb2.jpg:
@@ -3458,7 +2869,6 @@ gallery:
                         size: 83099
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rsb2.jpg
             -
-                caption: 'Фотография стенда Рсб'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rsb3.jpg:
@@ -3467,16 +2877,11 @@ gallery:
                         type: image/jpeg
                         size: 149879
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rsb3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Рсб'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Румакс"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Румакс'
+        title: 'Эксклюзивный стенд для компании "Румакс"'
         images:
             -
-                caption: 'Фотография стенда Румакс'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax1.jpg:
@@ -3486,7 +2891,6 @@ gallery:
                         size: 171431
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax1.jpg
             -
-                caption: 'Фотография стенда Румакс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax2.jpg:
@@ -3496,7 +2900,6 @@ gallery:
                         size: 166634
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax2.jpg
             -
-                caption: 'Фотография стенда Румакс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax3.jpg:
@@ -3506,7 +2909,6 @@ gallery:
                         size: 143298
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax3.jpg
             -
-                caption: 'Фотография стенда Румакс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax.jpg:
@@ -3515,16 +2917,11 @@ gallery:
                         type: image/jpeg
                         size: 118438
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Румакс'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Русинхим"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Русинхим'
+        title: 'Эксклюзивный стенд для компании "Русинхим"'
         images:
             -
-                caption: 'Фотография стенда Русинхим'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rusinhim1.jpg:
@@ -3534,7 +2931,6 @@ gallery:
                         size: 247902
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rusinhim1.jpg
             -
-                caption: 'Фотография стенда Русинхим'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rusinhim2.jpg:
@@ -3544,7 +2940,6 @@ gallery:
                         size: 242408
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rusinhim2.jpg
             -
-                caption: 'Фотография стенда Русинхим'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rusinhim3.jpg:
@@ -3553,16 +2948,11 @@ gallery:
                         type: image/jpeg
                         size: 234467
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rusinhim3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Русинхим'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Салвена"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Салвена'
+        title: 'Эксклюзивный стенд для компании "Салвена"'
         images:
             -
-                caption: 'Фотография стенда Салвена'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/salvena1.jpg:
@@ -3572,7 +2962,6 @@ gallery:
                         size: 133040
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/salvena1.jpg
             -
-                caption: 'Фотография стенда Салвена'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/salvena2.jpg:
@@ -3582,7 +2971,6 @@ gallery:
                         size: 127346
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/salvena2.jpg
             -
-                caption: 'Фотография стенда Салвена'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/salvena3.jpg:
@@ -3591,16 +2979,11 @@ gallery:
                         type: image/jpeg
                         size: 143446
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/salvena3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Салвена'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Самгн"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Самгн'
+        title: 'Эксклюзивный стенд для компании "Самгн"'
         images:
             -
-                caption: 'Фотография стенда Самгн'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samgn1.jpg:
@@ -3610,7 +2993,6 @@ gallery:
                         size: 167831
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samgn1.jpg
             -
-                caption: 'Фотография стенда Самгн'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samgn2.jpg:
@@ -3620,7 +3002,6 @@ gallery:
                         size: 174693
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samgn2.jpg
             -
-                caption: 'Фотография стенда Самгн'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samgn3.jpg:
@@ -3629,16 +3010,11 @@ gallery:
                         type: image/jpeg
                         size: 141391
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samgn3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Самгн'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Сенатор"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Сенатор'
+        title: 'Эксклюзивный стенд для компании "Сенатор"'
         images:
             -
-                caption: 'Фотография стенда Сенатор'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/senator1_b.jpg:
@@ -3648,7 +3024,6 @@ gallery:
                         size: 178104
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/senator1_b.jpg
             -
-                caption: 'Фотография стенда Сенатор'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/senator2_b.jpg:
@@ -3658,7 +3033,6 @@ gallery:
                         size: 209870
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/senator2_b.jpg
             -
-                caption: 'Фотография стенда Сенатор'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/senator3_b.jpg:
@@ -3667,16 +3041,11 @@ gallery:
                         type: image/jpeg
                         size: 211932
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/senator3_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Сенатор'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Сочи"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Сочи'
+        title: 'Эксклюзивный стенд для компании "Сочи"'
         images:
             -
-                caption: 'Фотография стенда Сочи'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sochi1.jpg:
@@ -3686,7 +3055,6 @@ gallery:
                         size: 309480
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sochi1.jpg
             -
-                caption: 'Фотография стенда Сочи'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sochi2.jpg:
@@ -3696,7 +3064,6 @@ gallery:
                         size: 336039
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sochi2.jpg
             -
-                caption: 'Фотография стенда Сочи'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sochi3.jpg:
@@ -3705,16 +3072,11 @@ gallery:
                         type: image/jpeg
                         size: 317091
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sochi3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Сочи'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Стйле"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Стйле'
+        title: 'Эксклюзивный стенд для компании "Стйле"'
         images:
             -
-                caption: 'Фотография стенда Стйле'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/style1.jpg:
@@ -3724,7 +3086,6 @@ gallery:
                         size: 147669
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/style1.jpg
             -
-                caption: 'Фотография стенда Стйле'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/style2.jpg:
@@ -3734,7 +3095,6 @@ gallery:
                         size: 145876
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/style2.jpg
             -
-                caption: 'Фотография стенда Стйле'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/style3.jpg:
@@ -3743,16 +3103,11 @@ gallery:
                         type: image/jpeg
                         size: 160519
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/style3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Стйле'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Сухаревка"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Сухаревка'
+        title: 'Эксклюзивный стенд для компании "Сухаревка"'
         images:
             -
-                caption: 'Фотография стенда Сухаревка'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/suharevka1.jpg:
@@ -3762,7 +3117,6 @@ gallery:
                         size: 321788
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/suharevka1.jpg
             -
-                caption: 'Фотография стенда Сухаревка'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/suharevka2.jpg:
@@ -3772,7 +3126,6 @@ gallery:
                         size: 336708
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/suharevka2.jpg
             -
-                caption: 'Фотография стенда Сухаревка'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/suharevka3.jpg:
@@ -3781,16 +3134,11 @@ gallery:
                         type: image/jpeg
                         size: 358066
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/suharevka3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Сухаревка'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Тадем"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Тадем'
+        title: 'Эксклюзивный стенд для компании "Тадем"'
         images:
             -
-                caption: 'Фотография стенда Тадем'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tadem1.jpg:
@@ -3800,7 +3148,6 @@ gallery:
                         size: 145410
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tadem1.jpg
             -
-                caption: 'Фотография стенда Тадем'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tadem2.jpg:
@@ -3810,7 +3157,6 @@ gallery:
                         size: 136766
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tadem2.jpg
             -
-                caption: 'Фотография стенда Тадем'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tadem3.jpg:
@@ -3819,16 +3165,11 @@ gallery:
                         type: image/jpeg
                         size: 136037
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tadem3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Тадем'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Теккнос"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Теккнос'
+        title: 'Эксклюзивный стенд для компании "Теккнос"'
         images:
             -
-                caption: 'Фотография стенда Теккнос'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tecknos.jpg:
@@ -3837,16 +3178,11 @@ gallery:
                         type: image/jpeg
                         size: 466461
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tecknos.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Теккнос'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Текспро"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Текспро'
+        title: 'Эксклюзивный стенд для компании "Текспро"'
         images:
             -
-                caption: 'Фотография стенда Текспро'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro1.jpg:
@@ -3856,7 +3192,6 @@ gallery:
                         size: 248115
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro1.jpg
             -
-                caption: 'Фотография стенда Текспро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro2.jpg:
@@ -3866,7 +3201,6 @@ gallery:
                         size: 252694
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro2.jpg
             -
-                caption: 'Фотография стенда Текспро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro3.jpg:
@@ -3876,7 +3210,6 @@ gallery:
                         size: 224908
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro3.jpg
             -
-                caption: 'Фотография стенда Текспро'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro.jpg:
@@ -3885,16 +3218,11 @@ gallery:
                         type: image/jpeg
                         size: 97916
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Текспро'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Тринис"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Тринис'
+        title: 'Эксклюзивный стенд для компании "Тринис"'
         images:
             -
-                caption: 'Фотография стенда Тринис'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trinis1.jpg:
@@ -3903,16 +3231,11 @@ gallery:
                         type: image/jpeg
                         size: 156928
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trinis1.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Тринис'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Трионис"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Трионис'
+        title: 'Эксклюзивный стенд для компании "Трионис"'
         images:
             -
-                caption: 'Фотография стенда Трионис'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trionis1.jpg:
@@ -3922,7 +3245,6 @@ gallery:
                         size: 168571
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trionis1.jpg
             -
-                caption: 'Фотография стенда Трионис'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trionis2.jpg:
@@ -3931,16 +3253,11 @@ gallery:
                         type: image/jpeg
                         size: 160703
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trionis2.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Трионис'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Улма"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Улма'
+        title: 'Эксклюзивный стенд для компании "Улма"'
         images:
             -
-                caption: 'Фотография стенда Улма'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma01.jpg:
@@ -3950,7 +3267,6 @@ gallery:
                         size: 151186
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma01.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma02.jpg:
@@ -3960,7 +3276,6 @@ gallery:
                         size: 161546
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma02.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma03.jpg:
@@ -3970,7 +3285,6 @@ gallery:
                         size: 125655
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma03.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma10.jpg:
@@ -3980,7 +3294,6 @@ gallery:
                         size: 157210
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma10.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma11.jpg:
@@ -3990,7 +3303,6 @@ gallery:
                         size: 237204
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma11.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma1_b.jpg:
@@ -4000,7 +3312,6 @@ gallery:
                         size: 151804
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma1_b.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma1.jpg:
@@ -4010,7 +3321,6 @@ gallery:
                         size: 176710
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma1.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2017_1.jpg:
@@ -4020,7 +3330,6 @@ gallery:
                         size: 528120
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2017_1.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2017_2.jpg:
@@ -4030,7 +3339,6 @@ gallery:
                         size: 496424
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2017_2.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2017_3.jpg:
@@ -4040,7 +3348,6 @@ gallery:
                         size: 452459
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2017_3.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma20.jpg:
@@ -4050,7 +3357,6 @@ gallery:
                         size: 137803
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma20.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma22.jpg:
@@ -4060,7 +3366,6 @@ gallery:
                         size: 205873
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma22.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2_b.jpg:
@@ -4070,7 +3375,6 @@ gallery:
                         size: 149629
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2_b.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2.jpg:
@@ -4080,7 +3384,6 @@ gallery:
                         size: 170948
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma2.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma30.jpg:
@@ -4090,7 +3393,6 @@ gallery:
                         size: 148202
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma30.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma33.jpg:
@@ -4100,7 +3402,6 @@ gallery:
                         size: 212913
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma33.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma3_b.jpg:
@@ -4110,7 +3411,6 @@ gallery:
                         size: 139381
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma3_b.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma3.jpg:
@@ -4120,7 +3420,6 @@ gallery:
                         size: 142213
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma3.jpg
             -
-                caption: 'Фотография стенда Улма'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma_sr.jpg:
@@ -4129,16 +3428,11 @@ gallery:
                         type: image/jpeg
                         size: 240414
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma_sr.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Улма'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Унитй"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Унитй'
+        title: 'Эксклюзивный стенд для компании "Унитй"'
         images:
             -
-                caption: 'Фотография стенда Унитй'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unity1.jpg:
@@ -4148,7 +3442,6 @@ gallery:
                         size: 559458
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unity1.jpg
             -
-                caption: 'Фотография стенда Унитй'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unity2.jpg:
@@ -4158,7 +3451,6 @@ gallery:
                         size: 533324
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unity2.jpg
             -
-                caption: 'Фотография стенда Унитй'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unity3.jpg:
@@ -4167,16 +3459,11 @@ gallery:
                         type: image/jpeg
                         size: 566175
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unity3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Унитй'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Унокс"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Унокс'
+        title: 'Эксклюзивный стенд для компании "Унокс"'
         images:
             -
-                caption: 'Фотография стенда Унокс'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unox1.jpg:
@@ -4186,7 +3473,6 @@ gallery:
                         size: 253098
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unox1.jpg
             -
-                caption: 'Фотография стенда Унокс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unox2.jpg:
@@ -4196,7 +3482,6 @@ gallery:
                         size: 227144
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unox2.jpg
             -
-                caption: 'Фотография стенда Унокс'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unox3.jpg:
@@ -4205,16 +3490,11 @@ gallery:
                         type: image/jpeg
                         size: 209949
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unox3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Унокс'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Унтитлед"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Унтитлед'
+        title: 'Эксклюзивный стенд для компании "Унтитлед"'
         images:
             -
-                caption: 'Фотография стенда Унтитлед'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Untitled-1.jpg:
@@ -4223,16 +3503,11 @@ gallery:
                         type: image/jpeg
                         size: 88784
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Untitled-1.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Унтитлед'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ферон"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ферон'
+        title: 'Эксклюзивный стенд для компании "Ферон"'
         images:
             -
-                caption: 'Фотография стенда Ферон'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/feron1.jpg:
@@ -4242,7 +3517,6 @@ gallery:
                         size: 181694
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/feron1.jpg
             -
-                caption: 'Фотография стенда Ферон'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/feron2.jpg:
@@ -4252,7 +3526,6 @@ gallery:
                         size: 173136
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/feron2.jpg
             -
-                caption: 'Фотография стенда Ферон'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/feron3.jpg:
@@ -4261,16 +3534,11 @@ gallery:
                         type: image/jpeg
                         size: 156056
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/feron3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ферон'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Фито"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Фито'
+        title: 'Эксклюзивный стенд для компании "Фито"'
         images:
             -
-                caption: 'Фотография стенда Фито'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fito1.jpg:
@@ -4280,7 +3548,6 @@ gallery:
                         size: 517314
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fito1.jpg
             -
-                caption: 'Фотография стенда Фито'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fito2.jpg:
@@ -4290,7 +3557,6 @@ gallery:
                         size: 497713
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fito2.jpg
             -
-                caption: 'Фотография стенда Фито'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fito3.jpg:
@@ -4299,16 +3565,11 @@ gallery:
                         type: image/jpeg
                         size: 491769
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fito3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Фито'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Форклифт"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Форклифт'
+        title: 'Эксклюзивный стенд для компании "Форклифт"'
         images:
             -
-                caption: 'Фотография стенда Форклифт'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/forklift1.jpg:
@@ -4318,7 +3579,6 @@ gallery:
                         size: 523178
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/forklift1.jpg
             -
-                caption: 'Фотография стенда Форклифт'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/forklift2.jpg:
@@ -4328,7 +3588,6 @@ gallery:
                         size: 502955
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/forklift2.jpg
             -
-                caption: 'Фотография стенда Форклифт'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/forklift3.jpg:
@@ -4337,16 +3596,11 @@ gallery:
                         type: image/jpeg
                         size: 476162
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/forklift3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Форклифт'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Фса"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Фса'
+        title: 'Эксклюзивный стенд для компании "Фса"'
         images:
             -
-                caption: 'Фотография стенда Фса'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fsa1_b.jpg:
@@ -4356,7 +3610,6 @@ gallery:
                         size: 163190
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fsa1_b.jpg
             -
-                caption: 'Фотография стенда Фса'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fsa2_b.jpg:
@@ -4365,16 +3618,11 @@ gallery:
                         type: image/jpeg
                         size: 146563
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fsa2_b.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Фса'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Хеншен"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Хеншен'
+        title: 'Эксклюзивный стенд для компании "Хеншен"'
         images:
             -
-                caption: 'Фотография стенда Хеншен'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/henshen.jpg:
@@ -4383,16 +3631,11 @@ gallery:
                         type: image/jpeg
                         size: 237735
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/henshen.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Хеншен'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Чеесе"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Чеесе'
+        title: 'Эксклюзивный стенд для компании "Чеесе"'
         images:
             -
-                caption: 'Фотография стенда Чеесе'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cheese.jpg:
@@ -4401,16 +3644,11 @@ gallery:
                         type: image/jpeg
                         size: 563306
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cheese.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Чеесе'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Язпк"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Язпк'
+        title: 'Эксклюзивный стенд для компании "Язпк"'
         images:
             -
-                caption: 'Фотография стенда Язпк'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk1.jpg:
@@ -4420,7 +3658,6 @@ gallery:
                         size: 111164
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk1.jpg
             -
-                caption: 'Фотография стенда Язпк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk2.jpg:
@@ -4430,7 +3667,6 @@ gallery:
                         size: 113927
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk2.jpg
             -
-                caption: 'Фотография стенда Язпк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk3.jpg:
@@ -4440,7 +3676,6 @@ gallery:
                         size: 128835
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk3.jpg
             -
-                caption: 'Фотография стенда Язпк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk4.jpg:
@@ -4450,7 +3685,6 @@ gallery:
                         size: 102162
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk4.jpg
             -
-                caption: 'Фотография стенда Язпк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk5.jpg:
@@ -4460,7 +3694,6 @@ gallery:
                         size: 130356
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk5.jpg
             -
-                caption: 'Фотография стенда Язпк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk.jpg:
@@ -4470,7 +3703,6 @@ gallery:
                         size: 71665
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk.jpg
             -
-                caption: 'Фотография стенда Язпк'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk_r.jpg:
@@ -4479,16 +3711,11 @@ gallery:
                         type: image/jpeg
                         size: 120434
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk_r.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Язпк'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Ярмарка"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Ярмарка'
+        title: 'Эксклюзивный стенд для компании "Ярмарка"'
         images:
             -
-                caption: 'Фотография стенда Ярмарка'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarmarka1.jpg:
@@ -4498,7 +3725,6 @@ gallery:
                         size: 520509
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarmarka1.jpg
             -
-                caption: 'Фотография стенда Ярмарка'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarmarka2.jpg:
@@ -4508,7 +3734,6 @@ gallery:
                         size: 571259
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarmarka2.jpg
             -
-                caption: 'Фотография стенда Ярмарка'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarmarka3.jpg:
@@ -4517,16 +3742,11 @@ gallery:
                         type: image/jpeg
                         size: 471065
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarmarka3.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Ярмарка'
-        project_year: 'Год уточняется'
     -
-        title: 'Эксклюзивный стенд "Яровит"'
-        desc: 'Индивидуальный эксклюзивный стенд для компании Яровит'
+        title: 'Эксклюзивный стенд для компании "Яровит"'
         images:
             -
-                caption: 'Фотография стенда Яровит'
                 is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarovit1.jpg:
@@ -4536,7 +3756,6 @@ gallery:
                         size: 111519
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarovit1.jpg
             -
-                caption: 'Фотография стенда Яровит'
                 is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarovit2.jpg:
@@ -4545,10 +3764,7 @@ gallery:
                         type: image/jpeg
                         size: 145731
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarovit2.jpg
-        construction_area: 'Площадь уточняется'
-        exhibition_name: 'Выставка уточняется'
         company_name: 'Яровит'
-        project_year: 'Год уточняется'
 ---
 
 # Эксклюзивные стенды
