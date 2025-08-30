@@ -15,6 +15,7 @@ RUN apt-get update \
 
 # Configure PHP (use project php.ini overrides if present)
 COPY php.ini /etc/php/8.1/fpm/conf.d/99-overrides.ini
+COPY docker/php-fpm.conf /etc/php/8.1/fpm/php-fpm.conf
 
 # App source
 WORKDIR /var/www/html
