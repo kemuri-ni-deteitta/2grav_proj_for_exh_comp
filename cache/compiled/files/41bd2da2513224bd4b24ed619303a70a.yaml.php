@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/plugins/email.yaml',
-    'modified' => 1756569657,
-    'size' => 634,
+    'modified' => 1756572715,
+    'size' => 631,
     'data' => [
         'enabled' => true,
         'from' => 'diablo2545@yandex.ru',
         'from_name' => 'Expo Land',
-        'to' => 'krendel160575@gmail.com',
+        'to' => 'diablo2545@yandex.ru',
         'to_name' => 'Expo Land',
         'subject' => 'Новое сообщение с сайта',
         'body' => '{% include "forms/data.html.twig" %}',

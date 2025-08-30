@@ -66,9 +66,9 @@ form:
             multiple: true
             limit: 10
             filesize: 10
-            destination: 'tmp://forms'
+            destination: 'user-data://forms/uploads'
             avoid_overwriting: true
-            random_name: true
+            random_name: false
             accept:
                 - .pdf
                 - .doc
@@ -107,18 +107,19 @@ form:
             email:
                 from: '{{ config.plugins.email.from }}'
                 to:
-                    - info@expo-land.ru
+                    - 'diablo2545@yandex.ru'
+                reply_to: '{{ form.value.email }}'
                 subject: '[Заявка] Новая заявка с сайта'
-                body: '{% include "forms/data.html.twig" %}'
+                body: '{% include "forms/inquiry.html.twig" %}'
                 attachments: true
-                process_markdown: true
+                process_markdown: false
         -
             save:
                 fileprefix: inquiry-
                 dateformat: Ymd-His-u
                 extension: txt
                 body: '{% include "forms/data.txt.twig" %}'
-                destination: 'tmp://forms/submissions'
+                destination: 'user-data://forms/submissions'
         -
             message: 'Спасибо за заявку! Мы свяжемся с вами в ближайшее время.'
         -

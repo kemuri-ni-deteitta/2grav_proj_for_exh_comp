@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756569688,
-    'checksum' => '76b5d1ae08288980d695534d547df04a',
+    'timestamp' => 1756573541,
+    'checksum' => 'de6a8b5af5555f3be9c202d5ecd3957c',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1756569657
+                'modified' => 1756572715
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -39,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1756569661
+                'modified' => 1756573530
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -352,7 +352,7 @@ return [
             'email' => [
                 'enabled' => true,
                 'from' => 'diablo2545@yandex.ru',
-                'to' => 'krendel160575@gmail.com',
+                'to' => 'diablo2545@yandex.ru',
                 'mailer' => [
                     'engine' => 'smtp',
                     'smtp' => [
