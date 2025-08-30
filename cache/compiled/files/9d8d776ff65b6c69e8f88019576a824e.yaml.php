@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/system.yaml',
-    'modified' => 1756575264,
+    'modified' => 1756588851,
     'size' => 1133,
     'data' => [
-        'absolute_urls' => false,
+        'absolute_urls' => true,
         'languages' => [
             'supported' => [
                 0 => 'ru',
@@ -37,15 +37,15 @@ return [
         ],
         'twig' => [
             'cache' => true,
-            'debug' => true,
-            'auto_reload' => true,
+            'debug' => false,
+            'auto_reload' => false,
             'autoescape' => true
         ],
         'assets' => [
             'css_pipeline' => false,
             'css_minify' => true,
             'css_rewrite' => true,
-            'js_pipeline' => false,
+            'js_pipeline' => true,
             'js_module_pipeline' => false,
             'js_minify' => true
         ],

@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/site.yaml',
-    'modified' => 1755431653,
-    'size' => 1202,
+    'modified' => 1756588855,
+    'size' => 1208,
     'data' => [
         'title' => 'Expo Land - Выставочные стенды, наружная реклама, дизайн интерьеров',
         'author' => [
@@ -17,7 +17,7 @@ return [
             'og:type' => 'website',
             'og:title' => 'Expo Land - Выставочные стенды, наружная реклама, дизайн интерьеров',
             'og:description' => 'Профессиональные услуги по строительству выставочных стендов, наружной рекламе и дизайну интерьеров',
-            'og:url' => 'https://expotest.tw1.su',
+            'og:url' => 'https://expoland-group.com.ru',
             'og:image' => '/images/logo.png'
         ],
         'languages' => [

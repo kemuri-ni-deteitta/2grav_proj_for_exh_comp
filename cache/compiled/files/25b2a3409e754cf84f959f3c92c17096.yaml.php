@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/themes/quark/blueprints.yaml',
-    'modified' => 1752884229,
-    'size' => 26054,
+    'modified' => 1756588848,
+    'size' => 26056,
     'data' => [
         'name' => 'Quark',
         'version' => '1.7.0',
@@ -12,10 +12,10 @@ return [
         'author' => [
             'name' => 'Team Grav',
             'email' => 'devs@getgrav.org',
-            'url' => 'http://getgrav.org'
+            'url' => 'https://getgrav.org'
         ],
         'homepage' => 'https://github.com/getgrav/grav-theme-quark',
-        'demo' => 'http://demo.getgrav.org/blog-skeleton',
+        'demo' => 'https://demo.getgrav.org/blog-skeleton',
         'keywords' => 'quark, theme, responsive, html5, css3, blog',
         'bugs' => 'https://github.com/getgrav/grav-theme-quark/issues',
         'license' => 'MIT',

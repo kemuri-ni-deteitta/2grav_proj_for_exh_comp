@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756577830,
-    'checksum' => '8ae54cd1ecea03a79b931d8d43319a25',
+    'timestamp' => 1756589191,
+    'checksum' => 'f7f07784bc7d98ed9c4375b09a9ea67e',
     'files' => [
         'user/config' => [
             'media' => [
@@ -35,11 +35,11 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1755431653
+                'modified' => 1756588855
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1756575264
+                'modified' => 1756588851
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -3884,7 +3884,7 @@ node_modules'
                 'og:type' => 'website',
                 'og:title' => 'Expo Land - Выставочные стенды, наружная реклама, дизайн интерьеров',
                 'og:description' => 'Профессиональные услуги по строительству выставочных стендов, наружной рекламе и дизайну интерьеров',
-                'og:url' => 'https://expotest.tw1.su',
+                'og:url' => 'https://expoland-group.com.ru',
                 'og:image' => '/images/logo.png'
             ],
             'summary' => [
@@ -3909,7 +3909,7 @@ node_modules'
             ]
         ],
         'system' => [
-            'absolute_urls' => false,
+            'absolute_urls' => true,
             'timezone' => '',
             'default_locale' => NULL,
             'param_sep' => ':',
@@ -4055,8 +4055,8 @@ node_modules'
             ],
             'twig' => [
                 'cache' => true,
-                'debug' => true,
-                'auto_reload' => true,
+                'debug' => false,
+                'auto_reload' => false,
                 'autoescape' => true,
                 'undefined_functions' => true,
                 'undefined_filters' => true,
@@ -4075,7 +4075,7 @@ node_modules'
                 'css_minify' => true,
                 'css_minify_windows' => false,
                 'css_rewrite' => true,
-                'js_pipeline' => false,
+                'js_pipeline' => true,
                 'js_pipeline_include_externals' => true,
                 'js_pipeline_before_excludes' => true,
                 'js_module_pipeline' => false,

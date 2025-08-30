@@ -26,10 +26,11 @@ COPY docker/supervisord.conf /etc/supervisor/conf.d/grav.conf
 
 # Runtime prep: php run dir, permissions for writable paths
 RUN mkdir -p /run/php /var/www/certbot \
+ && mkdir -p /var/www/html/tmp /var/www/html/backup \
  && chown -R www-data:www-data /var/www/html \
  && find /var/www/html -type d -print0 | xargs -0 chmod 755 \
  && find /var/www/html -type f -print0 | xargs -0 chmod 644 \
- && chmod -R 775 /var/www/html/cache /var/www/html/logs /var/www/html/images || true
+ && chmod -R 775 /var/www/html/cache /var/www/html/logs /var/www/html/images /var/www/html/tmp /var/www/html/backup || true
 
 EXPOSE 80 443
 STOPSIGNAL SIGTERM
