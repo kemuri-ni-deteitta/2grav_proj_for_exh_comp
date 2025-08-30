@@ -12,7 +12,7 @@ process_markdown: false
 twig: true
 debug: false
 queue:
-  enabled: true
+  enabled: false
   flush_frequency: '* * * * *'
   flush_msg_limit: 10
   flush_time_limit: 100
@@ -20,7 +20,7 @@ mailer:
   engine: smtp
   smtp:
     server: smtp.yandex.ru
-    port: 465
+    port: 587
     encryption: tls
     user: 'diablo2545@yandex.ru'
     password: 'foqmuuzjvcejnykd'
