@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756573541,
-    'checksum' => 'de6a8b5af5555f3be9c202d5ecd3957c',
+    'timestamp' => 1756573977,
+    'checksum' => '53cf7e75dce6b06a97ab93799f187e4d',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1756572715
+                'modified' => 1756573969
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -39,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1756573530
+                'modified' => 1756573955
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -371,8 +371,8 @@ return [
                 'from_name' => 'Expo Land',
                 'to_name' => 'Expo Land',
                 'subject' => 'Новое сообщение с сайта',
-                'body' => '{% include "forms/data.html.twig" %}',
-                'process_markdown' => true,
+                'body' => '{% include "forms/inquiry.txt.twig" %}',
+                'process_markdown' => false,
                 'twig' => true,
                 'queue' => [
                     'enabled' => true,

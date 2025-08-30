@@ -110,7 +110,7 @@ form:
                     - 'diablo2545@yandex.ru'
                 reply_to: '{{ form.value.email }}'
                 subject: '[Заявка] Новая заявка с сайта'
-                body: '{% include "forms/inquiry.html.twig" %}'
+                body: '{% include "forms/inquiry.txt.twig" %}'
                 attachments: true
                 process_markdown: false
         -

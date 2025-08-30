@@ -7,8 +7,8 @@ to: 'diablo2545@yandex.ru'
 #to: 'info@expo-land.ru'
 to_name: 'Expo Land'
 subject: 'Новое сообщение с сайта'
-body: '{% include "forms/data.html.twig" %}'
-process_markdown: true
+body: '{% include "forms/inquiry.txt.twig" %}'
+process_markdown: false
 twig: true
 debug: false
 queue:

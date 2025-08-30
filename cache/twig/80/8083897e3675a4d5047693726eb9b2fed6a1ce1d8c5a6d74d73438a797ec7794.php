@@ -11,8 +11,8 @@ use Twig\Sandbox\SecurityNotAllowedFunctionError;
 use Twig\Source;
 use Twig\Template;
 
-/* @Var:{% include "forms/inquiry.html.twig" %} */
-class __TwigTemplate_0f5450ae9811f1ce203e02f27ab2e66cab13b93e1cf4a61acc33b90e2af0674a extends \Twig\Template
+/* @Var:inquiry-20250830-201259-238138.txt */
+class __TwigTemplate_36cbe31c0dc38a2311dbd5e0f38bd7a4c81fc24e5121d7b259471d3874c6373b extends \Twig\Template
 {
     public function __construct(Environment $env)
     {
@@ -27,12 +27,12 @@ class __TwigTemplate_0f5450ae9811f1ce203e02f27ab2e66cab13b93e1cf4a61acc33b90e2af
     protected function doDisplay(array $context, array $blocks = [])
     {
         // line 1
-        $this->loadTemplate("forms/inquiry.html.twig", "@Var:{% include \"forms/inquiry.html.twig\" %}", 1)->display($context);
+        echo "inquiry-20250830-201259-238138.txt";
     }
 
     public function getTemplateName()
     {
-        return "@Var:{% include \"forms/inquiry.html.twig\" %}";
+        return "@Var:inquiry-20250830-201259-238138.txt";
     }
 
     public function getDebugInfo()
@@ -50,6 +50,6 @@ class __TwigTemplate_0f5450ae9811f1ce203e02f27ab2e66cab13b93e1cf4a61acc33b90e2af
 
     public function getSourceContext()
     {
-        return new Source("{% include \"forms/inquiry.html.twig\" %}", "@Var:{% include \"forms/inquiry.html.twig\" %}", "");
+        return new Source("inquiry-20250830-201259-238138.txt", "@Var:inquiry-20250830-201259-238138.txt", "");
     }
 }
