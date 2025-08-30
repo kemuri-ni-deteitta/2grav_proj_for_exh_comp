@@ -1,4 +1,4 @@
-absolute_urls: false
+absolute_urls: true
 
 languages:
   supported:
@@ -27,15 +27,15 @@ cache:
 
 twig:
   cache: true
-  debug: true
-  auto_reload: true
+  debug: false
+  auto_reload: false
   autoescape: true
 
 assets:
   css_pipeline: false
   css_minify: true
   css_rewrite: true
-  js_pipeline: false
+  js_pipeline: true
   js_module_pipeline: false
   js_minify: true
 
