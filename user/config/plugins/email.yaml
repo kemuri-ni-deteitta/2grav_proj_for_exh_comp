@@ -20,8 +20,8 @@ mailer:
   engine: smtp
   smtp:
     server: smtp.yandex.ru
-    port: 587
-    encryption: tls
+    port: 465
+    encryption: ssl
     user: 'diablo2545@yandex.ru'
     password: 'foqmuuzjvcejnykd'
   sendmail:
