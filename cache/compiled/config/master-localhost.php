@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756574426,
-    'checksum' => '718c449f5a64229b5567e814945528ad',
+    'timestamp' => 1756577830,
+    'checksum' => '8ae54cd1ecea03a79b931d8d43319a25',
     'files' => [
         'user/config' => [
             'media' => [
@@ -23,7 +23,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/config/plugins/form.yaml',
-                'modified' => 1755361994
+                'modified' => 1756577814
             ],
             'plugins/mobile-detect' => [
                 'file' => 'user/config/plugins/mobile-detect.yaml',
@@ -39,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1756574266
+                'modified' => 1756575264
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -152,10 +152,10 @@ return [
                 'files' => [
                     'multiple' => true,
                     'limit' => 10,
-                    'destination' => 'self@',
-                    'avoid_overwriting' => false,
-                    'random_name' => true,
-                    'filesize' => 10,
+                    'destination' => 'user-data://forms/uploads',
+                    'avoid_overwriting' => true,
+                    'random_name' => false,
+                    'filesize' => 32,
                     'accept' => [
                         0 => 'image/*',
                         1 => 'application/pdf',
@@ -170,9 +170,9 @@ return [
                         10 => 'text/plain'
                     ],
                     'field' => [
-                        'destination' => 'self@',
-                        'avoid_overwriting' => false,
-                        'random_name' => true,
+                        'destination' => 'user-data://forms/uploads',
+                        'avoid_overwriting' => true,
+                        'random_name' => false,
                         'accept' => [
                             0 => 'image/*',
                             1 => 'application/pdf',
@@ -186,7 +186,7 @@ return [
                             9 => 'application/x-rar-compressed',
                             10 => 'text/plain'
                         ],
-                        'filesize' => 10
+                        'filesize' => 32
                     ]
                 ],
                 'recaptcha' => [

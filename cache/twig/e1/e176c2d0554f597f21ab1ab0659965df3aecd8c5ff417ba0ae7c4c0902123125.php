@@ -66,6 +66,19 @@ Email: ";
         echo "
 
 ";
+        // line 11
+        $context["files"] = $this->getAttribute(($context["form"] ?? null), "value", [0 => "files"], "method");
+        // line 12
+        if (($context["files"] ?? null)) {
+            // line 13
+            echo "Прикрепленные файлы: ";
+            echo twig_escape_filter($this->env, twig_length_filter($this->env, ($context["files"] ?? null)), "html", null, true);
+            echo " файл(ов)
+";
+        }
+        // line 15
+        echo "
+";
     }
 
     public function getTemplateName()
@@ -80,7 +93,7 @@ Email: ";
 
     public function getDebugInfo()
     {
-        return array (  65 => 9,  60 => 7,  57 => 6,  47 => 5,  43 => 4,  39 => 3,  35 => 2,  30 => 1,);
+        return array (  80 => 15,  74 => 13,  72 => 12,  70 => 11,  65 => 9,  60 => 7,  57 => 6,  47 => 5,  43 => 4,  39 => 3,  35 => 2,  30 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -102,6 +115,11 @@ Email: {{ form.value.email|e }}
 Бюджет проекта: {{ form.value.budget|e }}
 Описание проекта:
 {{ form.value.message|raw }}
+
+{% set files = form.value('files') %}
+{% if files %}
+Прикрепленные файлы: {{ files|length }} файл(ов)
+{% endif %}
 
 ", "forms/inquiry.txt.twig", "/home/ivan/grav-admin/user/themes/quark/templates/forms/inquiry.txt.twig");
     }

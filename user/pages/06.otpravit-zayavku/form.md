@@ -65,7 +65,7 @@ form:
             type: file
             multiple: true
             limit: 10
-            filesize: 10
+            filesize: 32
             destination: 'user-data://forms/uploads'
             avoid_overwriting: true
             random_name: false
@@ -86,7 +86,7 @@ form:
                 - .zip
                 - .rar
                 - .txt
-            help: 'Можно загрузить до 10 файлов. Поддерживаемые форматы: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, изображения (JPG, PNG, GIF, BMP, TIFF), архивы (ZIP, RAR), текстовые файлы (TXT). Максимальный размер файла: 10MB.'
+            help: 'Можно загрузить до 10 файлов. Поддерживаемые форматы: PDF, DOC, DOCX, XLS, XLSX, PPT, PPTX, изображения (JPG, PNG, GIF, BMP, TIFF), архивы (ZIP, RAR), текстовые файлы (TXT). Максимальный размер файла: 32MB.'
         -
             name: agreement
             label: 'Согласие на обработку персональных данных'
@@ -111,7 +111,8 @@ form:
                 reply_to: '{{ form.value.email }}'
                 subject: '[Заявка] Новая заявка с сайта'
                 body: '{% include "forms/inquiry.txt.twig" %}'
-                attachments: true
+                attachments:
+                    - 'files'
                 process_markdown: false
         -
             save:

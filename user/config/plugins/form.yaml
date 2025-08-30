@@ -7,9 +7,9 @@ inline_errors: false
 files:
   multiple: true
   limit: 10
-  destination: 'self@'
-  avoid_overwriting: false
-  random_name: true
+  destination: 'user-data://forms/uploads'
+  avoid_overwriting: true
+  random_name: false
   accept:
     - image/*
     - application/pdf
@@ -22,11 +22,11 @@ files:
     - application/zip
     - application/x-rar-compressed
     - text/plain
-  filesize: 10
+  filesize: 32
   field:
-    destination: 'self@'
-    avoid_overwriting: false
-    random_name: true
+    destination: 'user-data://forms/uploads'
+    avoid_overwriting: true
+    random_name: false
     accept:
       - image/*
       - application/pdf
@@ -39,7 +39,7 @@ files:
       - application/zip
       - application/x-rar-compressed
       - text/plain
-    filesize: 10
+    filesize: 32
 recaptcha:
   version: 2-checkbox
   theme: light

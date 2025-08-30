@@ -8,3 +8,8 @@ Email: {{ form.value.email|e }}
 Описание проекта:
 {{ form.value.message|raw }}
 
+{% set files = form.value('files') %}
+{% if files %}
+Прикрепленные файлы: {{ files|length }} файл(ов)
+{% endif %}
+

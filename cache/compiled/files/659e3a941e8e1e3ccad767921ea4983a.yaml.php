@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/plugins/form.yaml',
-    'modified' => 1755361994,
-    'size' => 1879,
+    'modified' => 1756577814,
+    'size' => 1919,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -14,9 +14,9 @@ return [
         'files' => [
             'multiple' => true,
             'limit' => 10,
-            'destination' => 'self@',
-            'avoid_overwriting' => false,
-            'random_name' => true,
+            'destination' => 'user-data://forms/uploads',
+            'avoid_overwriting' => true,
+            'random_name' => false,
             'accept' => [
                 0 => 'image/*',
                 1 => 'application/pdf',
@@ -30,11 +30,11 @@ return [
                 9 => 'application/x-rar-compressed',
                 10 => 'text/plain'
             ],
-            'filesize' => 10,
+            'filesize' => 32,
             'field' => [
-                'destination' => 'self@',
-                'avoid_overwriting' => false,
-                'random_name' => true,
+                'destination' => 'user-data://forms/uploads',
+                'avoid_overwriting' => true,
+                'random_name' => false,
                 'accept' => [
                     0 => 'image/*',
                     1 => 'application/pdf',
@@ -48,7 +48,7 @@ return [
                     9 => 'application/x-rar-compressed',
                     10 => 'text/plain'
                 ],
-                'filesize' => 10
+                'filesize' => 32
             ]
         ],
         'recaptcha' => [
