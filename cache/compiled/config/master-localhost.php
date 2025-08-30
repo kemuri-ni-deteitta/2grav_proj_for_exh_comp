@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756236960,
-    'checksum' => 'ccdf36c2a5eeb53a0c3e64aeeefbc377',
+    'timestamp' => 1756569688,
+    'checksum' => '76b5d1ae08288980d695534d547df04a',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1752692573
+                'modified' => 1756569657
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -39,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1756236925
+                'modified' => 1756569661
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -351,22 +351,22 @@ return [
             ],
             'email' => [
                 'enabled' => true,
-                'from' => 'noreply@expo-land.ru',
-                'to' => 'info@expo-land.ru',
+                'from' => 'diablo2545@yandex.ru',
+                'to' => 'krendel160575@gmail.com',
                 'mailer' => [
-                    'engine' => 'mail',
+                    'engine' => 'smtp',
                     'smtp' => [
-                        'server' => 'localhost',
-                        'port' => 25,
-                        'encryption' => 'none',
-                        'user' => '',
-                        'password' => ''
+                        'server' => 'smtp.yandex.ru',
+                        'port' => 465,
+                        'encryption' => 'tls',
+                        'user' => 'diablo2545@yandex.ru',
+                        'password' => 'foqmuuzjvcejnykd'
                     ],
                     'sendmail' => [
-                        'bin' => '/usr/sbin/sendmail'
+                        'bin' => '/usr/sbin/sendmail -t'
                     ]
                 ],
-                'content_type' => 'text/html',
+                'content_type' => 'text/plain',
                 'debug' => false,
                 'from_name' => 'Expo Land',
                 'to_name' => 'Expo Land',
@@ -375,7 +375,7 @@ return [
                 'process_markdown' => true,
                 'twig' => true,
                 'queue' => [
-                    'enabled' => false,
+                    'enabled' => true,
                     'flush_frequency' => '* * * * *',
                     'flush_msg_limit' => 10,
                     'flush_time_limit' => 100

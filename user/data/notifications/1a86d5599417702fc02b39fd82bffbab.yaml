@@ -1,10 +1,18 @@
-last_checked: 1756238536
+last_checked: 1756566352
 data:
   feed:
     -
+      id: 36
+      date: '2025-08-28 11:40'
+      message: '✍️️ Edit smarter with <b>Editor Pro</b>: Modern WYSIWYM editing, live preview, and powerful content tools!'
+      link: 'https://getgrav.org/premium/editor-pro'
+      type: info
+      location:
+        - feed
+    -
       id: 35
       date: '2025-07-30 11:40'
-      message: '🕙️ Power up Grav with Revisions Pro, Track, Compare, Revert content and config!'
+      message: '🕙️ Power up Grav with <b>Revisions Pro</b>, Track, Compare, Revert content and config!'
       link: 'https://getgrav.org/premium/revisions-pro'
       type: info
       location:
@@ -12,7 +20,7 @@ data:
     -
       id: 34
       date: '2025-07-29 11:40'
-      message: '🗳️ Transform your Grav site into an interactive experience with Polls.'
+      message: '🗳️ Transform your Grav site into an interactive experience with <b>Polls.</b>'
       link: 'https://getgrav.org/premium/polls'
       type: info
       location:
@@ -20,7 +28,7 @@ data:
     -
       id: 33
       date: '2025-07-28 11:40'
-      message: '💬 Build a community with Comments Pro for Grav, now available.'
+      message: '💬 Build a community with <b>Comments Pro</b> for Grav, now available.'
       link: 'https://getgrav.org/premium/comments-pro'
       type: info
       location:
@@ -28,7 +36,7 @@ data:
     -
       id: 31
       date: '2024-02-13 11:40'
-      message: '🗜️Optimize your Grav site with Image Optimize'
+      message: '🗜️Optimize your Grav site with <b>Image Optimize</b>, now available.'
       link: 'https://getgrav.org/premium/image-optimize'
       type: info
       location:

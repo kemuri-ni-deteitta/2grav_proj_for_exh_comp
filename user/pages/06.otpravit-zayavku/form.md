@@ -66,7 +66,7 @@ form:
             multiple: true
             limit: 10
             filesize: 10
-            destination: 'user://pages/06.otpravit-zayavku/uploads'
+            destination: 'tmp://forms'
             avoid_overwriting: true
             random_name: true
             accept:
@@ -111,12 +111,14 @@ form:
                 subject: '[Заявка] Новая заявка с сайта'
                 body: '{% include "forms/data.html.twig" %}'
                 attachments: true
+                process_markdown: true
         -
             save:
                 fileprefix: inquiry-
                 dateformat: Ymd-His-u
                 extension: txt
                 body: '{% include "forms/data.txt.twig" %}'
+                destination: 'tmp://forms/submissions'
         -
             message: 'Спасибо за заявку! Мы свяжемся с вами в ближайшее время.'
         -
