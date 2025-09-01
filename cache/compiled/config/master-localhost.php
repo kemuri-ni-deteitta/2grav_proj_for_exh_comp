@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756589191,
-    'checksum' => 'f7f07784bc7d98ed9c4375b09a9ea67e',
+    'timestamp' => 1756716194,
+    'checksum' => '5b574ebea26c778b0e88bcf1fb655007',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1756573969
+                'modified' => 1756716189
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -351,16 +351,16 @@ return [
             ],
             'email' => [
                 'enabled' => true,
-                'from' => 'diablo2545@yandex.ru',
-                'to' => 'diablo2545@yandex.ru',
+                'from' => 'expoland@mail.ru',
+                'to' => 'expoland@mail.ru',
                 'mailer' => [
                     'engine' => 'smtp',
                     'smtp' => [
-                        'server' => 'smtp.yandex.ru',
+                        'server' => 'smtp.mail.ru',
                         'port' => 465,
-                        'encryption' => 'tls',
-                        'user' => 'diablo2545@yandex.ru',
-                        'password' => 'foqmuuzjvcejnykd'
+                        'encryption' => 'ssl',
+                        'user' => 'expoland@mail.ru',
+                        'password' => 'ME9UB6EgqJfjAae80ySc'
                     ],
                     'sendmail' => [
                         'bin' => '/usr/sbin/sendmail -t'
@@ -375,7 +375,7 @@ return [
                 'process_markdown' => false,
                 'twig' => true,
                 'queue' => [
-                    'enabled' => true,
+                    'enabled' => false,
                     'flush_frequency' => '* * * * *',
                     'flush_msg_limit' => 10,
                     'flush_time_limit' => 100

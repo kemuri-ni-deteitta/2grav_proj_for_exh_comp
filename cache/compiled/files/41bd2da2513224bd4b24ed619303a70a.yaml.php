@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/plugins/email.yaml',
-    'modified' => 1756573969,
-    'size' => 634,
+    'modified' => 1756716189,
+    'size' => 625,
     'data' => [
         'enabled' => true,
-        'from' => 'diablo2545@yandex.ru',
+        'from' => 'expoland@mail.ru',
         'from_name' => 'Expo Land',
-        'to' => 'diablo2545@yandex.ru',
+        'to' => 'expoland@mail.ru',
         'to_name' => 'Expo Land',
         'subject' => 'Новое сообщение с сайта',
         'body' => '{% include "forms/inquiry.txt.twig" %}',
@@ -16,7 +16,7 @@ return [
         'twig' => true,
         'debug' => false,
         'queue' => [
-            'enabled' => true,
+            'enabled' => false,
             'flush_frequency' => '* * * * *',
             'flush_msg_limit' => 10,
             'flush_time_limit' => 100
@@ -24,11 +24,11 @@ return [
         'mailer' => [
             'engine' => 'smtp',
             'smtp' => [
-                'server' => 'smtp.yandex.ru',
+                'server' => 'smtp.mail.ru',
                 'port' => 465,
-                'encryption' => 'tls',
-                'user' => 'diablo2545@yandex.ru',
-                'password' => 'foqmuuzjvcejnykd'
+                'encryption' => 'ssl',
+                'user' => 'expoland@mail.ru',
+                'password' => 'ME9UB6EgqJfjAae80ySc'
             ],
             'sendmail' => [
                 'bin' => '/usr/sbin/sendmail -t'

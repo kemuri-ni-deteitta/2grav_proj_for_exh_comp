@@ -1,7 +1,7 @@
 enabled: true
-from: 'diablo2545@yandex.ru'
+from: 'expoland@mail.ru'
 from_name: 'Expo Land'
-to: 'diablo2545@yandex.ru'
+to: 'expoland@mail.ru'
 
 
 #to: 'info@expo-land.ru'
@@ -19,11 +19,11 @@ queue:
 mailer:
   engine: smtp
   smtp:
-    server: smtp.yandex.ru
+    server: smtp.mail.ru
     port: 465
     encryption: ssl
-    user: 'diablo2545@yandex.ru'
-    password: 'foqmuuzjvcejnykd'
+    user: 'expoland@mail.ru'
+    password: 'ME9UB6EgqJfjAae80ySc'
   sendmail:
     bin: '/usr/sbin/sendmail -t'
 content_type: text/plain

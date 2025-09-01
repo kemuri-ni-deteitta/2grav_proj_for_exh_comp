@@ -107,7 +107,7 @@ form:
             email:
                 from: '{{ config.plugins.email.from }}'
                 to:
-                    - 'diablo2545@yandex.ru'
+                    - 'expoland@mail.ru'
                 reply_to: '{{ form.value.email }}'
                 subject: '[Заявка] Новая заявка с сайта'
                 body: '{% include "forms/inquiry.txt.twig" %}'
