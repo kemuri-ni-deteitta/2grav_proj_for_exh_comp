@@ -55,7 +55,7 @@ form:
     process:
         - email:
             from: '{{ config.plugins.email.from }}'
-            to: ['expoland@mail.ru']
+            to: ['expoland@mail.ru', 'stand@expoland-group.ru']
             subject: '[Контакт] {{ form.value.subject }}'
             body: '{% include "forms/data.html.twig" %}'
         - save:

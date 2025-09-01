@@ -1,7 +1,7 @@
 enabled: true
 from: 'expoland@mail.ru'
 from_name: 'Expo Land'
-to: 'expoland@mail.ru'
+to: 'expoland@mail.ru, stand@expoland-group.ru'
 
 
 #to: 'info@expo-land.ru'
