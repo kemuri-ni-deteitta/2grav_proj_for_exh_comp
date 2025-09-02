@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/data/feed/1a86d5599417702fc02b39fd82bffbab.yaml',
-    'modified' => 1756590047,
+    'modified' => 1756824378,
     'size' => 1794,
     'data' => [
-        'last_checked' => 1756590047,
+        'last_checked' => 1756824378,
         'data' => [
             0 => [
                 'title' => 'TailwindCSS 4.0 upgrade for Typhoon Premium Theme',

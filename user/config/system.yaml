@@ -1,4 +1,4 @@
-absolute_urls: true
+absolute_urls: false
 
 languages:
   supported:
@@ -79,3 +79,14 @@ forms:
     random_name: true
 
 
+session:
+  enabled: true
+  name: grav-local
+  uniqueness: path
+  secure: false     # critical for HTTP localhost
+  secure_https: true
+  httponly: true
+  samesite: Lax
+  split: true
+  path: '/'
+  domain:

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/security.yaml',
-    'modified' => 1754418166,
+    'modified' => 1756735784,
     'size' => 223,
     'data' => [
         'salt' => 'gJ2ZocD7xCWGzt',

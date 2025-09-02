@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756717567,
-    'checksum' => 'c1e06a6294355a050b2358e023d0d329',
+    'timestamp' => 1756824343,
+    'checksum' => '491e750c4caa0e9cf6174e7d4b5d0b3b',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1756717552
+                'modified' => 1756745128
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -31,7 +31,7 @@ return [
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
-                'modified' => 1754418166
+                'modified' => 1756735784
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
@@ -39,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1756588851
+                'modified' => 1756824265
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -3909,7 +3909,7 @@ node_modules'
             ]
         ],
         'system' => [
-            'absolute_urls' => true,
+            'absolute_urls' => false,
             'timezone' => '',
             'default_locale' => NULL,
             'param_sep' => ':',
@@ -4147,7 +4147,7 @@ node_modules'
                 'enabled' => true,
                 'initialize' => true,
                 'timeout' => 1800,
-                'name' => 'grav-site',
+                'name' => 'grav-local',
                 'uniqueness' => 'path',
                 'secure' => false,
                 'secure_https' => true,
@@ -4155,7 +4155,7 @@ node_modules'
                 'samesite' => 'Lax',
                 'split' => true,
                 'domain' => NULL,
-                'path' => NULL
+                'path' => '/'
             ],
             'gpm' => [
                 'releases' => 'stable',
