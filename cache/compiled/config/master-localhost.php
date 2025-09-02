@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756832771,
-    'checksum' => '59e65dd8615213507069441750baddd4',
+    'timestamp' => 1756841189,
+    'checksum' => 'd2ed2e6eff729056ade2738aa449d3c5',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1756832766
+                'modified' => 1756841181
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -39,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1756824265
+                'modified' => 1756840783
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -354,7 +354,7 @@ return [
                 'from' => 'expoland@mail.ru',
                 'to' => 'expoland@mail.ru, stand@expoland-group.ru',
                 'mailer' => [
-                    'engine' => 'smtps',
+                    'engine' => 'smtp',
                     'smtp' => [
                         'server' => 'smtp.mail.ru',
                         'port' => 465,
@@ -366,8 +366,8 @@ return [
                         'bin' => '/usr/sbin/sendmail -t'
                     ]
                 ],
-                'content_type' => 'text/plain',
-                'debug' => false,
+                'content_type' => 'text/html',
+                'debug' => true,
                 'from_name' => 'Expo Land',
                 'to_name' => 'Expo Land',
                 'subject' => 'Новое сообщение с сайта',

@@ -10,14 +10,14 @@ subject: 'Новое сообщение с сайта'
 body: '{% include "forms/inquiry.txt.twig" %}'
 process_markdown: false
 twig: true
-debug: false
+debug: true
 queue:
   enabled: false
   flush_frequency: '* * * * *'
   flush_msg_limit: 10
   flush_time_limit: 100
 mailer:
-  engine: smtps
+  engine: smtp
   smtp:
     server: smtp.mail.ru
     port: 465
@@ -26,5 +26,5 @@ mailer:
     password: 'ME9UB6EgqJfjAae80ySc'
   sendmail:
     bin: '/usr/sbin/sendmail -t'
-content_type: text/plain
+content_type: text/html
 charset: utf-8 

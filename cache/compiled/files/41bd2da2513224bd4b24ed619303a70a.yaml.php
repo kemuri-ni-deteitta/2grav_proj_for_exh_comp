@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/plugins/email.yaml',
-    'modified' => 1756832766,
-    'size' => 651,
+    'modified' => 1756841181,
+    'size' => 649,
     'data' => [
         'enabled' => true,
         'from' => 'expoland@mail.ru',
@@ -14,7 +14,7 @@ return [
         'body' => '{% include "forms/inquiry.txt.twig" %}',
         'process_markdown' => false,
         'twig' => true,
-        'debug' => false,
+        'debug' => true,
         'queue' => [
             'enabled' => false,
             'flush_frequency' => '* * * * *',
@@ -22,7 +22,7 @@ return [
             'flush_time_limit' => 100
         ],
         'mailer' => [
-            'engine' => 'smtps',
+            'engine' => 'smtp',
             'smtp' => [
                 'server' => 'smtp.mail.ru',
                 'port' => 465,
@@ -34,7 +34,7 @@ return [
                 'bin' => '/usr/sbin/sendmail -t'
             ]
         ],
-        'content_type' => 'text/plain',
+        'content_type' => 'text/html',
         'charset' => 'utf-8'
     ]
 ];
