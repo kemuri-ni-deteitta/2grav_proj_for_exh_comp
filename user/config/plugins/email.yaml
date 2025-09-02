@@ -17,7 +17,7 @@ queue:
   flush_msg_limit: 10
   flush_time_limit: 100
 mailer:
-  engine: smtp
+  engine: smtps
   smtp:
     server: smtp.mail.ru
     port: 465

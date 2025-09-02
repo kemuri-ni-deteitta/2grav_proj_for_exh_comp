@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756824343,
-    'checksum' => '491e750c4caa0e9cf6174e7d4b5d0b3b',
+    'timestamp' => 1756832771,
+    'checksum' => '59e65dd8615213507069441750baddd4',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1756745128
+                'modified' => 1756832766
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -354,7 +354,7 @@ return [
                 'from' => 'expoland@mail.ru',
                 'to' => 'expoland@mail.ru, stand@expoland-group.ru',
                 'mailer' => [
-                    'engine' => 'smtp',
+                    'engine' => 'smtps',
                     'smtp' => [
                         'server' => 'smtp.mail.ru',
                         'port' => 465,

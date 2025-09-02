@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/grav-admin/user/config/plugins/email.yaml',
-    'modified' => 1756745128,
-    'size' => 650,
+    'modified' => 1756832766,
+    'size' => 651,
     'data' => [
         'enabled' => true,
         'from' => 'expoland@mail.ru',
@@ -22,7 +22,7 @@ return [
             'flush_time_limit' => 100
         ],
         'mailer' => [
-            'engine' => 'smtp',
+            'engine' => 'smtps',
             'smtp' => [
                 'server' => 'smtp.mail.ru',
                 'port' => 465,
