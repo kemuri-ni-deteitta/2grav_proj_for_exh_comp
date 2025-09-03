@@ -1,15 +1,15 @@
 Ваше имя: {{ form.value.name|e }}
-
+{{ "\n" }}
 Телефон: {{ form.value.phone|e }}
-
+{{ "\n" }}
 Email: {{ form.value.email|e }}
-
+{{ "\n" }}
 Услуга: {% if form.value.service == 'development' %}Разработка и строительство выставочных стендов{% elseif form.value.service == 'design' %}Дизайн выставочных стендов{% elseif form.value.service == 'full_service' %}Полный выставочный сервис{% else %}{{ form.value.service|e }}{% endif %}
-
+{{ "\n" }}
 Бюджет проекта: {{ form.value.budget|e }}
-
+{{ "\n" }}
 Описание проекта: {{ form.value.message|raw }}
-
+{{ "\n" }}
 {% set files = form.value('files') %}
 {% if files %}
 Прикрепленные файлы: {{ files|length }} файл(ов)

@@ -111,10 +111,11 @@ form:
                     - 'stand@expoland-group.ru'
                 reply_to: '{{ form.value.email }}'
                 subject: '[Заявка] Новая заявка с сайта'
-                body: '{% include "forms/inquiry.txt.twig" %}'
+                body: '{% include "forms/inquiry.html.twig" %}'
                 attachments:
                     - 'files'
                 process_markdown: false
+                content_type: text/html
         -
             save:
                 fileprefix: inquiry-
