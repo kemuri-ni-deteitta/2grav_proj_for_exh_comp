@@ -1,0 +1,10 @@
+Ваше имя: 3123
+Компания: 131313
+Телефон: 123123
+Email: 21312312@313.com
+Услуга: Полный выставочный сервис
+Бюджет проекта: 31231
+Описание проекта: 312312
+Прикрепить файлы: {&quot;user-data:\/\/forms\/uploads\/tetra_logo.jpg&quot;:{&quot;name&quot;:&quot;tetra_logo.jpg&quot;,&quot;full_path&quot;:&quot;tetra_logo.jpg&quot;,&quot;type&quot;:&quot;image\/jpeg&quot;,&quot;size&quot;:7626,&quot;path&quot;:&quot;user-data:\/\/forms\/uploads\/tetra_logo.jpg&quot;}}
+Согласие на обработку персональных данных: 1
+

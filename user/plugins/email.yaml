@@ -7,7 +7,7 @@ to: 'expoland@mail.ru, stand@expoland-group.ru'
 #to: 'info@expo-land.ru'
 to_name: 'Expo Land'
 subject: 'Новое сообщение с сайта'
-body: '{% include "forms/inquiry.txt.twig" %}'
+body: '{% include "forms/inquiry.html.twig" %}'
 process_markdown: false
 twig: true
 debug: true
@@ -26,5 +26,5 @@ mailer:
     password: 'ME9UB6EgqJfjAae80ySc'
   sendmail:
     bin: '/usr/sbin/sendmail -t'
-content_type: text/plain
+content_type: text/html
 charset: utf-8
