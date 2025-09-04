@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1756986069,
-    'checksum' => '0541a2ff123b1c351dfca1e3e8183e7d',
+    'timestamp' => 1756991015,
+    'checksum' => '86074c039c5e610138866df3caf25178',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
-                'modified' => 1756939663
+                'modified' => 1756991012
             ],
             'plugins/flex-objects' => [
                 'file' => 'user/config/plugins/flex-objects.yaml',
@@ -39,7 +39,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1756986057
+                'modified' => 1756990711
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -99,7 +99,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1756931204
+                'modified' => 1756989243
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',

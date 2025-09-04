@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/home/ivan/gravPr/gravExpo/user/config/plugins/email.yaml',
-    'modified' => 1756939663,
-    'size' => 649,
+    'modified' => 1756991012,
+    'size' => 648,
     'data' => [
         'enabled' => true,
         'from' => 'expoland@mail.ru',
