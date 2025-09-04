@@ -35,10 +35,12 @@ gallery:
                         type: image/jpeg
                         size: 925781
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/TAVIL-2.jpg
-        construction_area: '222'
+        construction_area: '120 кв.м'
+        exhibition_name: «Агропродмаш-2019»
         company_name: TAVIL
+        project_year: '2019'
     -
-        title: 'Эксклюзивный стенд для компании "NPO_Volna"'
+        title: 'Дизайн-проект выставочного стенда для НПО «ВОЛНА»'
         images:
             -
                 is_main: true
@@ -85,9 +87,12 @@ gallery:
                         type: image/jpeg
                         size: 353843
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/NPO_Volna-3.jpg
-        company_name: NPO_Volna
+        construction_area: '82 кв.м'
+        exhibition_name: 'Международный военно-технический форум «АРМИЯ-2020»'
+        company_name: 'НПО «ВОЛНА»'
+        project_year: '2020'
     -
-        title: 'Эксклюзивный стенд для компании "NIICentrProgSys"'
+        title: 'Дизайн-проект двухэтажного выставочного стенда для компании НИИ «ЦентрПрограммСистем».'
         images:
             -
                 is_main: true
@@ -116,7 +121,10 @@ gallery:
                         type: image/jpeg
                         size: 655348
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/NIICentrProgSys-1.jpg
-        company_name: NIICentrProgSys
+        construction_area: ' 42 кв.м, площадь 2-го этажа 28 кв.м'
+        exhibition_name: 'Международный военно-технический форум «АРМИЯ-2020»'
+        company_name: 'НИИ «ЦентрПрограммСистем».'
+        project_year: '2020'
     -
         title: 'Эксклюзивный стенд для компании "NAVIEN"'
         images:
@@ -183,9 +191,12 @@ gallery:
                         type: image/jpeg
                         size: 530709
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/NAVIEN-7.jpg
+        construction_area: 'Двухэтажный стенд площадью 220 кв.м, площадь 2-го этажа 42 кв.м'
+        exhibition_name: «Акватерм-2020».
         company_name: NAVIEN
+        project_year: '2020'
     -
-        title: 'Эксклюзивный стенд для компании "Mustang_AGROS"'
+        title: 'Эксклюзивный стенд для компании «МУСТАНГ Технологии Кормления»."'
         images:
             -
                 is_main: true
@@ -214,9 +225,12 @@ gallery:
                         type: image/jpeg
                         size: 1221495
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Mustang_AGROS-3.jpg
-        company_name: Mustang_AGROS
+        construction_area: '54 кв.м'
+        exhibition_name: 'Выставка «AGROS-2020»'
+        company_name: '«МУСТАНГ Технологии Кормления».'
+        project_year: '2020'
     -
-        title: 'Эксклюзивный стенд для компании "Mustang"'
+        title: 'Эксклюзивный стенд для компании «МУСТАНГ Технологии Кормления».'
         images:
             -
                 is_main: true
@@ -254,7 +268,10 @@ gallery:
                         type: image/jpeg
                         size: 1189664
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Mustang-4.jpg
-        company_name: Mustang
+        construction_area: '96 кв.м'
+        exhibition_name: 'Выставка «MVC-2020»'
+        company_name: '«МУСТАНГ Технологии Кормления».'
+        project_year: '2020'
     -
         title: 'Эксклюзивный стенд для компании "AUTOTHERM"'
         images:
@@ -276,9 +293,12 @@ gallery:
                         type: image/jpeg
                         size: 434636
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/AUTOTHERM-2.jpg
+        construction_area: '60 кв.м'
+        exhibition_name: «Агропродмаш-2019»
         company_name: AUTOTHERM
+        project_year: '2019'
     -
-        title: 'Эксклюзивный стенд для компании "Areal-BIO"'
+        title: 'Эксклюзивный стенд для компании «АРЕАЛ БИО».'
         images:
             -
                 is_main: true
@@ -307,7 +327,10 @@ gallery:
                         type: image/jpeg
                         size: 210869
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Areal-BIO-1.jpg
+        construction_area: ' 54 кв.м'
+        exhibition_name: «MVC-2020»
         company_name: Areal-BIO
+        project_year: '2020'
     -
         title: 'Эксклюзивный стенд для компании "ANCORE"'
         images:
@@ -329,9 +352,12 @@ gallery:
                         type: image/jpeg
                         size: 592464
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ANCORE-1.jpg
+        construction_area: '42 кв.м'
+        exhibition_name: «MVC-2020»
         company_name: ANCORE
+        project_year: '2020'
     -
-        title: 'Эксклюзивный стенд для компании "Agroviteks-Kormoresurs"'
+        title: 'Эксклюзивный стенд для компании  «АГРОВИТЭКС».'
         images:
             -
                 is_main: true
@@ -360,9 +386,11 @@ gallery:
                         type: image/jpeg
                         size: 516924
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Agroviteks-Kormoresurs-1.jpg
-        company_name: Agroviteks-Kormoresurs
+        exhibition_name: «MVC-2020»
+        company_name: «АГРОВИТЭКС».
+        project_year: '2020'
     -
-        title: 'Эксклюзивный стенд для компании "AgroBaltTrade"'
+        title: 'Эксклюзивный стенд для компании «АгроБалт Трейд»'
         images:
             -
                 is_main: true
@@ -391,9 +419,12 @@ gallery:
                         type: image/jpeg
                         size: 767161
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/AgroBaltTrade-3.jpg
-        company_name: AgroBaltTrade
+        construction_area: 'Площадь застройки 72 кв.м, площадь 2-го этажа 48 кв.м'
+        exhibition_name: «MVC-2020».
+        company_name: '«АгроБалт Трейд»'
+        project_year: '2020'
     -
-        title: 'Эксклюзивный стенд для компании "markon"'
+        title: 'Эксклюзивный стенд для компании  "МАРКОН"'
         images:
             -
                 is_main: true
@@ -422,9 +453,12 @@ gallery:
                         type: image/jpeg
                         size: 154003
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/markon1.jpg
-        company_name: markon
+        construction_area: '80 кв.м.'
+        exhibition_name: '"Интеравто-2016"'
+        company_name: ' "МАРКОН"'
+        project_year: '2016'
     -
-        title: 'Эксклюзивный стенд для компании "weber"'
+        title: 'Эксклюзивный стенд для компании "WEBER"'
         images:
             -
                 is_main: true
@@ -489,9 +523,12 @@ gallery:
                         type: image/jpeg
                         size: 136545
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber.jpg
-        company_name: weber
+        construction_area: '100 кв.м.'
+        exhibition_name: '"Интеравто 2014"'
+        company_name: '"WEBER"'
+        project_year: '2014'
     -
-        title: 'Эксклюзивный стенд для компании "Untitled"'
+        title: 'Эксклюзивный стенд для компании "АРЕС"'
         images:
             -
                 is_main: true
@@ -502,9 +539,12 @@ gallery:
                         type: image/jpeg
                         size: 88784
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Untitled-1.jpg
-        company_name: Untitled
+        construction_area: '25 кв.м.'
+        exhibition_name: '"Автомеханика-2015"'
+        company_name: '"АРЕС"'
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "tadem"'
+        title: 'Эксклюзивный стенд для компании "ТАДЕМ"'
         images:
             -
                 is_main: true
@@ -533,7 +573,10 @@ gallery:
                         type: image/jpeg
                         size: 145410
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tadem1.jpg
-        company_name: tadem
+        construction_area: '110 кв.м.'
+        exhibition_name: '"ИнтерАвто-2016"'
+        company_name: '"ТАДЕМ"'
+        project_year: '2016'
     -
         title: 'Эксклюзивный стенд для компании "worldclass"'
         images:
@@ -566,7 +609,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/worldclass1.jpg
         company_name: worldclass
     -
-        title: 'Эксклюзивный стенд для компании "autotherm"'
+        title: 'Эксклюзивный стенд для компании "AUTОTHERM"'
         images:
             -
                 is_main: true
@@ -595,9 +638,13 @@ gallery:
                         type: image/jpeg
                         size: 165063
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm1.jpg
-        company_name: autotherm
+        construction_area: '114 кв.м.'
+        exhibition_name: '"АгроПродМаш-2016"'
+        company_name: AUTОTHERM
+        project_year: '2016'
     -
-        title: 'Эксклюзивный стенд для компании "barshow"'
+        title: 'Эксклюзивный стенд для компании "IRISH DISTILLERS"'
+        desc: 'При строительстве выставочного стенда использовались настоящие дубовые бочки, доставленные на монтаж из Ирландии, в которых до этого выдерживался 12-летний "JAMESON GOLD RESERVE". На стенде давали мастер-классы Мартин Вильямс (эксперт по дистилляции); Джер Бакли (мастер-бондарь); Джек МакГарри и Шон Малдун (бар "Дохлый кролик", Нью-Йорк).'
         images:
             -
                 is_main: true
@@ -608,9 +655,84 @@ gallery:
                         type: image/jpeg
                         size: 117058
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow.jpg
-        company_name: barshow
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow2_s.jpg:
+                        name: barshow2_s.jpg
+                        full_path: barshow2_s.jpg
+                        type: image/jpeg
+                        size: 67240
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow2_s.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow6_s.jpg:
+                        name: barshow6_s.jpg
+                        full_path: barshow6_s.jpg
+                        type: image/jpeg
+                        size: 56274
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow6_s.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow8_s.jpg:
+                        name: barshow8_s.jpg
+                        full_path: barshow8_s.jpg
+                        type: image/jpeg
+                        size: 65273
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow8_s.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow9_s.jpg:
+                        name: barshow9_s.jpg
+                        full_path: barshow9_s.jpg
+                        type: image/jpeg
+                        size: 63787
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow9_s.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow4_s.jpg:
+                        name: barshow4_s.jpg
+                        full_path: barshow4_s.jpg
+                        type: image/jpeg
+                        size: 67569
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow4_s.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow7_s.jpg:
+                        name: barshow7_s.jpg
+                        full_path: barshow7_s.jpg
+                        type: image/jpeg
+                        size: 61233
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow7_s.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow1_s.jpg:
+                        name: barshow1_s.jpg
+                        full_path: barshow1_s.jpg
+                        type: image/jpeg
+                        size: 66669
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow1_s.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/3.jpg:
+                        name: 3.jpg
+                        full_path: 3.jpg
+                        type: image/jpeg
+                        size: 159995
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/3.jpg
+        construction_area: '72 кв.м'
+        exhibition_name: ' "Moscow Bar Show - 2013"'
+        company_name: '"IRISH DISTILLERS"'
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "kroy"'
+        title: 'Эксклюзивный стенд для компании "Балтик Коатингс"  ("KROY ROBERLO")'
         images:
             -
                 is_main: true
@@ -639,9 +761,12 @@ gallery:
                         type: image/jpeg
                         size: 206474
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy2.jpg
-        company_name: kroy
+        construction_area: '36 кв.м.'
+        exhibition_name: '"MIMS-2016"'
+        company_name: ' "Балтик Коатингс"  ("KROY ROBERLO")'
+        project_year: '2016'
     -
-        title: 'Эксклюзивный стенд для компании "driada"'
+        title: 'Эксклюзивный стенд для компании "DRIADA"'
         images:
             -
                 is_main: true
@@ -670,9 +795,12 @@ gallery:
                         type: image/jpeg
                         size: 122132
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/driada3.jpg
-        company_name: driada
+        construction_area: '114 кв.м.'
+        exhibition_name: '"ПРОДЭКСПО-2016"'
+        company_name: '"DRIADA"'
+        project_year: '2016'
     -
-        title: 'Эксклюзивный стенд для компании "style"'
+        title: 'Эксклюзивный стенд для компании "Русский Стиль"'
         images:
             -
                 is_main: true
@@ -701,9 +829,12 @@ gallery:
                         type: image/jpeg
                         size: 145876
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/style2.jpg
-        company_name: style
+        construction_area: '120 кв.м.'
+        exhibition_name: '"Мир детства - 2016"'
+        company_name: '"Русский Стиль"'
+        project_year: '2016'
     -
-        title: 'Эксклюзивный стенд для компании "salvena"'
+        title: 'Эксклюзивный стенд для компании "SALVENA"'
         images:
             -
                 is_main: true
@@ -732,9 +863,12 @@ gallery:
                         type: image/jpeg
                         size: 143446
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/salvena3.jpg
-        company_name: salvena
+        construction_area: '32 кв.м.'
+        exhibition_name: '"MosBuild-2016",'
+        company_name: SALVENA
+        project_year: '2016'
     -
-        title: 'Эксклюзивный стенд для компании "msc"'
+        title: 'Эксклюзивный стенд для компании "Mediterranean Shipping Company"'
         images:
             -
                 is_main: true
@@ -781,7 +915,10 @@ gallery:
                         type: image/jpeg
                         size: 135074
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc2.jpg
-        company_name: msc
+        construction_area: '56 кв.м.'
+        exhibition_name: '"World Food-2017"'
+        company_name: ' "Mediterranean Shipping Company"'
+        project_year: '2017'
     -
         title: 'Эксклюзивный стенд для компании "Delta-Club"'
         images:
@@ -839,9 +976,12 @@ gallery:
                         type: image/jpeg
                         size: 209535
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Delta-Club-5.jpg
+        construction_area: '210 кв.м'
+        exhibition_name: '"Продэкспо - 2018" (ЦВК Экспоцентр)'
         company_name: Delta-Club
+        project_year: '2018'
     -
-        title: 'Эксклюзивный стенд для компании "Gavrish"'
+        title: 'Эксклюзивный стенд для компании "ГАВРИШ".'
         images:
             -
                 is_main: true
@@ -897,7 +1037,10 @@ gallery:
                         type: image/jpeg
                         size: 137141
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Gavrish-3.jpg
-        company_name: Gavrish
+        construction_area: '63 кв.м'
+        exhibition_name: '"Цветы - 2018" (ВДНХ)'
+        company_name: ГАВРИШ
+        project_year: '2018'
     -
         title: 'Эксклюзивный стенд для компании "Areal-Bio"'
         images:
@@ -957,10 +1100,10 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Areal-Bio-2.jpg
         company_name: Areal-Bio
     -
-        title: 'Эксклюзивный стенд для компании "Agrovitex"'
+        title: 'Эксклюзивный стенд для компании "АгроВитЭкс".'
         images:
             -
-                is_main: true
+                is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Agrovitex-3.jpg:
                         name: Agrovitex-3.jpg
@@ -968,9 +1111,30 @@ gallery:
                         type: image/jpeg
                         size: 155806
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Agrovitex-3.jpg
+            -
+                is_main: true
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Agrovitex_Preview-2.jpg:
+                        name: Agrovitex_Preview-2.jpg
+                        full_path: Agrovitex_Preview-2.jpg
+                        type: image/jpeg
+                        size: 34254
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Agrovitex_Preview-2.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Agrovitex_Preview-1.jpg:
+                        name: Agrovitex_Preview-1.jpg
+                        full_path: Agrovitex_Preview-1.jpg
+                        type: image/jpeg
+                        size: 33259
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Agrovitex_Preview-1.jpg
+        construction_area: '120 кв.м'
+        exhibition_name: '"Зерно. Комбикорма. Ветеринария - 2018" (ВДНХ)'
         company_name: Agrovitex
+        project_year: '2018'
     -
-        title: 'Эксклюзивный стенд для компании "Aedon"'
+        title: 'Эксклюзивный стенд для компании "АЕДОН"'
         images:
             -
                 is_main: true
@@ -990,7 +1154,10 @@ gallery:
                         type: image/jpeg
                         size: 160719
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Aedon-2.jpg
-        company_name: Aedon
+        construction_area: 'Площадь 1-го этажа 72 кв.м; площадь 2-го этажа 48 кв.м'
+        exhibition_name: '"Экспоэлектроника - 2018" (МВЦ Крокус Экспо)'
+        company_name: АЕДОН
+        project_year: '2018'
     -
         title: 'Эксклюзивный стенд для компании "RD"'
         images:
@@ -1362,7 +1529,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/PROVIL.jpg
         company_name: PROVIL
     -
-        title: 'Эксклюзивный стенд для компании "psn"'
+        title: 'Эксклюзивный стенд для компании "PSN GROUP"'
         images:
             -
                 is_main: true
@@ -1409,9 +1576,12 @@ gallery:
                         type: image/jpeg
                         size: 520800
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn5.jpg
-        company_name: psn
+        construction_area: '49 кв.м.'
+        exhibition_name: 'Недвижимость - 2017'
+        company_name: ' PSN GROUP'
+        project_year: '2017'
     -
-        title: 'Эксклюзивный стенд для компании "fito"'
+        title: 'Эксклюзивный стенд для компании "ФИТОБИОТИКС"'
         images:
             -
                 is_main: true
@@ -1440,7 +1610,10 @@ gallery:
                         type: image/jpeg
                         size: 491769
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fito3.jpg
-        company_name: fito
+        construction_area: 'Площадь стенда - 56 кв.м, площадь 2-го этажа - 42 кв.м.'
+        exhibition_name: '"VIV - 2017"'
+        company_name: ФИТОБИОТИКС
+        project_year: '2017'
     -
         title: 'Эксклюзивный стенд для компании "unity"'
         images:
@@ -1486,7 +1659,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cheese.jpg
         company_name: cheese
     -
-        title: 'Эксклюзивный стенд для компании "zenit"'
+        title: 'Эксклюзивный стенд для компании "ЗЕНИТ"'
         images:
             -
                 is_main: true
@@ -1515,7 +1688,10 @@ gallery:
                         type: image/jpeg
                         size: 234918
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/zenit1.jpg
-        company_name: zenit
+        construction_area: '64 кв.м.'
+        exhibition_name: 'MIOGE/Нефть и Газ-2015'
+        company_name: ЗЕНИТ
+        project_year: '2015'
     -
         title: 'Эксклюзивный стенд для компании "abat"'
         images:
@@ -1597,7 +1773,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro1.jpg
         company_name: tekspro
     -
-        title: 'Эксклюзивный стенд для компании "henshen"'
+        title: 'Эксклюзивный стенд для компании "ХЕНШЕН ТТ"'
         images:
             -
                 is_main: true
@@ -1608,9 +1784,12 @@ gallery:
                         type: image/jpeg
                         size: 237735
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/henshen.jpg
-        company_name: henshen
+        construction_area: '35 кв.м.'
+        exhibition_name: Автомеханика-2015
+        company_name: 'ХЕНШЕН ТТ'
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "rms"'
+        title: 'Эксклюзивный стенд для компании "РМС АВТО"'
         images:
             -
                 is_main: true
@@ -1648,12 +1827,15 @@ gallery:
                         type: image/jpeg
                         size: 261715
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms1.jpg
-        company_name: rms
+        construction_area: '64 кв.м.'
+        exhibition_name: Автомеханика-2015
+        company_name: 'РМС АВТО'
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "ares"'
+        title: 'Эксклюзивный стенд для компании "АРЕС"'
         images:
             -
-                is_main: true
+                is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares2.jpg:
                         name: ares2.jpg
@@ -1662,7 +1844,7 @@ gallery:
                         size: 225355
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares2.jpg
             -
-                is_main: false
+                is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares3.jpg:
                         name: ares3.jpg
@@ -1679,9 +1861,12 @@ gallery:
                         type: image/jpeg
                         size: 382516
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares1.jpg
-        company_name: ares
+        construction_area: '25 кв.м.'
+        exhibition_name: Автомеханика-2015
+        company_name: АРЕС
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "cube"'
+        title: 'Эксклюзивный стенд для компании "КУБ БЬЮТИ"'
         images:
             -
                 is_main: true
@@ -1710,9 +1895,12 @@ gallery:
                         type: image/jpeg
                         size: 253288
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cube1.jpg
-        company_name: cube
+        construction_area: '32 кв.м.'
+        exhibition_name: Интершарм-2015
+        company_name: 'КУБ БЬЮТИ'
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "rusinhim"'
+        title: 'Эксклюзивный стенд для компании "РУСИНХИМ"'
         images:
             -
                 is_main: true
@@ -1741,9 +1929,11 @@ gallery:
                         type: image/jpeg
                         size: 247902
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rusinhim1.jpg
-        company_name: rusinhim
+        construction_area: '60 кв.м.'
+        exhibition_name: ЦВЕТЫ-2015
+        company_name: РУСИНХИМ
     -
-        title: 'Эксклюзивный стенд для компании "unox"'
+        title: 'Эксклюзивный стенд для компании "UNOX"'
         images:
             -
                 is_main: true
@@ -1772,9 +1962,12 @@ gallery:
                         type: image/jpeg
                         size: 209949
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unox3.jpg
-        company_name: unox
+        construction_area: '35 кв.м.'
+        exhibition_name: ПИР-2015
+        company_name: UNOX
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "ponnat"'
+        title: 'Эксклюзивный стенд для компании "ПОННАТ"'
         images:
             -
                 is_main: true
@@ -1803,9 +1996,12 @@ gallery:
                         type: image/jpeg
                         size: 257269
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ponnat3.jpg
-        company_name: ponnat
+        construction_area: '35 кв.м.'
+        exhibition_name: ПИР-2015
+        company_name: ПОННАТ
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "rabos"'
+        title: 'Эксклюзивный стенд для компании "РАБОС"'
         images:
             -
                 is_main: true
@@ -1834,9 +2030,12 @@ gallery:
                         type: image/jpeg
                         size: 270436
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rabos1.jpg
-        company_name: rabos
+        construction_area: '64 кв.м.'
+        exhibition_name: Агропродмаш-2015
+        company_name: РАБОС
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "trinis"'
+        title: 'Эксклюзивный стенд для компании "ТРИОНИС"'
         images:
             -
                 is_main: true
@@ -1847,9 +2046,12 @@ gallery:
                         type: image/jpeg
                         size: 156928
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trinis1.jpg
-        company_name: trinis
+        construction_area: '56 кв.м.'
+        exhibition_name: '"VIV Russia - 2015"'
+        company_name: ТРИОНИС
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "petersime"'
+        title: 'Эксклюзивный стенд для компании "PETERSIME"'
         images:
             -
                 is_main: true
@@ -1869,9 +2071,12 @@ gallery:
                         type: image/jpeg
                         size: 150661
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/petersime2.jpg
-        company_name: petersime
+        construction_area: '56 кв.м.'
+        exhibition_name: 'VIV Russia - 2015'
+        company_name: PETERSIME
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "mikran"'
+        title: 'Эксклюзивный стенд для компании "МИКРАН"'
         images:
             -
                 is_main: true
@@ -1900,9 +2105,12 @@ gallery:
                         type: image/jpeg
                         size: 171200
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mikran3.jpg
-        company_name: mikran
+        construction_area: '54 кв.м.'
+        exhibition_name: 'СвязьЭкспоКомм - 2015'
+        company_name: МИКРАН
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "gaming"'
+        title: 'Эксклюзивный стенд для компании "ОЛИМП"'
         images:
             -
                 is_main: true
@@ -1958,9 +2166,11 @@ gallery:
                         type: image/jpeg
                         size: 176179
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming2.jpg
-        company_name: gaming
+        construction_area: '54 кв.м.'
+        company_name: ОЛИМП
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "samgn"'
+        title: 'Эксклюзивный стенд для компании "ДЕРЕВЕНСКИЙ САМОГОН"'
         images:
             -
                 is_main: true
@@ -1989,9 +2199,12 @@ gallery:
                         type: image/jpeg
                         size: 141391
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samgn3.jpg
-        company_name: samgn
+        construction_area: '60 кв.м.'
+        exhibition_name: Продэкспо-2015
+        company_name: 'ДЕРЕВЕНСКИЙ САМОГОН'
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "dimart"'
+        title: 'Эксклюзивный стенд для компании "ДИМАРТ"'
         images:
             -
                 is_main: true
@@ -2020,7 +2233,10 @@ gallery:
                         type: image/jpeg
                         size: 174407
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dimart3.jpg
-        company_name: dimart
+        construction_area: '40 кв.м.'
+        exhibition_name: Продэкспо-2015
+        company_name: ДИМАРТ
+        project_year: '2015'
     -
         title: 'Эксклюзивный стенд для компании "alpengurt"'
         images:
@@ -2075,7 +2291,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/feron2.jpg
         company_name: feron
     -
-        title: 'Эксклюзивный стенд для компании "trionis"'
+        title: 'Эксклюзивный стенд для компании "ТРИОНИС"'
         images:
             -
                 is_main: true
@@ -2095,9 +2311,12 @@ gallery:
                         type: image/jpeg
                         size: 168571
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trionis1.jpg
-        company_name: trionis
+        construction_area: 'Площадь стенда - 54 кв.м., площадь второго этажа - 54 кв.м.'
+        exhibition_name: '"Зерно. Комбикорма. Ветеринария - 2015"'
+        company_name: ТРИОНИС
+        project_year: '2015'
     -
-        title: 'Эксклюзивный стенд для компании "mustang"'
+        title: 'Эксклюзивный стенд для компании "Мустанг"'
         images:
             -
                 is_main: true
@@ -2128,7 +2347,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mustang2.jpg
         company_name: mustang
     -
-        title: 'Эксклюзивный стенд для компании "ulma"'
+        title: 'Эксклюзивный стенд для компании "ULMA PACKAGING"'
         images:
             -
                 is_main: true
@@ -2265,12 +2484,15 @@ gallery:
                         type: image/jpeg
                         size: 176710
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma1.jpg
-        company_name: ulma
+        construction_area: ' Площадь стенда - 113 кв.м., площадь 2-го этажа - 32 кв.м. '
+        exhibition_name: ' "Агропродмаш - 2017"'
+        company_name: 'ULMA PACKAGING'
+        project_year: '2017'
     -
-        title: 'Эксклюзивный стенд для компании "agro"'
+        title: 'Эксклюзивный стенд для компании "Агровитэкс"'
         images:
             -
-                is_main: true
+                is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro20.jpg:
                         name: agro20.jpg
@@ -2306,7 +2528,7 @@ gallery:
                         size: 193713
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro10.jpg
             -
-                is_main: false
+                is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro2.jpg:
                         name: agro2.jpg
@@ -2323,9 +2545,12 @@ gallery:
                         type: image/jpeg
                         size: 157936
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro30.jpg
-        company_name: agro
+        construction_area: 'Площадь - 35 кв.м., 2 этажа. '
+        exhibition_name: '"Зерно-Комбикорма-Ветеринария 2014"'
+        company_name: Агровитэкс
+        project_year: '2014'
     -
-        title: 'Эксклюзивный стенд для компании "niagara"'
+        title: 'Эксклюзивный стенд для компании  "НИАГАРА"'
         images:
             -
                 is_main: true
@@ -2354,9 +2579,12 @@ gallery:
                         type: image/jpeg
                         size: 168951
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/niagara1.jpg
-        company_name: niagara
+        construction_area: '20 кв.м.'
+        exhibition_name: '"Интеравто 2014"'
+        company_name: НИАГАРА
+        project_year: '2014'
     -
-        title: 'Эксклюзивный стенд для компании "ekvinet"'
+        title: 'Эксклюзивный стенд для компании "ЭКВИНЕТ"'
         images:
             -
                 is_main: true
@@ -2376,9 +2604,12 @@ gallery:
                         type: image/jpeg
                         size: 196238
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ekvinet2.jpg
-        company_name: ekvinet
+        construction_area: '84 кв.м.'
+        exhibition_name: 'Интеравто 2014'
+        company_name: ЭКВИНЕТ
+        project_year: '2014'
     -
-        title: 'Эксклюзивный стенд для компании "adams"'
+        title: 'Эксклюзивный стенд для компании "АДАМАС"'
         images:
             -
                 is_main: true
@@ -2434,7 +2665,10 @@ gallery:
                         type: image/jpeg
                         size: 114889
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams5.jpg
-        company_name: adams
+        construction_area: 'Площадь первого этажа - 243 кв.м., площадь второго этажа - 243 кв.м.'
+        exhibition_name: 'JUNWEX 2014'
+        company_name: АДАМАС
+        project_year: '2014'
     -
         title: 'Эксклюзивный стенд для компании "galad"'
         images:
@@ -2449,7 +2683,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/galad.jpg
         company_name: galad
     -
-        title: 'Эксклюзивный стенд для компании "dermalogica"'
+        title: 'Эксклюзивный стенд для компании "DERMALOGICA"'
         images:
             -
                 is_main: true
@@ -2460,7 +2694,28 @@ gallery:
                         type: image/jpeg
                         size: 322948
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dermalogica.jpg
-        company_name: dermalogica
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma1_s.jpg:
+                        name: derma1_s.jpg
+                        full_path: derma1_s.jpg
+                        type: image/jpeg
+                        size: 54813
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma1_s.jpg
+            -
+                is_main: false
+                image_upload:
+                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma3_s.jpg:
+                        name: derma3_s.jpg
+                        full_path: derma3_s.jpg
+                        type: image/jpeg
+                        size: 56139
+                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma3_s.jpg
+        construction_area: ' 48 кв.м'
+        exhibition_name: '"Интершарм 2013"'
+        company_name: DERMALOGICA
+        project_year: '2013'
     -
         title: 'Эксклюзивный стенд для компании "yarmarka"'
         images:
