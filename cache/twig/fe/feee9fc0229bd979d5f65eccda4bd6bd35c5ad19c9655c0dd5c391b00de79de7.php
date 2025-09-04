@@ -185,6 +185,6 @@ class __TwigTemplate_bf38d8b5e1c6fe916a2ad78e2b307a91396ece0e6ba446711919a54ae10
 
     public function getSourceContext()
     {
-        return new Source("", "partials/javascript-config.html.twig", "/home/ivan/grav-admin/user/plugins/admin/themes/grav/templates/partials/javascript-config.html.twig");
+        return new Source("", "partials/javascript-config.html.twig", "/home/ivan/gravPr/gravExpo/user/plugins/admin/themes/grav/templates/partials/javascript-config.html.twig");
     }
 }

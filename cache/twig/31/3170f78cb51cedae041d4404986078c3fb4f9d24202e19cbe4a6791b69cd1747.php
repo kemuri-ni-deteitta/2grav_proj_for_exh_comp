@@ -90,6 +90,6 @@ class __TwigTemplate_ca3c5eab71d68d0c1fc3d257544a066c6e3357d6c6cf7bba1940e38256b
 
     public function getSourceContext()
     {
-        return new Source("", "partials/metadata.html.twig", "/home/ivan/grav-admin/system/templates/partials/metadata.html.twig");
+        return new Source("", "partials/metadata.html.twig", "/home/ivan/gravPr/gravExpo/system/templates/partials/metadata.html.twig");
     }
 }

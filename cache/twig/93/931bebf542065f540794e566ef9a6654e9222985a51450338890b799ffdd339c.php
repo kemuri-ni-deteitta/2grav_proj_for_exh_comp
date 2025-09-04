@@ -517,6 +517,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     public function getSourceContext()
     {
-        return new Source("", "partials/navigation-mobile.html.twig", "/home/ivan/grav-admin/user/themes/quark/templates/partials/navigation-mobile.html.twig");
+        return new Source("", "partials/navigation-mobile.html.twig", "/home/ivan/gravPr/gravExpo/user/themes/quark/templates/partials/navigation-mobile.html.twig");
     }
 }

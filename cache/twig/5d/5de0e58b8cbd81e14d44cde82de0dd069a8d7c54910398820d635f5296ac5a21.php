@@ -104,6 +104,6 @@ class __TwigTemplate_2effd0339805fe19a57ff21632a55571bf2d50ef02071d552dc76f529f2
 
     public function getSourceContext()
     {
-        return new Source("", "partials/messages.html.twig", "/home/ivan/grav-admin/user/themes/quark/templates/partials/messages.html.twig");
+        return new Source("", "partials/messages.html.twig", "/home/ivan/gravPr/gravExpo/user/themes/quark/templates/partials/messages.html.twig");
     }
 }

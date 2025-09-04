@@ -62,6 +62,6 @@ class __TwigTemplate_7a1d5fae5a35cb7e16b5783fc42a611ce0147f6587f706007e2f069e893
 
     public function getSourceContext()
     {
-        return new Source("", "blocks/base.html.twig", "/home/ivan/grav-admin/user/themes/quark/templates/blocks/base.html.twig");
+        return new Source("", "blocks/base.html.twig", "/home/ivan/gravPr/gravExpo/user/themes/quark/templates/blocks/base.html.twig");
     }
 }

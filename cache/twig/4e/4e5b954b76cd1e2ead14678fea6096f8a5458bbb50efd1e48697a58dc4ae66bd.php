@@ -512,7 +512,7 @@ class __TwigTemplate_f7078630c515248112b3462662e68567a786a7513197ed36fc09840eada
 
     public function getSourceContext()
     {
-        return new Source("", "partials/base-root.html.twig", "/home/ivan/grav-admin/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
+        return new Source("", "partials/base-root.html.twig", "/home/ivan/gravPr/gravExpo/user/plugins/admin/themes/grav/templates/partials/base-root.html.twig");
     }
     private $deferred;
 }

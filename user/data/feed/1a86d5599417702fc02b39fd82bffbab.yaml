@@ -1,4 +1,4 @@
-last_checked: 1756824378
+last_checked: 1756971558
 data:
   -
     title: 'TailwindCSS 4.0 upgrade for Typhoon Premium Theme'
@@ -29,22 +29,22 @@ data:
     title: 'macOS 15.0 Sequoia Apache Setup: Upgrading Homebrew'
     url: 'https://getgrav.org/blog/macos-sequoia-apache-upgrade-homebrew'
     date: 1726660800
-    nicetime: '11 months ago'
+    nicetime: '12 months ago'
   -
     title: 'macOS 15.0 Sequoia Apache Setup: LetsEncrypt SSL'
     url: 'https://getgrav.org/blog/macos-sequoia-apache-ssl'
     date: 1726657380
-    nicetime: '11 months ago'
+    nicetime: '12 months ago'
   -
     title: 'macOS 15.0 Sequoia Apache Setup: MySQL, Xdebug & More...'
     url: 'https://getgrav.org/blog/macos-sequoia-apache-mysql-vhost-apc'
     date: 1726657200
-    nicetime: '11 months ago'
+    nicetime: '12 months ago'
   -
     title: 'macOS 15.0 Sequoia Apache Setup: Multiple PHP Versions'
     url: 'https://getgrav.org/blog/macos-sequoia-apache-multiple-php-versions'
     date: 1726653600
-    nicetime: '11 months ago'
+    nicetime: '12 months ago'
   -
     title: 'Big changes for Email plugin'
     url: 'https://getgrav.org/blog/new-email-plugin'

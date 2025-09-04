@@ -102,6 +102,6 @@ class __TwigTemplate_3c07191fcf07be16302afcd227c4b32f80e7b063f1f2578506f2bba5661
 
     public function getSourceContext()
     {
-        return new Source("", "partials/footer.html.twig", "/home/ivan/grav-admin/user/themes/quark/templates/partials/footer.html.twig");
+        return new Source("", "partials/footer.html.twig", "/home/ivan/gravPr/gravExpo/user/themes/quark/templates/partials/footer.html.twig");
     }
 }

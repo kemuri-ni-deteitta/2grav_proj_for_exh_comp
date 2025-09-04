@@ -1978,7 +1978,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     public function getSourceContext()
     {
-        return new Source("", "partials/base.html.twig", "/home/ivan/grav-admin/user/themes/quark/templates/partials/base.html.twig");
+        return new Source("", "partials/base.html.twig", "/home/ivan/gravPr/gravExpo/user/themes/quark/templates/partials/base.html.twig");
     }
     private $deferred;
 }

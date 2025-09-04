@@ -35,7 +35,8 @@ gallery:
                         type: image/jpeg
                         size: 925781
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/TAVIL-2.jpg
-        company_name: 'TAVIL'
+        construction_area: '222'
+        company_name: TAVIL
     -
         title: 'Эксклюзивный стенд для компании "NPO_Volna"'
         images:
@@ -84,7 +85,7 @@ gallery:
                         type: image/jpeg
                         size: 353843
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/NPO_Volna-3.jpg
-        company_name: 'NPO_Volna'
+        company_name: NPO_Volna
     -
         title: 'Эксклюзивный стенд для компании "NIICentrProgSys"'
         images:
@@ -115,7 +116,7 @@ gallery:
                         type: image/jpeg
                         size: 655348
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/NIICentrProgSys-1.jpg
-        company_name: 'NIICentrProgSys'
+        company_name: NIICentrProgSys
     -
         title: 'Эксклюзивный стенд для компании "NAVIEN"'
         images:
@@ -182,7 +183,7 @@ gallery:
                         type: image/jpeg
                         size: 530709
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/NAVIEN-7.jpg
-        company_name: 'NAVIEN'
+        company_name: NAVIEN
     -
         title: 'Эксклюзивный стенд для компании "Mustang_AGROS"'
         images:
@@ -213,7 +214,7 @@ gallery:
                         type: image/jpeg
                         size: 1221495
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Mustang_AGROS-3.jpg
-        company_name: 'Mustang_AGROS'
+        company_name: Mustang_AGROS
     -
         title: 'Эксклюзивный стенд для компании "Mustang"'
         images:
@@ -253,7 +254,7 @@ gallery:
                         type: image/jpeg
                         size: 1189664
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Mustang-4.jpg
-        company_name: 'Mustang'
+        company_name: Mustang
     -
         title: 'Эксклюзивный стенд для компании "AUTOTHERM"'
         images:
@@ -275,7 +276,7 @@ gallery:
                         type: image/jpeg
                         size: 434636
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/AUTOTHERM-2.jpg
-        company_name: 'AUTOTHERM'
+        company_name: AUTOTHERM
     -
         title: 'Эксклюзивный стенд для компании "Areal-BIO"'
         images:
@@ -306,7 +307,7 @@ gallery:
                         type: image/jpeg
                         size: 210869
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Areal-BIO-1.jpg
-        company_name: 'Areal-BIO'
+        company_name: Areal-BIO
     -
         title: 'Эксклюзивный стенд для компании "ANCORE"'
         images:
@@ -328,7 +329,7 @@ gallery:
                         type: image/jpeg
                         size: 592464
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ANCORE-1.jpg
-        company_name: 'ANCORE'
+        company_name: ANCORE
     -
         title: 'Эксклюзивный стенд для компании "Agroviteks-Kormoresurs"'
         images:
@@ -359,7 +360,7 @@ gallery:
                         type: image/jpeg
                         size: 516924
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Agroviteks-Kormoresurs-1.jpg
-        company_name: 'Agroviteks-Kormoresurs'
+        company_name: Agroviteks-Kormoresurs
     -
         title: 'Эксклюзивный стенд для компании "AgroBaltTrade"'
         images:
@@ -390,7 +391,7 @@ gallery:
                         type: image/jpeg
                         size: 767161
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/AgroBaltTrade-3.jpg
-        company_name: 'AgroBaltTrade'
+        company_name: AgroBaltTrade
     -
         title: 'Эксклюзивный стенд для компании "markon"'
         images:
@@ -421,7 +422,7 @@ gallery:
                         type: image/jpeg
                         size: 154003
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/markon1.jpg
-        company_name: 'markon'
+        company_name: markon
     -
         title: 'Эксклюзивный стенд для компании "weber"'
         images:
@@ -488,7 +489,7 @@ gallery:
                         type: image/jpeg
                         size: 136545
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/weber.jpg
-        company_name: 'weber'
+        company_name: weber
     -
         title: 'Эксклюзивный стенд для компании "Untitled"'
         images:
@@ -501,7 +502,7 @@ gallery:
                         type: image/jpeg
                         size: 88784
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Untitled-1.jpg
-        company_name: 'Untitled'
+        company_name: Untitled
     -
         title: 'Эксклюзивный стенд для компании "tadem"'
         images:
@@ -532,7 +533,7 @@ gallery:
                         type: image/jpeg
                         size: 145410
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tadem1.jpg
-        company_name: 'tadem'
+        company_name: tadem
     -
         title: 'Эксклюзивный стенд для компании "worldclass"'
         images:
@@ -563,7 +564,7 @@ gallery:
                         type: image/jpeg
                         size: 122829
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/worldclass1.jpg
-        company_name: 'worldclass'
+        company_name: worldclass
     -
         title: 'Эксклюзивный стенд для компании "autotherm"'
         images:
@@ -594,7 +595,7 @@ gallery:
                         type: image/jpeg
                         size: 165063
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/autotherm1.jpg
-        company_name: 'autotherm'
+        company_name: autotherm
     -
         title: 'Эксклюзивный стенд для компании "barshow"'
         images:
@@ -607,7 +608,7 @@ gallery:
                         type: image/jpeg
                         size: 117058
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/barshow.jpg
-        company_name: 'barshow'
+        company_name: barshow
     -
         title: 'Эксклюзивный стенд для компании "kroy"'
         images:
@@ -638,7 +639,7 @@ gallery:
                         type: image/jpeg
                         size: 206474
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kroy2.jpg
-        company_name: 'kroy'
+        company_name: kroy
     -
         title: 'Эксклюзивный стенд для компании "driada"'
         images:
@@ -669,7 +670,7 @@ gallery:
                         type: image/jpeg
                         size: 122132
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/driada3.jpg
-        company_name: 'driada'
+        company_name: driada
     -
         title: 'Эксклюзивный стенд для компании "style"'
         images:
@@ -700,7 +701,7 @@ gallery:
                         type: image/jpeg
                         size: 145876
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/style2.jpg
-        company_name: 'style'
+        company_name: style
     -
         title: 'Эксклюзивный стенд для компании "salvena"'
         images:
@@ -731,7 +732,7 @@ gallery:
                         type: image/jpeg
                         size: 143446
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/salvena3.jpg
-        company_name: 'salvena'
+        company_name: salvena
     -
         title: 'Эксклюзивный стенд для компании "msc"'
         images:
@@ -780,7 +781,7 @@ gallery:
                         type: image/jpeg
                         size: 135074
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/msc2.jpg
-        company_name: 'msc'
+        company_name: msc
     -
         title: 'Эксклюзивный стенд для компании "Delta-Club"'
         images:
@@ -838,7 +839,7 @@ gallery:
                         type: image/jpeg
                         size: 209535
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Delta-Club-5.jpg
-        company_name: 'Delta-Club'
+        company_name: Delta-Club
     -
         title: 'Эксклюзивный стенд для компании "Gavrish"'
         images:
@@ -896,7 +897,7 @@ gallery:
                         type: image/jpeg
                         size: 137141
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Gavrish-3.jpg
-        company_name: 'Gavrish'
+        company_name: Gavrish
     -
         title: 'Эксклюзивный стенд для компании "Areal-Bio"'
         images:
@@ -954,7 +955,7 @@ gallery:
                         type: image/jpeg
                         size: 122688
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Areal-Bio-2.jpg
-        company_name: 'Areal-Bio'
+        company_name: Areal-Bio
     -
         title: 'Эксклюзивный стенд для компании "Agrovitex"'
         images:
@@ -967,7 +968,7 @@ gallery:
                         type: image/jpeg
                         size: 155806
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Agrovitex-3.jpg
-        company_name: 'Agrovitex'
+        company_name: Agrovitex
     -
         title: 'Эксклюзивный стенд для компании "Aedon"'
         images:
@@ -989,7 +990,7 @@ gallery:
                         type: image/jpeg
                         size: 160719
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Aedon-2.jpg
-        company_name: 'Aedon'
+        company_name: Aedon
     -
         title: 'Эксклюзивный стенд для компании "RD"'
         images:
@@ -1047,7 +1048,7 @@ gallery:
                         type: image/jpeg
                         size: 186221
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/RD-3.jpg
-        company_name: 'RD'
+        company_name: RD
     -
         title: 'Эксклюзивный стенд для компании "Dobroflot"'
         images:
@@ -1105,7 +1106,7 @@ gallery:
                         type: image/jpeg
                         size: 178231
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/Dobroflot-2.jpg
-        company_name: 'Dobroflot'
+        company_name: Dobroflot
     -
         title: 'Эксклюзивный стенд для компании "DuimUnifit"'
         images:
@@ -1181,7 +1182,7 @@ gallery:
                         type: image/jpeg
                         size: 176747
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/DuimUnifit_3.jpg
-        company_name: 'DuimUnifit'
+        company_name: DuimUnifit
     -
         title: 'Эксклюзивный стенд для компании "MystangTK"'
         images:
@@ -1221,7 +1222,7 @@ gallery:
                         type: image/jpeg
                         size: 264879
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/MystangTK-1.jpg
-        company_name: 'MystangTK'
+        company_name: MystangTK
     -
         title: 'Эксклюзивный стенд для компании "cb"'
         images:
@@ -1261,7 +1262,7 @@ gallery:
                         type: image/jpeg
                         size: 550681
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb2.jpg
-        company_name: 'cb'
+        company_name: cb
     -
         title: 'Эксклюзивный стенд для компании "pf"'
         images:
@@ -1346,7 +1347,7 @@ gallery:
                         type: image/jpeg
                         size: 463718
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf6.jpg
-        company_name: 'pf'
+        company_name: pf
     -
         title: 'Эксклюзивный стенд для компании "PROVIL"'
         images:
@@ -1359,7 +1360,7 @@ gallery:
                         type: image/jpeg
                         size: 497389
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/PROVIL.jpg
-        company_name: 'PROVIL'
+        company_name: PROVIL
     -
         title: 'Эксклюзивный стенд для компании "psn"'
         images:
@@ -1408,7 +1409,7 @@ gallery:
                         type: image/jpeg
                         size: 520800
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/psn5.jpg
-        company_name: 'psn'
+        company_name: psn
     -
         title: 'Эксклюзивный стенд для компании "fito"'
         images:
@@ -1439,7 +1440,7 @@ gallery:
                         type: image/jpeg
                         size: 491769
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/fito3.jpg
-        company_name: 'fito'
+        company_name: fito
     -
         title: 'Эксклюзивный стенд для компании "unity"'
         images:
@@ -1470,7 +1471,7 @@ gallery:
                         type: image/jpeg
                         size: 559458
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unity1.jpg
-        company_name: 'unity'
+        company_name: unity
     -
         title: 'Эксклюзивный стенд для компании "cheese"'
         images:
@@ -1483,7 +1484,7 @@ gallery:
                         type: image/jpeg
                         size: 563306
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cheese.jpg
-        company_name: 'cheese'
+        company_name: cheese
     -
         title: 'Эксклюзивный стенд для компании "zenit"'
         images:
@@ -1514,7 +1515,7 @@ gallery:
                         type: image/jpeg
                         size: 234918
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/zenit1.jpg
-        company_name: 'zenit'
+        company_name: zenit
     -
         title: 'Эксклюзивный стенд для компании "abat"'
         images:
@@ -1554,7 +1555,7 @@ gallery:
                         type: image/jpeg
                         size: 231872
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/abat2.jpg
-        company_name: 'abat'
+        company_name: abat
     -
         title: 'Эксклюзивный стенд для компании "tekspro"'
         images:
@@ -1594,7 +1595,7 @@ gallery:
                         type: image/jpeg
                         size: 248115
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tekspro1.jpg
-        company_name: 'tekspro'
+        company_name: tekspro
     -
         title: 'Эксклюзивный стенд для компании "henshen"'
         images:
@@ -1607,7 +1608,7 @@ gallery:
                         type: image/jpeg
                         size: 237735
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/henshen.jpg
-        company_name: 'henshen'
+        company_name: henshen
     -
         title: 'Эксклюзивный стенд для компании "rms"'
         images:
@@ -1647,7 +1648,7 @@ gallery:
                         type: image/jpeg
                         size: 261715
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rms1.jpg
-        company_name: 'rms'
+        company_name: rms
     -
         title: 'Эксклюзивный стенд для компании "ares"'
         images:
@@ -1678,7 +1679,7 @@ gallery:
                         type: image/jpeg
                         size: 382516
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ares1.jpg
-        company_name: 'ares'
+        company_name: ares
     -
         title: 'Эксклюзивный стенд для компании "cube"'
         images:
@@ -1709,7 +1710,7 @@ gallery:
                         type: image/jpeg
                         size: 253288
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cube1.jpg
-        company_name: 'cube'
+        company_name: cube
     -
         title: 'Эксклюзивный стенд для компании "rusinhim"'
         images:
@@ -1740,7 +1741,7 @@ gallery:
                         type: image/jpeg
                         size: 247902
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rusinhim1.jpg
-        company_name: 'rusinhim'
+        company_name: rusinhim
     -
         title: 'Эксклюзивный стенд для компании "unox"'
         images:
@@ -1771,7 +1772,7 @@ gallery:
                         type: image/jpeg
                         size: 209949
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/unox3.jpg
-        company_name: 'unox'
+        company_name: unox
     -
         title: 'Эксклюзивный стенд для компании "ponnat"'
         images:
@@ -1802,7 +1803,7 @@ gallery:
                         type: image/jpeg
                         size: 257269
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ponnat3.jpg
-        company_name: 'ponnat'
+        company_name: ponnat
     -
         title: 'Эксклюзивный стенд для компании "rabos"'
         images:
@@ -1833,7 +1834,7 @@ gallery:
                         type: image/jpeg
                         size: 270436
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rabos1.jpg
-        company_name: 'rabos'
+        company_name: rabos
     -
         title: 'Эксклюзивный стенд для компании "trinis"'
         images:
@@ -1846,7 +1847,7 @@ gallery:
                         type: image/jpeg
                         size: 156928
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trinis1.jpg
-        company_name: 'trinis'
+        company_name: trinis
     -
         title: 'Эксклюзивный стенд для компании "petersime"'
         images:
@@ -1868,7 +1869,7 @@ gallery:
                         type: image/jpeg
                         size: 150661
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/petersime2.jpg
-        company_name: 'petersime'
+        company_name: petersime
     -
         title: 'Эксклюзивный стенд для компании "mikran"'
         images:
@@ -1899,7 +1900,7 @@ gallery:
                         type: image/jpeg
                         size: 171200
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mikran3.jpg
-        company_name: 'mikran'
+        company_name: mikran
     -
         title: 'Эксклюзивный стенд для компании "gaming"'
         images:
@@ -1957,7 +1958,7 @@ gallery:
                         type: image/jpeg
                         size: 176179
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/gaming2.jpg
-        company_name: 'gaming'
+        company_name: gaming
     -
         title: 'Эксклюзивный стенд для компании "samgn"'
         images:
@@ -1988,7 +1989,7 @@ gallery:
                         type: image/jpeg
                         size: 141391
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samgn3.jpg
-        company_name: 'samgn'
+        company_name: samgn
     -
         title: 'Эксклюзивный стенд для компании "dimart"'
         images:
@@ -2019,7 +2020,7 @@ gallery:
                         type: image/jpeg
                         size: 174407
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dimart3.jpg
-        company_name: 'dimart'
+        company_name: dimart
     -
         title: 'Эксклюзивный стенд для компании "alpengurt"'
         images:
@@ -2041,7 +2042,7 @@ gallery:
                         type: image/jpeg
                         size: 152243
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/alpengurt2.jpg
-        company_name: 'alpengurt'
+        company_name: alpengurt
     -
         title: 'Эксклюзивный стенд для компании "feron"'
         images:
@@ -2072,7 +2073,7 @@ gallery:
                         type: image/jpeg
                         size: 173136
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/feron2.jpg
-        company_name: 'feron'
+        company_name: feron
     -
         title: 'Эксклюзивный стенд для компании "trionis"'
         images:
@@ -2094,7 +2095,7 @@ gallery:
                         type: image/jpeg
                         size: 168571
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/trionis1.jpg
-        company_name: 'trionis'
+        company_name: trionis
     -
         title: 'Эксклюзивный стенд для компании "mustang"'
         images:
@@ -2125,7 +2126,7 @@ gallery:
                         type: image/jpeg
                         size: 185373
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mustang2.jpg
-        company_name: 'mustang'
+        company_name: mustang
     -
         title: 'Эксклюзивный стенд для компании "ulma"'
         images:
@@ -2264,7 +2265,7 @@ gallery:
                         type: image/jpeg
                         size: 176710
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ulma1.jpg
-        company_name: 'ulma'
+        company_name: ulma
     -
         title: 'Эксклюзивный стенд для компании "agro"'
         images:
@@ -2322,7 +2323,7 @@ gallery:
                         type: image/jpeg
                         size: 157936
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agro30.jpg
-        company_name: 'agro'
+        company_name: agro
     -
         title: 'Эксклюзивный стенд для компании "niagara"'
         images:
@@ -2353,7 +2354,7 @@ gallery:
                         type: image/jpeg
                         size: 168951
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/niagara1.jpg
-        company_name: 'niagara'
+        company_name: niagara
     -
         title: 'Эксклюзивный стенд для компании "ekvinet"'
         images:
@@ -2375,7 +2376,7 @@ gallery:
                         type: image/jpeg
                         size: 196238
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ekvinet2.jpg
-        company_name: 'ekvinet'
+        company_name: ekvinet
     -
         title: 'Эксклюзивный стенд для компании "adams"'
         images:
@@ -2433,7 +2434,7 @@ gallery:
                         type: image/jpeg
                         size: 114889
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/adams5.jpg
-        company_name: 'adams'
+        company_name: adams
     -
         title: 'Эксклюзивный стенд для компании "galad"'
         images:
@@ -2446,7 +2447,7 @@ gallery:
                         type: image/jpeg
                         size: 415263
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/galad.jpg
-        company_name: 'galad'
+        company_name: galad
     -
         title: 'Эксклюзивный стенд для компании "dermalogica"'
         images:
@@ -2459,7 +2460,7 @@ gallery:
                         type: image/jpeg
                         size: 322948
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dermalogica.jpg
-        company_name: 'dermalogica'
+        company_name: dermalogica
     -
         title: 'Эксклюзивный стенд для компании "yarmarka"'
         images:
@@ -2490,7 +2491,7 @@ gallery:
                         type: image/jpeg
                         size: 520509
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarmarka1.jpg
-        company_name: 'yarmarka'
+        company_name: yarmarka
     -
         title: 'Эксклюзивный стенд для компании "ggroup"'
         images:
@@ -2512,7 +2513,7 @@ gallery:
                         type: image/jpeg
                         size: 440562
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ggroup2.jpg
-        company_name: 'ggroup'
+        company_name: ggroup
     -
         title: 'Эксклюзивный стенд для компании "agora"'
         images:
@@ -2543,7 +2544,7 @@ gallery:
                         type: image/jpeg
                         size: 547635
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora1.jpg
-        company_name: 'agora'
+        company_name: agora
     -
         title: 'Эксклюзивный стенд для компании "nik"'
         images:
@@ -2556,7 +2557,7 @@ gallery:
                         type: image/jpeg
                         size: 571006
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nik01.jpg
-        company_name: 'nik'
+        company_name: nik
     -
         title: 'Эксклюзивный стенд для компании "piero"'
         images:
@@ -2596,7 +2597,7 @@ gallery:
                         type: image/jpeg
                         size: 420382
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero2.jpg
-        company_name: 'piero'
+        company_name: piero
     -
         title: 'Эксклюзивный стенд для компании "bl"'
         images:
@@ -2654,7 +2655,7 @@ gallery:
                         type: image/jpeg
                         size: 622143
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl4.jpg
-        company_name: 'bl'
+        company_name: bl
     -
         title: 'Эксклюзивный стенд для компании "nika"'
         images:
@@ -2712,7 +2713,7 @@ gallery:
                         type: image/jpeg
                         size: 495602
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika2.jpg
-        company_name: 'nika'
+        company_name: nika
     -
         title: 'Эксклюзивный стенд для компании "vallex"'
         images:
@@ -2779,7 +2780,7 @@ gallery:
                         type: image/jpeg
                         size: 185256
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex.jpg
-        company_name: 'vallex'
+        company_name: vallex
     -
         title: 'Эксклюзивный стенд для компании "intiled"'
         images:
@@ -2819,7 +2820,7 @@ gallery:
                         type: image/jpeg
                         size: 531211
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled4.jpg
-        company_name: 'intiled'
+        company_name: intiled
     -
         title: 'Эксклюзивный стенд для компании "articon"'
         images:
@@ -2850,7 +2851,7 @@ gallery:
                         type: image/jpeg
                         size: 454235
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/articon2.jpg
-        company_name: 'articon'
+        company_name: articon
     -
         title: 'Эксклюзивный стенд для компании "jessy"'
         images:
@@ -2872,7 +2873,7 @@ gallery:
                         type: image/jpeg
                         size: 654096
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/jessy1.jpg
-        company_name: 'jessy'
+        company_name: jessy
     -
         title: 'Эксклюзивный стенд для компании "derma"'
         images:
@@ -2903,7 +2904,7 @@ gallery:
                         type: image/jpeg
                         size: 555496
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma1.jpg
-        company_name: 'derma'
+        company_name: derma
     -
         title: 'Эксклюзивный стенд для компании "origen"'
         images:
@@ -2970,7 +2971,7 @@ gallery:
                         type: image/jpeg
                         size: 556733
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen4.jpg
-        company_name: 'origen'
+        company_name: origen
     -
         title: 'Эксклюзивный стенд для компании "nlco"'
         images:
@@ -3001,7 +3002,7 @@ gallery:
                         type: image/jpeg
                         size: 421836
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nlco2.jpg
-        company_name: 'nlco'
+        company_name: nlco
     -
         title: 'Эксклюзивный стенд для компании "mailru"'
         images:
@@ -3014,7 +3015,7 @@ gallery:
                         type: image/jpeg
                         size: 145270
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru.jpg
-        company_name: 'mailru'
+        company_name: mailru
     -
         title: 'Эксклюзивный стенд для компании "bajkal"'
         images:
@@ -3027,7 +3028,7 @@ gallery:
                         type: image/jpeg
                         size: 71853
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal.jpg
-        company_name: 'bajkal'
+        company_name: bajkal
     -
         title: 'Эксклюзивный стенд для компании "aurami"'
         images:
@@ -3040,7 +3041,7 @@ gallery:
                         type: image/jpeg
                         size: 118534
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aurami.jpg
-        company_name: 'aurami'
+        company_name: aurami
     -
         title: 'Эксклюзивный стенд для компании "yazpk_r"'
         images:
@@ -3053,7 +3054,7 @@ gallery:
                         type: image/jpeg
                         size: 120434
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk_r.jpg
-        company_name: 'yazpk_r'
+        company_name: yazpk_r
     -
         title: 'Эксклюзивный стенд для компании "dekor"'
         images:
@@ -3093,7 +3094,7 @@ gallery:
                         type: image/jpeg
                         size: 173626
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor2.jpg
-        company_name: 'dekor'
+        company_name: dekor
     -
         title: 'Эксклюзивный стенд для компании "rumax"'
         images:
@@ -3133,7 +3134,7 @@ gallery:
                         type: image/jpeg
                         size: 166634
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax2.jpg
-        company_name: 'rumax'
+        company_name: rumax
     -
         title: 'Эксклюзивный стенд для компании "JESS"'
         images:
@@ -3191,7 +3192,7 @@ gallery:
                         type: image/jpeg
                         size: 193159
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-6.jpg
-        company_name: 'JESS'
+        company_name: JESS
     -
         title: 'Эксклюзивный стенд для компании "GC"'
         images:
@@ -3204,7 +3205,7 @@ gallery:
                         type: image/jpeg
                         size: 236032
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/GC-1.jpg
-        company_name: 'GC'
+        company_name: GC
     -
         title: 'Эксклюзивный стенд для компании "dmk"'
         images:
@@ -3244,7 +3245,7 @@ gallery:
                         type: image/jpeg
                         size: 151923
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk-2.jpg
-        company_name: 'dmk'
+        company_name: dmk
     -
         title: 'Эксклюзивный стенд для компании "williams"'
         images:
@@ -3257,7 +3258,7 @@ gallery:
                         type: image/jpeg
                         size: 133553
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/williams.jpg
-        company_name: 'williams'
+        company_name: williams
     -
         title: 'Эксклюзивный стенд для компании "vetprom"'
         images:
@@ -3306,7 +3307,7 @@ gallery:
                         type: image/jpeg
                         size: 151020
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom1.jpg
-        company_name: 'vetprom'
+        company_name: vetprom
     -
         title: 'Эксклюзивный стенд для компании "yazpk"'
         images:
@@ -3364,7 +3365,7 @@ gallery:
                         type: image/jpeg
                         size: 102162
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk4.jpg
-        company_name: 'yazpk'
+        company_name: yazpk
     -
         title: 'Эксклюзивный стенд для компании "william"'
         images:
@@ -3422,7 +3423,7 @@ gallery:
                         type: image/jpeg
                         size: 138531
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william2.jpg
-        company_name: 'william'
+        company_name: william
     -
         title: 'Эксклюзивный стенд для компании "inrost"'
         images:
@@ -3453,7 +3454,7 @@ gallery:
                         type: image/jpeg
                         size: 73579
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost3.jpg
-        company_name: 'inrost'
+        company_name: inrost
     -
         title: 'Эксклюзивный стенд для компании "rsb"'
         images:
@@ -3484,7 +3485,7 @@ gallery:
                         type: image/jpeg
                         size: 149879
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rsb3.jpg
-        company_name: 'rsb'
+        company_name: rsb
     -
         title: 'Эксклюзивный стенд для компании "bar"'
         images:
@@ -3515,7 +3516,7 @@ gallery:
                         type: image/jpeg
                         size: 92419
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar2.jpg
-        company_name: 'bar'
+        company_name: bar
     -
         title: 'Эксклюзивный стенд для компании "emalika"'
         images:
@@ -3546,7 +3547,7 @@ gallery:
                         type: image/jpeg
                         size: 105644
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/emalika1.jpg
-        company_name: 'emalika'
+        company_name: emalika
     -
         title: 'Эксклюзивный стенд для компании "yarovit"'
         images:
@@ -3568,7 +3569,7 @@ gallery:
                         type: image/jpeg
                         size: 111519
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarovit1.jpg
-        company_name: 'yarovit'
+        company_name: yarovit
     -
         title: 'Эксклюзивный стенд для компании "ank"'
         images:
@@ -3599,7 +3600,7 @@ gallery:
                         type: image/jpeg
                         size: 115858
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank3.jpg
-        company_name: 'ank'
+        company_name: ank
     -
         title: 'Эксклюзивный стенд для компании "krone"'
         images:
@@ -3621,7 +3622,7 @@ gallery:
                         type: image/jpeg
                         size: 98715
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/krone2.jpg
-        company_name: 'krone'
+        company_name: krone
     -
         title: 'Эксклюзивный стенд для компании "profotek"'
         images:
@@ -3652,7 +3653,7 @@ gallery:
                         type: image/jpeg
                         size: 647263
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/profotek1.jpg
-        company_name: 'profotek'
+        company_name: profotek
     -
         title: 'Эксклюзивный стенд для компании "sochi"'
         images:
@@ -3683,7 +3684,7 @@ gallery:
                         type: image/jpeg
                         size: 317091
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sochi3.jpg
-        company_name: 'sochi'
+        company_name: sochi
     -
         title: 'Эксклюзивный стенд для компании "prodecor"'
         images:
@@ -3696,7 +3697,7 @@ gallery:
                         type: image/jpeg
                         size: 468667
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/prodecor.jpg
-        company_name: 'prodecor'
+        company_name: prodecor
     -
         title: 'Эксклюзивный стенд для компании "forklift"'
         images:
@@ -3727,7 +3728,7 @@ gallery:
                         type: image/jpeg
                         size: 523178
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/forklift1.jpg
-        company_name: 'forklift'
+        company_name: forklift
     -
         title: 'Эксклюзивный стенд для компании "rioli"'
         images:
@@ -3749,7 +3750,7 @@ gallery:
                         type: image/jpeg
                         size: 383153
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rioli1.jpg
-        company_name: 'rioli'
+        company_name: rioli
     -
         title: 'Эксклюзивный стенд для компании "kordoba"'
         images:
@@ -3780,7 +3781,7 @@ gallery:
                         type: image/jpeg
                         size: 353904
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kordoba3.jpg
-        company_name: 'kordoba'
+        company_name: kordoba
     -
         title: 'Эксклюзивный стенд для компании "yokohama"'
         images:
@@ -3811,7 +3812,7 @@ gallery:
                         type: image/jpeg
                         size: 397038
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yokohama2.jpg
-        company_name: 'yokohama'
+        company_name: yokohama
     -
         title: 'Эксклюзивный стенд для компании "tecknos"'
         images:
@@ -3824,7 +3825,7 @@ gallery:
                         type: image/jpeg
                         size: 466461
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tecknos.jpg
-        company_name: 'tecknos'
+        company_name: tecknos
     -
         title: 'Эксклюзивный стенд для компании "inturist"'
         images:
@@ -3882,7 +3883,7 @@ gallery:
                         type: image/jpeg
                         size: 353215
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist2.jpg
-        company_name: 'inturist'
+        company_name: inturist
     -
         title: 'Эксклюзивный стенд для компании "amigo"'
         images:
@@ -3895,7 +3896,7 @@ gallery:
                         type: image/jpeg
                         size: 488135
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/amigo.jpg
-        company_name: 'amigo'
+        company_name: amigo
     -
         title: 'Эксклюзивный стенд для компании "record"'
         images:
@@ -3926,7 +3927,7 @@ gallery:
                         type: image/jpeg
                         size: 511524
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/record2.jpg
-        company_name: 'record'
+        company_name: record
     -
         title: 'Эксклюзивный стенд для компании "ogonek"'
         images:
@@ -3939,7 +3940,7 @@ gallery:
                         type: image/jpeg
                         size: 539137
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ogonek.jpg
-        company_name: 'ogonek'
+        company_name: ogonek
     -
         title: 'Эксклюзивный стенд для компании "delrus"'
         images:
@@ -3997,7 +3998,7 @@ gallery:
                         type: image/jpeg
                         size: 444791
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus3.jpg
-        company_name: 'delrus'
+        company_name: delrus
     -
         title: 'Эксклюзивный стенд для компании "suharevka"'
         images:
@@ -4028,7 +4029,7 @@ gallery:
                         type: image/jpeg
                         size: 336708
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/suharevka2.jpg
-        company_name: 'suharevka'
+        company_name: suharevka
     -
         title: 'Эксклюзивный стенд для компании "marmelad"'
         images:
@@ -4050,7 +4051,7 @@ gallery:
                         type: image/jpeg
                         size: 505468
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/marmelad1.jpg
-        company_name: 'marmelad'
+        company_name: marmelad
     -
         title: 'Эксклюзивный стенд для компании "step"'
         images:
@@ -4072,7 +4073,7 @@ gallery:
                         type: image/jpeg
                         size: 259812
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/step.jpg
-        company_name: 'step'
+        company_name: step
     -
         title: 'Эксклюзивный стенд для компании "poseidon"'
         images:
@@ -4085,7 +4086,7 @@ gallery:
                         type: image/jpeg
                         size: 371795
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/poseidon.jpg
-        company_name: 'poseidon'
+        company_name: poseidon
     -
         title: 'Эксклюзивный стенд для компании "aquaterm"'
         images:
@@ -4143,7 +4144,7 @@ gallery:
                         type: image/jpeg
                         size: 275274
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aquaterm1.jpg
-        company_name: 'aquaterm'
+        company_name: aquaterm
     -
         title: 'Эксклюзивный стенд для компании "vko"'
         images:
@@ -4156,7 +4157,7 @@ gallery:
                         type: image/jpeg
                         size: 223795
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vko2.jpg
-        company_name: 'vko'
+        company_name: vko
     -
         title: 'Эксклюзивный стенд для компании "ug_krest"'
         images:
@@ -4169,7 +4170,7 @@ gallery:
                         type: image/jpeg
                         size: 271853
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ug_krest.jpg
-        company_name: 'ug_krest'
+        company_name: ug_krest
     -
         title: 'Эксклюзивный стенд для компании "tetra"'
         images:
@@ -4209,7 +4210,7 @@ gallery:
                         type: image/jpeg
                         size: 259218
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tetra4.jpg
-        company_name: 'tetra'
+        company_name: tetra
     -
         title: 'Эксклюзивный стенд для компании "stroysity"'
         images:
@@ -4222,7 +4223,7 @@ gallery:
                         type: image/jpeg
                         size: 261698
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/stroysity.jpg
-        company_name: 'stroysity'
+        company_name: stroysity
     -
         title: 'Эксклюзивный стенд для компании "sti"'
         images:
@@ -4235,7 +4236,7 @@ gallery:
                         type: image/jpeg
                         size: 289228
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sti.jpg
-        company_name: 'sti'
+        company_name: sti
     -
         title: 'Эксклюзивный стенд для компании "smeshariki"'
         images:
@@ -4284,7 +4285,7 @@ gallery:
                         type: image/jpeg
                         size: 311482
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/smeshariki5.jpg
-        company_name: 'smeshariki'
+        company_name: smeshariki
     -
         title: 'Эксклюзивный стенд для компании "sandar"'
         images:
@@ -4297,7 +4298,7 @@ gallery:
                         type: image/jpeg
                         size: 164700
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sandar.jpg
-        company_name: 'sandar'
+        company_name: sandar
     -
         title: 'Эксклюзивный стенд для компании "samara"'
         images:
@@ -4328,7 +4329,7 @@ gallery:
                         type: image/jpeg
                         size: 255710
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samara1.jpg
-        company_name: 'samara'
+        company_name: samara
     -
         title: 'Эксклюзивный стенд для компании "rzd"'
         images:
@@ -4350,7 +4351,7 @@ gallery:
                         type: image/jpeg
                         size: 381790
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rzd2.jpg
-        company_name: 'rzd'
+        company_name: rzd
     -
         title: 'Эксклюзивный стенд для компании "rus_moloko"'
         images:
@@ -4363,7 +4364,7 @@ gallery:
                         type: image/jpeg
                         size: 353017
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rus_moloko.jpg
-        company_name: 'rus_moloko'
+        company_name: rus_moloko
     -
         title: 'Эксклюзивный стенд для компании "moeller"'
         images:
@@ -4376,7 +4377,7 @@ gallery:
                         type: image/jpeg
                         size: 181227
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/moeller.jpg
-        company_name: 'moeller'
+        company_name: moeller
     -
         title: 'Эксклюзивный стенд для компании "mccain"'
         images:
@@ -4389,7 +4390,7 @@ gallery:
                         type: image/jpeg
                         size: 209464
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mccain.jpg
-        company_name: 'mccain'
+        company_name: mccain
     -
         title: 'Эксклюзивный стенд для компании "konik"'
         images:
@@ -4402,7 +4403,7 @@ gallery:
                         type: image/jpeg
                         size: 217809
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/konik.jpg
-        company_name: 'konik'
+        company_name: konik
     -
         title: 'Эксклюзивный стенд для компании "karvill"'
         images:
@@ -4415,7 +4416,7 @@ gallery:
                         type: image/jpeg
                         size: 240535
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/karvill.jpg
-        company_name: 'karvill'
+        company_name: karvill
     -
         title: 'Эксклюзивный стенд для компании "geoplast"'
         images:
@@ -4428,7 +4429,7 @@ gallery:
                         type: image/jpeg
                         size: 249014
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/geoplast.jpg
-        company_name: 'geoplast'
+        company_name: geoplast
     -
         title: 'Эксклюзивный стенд для компании "finservice"'
         images:
@@ -4459,7 +4460,7 @@ gallery:
                         type: image/jpeg
                         size: 363755
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/finservice3.jpg
-        company_name: 'finservice'
+        company_name: finservice
     -
         title: 'Эксклюзивный стенд для компании "demaxo"'
         images:
@@ -4472,7 +4473,7 @@ gallery:
                         type: image/jpeg
                         size: 314101
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/demaxo.jpg
-        company_name: 'demaxo'
+        company_name: demaxo
     -
         title: 'Эксклюзивный стенд для компании "daaz"'
         images:
@@ -4485,7 +4486,7 @@ gallery:
                         type: image/jpeg
                         size: 266732
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/daaz.jpg
-        company_name: 'daaz'
+        company_name: daaz
     -
         title: 'Эксклюзивный стенд для компании "cao"'
         images:
@@ -4516,7 +4517,7 @@ gallery:
                         type: image/jpeg
                         size: 293333
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cao.jpg
-        company_name: 'cao'
+        company_name: cao
     -
         title: 'Эксклюзивный стенд для компании "brusbox"'
         images:
@@ -4529,7 +4530,7 @@ gallery:
                         type: image/jpeg
                         size: 286633
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/brusbox.jpg
-        company_name: 'brusbox'
+        company_name: brusbox
     -
         title: 'Эксклюзивный стенд для компании "bergman"'
         images:
@@ -4542,7 +4543,7 @@ gallery:
                         type: image/jpeg
                         size: 261317
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bergman.jpg
-        company_name: 'bergman'
+        company_name: bergman
     -
         title: 'Эксклюзивный стенд для компании "bedroom"'
         images:
@@ -4555,7 +4556,7 @@ gallery:
                         type: image/jpeg
                         size: 197594
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bedroom.jpg
-        company_name: 'bedroom'
+        company_name: bedroom
     -
         title: 'Эксклюзивный стенд для компании "excluse"'
         images:
@@ -4577,7 +4578,7 @@ gallery:
                         type: image/jpeg
                         size: 37855
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/excluse1.jpg
-        company_name: 'excluse'
+        company_name: excluse
     -
         title: 'Эксклюзивный стенд для компании "standart"'
         images:
@@ -4599,7 +4600,7 @@ gallery:
                         type: image/jpeg
                         size: 30004
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/standart1.jpg
-        company_name: 'standart'
+        company_name: standart
     -
         title: 'Эксклюзивный стенд для компании "solver"'
         images:
@@ -4612,7 +4613,7 @@ gallery:
                         type: image/jpeg
                         size: 306185
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/solver.jpg
-        company_name: 'solver'
+        company_name: solver
 ---
 
 # Эксклюзивные стенды

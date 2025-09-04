@@ -157,6 +157,6 @@ class __TwigTemplate_53c23274ed1c16764ad95bff644751e98165351fd6452a76d2ccab335d4
 
     public function getSourceContext()
     {
-        return new Source("", "macros/macros.html.twig", "/home/ivan/grav-admin/user/themes/quark/templates/macros/macros.html.twig");
+        return new Source("", "macros/macros.html.twig", "/home/ivan/gravPr/gravExpo/user/themes/quark/templates/macros/macros.html.twig");
     }
 }

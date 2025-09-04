@@ -1247,6 +1247,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     public function getSourceContext()
     {
-        return new Source("", "portfolio.html.twig", "/home/ivan/grav-admin/user/themes/quark/templates/portfolio.html.twig");
+        return new Source("", "portfolio.html.twig", "/home/ivan/gravPr/gravExpo/user/themes/quark/templates/portfolio.html.twig");
     }
 }
