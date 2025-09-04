@@ -5,27 +5,16 @@ visible: true
 template: contacts
 phones:
     -
-        number: '+77777'
-        description: Офис1
+        number: '+7 (903) 970-36-63'
     -
-        number: '+77777'
-        description: Офис2
+        number: '+7 (495) 025-25-01'
 address: 'г. Москва, ул. Кульнева, д. 3, стр. 1'
 coordinates: '55.742711, 37.523106'
 emails:
     -
-        email: info@expo1.ru
-        description: Имэил
+        email: stand@expoland-group.ru
     -
-        email: 2info@expo1.ru
-        description: 'Второй имэил'
-social_networks:
-    -
-        platform: telegram
-        username: '@userTg'
-    -
-        platform: vk
-        username: 'https://vk.com/'
+        email: stand@expoland-group.ru
 blueprint: contacts
 header:
     phones:

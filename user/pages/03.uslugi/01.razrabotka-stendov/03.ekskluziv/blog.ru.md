@@ -1391,7 +1391,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/MystangTK-1.jpg
         company_name: MystangTK
     -
-        title: 'Эксклюзивный стенд для компании "cb"'
+        title: 'Эксклюзивный стенд для компании "CUBE BEAUTY"'
         images:
             -
                 is_main: true
@@ -1429,9 +1429,12 @@ gallery:
                         type: image/jpeg
                         size: 550681
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cb2.jpg
-        company_name: cb
+        construction_area: '49 кв.м.'
+        exhibition_name: 'Интершарм - 2017'
+        company_name: 'CUBE BEAUTY'
+        project_year: '2017'
     -
-        title: 'Эксклюзивный стенд для компании "pf"'
+        title: 'Эксклюзивный стенд для компании "PREMIERFARM"'
         images:
             -
                 is_main: true
@@ -1514,7 +1517,10 @@ gallery:
                         type: image/jpeg
                         size: 463718
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/pf6.jpg
-        company_name: pf
+        construction_area: '120 кв.м.'
+        exhibition_name: ' "Интершарм - 2017"'
+        company_name: PREMIERFARM
+        project_year: '2017'
     -
         title: 'Эксклюзивный стенд для компании "PROVIL"'
         images:
@@ -2683,41 +2689,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/galad.jpg
         company_name: galad
     -
-        title: 'Эксклюзивный стенд для компании "DERMALOGICA"'
-        images:
-            -
-                is_main: true
-                image_upload:
-                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dermalogica.jpg:
-                        name: dermalogica.jpg
-                        full_path: dermalogica.jpg
-                        type: image/jpeg
-                        size: 322948
-                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dermalogica.jpg
-            -
-                is_main: false
-                image_upload:
-                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma1_s.jpg:
-                        name: derma1_s.jpg
-                        full_path: derma1_s.jpg
-                        type: image/jpeg
-                        size: 54813
-                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma1_s.jpg
-            -
-                is_main: false
-                image_upload:
-                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma3_s.jpg:
-                        name: derma3_s.jpg
-                        full_path: derma3_s.jpg
-                        type: image/jpeg
-                        size: 56139
-                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma3_s.jpg
-        construction_area: ' 48 кв.м'
-        exhibition_name: '"Интершарм 2013"'
-        company_name: DERMALOGICA
-        project_year: '2013'
-    -
-        title: 'Эксклюзивный стенд для компании "yarmarka"'
+        title: 'Эксклюзивный стенд для компании "ЯРМАРКА"'
         images:
             -
                 is_main: true
@@ -2746,9 +2718,12 @@ gallery:
                         type: image/jpeg
                         size: 520509
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarmarka1.jpg
-        company_name: yarmarka
+        construction_area: '48 кв.м'
+        exhibition_name: '"Продэкспо 2014"'
+        company_name: ЯРМАРКА
+        project_year: '2014'
     -
-        title: 'Эксклюзивный стенд для компании "ggroup"'
+        title: 'Эксклюзивный стенд для компании "Джи групп"'
         images:
             -
                 is_main: true
@@ -2768,12 +2743,15 @@ gallery:
                         type: image/jpeg
                         size: 440562
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ggroup2.jpg
-        company_name: ggroup
+        construction_area: ' 12 кв.м'
+        exhibition_name: '"Интершарм 2013"'
+        company_name: 'Джи групп'
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "agora"'
+        title: 'Эксклюзивный стенд для компании "Агора"'
         images:
             -
-                is_main: true
+                is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora2.jpg:
                         name: agora2.jpg
@@ -2791,7 +2769,7 @@ gallery:
                         size: 483630
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora3.jpg
             -
-                is_main: false
+                is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora1.jpg:
                         name: agora1.jpg
@@ -2799,9 +2777,12 @@ gallery:
                         type: image/jpeg
                         size: 547635
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/agora1.jpg
-        company_name: agora
+        construction_area: '100 кв.м'
+        exhibition_name: 'Продэкспо 2014'
+        company_name: Агора
+        project_year: '2014'
     -
-        title: 'Эксклюзивный стенд для компании "nik"'
+        title: 'Эксклюзивный стенд для компании "НИКА"'
         images:
             -
                 is_main: true
@@ -2812,9 +2793,12 @@ gallery:
                         type: image/jpeg
                         size: 571006
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nik01.jpg
-        company_name: nik
+        construction_area: '20 кв.м'
+        exhibition_name: 'АКВАТЕРМ 2014'
+        company_name: НИКА
+        project_year: '2014'
     -
-        title: 'Эксклюзивный стенд для компании "piero"'
+        title: 'Эксклюзивный стенд для компании "Арт-Стиль"'
         images:
             -
                 is_main: true
@@ -2852,9 +2836,12 @@ gallery:
                         type: image/jpeg
                         size: 420382
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/piero2.jpg
-        company_name: piero
+        construction_area: '36 кв.м'
+        exhibition_name: '"КОНСУМЭКСПО 2014"'
+        company_name: '"Арт-Стиль"'
+        project_year: '2014'
     -
-        title: 'Эксклюзивный стенд для компании "bl"'
+        title: 'Эксклюзивный стенд для компании "BL-Group"'
         images:
             -
                 is_main: true
@@ -2910,9 +2897,12 @@ gallery:
                         type: image/jpeg
                         size: 622143
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bl4.jpg
-        company_name: bl
+        construction_area: '160 кв.м., 2 этажа'
+        exhibition_name: 'ИНТЕРСВЕТ 2013'
+        company_name: BL-Group
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "nika"'
+        title: 'Эксклюзивный стенд для компании "НИКА"'
         images:
             -
                 is_main: true
@@ -2968,9 +2958,12 @@ gallery:
                         type: image/jpeg
                         size: 495602
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nika2.jpg
-        company_name: nika
+        construction_area: '140 кв.м'
+        exhibition_name: '"JUNWEX 2013"'
+        company_name: '"НИКА"'
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "vallex"'
+        title: 'Эксклюзивный стенд для компании "Валлекс М"'
         images:
             -
                 is_main: true
@@ -3035,9 +3028,12 @@ gallery:
                         type: image/jpeg
                         size: 185256
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vallex.jpg
-        company_name: vallex
+        construction_area: '140 кв.м'
+        exhibition_name: '"Интершарм 2013"'
+        company_name: '"Валлекс М"'
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "intiled"'
+        title: 'Эксклюзивный стенд для компании "IntiLED"'
         images:
             -
                 is_main: true
@@ -3075,9 +3071,11 @@ gallery:
                         type: image/jpeg
                         size: 531211
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/intiled4.jpg
-        company_name: intiled
+        construction_area: '80 кв.м'
+        exhibition_name: 'Выставка световых технологий, Франкурт-на-Майне'
+        company_name: IntiLED
     -
-        title: 'Эксклюзивный стенд для компании "articon"'
+        title: 'Эксклюзивный стенд для компании "ARTICON"'
         images:
             -
                 is_main: true
@@ -3106,9 +3104,12 @@ gallery:
                         type: image/jpeg
                         size: 454235
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/articon2.jpg
-        company_name: articon
+        construction_area: '32 кв.м'
+        exhibition_name: '"ДенталЭкспо 2013"'
+        company_name: ARTICON
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "jessy"'
+        title: 'Эксклюзивный стенд для компании "Джессика Нейл"'
         images:
             -
                 is_main: true
@@ -3128,9 +3129,12 @@ gallery:
                         type: image/jpeg
                         size: 654096
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/jessy1.jpg
-        company_name: jessy
+        construction_area: '42 кв.м'
+        exhibition_name: '"Интершарм 2013"'
+        company_name: '"Джессика Нейл"'
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "derma"'
+        title: 'Эксклюзивный стенд для компании "DERMALOGICA"'
         images:
             -
                 is_main: true
@@ -3159,9 +3163,12 @@ gallery:
                         type: image/jpeg
                         size: 555496
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/derma1.jpg
-        company_name: derma
+        construction_area: '48 кв.м'
+        exhibition_name: 'Интершарм 2013'
+        company_name: DERMALOGICA
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "origen"'
+        title: 'Эксклюзивный стенд для компании "БАСТИОН-НЕВА"'
         images:
             -
                 is_main: true
@@ -3226,9 +3233,12 @@ gallery:
                         type: image/jpeg
                         size: 556733
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/origen4.jpg
-        company_name: origen
+        construction_area: '80 кв.м'
+        exhibition_name: '"Продэкспо 2014"'
+        company_name: БАСТИОН-НЕВА
+        project_year: '2014'
     -
-        title: 'Эксклюзивный стенд для компании "nlco"'
+        title: 'Эксклюзивный стенд для компании  "Новый Свет" ("NLCO")'
         images:
             -
                 is_main: true
@@ -3257,9 +3267,13 @@ gallery:
                         type: image/jpeg
                         size: 421836
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/nlco2.jpg
-        company_name: nlco
+        construction_area: '40 кв.м'
+        exhibition_name: 'Интерсвет 2013'
+        company_name: ' "Новый Свет" ("NLCO")'
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "mailru"'
+        title: 'Эксклюзивный стенд для компании "MAIL.RU Group"'
+        desc: 'Корпоративная выставка-конференция. Общая площадь выставочных стендов - около 500 кв. м.'
         images:
             -
                 is_main: true
@@ -3270,7 +3284,7 @@ gallery:
                         type: image/jpeg
                         size: 145270
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mailru.jpg
-        company_name: mailru
+        company_name: 'MAIL.RU Group'
     -
         title: 'Эксклюзивный стенд для компании "bajkal"'
         images:
@@ -3285,7 +3299,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bajkal.jpg
         company_name: bajkal
     -
-        title: 'Эксклюзивный стенд для компании "aurami"'
+        title: 'Эксклюзивный стенд для компании "AURAMI"'
         images:
             -
                 is_main: true
@@ -3296,9 +3310,12 @@ gallery:
                         type: image/jpeg
                         size: 118534
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aurami.jpg
-        company_name: aurami
+        construction_area: '48 кв. м.'
+        exhibition_name: 'Интеравто - 2013'
+        company_name: AURAMI
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "yazpk_r"'
+        title: 'Эксклюзивный стенд для компании "ЯЗПК"'
         images:
             -
                 is_main: true
@@ -3309,9 +3326,9 @@ gallery:
                         type: image/jpeg
                         size: 120434
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk_r.jpg
-        company_name: yazpk_r
+        company_name: ЯЗПК
     -
-        title: 'Эксклюзивный стенд для компании "dekor"'
+        title: 'Эксклюзивный стенд для компании "ДЕКОР-БОР"'
         images:
             -
                 is_main: true
@@ -3349,9 +3366,12 @@ gallery:
                         type: image/jpeg
                         size: 173626
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dekor2.jpg
-        company_name: dekor
+        construction_area: '20 кв.м.'
+        exhibition_name: МОСБИЛД-2013
+        company_name: ДЕКОР-БОР
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "rumax"'
+        title: 'Эксклюзивный стенд для компании "РУМАКС"'
         images:
             -
                 is_main: true
@@ -3389,9 +3409,12 @@ gallery:
                         type: image/jpeg
                         size: 166634
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rumax2.jpg
-        company_name: rumax
+        construction_area: '36 кв.м.'
+        exhibition_name: '"МОСБИЛД-2013"'
+        company_name: РУМАКС
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "JESS"'
+        title: 'Эксклюзивный стенд для компании "Джессика нейл"'
         images:
             -
                 is_main: true
@@ -3447,9 +3470,12 @@ gallery:
                         type: image/jpeg
                         size: 193159
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/JESS-6.jpg
-        company_name: JESS
+        construction_area: '42 кв.м.'
+        exhibition_name: '"Интершарм-2013'
+        company_name: 'Джессика нейл'
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "GC"'
+        title: 'Эксклюзивный стенд для компании "Germaine de Capuccini"'
         images:
             -
                 is_main: true
@@ -3460,9 +3486,12 @@ gallery:
                         type: image/jpeg
                         size: 236032
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/GC-1.jpg
-        company_name: GC
+        construction_area: '30 кв.м.'
+        exhibition_name: Интершарм-2013
+        company_name: 'Germaine de Capuccini'
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "dmk"'
+        title: 'Эксклюзивный стенд для компании "ДМК"'
         images:
             -
                 is_main: true
@@ -3500,22 +3529,12 @@ gallery:
                         type: image/jpeg
                         size: 151923
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/dmk-2.jpg
-        company_name: dmk
+        construction_area: '48 кв.м.'
+        exhibition_name: '"Интершарм-2013, весна'
+        company_name: ДМК
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "williams"'
-        images:
-            -
-                is_main: true
-                image_upload:
-                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/williams.jpg:
-                        name: williams.jpg
-                        full_path: williams.jpg
-                        type: image/jpeg
-                        size: 133553
-                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/williams.jpg
-        company_name: williams
-    -
-        title: 'Эксклюзивный стенд для компании "vetprom"'
+        title: 'Эксклюзивный стенд для компании "ВЕТПРОМ"'
         images:
             -
                 is_main: true
@@ -3562,9 +3581,11 @@ gallery:
                         type: image/jpeg
                         size: 151020
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vetprom1.jpg
-        company_name: vetprom
+        exhibition_name: ' "Зерно. Комбикорма. Ветеринария - 2013"'
+        company_name: ВЕТПРОМ
+        project_year: '2013'
     -
-        title: 'Эксклюзивный стенд для компании "yazpk"'
+        title: 'Эксклюзивный стенд для компании "ЯЗПК"'
         images:
             -
                 is_main: true
@@ -3620,9 +3641,9 @@ gallery:
                         type: image/jpeg
                         size: 102162
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yazpk4.jpg
-        company_name: yazpk
+        company_name: ЯЗПК
     -
-        title: 'Эксклюзивный стенд для компании "william"'
+        title: 'Эксклюзивный стенд для компании "William Grant&Sons"'
         images:
             -
                 is_main: true
@@ -3678,9 +3699,12 @@ gallery:
                         type: image/jpeg
                         size: 138531
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/william2.jpg
-        company_name: william
+        construction_area: '72 кв.м.'
+        exhibition_name: '"ПИР-2012"'
+        company_name: 'William Grant&Sons'
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "inrost"'
+        title: 'Эксклюзивный стенд для компании "ИНРОСТ"'
         images:
             -
                 is_main: true
@@ -3709,9 +3733,12 @@ gallery:
                         type: image/jpeg
                         size: 73579
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inrost3.jpg
-        company_name: inrost
+        construction_area: '110 кв.м.'
+        exhibition_name: '"Мир климата 2012"'
+        company_name: ИНРОСТ
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "rsb"'
+        title: 'Эксклюзивный стенд для компании "Россельхозбанк"'
         images:
             -
                 is_main: true
@@ -3740,9 +3767,12 @@ gallery:
                         type: image/jpeg
                         size: 149879
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rsb3.jpg
-        company_name: rsb
+        construction_area: '96 кв.м.'
+        exhibition_name: '"Петербургский Экономический Форум - 2012"'
+        company_name: '"Россельхозбанк"'
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "bar"'
+        title: 'Эксклюзивный стенд для компании "Комплекс Бар"'
         images:
             -
                 is_main: true
@@ -3771,9 +3801,12 @@ gallery:
                         type: image/jpeg
                         size: 92419
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bar2.jpg
-        company_name: bar
+        construction_area: '130 кв.м.'
+        exhibition_name: 'Выставка "ПИР - 2012"'
+        company_name: 'Комплекс Бар'
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "emalika"'
+        title: 'Эксклюзивный стенд для компании "EMALIKA"'
         images:
             -
                 is_main: true
@@ -3802,9 +3835,12 @@ gallery:
                         type: image/jpeg
                         size: 105644
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/emalika1.jpg
-        company_name: emalika
+        construction_area: ' 36 кв.м.'
+        exhibition_name: '"HouseHold EXPO - 2012"'
+        company_name: EMALIKA
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "yarovit"'
+        title: 'Эксклюзивный стенд для компании "ЯРОВИТ"'
         images:
             -
                 is_main: true
@@ -3824,9 +3860,12 @@ gallery:
                         type: image/jpeg
                         size: 111519
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yarovit1.jpg
-        company_name: yarovit
+        construction_area: '80 кв.м.'
+        exhibition_name: '"Музыка. Москва - 2012"'
+        company_name: ЯРОВИТ
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "ank"'
+        title: 'Эксклюзивный стенд для компании "Академия научной красоты"'
         images:
             -
                 is_main: true
@@ -3855,9 +3894,12 @@ gallery:
                         type: image/jpeg
                         size: 115858
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ank3.jpg
-        company_name: ank
+        construction_area: '28 кв.м.'
+        exhibition_name: '"InterCHARM Professional 2012"'
+        company_name: 'Академия научной красоты'
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "krone"'
+        title: 'Эксклюзивный стенд для компании "KRONE"'
         images:
             -
                 is_main: true
@@ -3877,9 +3919,12 @@ gallery:
                         type: image/jpeg
                         size: 98715
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/krone2.jpg
-        company_name: krone
+        construction_area: '610 кв.м'
+        exhibition_name: 'АГРОСАЛОН 2012'
+        company_name: KRONE
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "profotek"'
+        title: 'Эксклюзивный стенд для компании "Профотек"'
         images:
             -
                 is_main: true
@@ -3908,9 +3953,12 @@ gallery:
                         type: image/jpeg
                         size: 647263
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/profotek1.jpg
-        company_name: profotek
+        construction_area: '35 кв.м.'
+        exhibition_name: 'Металлургия/Литмаш - 2012'
+        company_name: Профотек
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "sochi"'
+        title: 'Эксклюзивный стенд для компании "Администрация города Сочи"'
         images:
             -
                 is_main: true
@@ -3939,9 +3987,12 @@ gallery:
                         type: image/jpeg
                         size: 317091
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sochi3.jpg
-        company_name: sochi
+        construction_area: '90 кв.м'
+        exhibition_name: '"MITT 2012"'
+        company_name: 'Администрация города Сочи'
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "prodecor"'
+        title: 'Эксклюзивный стенд для компании "Prodecor"'
         images:
             -
                 is_main: true
@@ -3952,9 +4003,11 @@ gallery:
                         type: image/jpeg
                         size: 468667
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/prodecor.jpg
-        company_name: prodecor
+        construction_area: '32 кв.м, второй этаж - 20 кв.м'
+        exhibition_name: '"Интерлакокраска"'
+        company_name: Prodecor
     -
-        title: 'Эксклюзивный стенд для компании "forklift"'
+        title: 'Эксклюзивный стенд для компании "ФОРКЛИФТ"'
         images:
             -
                 is_main: true
@@ -3983,9 +4036,12 @@ gallery:
                         type: image/jpeg
                         size: 523178
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/forklift1.jpg
-        company_name: forklift
+        construction_area: '60 кв.м'
+        exhibition_name: ' Склад, транспорт, логистика 2011'
+        company_name: ФОРКЛИФТ
+        project_year: '2011'
     -
-        title: 'Эксклюзивный стенд для компании "rioli"'
+        title: 'Эксклюзивный стенд для компании "Марио Риоли"'
         images:
             -
                 is_main: true
@@ -4005,9 +4061,12 @@ gallery:
                         type: image/jpeg
                         size: 383153
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rioli1.jpg
-        company_name: rioli
+        construction_area: '60 кв.м'
+        exhibition_name: '"Мосбилд 2011"'
+        company_name: 'Марио Риоли'
+        project_year: '2011'
     -
-        title: 'Эксклюзивный стенд для компании "kordoba"'
+        title: 'Эксклюзивный стенд для компании "Кордоба"'
         images:
             -
                 is_main: true
@@ -4036,9 +4095,12 @@ gallery:
                         type: image/jpeg
                         size: 353904
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/kordoba3.jpg
-        company_name: kordoba
+        construction_area: '80 кв.м'
+        exhibition_name: '"Интеравто 2011"'
+        company_name: Кордоба
+        project_year: '2011'
     -
-        title: 'Эксклюзивный стенд для компании "yokohama"'
+        title: 'Эксклюзивный стенд для компании "Yokohama"'
         images:
             -
                 is_main: true
@@ -4067,7 +4129,10 @@ gallery:
                         type: image/jpeg
                         size: 397038
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/yokohama2.jpg
-        company_name: yokohama
+        construction_area: '600 кв.м'
+        exhibition_name: '"Интеравто 2011"'
+        company_name: Yokohama
+        project_year: '2011'
     -
         title: 'Эксклюзивный стенд для компании "tecknos"'
         images:
@@ -4082,7 +4147,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tecknos.jpg
         company_name: tecknos
     -
-        title: 'Эксклюзивный стенд для компании "inturist"'
+        title: 'Эксклюзивный стенд для компании "ИНТУРИСТ"'
         images:
             -
                 is_main: true
@@ -4138,9 +4203,12 @@ gallery:
                         type: image/jpeg
                         size: 353215
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/inturist2.jpg
-        company_name: inturist
+        construction_area: '99 кв.м'
+        exhibition_name: '"MITT 2012"'
+        company_name: ИНТУРИСТ
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "amigo"'
+        title: 'Эксклюзивный стенд для компании "АМИГО ТУРС"'
         images:
             -
                 is_main: true
@@ -4151,9 +4219,12 @@ gallery:
                         type: image/jpeg
                         size: 488135
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/amigo.jpg
-        company_name: amigo
+        construction_area: '35 кв.м'
+        exhibition_name: '"MITT 2012"'
+        company_name: 'АМИГО ТУРС'
+        project_year: '2012'
     -
-        title: 'Эксклюзивный стенд для компании "record"'
+        title: 'Эксклюзивный стенд для выставки "Мир детства-2010"'
         images:
             -
                 is_main: true
@@ -4182,9 +4253,8 @@ gallery:
                         type: image/jpeg
                         size: 511524
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/record2.jpg
-        company_name: record
     -
-        title: 'Эксклюзивный стенд для компании "ogonek"'
+        title: 'Эксклюзивный стенд для выставки "Мир детства-2010"'
         images:
             -
                 is_main: true
@@ -4195,9 +4265,8 @@ gallery:
                         type: image/jpeg
                         size: 539137
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ogonek.jpg
-        company_name: ogonek
     -
-        title: 'Эксклюзивный стенд для компании "delrus"'
+        title: 'Эксклюзивный стенд для выставки "ПИР-2010"'
         images:
             -
                 is_main: true
@@ -4253,9 +4322,8 @@ gallery:
                         type: image/jpeg
                         size: 444791
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/delrus3.jpg
-        company_name: delrus
     -
-        title: 'Эксклюзивный стенд для компании "suharevka"'
+        title: 'Эксклюзивный стенд '
         images:
             -
                 is_main: true
@@ -4284,9 +4352,8 @@ gallery:
                         type: image/jpeg
                         size: 336708
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/suharevka2.jpg
-        company_name: suharevka
     -
-        title: 'Эксклюзивный стенд для компании "marmelad"'
+        title: 'Эксклюзивный стенд '
         images:
             -
                 is_main: true
@@ -4306,9 +4373,8 @@ gallery:
                         type: image/jpeg
                         size: 505468
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/marmelad1.jpg
-        company_name: marmelad
     -
-        title: 'Эксклюзивный стенд для компании "step"'
+        title: 'Эксклюзивный стенд для компании "Step by Step"'
         images:
             -
                 is_main: true
@@ -4328,9 +4394,9 @@ gallery:
                         type: image/jpeg
                         size: 259812
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/step.jpg
-        company_name: step
+        company_name: 'Step by Step'
     -
-        title: 'Эксклюзивный стенд для компании "poseidon"'
+        title: 'Эксклюзивный стенд '
         images:
             -
                 is_main: true
@@ -4343,7 +4409,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/poseidon.jpg
         company_name: poseidon
     -
-        title: 'Эксклюзивный стенд для компании "aquaterm"'
+        title: 'Эксклюзивный стенд для компании "Лаборатория отопления"'
         images:
             -
                 is_main: true
@@ -4399,9 +4465,9 @@ gallery:
                         type: image/jpeg
                         size: 275274
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/aquaterm1.jpg
-        company_name: aquaterm
+        company_name: 'Лаборатория отопления'
     -
-        title: 'Эксклюзивный стенд для компании "vko"'
+        title: 'Эксклюзивный стенд для компании "VKO"'
         images:
             -
                 is_main: true
@@ -4414,7 +4480,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/vko2.jpg
         company_name: vko
     -
-        title: 'Эксклюзивный стенд для компании "ug_krest"'
+        title: 'Эксклюзивный стенд для компании "ЮЖНЫЙ КРЕСТ"'
         images:
             -
                 is_main: true
@@ -4427,7 +4493,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/ug_krest.jpg
         company_name: ug_krest
     -
-        title: 'Эксклюзивный стенд для компании "tetra"'
+        title: 'Эксклюзивный стенд для компании "ТЕТРАСВЯЗЬ"'
         images:
             -
                 is_main: true
@@ -4465,9 +4531,9 @@ gallery:
                         type: image/jpeg
                         size: 259218
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/tetra4.jpg
-        company_name: tetra
+        company_name: ТЕТРАСВЯЗЬ
     -
-        title: 'Эксклюзивный стенд для компании "stroysity"'
+        title: 'Эксклюзивный стенд для компании "Стройсити"'
         images:
             -
                 is_main: true
@@ -4478,9 +4544,9 @@ gallery:
                         type: image/jpeg
                         size: 261698
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/stroysity.jpg
-        company_name: stroysity
+        company_name: Стройсити
     -
-        title: 'Эксклюзивный стенд для компании "sti"'
+        title: 'Эксклюзивный стенд для компании "STI"'
         images:
             -
                 is_main: true
@@ -4491,9 +4557,9 @@ gallery:
                         type: image/jpeg
                         size: 289228
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sti.jpg
-        company_name: sti
+        company_name: STI
     -
-        title: 'Эксклюзивный стенд для компании "smeshariki"'
+        title: 'Эксклюзивный стенд для компании "Смешарики"'
         images:
             -
                 is_main: true
@@ -4540,9 +4606,9 @@ gallery:
                         type: image/jpeg
                         size: 311482
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/smeshariki5.jpg
-        company_name: smeshariki
+        company_name: Смешарики
     -
-        title: 'Эксклюзивный стенд для компании "sandar"'
+        title: 'Эксклюзивный стенд для компании "Сандар"'
         images:
             -
                 is_main: true
@@ -4553,12 +4619,12 @@ gallery:
                         type: image/jpeg
                         size: 164700
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/sandar.jpg
-        company_name: sandar
+        company_name: Сандар
     -
-        title: 'Эксклюзивный стенд для компании "samara"'
+        title: 'Эксклюзивный стенд для компании "Правительство Самарской области"'
         images:
             -
-                is_main: true
+                is_main: false
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samara3.jpg:
                         name: samara3.jpg
@@ -4576,7 +4642,7 @@ gallery:
                         size: 223949
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samara2.jpg
             -
-                is_main: false
+                is_main: true
                 image_upload:
                     user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samara1.jpg:
                         name: samara1.jpg
@@ -4584,9 +4650,9 @@ gallery:
                         type: image/jpeg
                         size: 255710
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/samara1.jpg
-        company_name: samara
+        company_name: 'Правительство Самарской области'
     -
-        title: 'Эксклюзивный стенд для компании "rzd"'
+        title: 'Эксклюзивный стенд'
         images:
             -
                 is_main: true
@@ -4606,9 +4672,8 @@ gallery:
                         type: image/jpeg
                         size: 381790
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rzd2.jpg
-        company_name: rzd
     -
-        title: 'Эксклюзивный стенд для компании "rus_moloko"'
+        title: 'Эксклюзивный стенд для компании "Рузское молоко"'
         images:
             -
                 is_main: true
@@ -4619,9 +4684,9 @@ gallery:
                         type: image/jpeg
                         size: 353017
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/rus_moloko.jpg
-        company_name: rus_moloko
+        company_name: 'Рузское молоко'
     -
-        title: 'Эксклюзивный стенд для компании "moeller"'
+        title: 'Эксклюзивный стенд для компании "Moeller"'
         images:
             -
                 is_main: true
@@ -4632,9 +4697,9 @@ gallery:
                         type: image/jpeg
                         size: 181227
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/moeller.jpg
-        company_name: moeller
+        company_name: Moeller
     -
-        title: 'Эксклюзивный стенд для компании "mccain"'
+        title: 'Эксклюзивный стенд для компании "McCain"'
         images:
             -
                 is_main: true
@@ -4645,9 +4710,9 @@ gallery:
                         type: image/jpeg
                         size: 209464
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/mccain.jpg
-        company_name: mccain
+        company_name: McCain
     -
-        title: 'Эксклюзивный стенд для компании "konik"'
+        title: 'Эксклюзивный стенд для компании "Коник"'
         images:
             -
                 is_main: true
@@ -4658,9 +4723,9 @@ gallery:
                         type: image/jpeg
                         size: 217809
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/konik.jpg
-        company_name: konik
+        company_name: Коник
     -
-        title: 'Эксклюзивный стенд для компании "karvill"'
+        title: 'Эксклюзивный стенд для компании "Karvill"'
         images:
             -
                 is_main: true
@@ -4671,9 +4736,9 @@ gallery:
                         type: image/jpeg
                         size: 240535
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/karvill.jpg
-        company_name: karvill
+        company_name: Karvill
     -
-        title: 'Эксклюзивный стенд для компании "geoplast"'
+        title: 'Эксклюзивный стенд для компании "Geoplast"'
         images:
             -
                 is_main: true
@@ -4684,9 +4749,9 @@ gallery:
                         type: image/jpeg
                         size: 249014
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/geoplast.jpg
-        company_name: geoplast
+        company_name: Geoplast
     -
-        title: 'Эксклюзивный стенд для компании "finservice"'
+        title: 'Эксклюзивный стенд для компании "Finservice"'
         images:
             -
                 is_main: true
@@ -4715,9 +4780,9 @@ gallery:
                         type: image/jpeg
                         size: 363755
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/finservice3.jpg
-        company_name: finservice
+        company_name: Finservice
     -
-        title: 'Эксклюзивный стенд для компании "demaxo"'
+        title: 'Эксклюзивный стенд для компании "Demaxo"'
         images:
             -
                 is_main: true
@@ -4728,9 +4793,9 @@ gallery:
                         type: image/jpeg
                         size: 314101
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/demaxo.jpg
-        company_name: demaxo
+        company_name: Demaxo
     -
-        title: 'Эксклюзивный стенд для компании "daaz"'
+        title: 'Эксклюзивный стенд для компании "Daaz"'
         images:
             -
                 is_main: true
@@ -4741,9 +4806,9 @@ gallery:
                         type: image/jpeg
                         size: 266732
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/daaz.jpg
-        company_name: daaz
+        company_name: Daaz
     -
-        title: 'Эксклюзивный стенд для компании "cao"'
+        title: 'Эксклюзивный стенд для компании "Префектура ЦАО"'
         images:
             -
                 is_main: true
@@ -4772,7 +4837,7 @@ gallery:
                         type: image/jpeg
                         size: 293333
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/cao.jpg
-        company_name: cao
+        company_name: 'Префектура ЦАО'
     -
         title: 'Эксклюзивный стенд для компании "brusbox"'
         images:
@@ -4787,7 +4852,7 @@ gallery:
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/brusbox.jpg
         company_name: brusbox
     -
-        title: 'Эксклюзивный стенд для компании "bergman"'
+        title: 'Эксклюзивный стенд для компании "Bergman"'
         images:
             -
                 is_main: true
@@ -4798,22 +4863,9 @@ gallery:
                         type: image/jpeg
                         size: 261317
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bergman.jpg
-        company_name: bergman
+        company_name: Bergman
     -
-        title: 'Эксклюзивный стенд для компании "bedroom"'
-        images:
-            -
-                is_main: true
-                image_upload:
-                    user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bedroom.jpg:
-                        name: bedroom.jpg
-                        full_path: bedroom.jpg
-                        type: image/jpeg
-                        size: 197594
-                        path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/bedroom.jpg
-        company_name: bedroom
-    -
-        title: 'Эксклюзивный стенд для компании "excluse"'
+        title: 'Эксклюзивный стенд '
         images:
             -
                 is_main: true
@@ -4833,9 +4885,8 @@ gallery:
                         type: image/jpeg
                         size: 37855
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/excluse1.jpg
-        company_name: excluse
     -
-        title: 'Эксклюзивный стенд для компании "standart"'
+        title: 'Эксклюзивный стенд'
         images:
             -
                 is_main: true
@@ -4855,7 +4906,6 @@ gallery:
                         type: image/jpeg
                         size: 30004
                         path: user/pages/03.uslugi/01.razrabotka-stendov/03.ekskluziv/standart1.jpg
-        company_name: standart
     -
         title: 'Эксклюзивный стенд для компании "solver"'
         images:
