@@ -3,44 +3,6 @@ title: 'Клиенты и партнёры'
 menu: 'Клиенты и партнёры'
 visible: true
 template: partners
-partners:
-    -
-        company_name: 'Инженерно-консалтинговая фирма "СОЛВЕР"'
-        website: 'https://www.apple.com/'
-        logo_upload:
-            user/pages/02.o-kompanii/02.klienty-i-partnery/solver_logo.jpg:
-                name: solver_logo.jpg
-                full_path: solver_logo.jpg
-                type: image/jpeg
-                size: 15591
-                path: user/pages/02.o-kompanii/02.klienty-i-partnery/solver_logo.jpg
-    -
-        company_name: 'Группа компаний "Тетрасвязь"'
-        logo_upload:
-            user/pages/02.o-kompanii/02.klienty-i-partnery/tetra_logo.jpg:
-                name: tetra_logo.jpg
-                full_path: tetra_logo.jpg
-                type: image/jpeg
-                size: 7626
-                path: user/pages/02.o-kompanii/02.klienty-i-partnery/tetra_logo.jpg
-    -
-        company_name: 'Рекламное агентство "ИДЕЯ"'
-        logo_upload:
-            user/pages/02.o-kompanii/02.klienty-i-partnery/medor_logo.jpg:
-                name: medor_logo.jpg
-                full_path: medor_logo.jpg
-                type: image/jpeg
-                size: 9238
-                path: user/pages/02.o-kompanii/02.klienty-i-partnery/medor_logo.jpg
-    -
-        company_name: 'Фармацевтическая компания "SANDOZ"'
-        logo_upload:
-            user/pages/02.o-kompanii/02.klienty-i-partnery/sandoz_logo.jpg:
-                name: sandoz_logo.jpg
-                full_path: sandoz_logo.jpg
-                type: image/jpeg
-                size: 8077
-                path: user/pages/02.o-kompanii/02.klienty-i-partnery/sandoz_logo.jpg
 page-toc:
     active: false
 ---

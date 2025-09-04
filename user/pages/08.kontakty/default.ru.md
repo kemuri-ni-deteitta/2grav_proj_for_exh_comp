@@ -14,7 +14,7 @@ emails:
     -
         email: stand@expoland-group.ru
     -
-        email: stand@expoland-group.ru
+        email: expoland@mail.ru
 blueprint: contacts
 header:
     phones:
